@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UBITrainerActivity!</string>
+    <string name="app_name">UBI-Trainer</string>
+    <string name="infoMessage">Diese App enthält die Fragen für die Prüfung für das UKW-Sprechfunkzeugnis (UBI) ab Oktober 2011</string>
+    <string name="selectTopic">Bitte wählen sie ein Kapitel:</string>
+
+</resources>
