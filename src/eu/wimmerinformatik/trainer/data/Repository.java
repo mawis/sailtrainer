@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -22,6 +23,8 @@ public class Repository extends SQLiteOpenHelper {
 	private final Context context;
 	private int answerIdSeq;
 	private SQLiteDatabase database;
+	
+	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
 		super(context, "topics", null, 1);
@@ -117,6 +120,90 @@ public class Repository extends SQLiteOpenHelper {
 		} catch (XmlPullParserException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public QuestionSelection selectQuestion(final int topicId) {
+		final QuestionSelection result = new QuestionSelection();
+		final List<Integer> possibleQuestions = new LinkedList<Integer>();
+		final long now = new Date().getTime();
+		
+		int questionCount = 0;
+		int openQuestions = 0;
+		long soonestNextTime = 0;
+		
+		final Cursor c = getDb().query("question", new String[]{"_id", "level", "next_time"}, "topic_id=?", new String[]{Integer.toString(topicId)}, null, null, null, null);
+		try {
+			c.moveToNext();
+			while (!c.isAfterLast()) {
+				final int questionId = c.getInt(0);
+				final int level = c.getInt(1);
+				final long nextTime = c.getLong(2);
+				
+				questionCount++;
+				if (level < NUMBER_LEVELS) {
+					openQuestions++;
+					
+					if (nextTime > now) {
+						if (soonestNextTime == 0 || soonestNextTime > nextTime) {
+							soonestNextTime = nextTime;
+						}
+					} else {
+						possibleQuestions.add(questionId);
+					}	
+				}
+				
+				c.moveToNext();
+			}
+			
+		} finally {
+			c.close();
+		}
+		
+		result.setTotalQuestions(questionCount);
+		result.setOpenQuestions(openQuestions);
+		result.setFinished(possibleQuestions.isEmpty() && soonestNextTime == 0);
+		if (!possibleQuestions.isEmpty()) {
+			Random rand = new Random();
+			result.setSelectedQuestion(possibleQuestions.get(rand.nextInt(possibleQuestions.size())));
+		} else if (soonestNextTime > 0) {
+			result.setNextQuestion(new Date(soonestNextTime));
+		}
+		
+		return result;
+	}
+	
+	public Question getQuestion(final int questionId) {
+		final Question question = new Question();
+		
+		final Cursor c = getDb().query("question", new String[]{"_id", "topic_id", "reference", "question", "level", "next_time"}, "_id=?", new String[]{Integer.toString(questionId)}, null, null, null, null);
+		try {
+			c.moveToNext();
+			if (c.isAfterLast()) {
+				return null;
+			}
+			question.setId(c.getInt(0));
+			question.setTopicId(c.getInt(1));
+			question.setReference(c.getString(2));
+			question.setQuestionText(c.getString(3));
+			question.setLevel(c.getInt(4));
+			question.setNextTime(new Date(c.getLong(5)));
+		} finally {
+			c.close();
+		}
+		
+		// _id INT NOT NULL PRIMARY KEY, question_id INT NOT NULL REFERENCES question(id) ON DELETE CASCADE, order_index INT NOT NULL, answer TEXT
+		final Cursor answer = getDb().query("answer", new String[]{"answer"}, "question_id=?", new String[]{Integer.toString(questionId)}, null, null, "order_index");
+		try {
+			answer.moveToNext();
+			while (!answer.isAfterLast()) {
+				question.getAnswers().add(answer.getString(0));
+				answer.moveToNext();
+			}	
+		} finally {
+			answer.close();
+		}
+		
+		return question;
 	}
 	
 	public void setTopicsInSimpleCursorAdapter(final SimpleCursorAdapter adapter) {

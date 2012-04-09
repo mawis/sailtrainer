@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="fill_parent"
 	android:orientation="vertical">
 
@@ -7,35 +7,58 @@
 		android:layout_width="fill_parent" android:layout_height="fill_parent"
 		android:orientation="vertical">
 
-		<TextView android:id="@+id/textViewFrage"
-			android:layout_width="wrap_content" android:layout_height="wrap_content"
-			android:text="Frage" android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/textViewFrage"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"
+		    android:text="Frage"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
 
-		<RadioGroup android:id="@+id/radioGroup1"
-			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<RadioGroup
+		    android:id="@+id/radioGroup1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:baselineAligned="true" >
 
-			<RadioButton android:id="@+id/radio0"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:checked="true" android:text="RadioButton" />
+			<RadioButton
+			    android:id="@+id/radio0"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dp"
+			    android:checked="true"
+			    android:text="RadioButton" />
 
-			<RadioButton android:id="@+id/radio1"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:text="RadioButton" />
+			<RadioButton
+			    android:id="@+id/radio1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dp"
+			    android:text="RadioButton" />
 
-			<RadioButton android:id="@+id/radio2"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:text="RadioButton" />
+			<RadioButton
+			    android:id="@+id/radio2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dp"
+			    android:text="RadioButton" />
 			
-			<RadioButton android:id="@+id/radio3"
-				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:text="RadioButton" />
+			<RadioButton
+			    android:id="@+id/radio3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="10dp"
+			    android:text="RadioButton" />
+
 		</RadioGroup>
 
 		<Button
 		    android:id="@+id/button1"
 		    android:layout_width="164dp"
 		    android:layout_height="wrap_content"
+		    android:layout_gravity="right"
+		    android:layout_marginTop="10dp"
 		    android:text="Weiter" />
 
 	</LinearLayout>
-</LinearLayout>
+</ScrollView>

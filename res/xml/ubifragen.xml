@@ -343,7 +343,7 @@
     <text>Was ist beim Kauf eines UKW-Sprechfunkgerätes für den Binnenschifffahrtsfunk zu beachten?</text>
     <correct>Das Funkgerät muss zugelassen oder für die Teilnahme am Binnenschifffahrtsfunk in Verkehr gebracht worden sein.</correct>
     <incorrect>Das Funkgerät muss funktionsfähig und für die Teilnahme am Binnenschifffahrtsfunk TÜV-geprüft sein.</incorrect>
-    <incorrect>Das Funkgerät muss für die Teilnahme am Binnenschifffahrtsfunk eine ATIS-Schnittstelle beseitzen und Wetterberichte empfangen können.</incorrect>
+    <incorrect>Das Funkgerät muss für die Teilnahme am Binnenschifffahrtsfunk eine ATIS-Schnittstelle besitzen und Wetterberichte empfangen können.</incorrect>
     <incorrect>Das Funkgerät muss gemäß der Binnenschifffahrt-Sprechfunkverordnung für die Teilnahme am Binnenschifffahrtsfunk zugelassen sein.</incorrect>
   </question>
   <question id='4086' reference='50'>
