@@ -34,6 +34,37 @@ public class QuestionAsker extends Activity {
 	private Random rand = new Random();
 	private Drawable defaultBackground;
 	private int correctMarkBackground;
+	private List<Integer> order;
+	
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+		
+		repository.close();
+		repository = null;
+		rand = null;
+		defaultBackground = null;
+		order = null;
+	}
+	
+	@Override
+	public void onSaveInstanceState(final Bundle outState) {
+		super.onSaveInstanceState(outState);
+		
+		outState.putInt(getClass().getName() + ".currentQuestion", currentQuestion);
+		outState.putLong(getClass().getName() + ".topic", topicId);
+		
+		if (order != null) {
+			final StringBuilder orderString = new StringBuilder();
+			for (int i = 0; i < order.size(); i++) {
+				if (i > 0) {
+					orderString.append(',');
+				}
+				orderString.append(order.get(i));
+			}
+			outState.putString(getClass().getName() + ".order", orderString.toString());
+		}
+	}
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -45,11 +76,22 @@ public class QuestionAsker extends Activity {
         
         if (savedInstanceState != null) {
         	topicId = (int) savedInstanceState.getLong(getClass().getName()+".topic");
+        	currentQuestion = savedInstanceState.getInt(getClass().getName()+".currentQuestion");
+        	
+        	final String orderString = savedInstanceState.getString(getClass().getName()+".order");
+        	if (orderString != null) {
+        		final String[] orderArray = orderString.split(",");
+        		order = new LinkedList<Integer>();
+        		for (int i = 0; i < orderArray.length; i++) {
+        			order.add(Integer.parseInt(orderArray[i]));
+        		}
+        	}
+        	
+        	showQuestion();
         } else {
         	topicId = (int) getIntent().getExtras().getLong(getClass().getName()+".topic");
+        	nextQuestion();
         }
-        
-        nextQuestion();
         
         final Button contButton = (Button) findViewById(R.id.button1);
         contButton.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +117,6 @@ public class QuestionAsker extends Activity {
 					
 				}
 			}
-        	
         });
 	}
 	
@@ -84,6 +125,8 @@ public class QuestionAsker extends Activity {
 			final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
 			correctButton.setBackgroundDrawable(defaultBackground);
 		}
+		
+		order = null;
 		
 		final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
 		radioGroup.clearCheck();
@@ -125,9 +168,12 @@ public class QuestionAsker extends Activity {
 		
 		final List<RadioButton> radioButtons = getRadioButtons();
 		
-		final List<Integer> order = new LinkedList<Integer>();
-		for (int i = 0; i < 4; i++) {
-			order.add(rand.nextInt(order.size() + 1), i);
+		if (order == null) {
+			order = new LinkedList<Integer>();
+
+			for (int i = 0; i < 4; i++) {
+				order.add(rand.nextInt(order.size() + 1), i);
+			}
 		}
 		correctChoice = radioButtons.get(order.get(0)).getId();
 		for (int i = 0; i < 4; i++) {
