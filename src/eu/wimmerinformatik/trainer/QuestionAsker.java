@@ -35,6 +35,7 @@ public class QuestionAsker extends Activity {
 	private Drawable defaultBackground;
 	private int correctMarkBackground;
 	private List<Integer> order;
+	private boolean showingCorrectAnswer;
 	
 	@Override
 	public void onDestroy() {
@@ -98,14 +99,32 @@ public class QuestionAsker extends Activity {
 
 			@Override
 			public void onClick(View v) {
+
 				// find what has been selected
 				final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
+				
+				if (showingCorrectAnswer) {
+					showingCorrectAnswer = false;
+					radioGroup.setEnabled(true);
+					nextQuestion();
+					return;
+				}
+				
 				int selectedButton = radioGroup.getCheckedRadioButtonId();
 				if (selectedButton == correctChoice) {
 					Toast.makeText(QuestionAsker.this, "Richtig!", Toast.LENGTH_SHORT).show();
 					
+					repository.answeredCorrect(currentQuestion);
+					
 					nextQuestion();
+					
+					return;
 				} else {
+					repository.answeredIncorrect(currentQuestion);
+					
+					showingCorrectAnswer = true;
+					radioGroup.setEnabled(false);
+					
 					final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
 					if (defaultBackground == null) {
 						defaultBackground = correctButton.getBackground();
@@ -115,6 +134,7 @@ public class QuestionAsker extends Activity {
 					}
 					correctButton.setBackgroundColor(correctMarkBackground);
 					
+					return;
 				}
 			}
         });
@@ -143,11 +163,12 @@ public class QuestionAsker extends Activity {
 		
 		final Date nextTime = nextQuestion.getNextQuestion();
 		if (nextTime != null) {
-			// XXX
+			setContentView(R.layout.no_more_questions_wait);
 			return;
-			
 		}
 		
+		setContentView(R.layout.no_more_questions_finished);
+		return;
 	}
 	
 	private List<RadioButton> getRadioButtons() {
