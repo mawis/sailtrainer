@@ -3,6 +3,7 @@
  */
 package eu.wimmerinformatik.trainer;
 
+import java.text.DateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -36,6 +37,7 @@ public class QuestionAsker extends Activity {
 	private int correctMarkBackground;
 	private List<Integer> order;
 	private boolean showingCorrectAnswer;
+	private Date nextTime;
 	
 	@Override
 	public void onDestroy() {
@@ -46,6 +48,7 @@ public class QuestionAsker extends Activity {
 		rand = null;
 		defaultBackground = null;
 		order = null;
+		nextTime = null;
 	}
 	
 	@Override
@@ -54,6 +57,7 @@ public class QuestionAsker extends Activity {
 		
 		outState.putInt(getClass().getName() + ".currentQuestion", currentQuestion);
 		outState.putLong(getClass().getName() + ".topic", topicId);
+		outState.putLong(getClass().getName() + ".nextTime", nextTime == null ? null : nextTime.getTime());
 		
 		if (order != null) {
 			final StringBuilder orderString = new StringBuilder();
@@ -73,11 +77,13 @@ public class QuestionAsker extends Activity {
         
         repository = new Repository(this);
         
-        setContentView(R.layout.question_asker);
+        showStandardView();
         
         if (savedInstanceState != null) {
         	topicId = (int) savedInstanceState.getLong(getClass().getName()+".topic");
         	currentQuestion = savedInstanceState.getInt(getClass().getName()+".currentQuestion");
+        	final long nextTimeLong = savedInstanceState.getLong(getClass().getName()+".nextTime");
+        	nextTime = nextTimeLong > 0L ? new Date(nextTimeLong) : null;
         	
         	final String orderString = savedInstanceState.getString(getClass().getName()+".order");
         	if (orderString != null) {
@@ -94,7 +100,14 @@ public class QuestionAsker extends Activity {
         	nextQuestion();
         }
         
-        final Button contButton = (Button) findViewById(R.id.button1);
+
+	}
+	
+	private void showStandardView() {
+        setContentView(R.layout.question_asker);
+
+		
+		final Button contButton = (Button) findViewById(R.id.button1);
         contButton.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -137,7 +150,7 @@ public class QuestionAsker extends Activity {
 					return;
 				}
 			}
-        });
+        });		
 	}
 	
 	private void nextQuestion() {
@@ -157,13 +170,14 @@ public class QuestionAsker extends Activity {
 		final int selectedQuestion = nextQuestion.getSelectedQuestion();
 		if (selectedQuestion != 0) {
 			currentQuestion = selectedQuestion;
+			nextTime = null;
 			showQuestion();
 			return;
 		}
 		
-		final Date nextTime = nextQuestion.getNextQuestion();
+		nextTime = nextQuestion.getNextQuestion();
 		if (nextTime != null) {
-			setContentView(R.layout.no_more_questions_wait);
+			showQuestion();
 			return;
 		}
 		
@@ -181,6 +195,18 @@ public class QuestionAsker extends Activity {
 	}
 	
 	private void showQuestion() {
+		if (nextTime != null) {
+			setContentView(R.layout.no_more_questions_wait);
+			
+			final TextView nextTimeText = (TextView) findViewById(R.id.nextTimeText);
+			if (nextTime.getTime() - new Date().getTime() < 86400000L) {
+				nextTimeText.setText(DateFormat.getTimeInstance().format(nextTime));
+			} else {
+				nextTimeText.setText(DateFormat.getDateTimeInstance().format(nextTime));
+			}
+			return;
+		}		
+		
 		final Question question = repository.getQuestion(currentQuestion);
 
 		final TextView textView = (TextView) findViewById(R.id.textViewFrage);

@@ -8,7 +8,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sie haben den Inhalt dieses Kapitels erfolgreich abgeschlossen."
+        android:text="Sie haben dieses Kapitel erfolgreich abgeschlossen."
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
