@@ -57,7 +57,9 @@ public class QuestionAsker extends Activity {
 		
 		outState.putInt(getClass().getName() + ".currentQuestion", currentQuestion);
 		outState.putLong(getClass().getName() + ".topic", topicId);
-		outState.putLong(getClass().getName() + ".nextTime", nextTime == null ? null : nextTime.getTime());
+		if (nextTime != null) {
+			outState.putLong(getClass().getName() + ".nextTime", nextTime.getTime());
+		}
 		
 		if (order != null) {
 			final StringBuilder orderString = new StringBuilder();
