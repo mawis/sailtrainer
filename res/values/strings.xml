@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, UBITrainerActivity!</string>
     <string name="app_name">UBI-Trainer</string>
     <string name="infoMessage">Diese App enthält die Fragen für die Prüfung für das UKW-Sprechfunkzeugnis (UBI) ab Oktober 2011</string>
     <string name="selectTopic">Bitte wählen sie ein Kapitel:</string>
-
+    <string name="continueButtonText">Weiter</string>
+    <string name="waitBeforeContinue">Bitte warten Sie etwas bevor Sie weiter lernen…</string>
+    <string name="nextQuestionAt">Die nächste Frage sehen Sie um:</string>
+    <string name="continueNow">Jetzt weiter machen…</string>
+    <string name="restart">Neu beginnen</string>
+    <string name="chapterFinished">Sie haben dieses Kapitel erfolgreich abgeschlossen…</string>
 </resources>

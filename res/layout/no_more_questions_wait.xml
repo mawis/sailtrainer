@@ -8,21 +8,21 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bitte warten Sie etwas bevor Sie weiter lernen."
+        android:text="@string/waitBeforeContinue"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Die nächste Frage sehen Sie um:" />
+        android:text="@string/nextQuestionAt" />
 
     <TextView
         android:id="@+id/nextTimeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="__:__"
+        android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -31,6 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="Jetzt weiter machen" />
+        android:text="@string/continueNow" />
 
 </LinearLayout>

@@ -8,7 +8,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sie haben dieses Kapitel erfolgreich abgeschlossen."
+        android:text="@string/chapterFinished"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
@@ -17,6 +17,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="Neu beginnen" />
+        android:text="@string/restart" />
 
 </LinearLayout>

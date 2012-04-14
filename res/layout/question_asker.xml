@@ -4,7 +4,7 @@
 	android:orientation="vertical">
 
 	<LinearLayout android:id="@+id/linearLayout1"
-		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
 		android:orientation="vertical">
 
 		<TextView
@@ -12,7 +12,7 @@
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:layout_marginTop="10dp"
-		    android:text="Frage"
+		    android:text=""
 		    android:textAppearance="?android:attr/textAppearanceMedium" />
 
 		<RadioGroup
@@ -27,28 +27,28 @@
 			    android:layout_height="wrap_content"
 			    android:layout_marginTop="10dp"
 			    android:checked="true"
-			    android:text="RadioButton" />
+			    android:text="" />
 
 			<RadioButton
 			    android:id="@+id/radio1"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:layout_marginTop="10dp"
-			    android:text="RadioButton" />
+			    android:text="" />
 
 			<RadioButton
 			    android:id="@+id/radio2"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:layout_marginTop="10dp"
-			    android:text="RadioButton" />
+			    android:text="" />
 			
 			<RadioButton
 			    android:id="@+id/radio3"
 			    android:layout_width="wrap_content"
 			    android:layout_height="wrap_content"
 			    android:layout_marginTop="10dp"
-			    android:text="RadioButton" />
+			    android:text="" />
 
 		</RadioGroup>
 
@@ -58,7 +58,7 @@
 		    android:layout_height="wrap_content"
 		    android:layout_gravity="right"
 		    android:layout_marginTop="10dp"
-		    android:text="Weiter" />
+		    android:text="@string/continueButtonText" />
 
 	</LinearLayout>
 </ScrollView>
