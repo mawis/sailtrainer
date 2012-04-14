@@ -208,69 +208,29 @@ public class Repository extends SQLiteOpenHelper {
 	
 	public void answeredCorrect(final int questionId) {
 		final Question question = getQuestion(questionId);
+		final int newLevel = question.getLevel() + 1;
 		
-		long newNextTime = new Date().getTime();
-		int newLevel = 0;
-		switch (question.getLevel()) {
-			case 0:
-				newNextTime += 15000;
-				newLevel = 1;
-				break;
-			case 1:
-				newNextTime += 60000;
-				newLevel = 2;
-				break;
-			case 2:
-				newNextTime += 30*60000L;
-				newLevel = 3;
-				break;
-			case 3:
-				newNextTime += 86400000L;
-				newLevel = 4;
-				break;
-			default:
-				newNextTime += 5*86400000L;
-				newLevel = 5;
-				break;
-		}
-		
-		final ContentValues updates = new ContentValues();
-		updates.put("level", newLevel);
-		updates.put("next_time", newNextTime);
-		
-		getDb().update("question", updates, "_id=?", new String[]{Integer.toString(questionId)});	
+		updateAnswered(questionId, newLevel);	
 	}
 	
 	public void answeredIncorrect(final int questionId) {
 		final Question question = getQuestion(questionId);
+		final int newLevel = question.getLevel() <= 0 ? 0 : question.getLevel() - 1;
 		
-		long newNextTime = new Date().getTime();
-		int newLevel = 0;
-		switch (question.getLevel()) {
-			case 0:
-			case 1:
-				newNextTime += 15000;
-				newLevel = 0;
-				break;
-			case 2:
-				newNextTime += 60000L;
-				newLevel = 1;
-				break;
-			case 3:
-				newNextTime += 30*60000L;
-				newLevel = 2;
-				break;
-			default:
-				newNextTime += 86400000L;
-				newLevel = 3;
-				break;
-		}
-		
+		updateAnswered(questionId, newLevel);		
+	}
+	
+	public void continueNow(final int topicId) {
 		final ContentValues updates = new ContentValues();
-		updates.put("level", newLevel);
-		updates.put("next_time", newNextTime);
-		
-		getDb().update("question", updates, "_id=?", new String[]{Integer.toString(questionId)});		
+		updates.put("next_time", new Date().getTime());
+		getDb().update("question", updates, "topic_id=?", new String[]{Integer.toString(topicId)});
+	}
+	
+	public void resetTopic(final int topicId) {
+		final ContentValues updates = new ContentValues();
+		updates.put("next_time", new Date().getTime());
+		updates.put("level", 0L);
+		getDb().update("question", updates, "topic_id=?", new String[]{Integer.toString(topicId)});		
 	}
 	
 	public void setTopicsInSimpleCursorAdapter(final SimpleCursorAdapter adapter) {
@@ -281,6 +241,25 @@ public class Repository extends SQLiteOpenHelper {
 	public Cursor getTopicsCursor(final SQLiteDatabase db) {
 		final Cursor cursor = db.query("topic", new String[]{"_id","order_index","name"}, null, null, null, null, "order_index");
 		return cursor;
+	}
+	
+	private void updateAnswered(final int questionId, final int newLevel) {
+		final long newNextTime = new Date().getTime() + waitingTimeOnLevel(newLevel);
+		
+		final ContentValues updates = new ContentValues();
+		updates.put("level", newLevel);
+		updates.put("next_time", newNextTime);
+		
+		getDb().update("question", updates, "_id=?", new String[]{Integer.toString(questionId)});
+	}
+	
+	private long waitingTimeOnLevel(final int level) {
+		return level <= 0 ? 15000L :
+			level == 1 ? 60000L :
+			level == 2 ? 30*60000L :
+			level == 3 ? 86400000L :
+			level == 4 ? 3*86400000L :
+			0;
 	}
 
 	private void save(final SQLiteDatabase db, Topic currentTopic) {

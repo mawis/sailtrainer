@@ -8,6 +8,8 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import eu.wimmerinformatik.trainer.data.Question;
 import eu.wimmerinformatik.trainer.data.QuestionSelection;
@@ -38,10 +40,14 @@ public class QuestionAsker extends Activity {
 	private List<Integer> order;
 	private boolean showingCorrectAnswer;
 	private Date nextTime;
+	private Timer waitTimer;
+	private boolean showingStandardView;
 	
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
+		
+		cancelTimer();
 		
 		repository.close();
 		repository = null;
@@ -55,6 +61,7 @@ public class QuestionAsker extends Activity {
 	public void onSaveInstanceState(final Bundle outState) {
 		super.onSaveInstanceState(outState);
 		
+		outState.putBoolean(getClass().getName() + ".showingCorrectAnswer", showingCorrectAnswer);
 		outState.putInt(getClass().getName() + ".currentQuestion", currentQuestion);
 		outState.putLong(getClass().getName() + ".topic", topicId);
 		if (nextTime != null) {
@@ -86,6 +93,7 @@ public class QuestionAsker extends Activity {
         	currentQuestion = savedInstanceState.getInt(getClass().getName()+".currentQuestion");
         	final long nextTimeLong = savedInstanceState.getLong(getClass().getName()+".nextTime");
         	nextTime = nextTimeLong > 0L ? new Date(nextTimeLong) : null;
+        	showingCorrectAnswer = savedInstanceState.getBoolean(getClass().getName()+".showingCorrectAnswer");
         	
         	final String orderString = savedInstanceState.getString(getClass().getName()+".order");
         	if (orderString != null) {
@@ -107,8 +115,8 @@ public class QuestionAsker extends Activity {
 	
 	private void showStandardView() {
         setContentView(R.layout.question_asker);
-
-		
+        showingStandardView = true;
+	
 		final Button contButton = (Button) findViewById(R.id.button1);
         contButton.setOnClickListener(new View.OnClickListener() {
 
@@ -156,6 +164,10 @@ public class QuestionAsker extends Activity {
 	}
 	
 	private void nextQuestion() {
+		if (!showingStandardView) {
+			showStandardView();
+		}
+		
 		if (correctChoice != 0 && defaultBackground != null) {
 			final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
 			correctButton.setBackgroundDrawable(defaultBackground);
@@ -183,7 +195,18 @@ public class QuestionAsker extends Activity {
 			return;
 		}
 		
+		showingStandardView = false;
 		setContentView(R.layout.no_more_questions_finished);
+
+		final Button restartTopicButton = (Button) findViewById(R.id.restartTopic);
+		restartTopicButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				repository.resetTopic(topicId);
+				nextQuestion();
+			}
+			
+		});
 		return;
 	}
 	
@@ -198,14 +221,28 @@ public class QuestionAsker extends Activity {
 	
 	private void showQuestion() {
 		if (nextTime != null) {
+			showingStandardView = false;
 			setContentView(R.layout.no_more_questions_wait);
 			
 			final TextView nextTimeText = (TextView) findViewById(R.id.nextTimeText);
-			if (nextTime.getTime() - new Date().getTime() < 86400000L) {
+			if (nextTime.getTime() - new Date().getTime() < 64800000L) {
 				nextTimeText.setText(DateFormat.getTimeInstance().format(nextTime));
 			} else {
 				nextTimeText.setText(DateFormat.getDateTimeInstance().format(nextTime));
 			}
+			showNextQuestionAt(nextTime);
+			
+			final Button resetWaitButton = (Button) findViewById(R.id.resetWait);
+			resetWaitButton.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					cancelTimer();
+					repository.continueNow(topicId);
+					nextQuestion();
+					return;
+				}
+				
+			});
 			return;
 		}		
 		
@@ -227,6 +264,29 @@ public class QuestionAsker extends Activity {
 		correctChoice = radioButtons.get(order.get(0)).getId();
 		for (int i = 0; i < 4; i++) {
 			radioButtons.get(order.get(i)).setText(question.getAnswers().get(i));
+		}
+	}
+	
+	private void showNextQuestionAt(final Date when) {
+		scheduleTask(new TimerTask() {
+			@Override
+			public void run() {
+				nextQuestion();
+			}
+			
+		}, when);
+	}
+	
+	private synchronized void scheduleTask(final TimerTask task, final Date when) {
+		cancelTimer();
+		waitTimer = new Timer("waitNextQuestion", true);
+		waitTimer.schedule(task, when);
+	}
+	
+	private synchronized void cancelTimer() {
+		if (waitTimer != null) {
+			waitTimer.cancel();
+			waitTimer = null;
 		}
 	}
 }
