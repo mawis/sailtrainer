@@ -271,7 +271,12 @@ public class QuestionAsker extends Activity {
 		scheduleTask(new TimerTask() {
 			@Override
 			public void run() {
-				nextQuestion();
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						nextQuestion();
+					}
+				});
 			}
 			
 		}, when);
