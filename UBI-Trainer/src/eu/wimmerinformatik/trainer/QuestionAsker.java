@@ -120,7 +120,7 @@ public class QuestionAsker extends Activity {
 		final Button contButton = (Button) findViewById(R.id.button1);
         contButton.setOnClickListener(new View.OnClickListener() {
 
-			@Override
+			// @Override
 			public void onClick(View v) {
 
 				// find what has been selected
@@ -200,7 +200,7 @@ public class QuestionAsker extends Activity {
 
 		final Button restartTopicButton = (Button) findViewById(R.id.restartTopic);
 		restartTopicButton.setOnClickListener(new View.OnClickListener() {
-			@Override
+			//@Override
 			public void onClick(View v) {
 				repository.resetTopic(topicId);
 				nextQuestion();
@@ -234,7 +234,7 @@ public class QuestionAsker extends Activity {
 			
 			final Button resetWaitButton = (Button) findViewById(R.id.resetWait);
 			resetWaitButton.setOnClickListener(new View.OnClickListener() {
-				@Override
+				//@Override
 				public void onClick(View v) {
 					cancelTimer();
 					repository.continueNow(topicId);
@@ -272,7 +272,7 @@ public class QuestionAsker extends Activity {
 			@Override
 			public void run() {
 				runOnUiThread(new Runnable() {
-					@Override
+					//@Override
 					public void run() {
 						nextQuestion();
 					}

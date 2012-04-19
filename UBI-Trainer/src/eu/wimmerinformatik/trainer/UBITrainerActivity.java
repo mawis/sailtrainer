@@ -28,7 +28,7 @@ public class UBITrainerActivity extends Activity {
         
         topicList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-			@Override
+			//@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position,
 					long id) {
 				
