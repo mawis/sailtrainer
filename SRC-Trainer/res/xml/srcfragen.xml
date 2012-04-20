@@ -16,7 +16,7 @@
     <incorrect>Störungsfreier Funkverkehr im Seenotfall.</incorrect>
   </question>
   <question id='4174' reference='3'>
-    <text>Zu welchem Zweck wurd das Weltweite Seenot- und Sicherheitsfunksystem (GMDSS) eingeführt?</text>
+    <text>Zu welchem Zweck wurde das Weltweite Seenot- und Sicherheitsfunksystem (GMDSS) eingeführt?</text>
     <correct>Schnelle und genaue Alarmierung in Not-, Dringlichkeits- und Sicherheitsfällen.</correct>
     <incorrect>Schnelle Aramierung nur in Notfällen.</incorrect>
     <incorrect>Schnelle und genaue Alarmierung in Not- und Dringlichkeitsfällen.</incorrect>
@@ -143,7 +143,7 @@
   </question>
   <question id='4192' reference='21'>
     <text>Wonach richten sich die Zeitangaben im Seefunkdienst?</text>
-    <correct>Koordinierte Weltzeit (Universal Time Co-ordinates [UTC])</correct>
+    <correct>Koordinierte Weltzeit (Universal Time Co-ordinated [UTC])</correct>
     <incorrect>Bordzeit, berichtigt nach Sommer- oder Winterzeit</incorrect>
     <incorrect>Greenwich-Zeit (Greenwich Mean Time [GMT])</incorrect>
     <incorrect>Ortszeit, bezogen auf den Standort des Schiffes (Local Time [LT])</incorrect>
