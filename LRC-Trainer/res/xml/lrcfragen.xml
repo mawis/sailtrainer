@@ -1,0 +1,546 @@
+<?xml version='1.0' standalone='yes'?>
+<questionaire xmlns='http://sportboot.mobi/'>
+<topic id='4392' name='Mobiler Seefunkdienst, Mobiler Seefunkdienst über Satelliten und Weltweites Seenot- und Sicherheitsfunksystem (GMDSS)'>
+  <question id='4393' reference='1'>
+    <text>Welche Funkstelle wird im mobilen Seefunkdienst über Satelliten als „Mobile Earth Station“ (MES) bezeichnet?</text>
+    <correct>Schiffs-Erdfunkstelle</correct>
+    <incorrect>Land-Erdfunkstelle</incorrect>
+    <incorrect>Küstenfunkstelle</incorrect>
+    <incorrect>Rettungsleitstelle</incorrect>
+  </question>
+  <question id='4394' reference='2'>
+    <text>Was ist eine „Schiffs-Erdfunkstelle“?</text>
+    <correct>Mobile Erdfunkstelle des mobilen Seefunkdienstes über Satelliten an Bord eines Schiffes.</correct>
+    <incorrect>Mobile Empfangsanlage für Satellitenrundfunk an Bord eines Schiffes.</incorrect>
+    <incorrect>Mobile Funkstelle an Bord eines Schiffes ausschließlich für die Kommunikation mit Funkstellen an Land über Satelliten.</incorrect>
+    <incorrect>Mobile Funkstelle des COSPAS-SARSAT-Systems an Bord eines Schiffes.</incorrect>
+  </question>
+  <question id='4395' reference='3'>
+    <text>Was ist eine „Land-Erdfunkstelle“ (LES)?</text>
+    <correct>Ortsfeste Funkstelle des mobilen Seefunkdienstes über Satelliten.</correct>
+    <incorrect>Küstenfunkstelle für den öffentlichen Nachrichtenaustausch auf Grenzwelle.</incorrect>
+    <incorrect>Funkstelle des Revier- und Hafenfunkdienstes auf UKW.</incorrect>
+    <incorrect>Mobile Funkstelle des Navigationsfunkdienstes über Satelliten.</incorrect>
+  </question>
+  <question id='4396' reference='4'>
+    <text>Was bedeutet „azimuth angle“?</text>
+    <correct>Winkel zwischen Meridian und Satellit vom Schiff aus gesehen.</correct>
+    <incorrect>Winkel zwischen Kurs des Schiffes und Satellit.</incorrect>
+    <incorrect>Winkel aus Seitenpeilung des Satelliten vom Schiff aus.</incorrect>
+    <incorrect>Winkel zwischen Horizont und Satellit.</incorrect>
+  </question>
+  <question id='4397' reference='5'>
+    <text>Was bedeutet „elevation angle“?</text>
+    <correct>Winkel zwischen Horizont und Satellit vom Schiff aus gesehen.</correct>
+    <incorrect>Winkel zwischen Horizont und Satellit vom Satellit aus gesehen.</incorrect>
+    <incorrect>Winkel zwischen Antenne und Satellit vom Schiff aus gesehen.</incorrect>
+    <incorrect>Winkel zwischen Antenne und Satellit vom Satellit aus gesehen.</incorrect>
+  </question>
+  <question id='4398' reference='6'>
+    <text>Welche Erdteile gehören nach den Festlegungen der Internationalen Fernmeldeunion (International Telecommunication Union [ITU]) zur Region 1?</text>
+    <correct>Europa und Afrika</correct>
+    <incorrect>Europa und Asien</incorrect>
+    <incorrect>Nord- und Südamerika</incorrect>
+    <incorrect>Australien und Ozeanien</incorrect>
+  </question>
+  <question id='4399' reference='7'>
+    <text>Wie wird das Seegebiet innerhalb der Überdeckung eines geostationären Satelliten des Inmarsat-Systems bezeichnet, der ununterbrochen für Alarmierungen zur Verfügung steht?</text>
+    <correct>A3</correct>
+    <incorrect>A1</incorrect>
+    <incorrect>A2</incorrect>
+    <incorrect>A4</incorrect>
+  </question>
+  <question id='4400' reference='8'>
+    <text>Welchen geografischen Bereich umfasst das Seegebiet A4 im Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS)?</text>
+    <correct>Gewässer nördlich von ca. 70 Grad Nord und südlich von ca. 70 Grad Süd.</correct>
+    <incorrect>Gewässer südlich von ca. 70 Grad Nord und nördlich von ca. 70 Grad Süd.</incorrect>
+    <incorrect>Gewässer westlich und östlich vom Nullmeridian bis 70° Länge.</incorrect>
+    <incorrect>Gewässer 10° nördlich und 10° südlich vom Äquator.</incorrect>
+  </question>
+  <question id='4401' reference='9'>
+    <text>Welches Alarmierungssystem ist für das Seegebiet A4 nicht geeignet?</text>
+    <correct>Inmarsat-System</correct>
+    <incorrect>COSPAS-SARSAT</incorrect>
+    <incorrect>Kurzwellen-DSC</incorrect>
+    <incorrect>Grenzwellen-DSC</incorrect>
+  </question>
+  <question id='4402' reference='10'>
+    <text>Wie heißt das Positionsmeldesystem für Such- und Rettungszwecke?</text>
+    <correct>AMVER</correct>
+    <incorrect>SafetyNet</incorrect>
+    <incorrect>COSPAS-SARSAT</incorrect>
+    <incorrect>Radar</incorrect>
+  </question>
+  <question id='4403' reference='11'>
+    <text>Welchen Frequenzbereich benutzt AIS?</text>
+    <correct>Ultrakurzwelle (UKW/VHF)</correct>
+    <incorrect>Grenzwelle (GW/MF)</incorrect>
+    <incorrect>Kurzwelle (KW/HF)</incorrect>
+    <incorrect>Langwelle (LW/LF)</incorrect>
+  </question>
+  <question id='4404' reference='12'>
+    <text>Welches ist die Frequenz für NAVTEX-Aussendungen im Kurzwellenbereich?</text>
+    <correct>4209,5 kHz</correct>
+    <incorrect>8125 kHz</incorrect>
+    <incorrect>6312 kHz</incorrect>
+    <incorrect>12577 kHz</incorrect>
+  </question>
+  <question id='4405' reference='13'>
+    <text>Womit kann im Seenotfall ein Alarm über Satelliten ausgelöst werden?</text>
+    <correct>Schiffs-Erdfunkstelle (Ship Earth Station [SES]), Satelliten-Seenotfunkbake (EPIRB)</correct>
+    <incorrect>UKW-DSC-Anlage, Satelliten-Seenotfunkbake (EPIRB)</incorrect>
+    <incorrect>Schiffs-Erdfunkstelle (Ship Earth Station [SES]), Erweiterter Gruppenanruf (EGS)</incorrect>
+    <incorrect>Tragbares Funkgerät für Überlebensfahrzeuge, KW-Sender</incorrect>
+  </question>
+  <question id='4406' reference='14'>
+    <text>Welches Satelliten-System benutzt für die Seenotalarmierung auch polumlaufende Satelliten?</text>
+    <correct>COSPAS-SARSAT</correct>
+    <incorrect>Inmarsat</incorrect>
+    <incorrect>GEOSAR</incorrect>
+    <incorrect>AMVER</incorrect>
+  </question>
+</topic>
+<topic id='4407' name='Funkeinrichtungen und Seefunkstellen'>
+  <question id='4408' reference='15'>
+    <text>Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebit A3 teilnehmen zu können?</text>
+    <correct>Allgemeines Funkbetriebszeugnis (Long Range Certificate [LRC])</correct>
+    <incorrect>Beschränkt Gültiges Funkbetriebszeugnis (Short Range Certificate [SRC])</incorrect>
+    <incorrect>Beschränkt Gültiges Betriebszeugnis für Funker (Restricted Operator's Certificate [ROC])</incorrect>
+    <incorrect>Amateurfunkzeugnis (Klasse A)</incorrect>
+  </question>
+  <question id='4409' reference='16'>
+    <text>Welche Funkdienste dürfen von dem Inhaber eines Allgemeinen Funkbetriebszeugnisses (LRC) ausgeübt werden?</text>
+    <correct>Mobiler Seefunkdienst und mobiler Seefunkdienst über Satelliten</correct>
+    <incorrect>Mobiler Seefunkdienst und mobiler Flugfunkdienst</incorrect>
+    <incorrect>Mobiler Seefunkdienst und Amateurfunkdienst</incorrect>
+    <incorrect>Mobiler Seefunkdienst und Navigationsfunkdienst</incorrect>
+  </question>
+  <question id='4410' reference='17'>
+    <text>Welche Funkanlagen dürfen von dem Inhaber eines LRC bedient werden?</text>
+    <correct>Seefunkanlagen im UKW-, Grenz- und Kurzwellenbereich und über Satellit auf Sportfahrzeugen und Traditionsschiffen.</correct>
+    <incorrect>Funkanlagen im See- und Binnenfunk auf Sportfahrzeugen.</incorrect>
+    <incorrect>Funkanlagen im UKW-Bereich und über Satellit (z. B. Inmarsat oder COSPAS-SARSAT) auf Sportfahrzeugen.</incorrect>
+    <incorrect>Funkanlagen auf nicht funkausrüstungspflichtigen Fahrzeugen mit Ausnahme von UKW.</incorrect>
+  </question>
+  <question id='4411' reference='18'>
+    <text>Welches Funkzeugnis muss der Führer eines Sportfahrzeugs oder Traditionsschiffes, das mit einer Kurzwellen/Grenzwellen-DSC-Funkanlage ausgerüstet ist, mindestens besitzen?</text>
+    <correct>Allgemeines Funkbetriebszeugnis (Long Range Certificate [LRC])</correct>
+    <incorrect>Beschränkt Gültiges Funkbetriebszeugnis (Short Range Certificate [SRC])</incorrect>
+    <incorrect>UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)</incorrect>
+    <incorrect>Beschränkt Gültiges Betriebszeugnis für Funker (Restricted Operator's Certificate [ROC])</incorrect>
+  </question>
+</topic>
+<topic id='4412' name='Digitaler Selektivruf (DSC)'>
+  <question id='4413' reference='19'>
+    <text>Welche Grenzwellenfrequenz (GW/MF) wird national und international zum Routineanruf zwischen Schiffen per Digitalen Selektivruf (DSC) benutzt?</text>
+    <correct>2177 kHz</correct>
+    <incorrect>2189,5 kHz</incorrect>
+    <incorrect>2187,5 kHz</incorrect>
+    <incorrect>2182 kHz</incorrect>
+  </question>
+  <question id='4414' reference='20'>
+    <text>Welche Grenzwellenfrequenz (GW/MF) benutzt eine Küstenfunkstelle zur Beantwortung eines Routineanrufs per Digitalem Selektivruf (DSC)?</text>
+    <correct>2177,0 kHz</correct>
+    <incorrect>2182,0 kHz</incorrect>
+    <incorrect>2614,0 kHz</incorrect>
+    <incorrect>2189,5 kHz</incorrect>
+  </question>
+  <question id='4415' reference='21'>
+    <text>Welche Grenzwellenfrequenz (GW/MF) wird für einen Routineanruf (international) an eine fremde Küstenfunkstelle per Digitalem Selektivruf (DSC) benutzt?</text>
+    <correct>2189,5 kHz</correct>
+    <incorrect>2177,0 kHz</incorrect>
+    <incorrect>2182,0 kHz</incorrect>
+    <incorrect>2187,5 kHz</incorrect>
+  </question>
+  <question id='4416' reference='22'>
+    <text>Welche Frequenzbereiche werden für die Alarmierung mittels Digitalen Selektivrufs (DSC) im Kurzwellen-bereich (KW/HF) benutzt?</text>
+    <correct>Frequenzbereiche 4, 6, 8, 12 und 16 MHz</correct>
+    <incorrect>Frequenzbereiche 1, 2, 8, 12 und 16 MHz</incorrect>
+    <incorrect>Frequenzbereiche 3, 4, 20 und 30 MHz</incorrect>
+    <incorrect>Frequenzbereiche 4, 6, 8, 40 und 60 MHz</incorrect>
+  </question>
+  <question id='4417' reference='23'>
+    <text>Welche Frequenz und welches Verfahren benutzt eine Seefunkstelle zur Bestätigung eines auf 2187,5 kHz empfangenen Notalarms?</text>
+    <correct>2182,0 kHz im Sprechfunkverfahren</correct>
+    <incorrect>2187,5 kHz im Sprechfunkverfahren</incorrect>
+    <incorrect>2614,0 kHz im Sprechfunkverfahren</incorrect>
+    <incorrect>3161,0 kHz im Sprechfunkverfahren</incorrect>
+  </question>
+  <question id='4418' reference='24'>
+    <text>Wodurch wird im Kurzwellenbereich (KW/HF) die Empfangsbereitschaft für Aussendungen in Not- und Sicherheitsfällen technisch gewährleistet?</text>
+    <correct>Eingeschalteter Wachempfänger im Scan-Betrieb.</correct>
+    <incorrect>Eingeschalteter Wachempfänger im Dual-Watch-Betrieb.</incorrect>
+    <incorrect>Eingeschalteter Wachempfänger im 6-MHz-Kurzwellenband.</incorrect>
+    <incorrect>Eingeschalteter Wachempfänger im 8-MHz-Kurzwellenband.</incorrect>
+  </question>
+</topic>
+<topic id='4419' name='GW (MF)/KW (HF)-Sprechfunk und Funkwellenausbreitung'>
+  <question id='4420' reference='25'>
+    <text>Welche Frequenzen umfasst der Grenzwellenbereich (GW/MF)?</text>
+    <correct>1605 bis 4000 kHz</correct>
+    <incorrect>4000 bis 27500 kHz</incorrect>
+    <incorrect>156 bis 175 MHz</incorrect>
+    <incorrect>1705 bis 4100 kHz</incorrect>
+  </question>
+  <question id='4421' reference='26'>
+    <text>Wie wird die Sendeart „Einseitenband mit unterdrücktem Träger“ bezeichnet?</text>
+    <correct>SSB oder J3E</correct>
+    <incorrect>SSB oder R3E</incorrect>
+    <incorrect>SSB oder H3E</incorrect>
+    <incorrect>SSB oder A3E</incorrect>
+  </question>
+  <question id='4422' reference='27'>
+    <text>Welcher Frequenz- bzw. Wellenbereich ist ausreichend, um am Tage eine Mindestreichweite von 150 Seemeilen zu erzielen?</text>
+    <correct>Grenzwelle (GW/MF)</correct>
+    <incorrect>Kurzwelle (KW/HF)</incorrect>
+    <incorrect>Ultrakurzwelle (UKW/VHF)</incorrect>
+    <incorrect>Langwelle (LW/LF)</incorrect>
+  </question>
+  <question id='4423' reference='28'>
+    <text>In welchen Frequenz- bzw. Wellenbereichen spielt die Bodenwelle die entscheidende Rolle bei der Ausbreitung?</text>
+    <correct>Langwelle (LW/LF) und tagsüber Mittel- und Grenzwelle (MW/MF, GW/MF)</correct>
+    <incorrect>Kurzwelle (KW/HF) und tagsüber Ultrakurzwelle (UKW/VHF)</incorrect>
+    <incorrect>Ultrakurzwelle (UKW/VHF) und tagsüber Kurzwelle (KW/HF)</incorrect>
+    <incorrect>Grenzwelle (GW/MF) und tagsüber Langwelle (LW/LF)</incorrect>
+  </question>
+  <question id='4424' reference='29'>
+    <text>In welchen terrestrischen Frequenz- bzw. Wellenbereichen sollte ein Schiff – für das Seegebiet A2 ausgerüstet – in einer Entfernung von ca. 150 Seemeilen von der Küste einen Notalarm auslösen, um eine Küstenfunkstelle sowie die in der Nähe befindlichen Seefunkstellen zu erreichen?</text>
+    <correct>Grenzwelle (GW/MF) und Ultrakurzwelle (UKW/VHF)</correct>
+    <incorrect>Kurzwelle (KW/HF) und Langwelle (LW/LF)</incorrect>
+    <incorrect>Kurzwelle (KW/HF) und Ultrakurzwelle (UKW/VHF)</incorrect>
+    <incorrect>Grenzwelle (GW/MF) und Langwelle (LW/LF)</incorrect>
+  </question>
+  <question id='4425' reference='30'>
+    <text>Welchen Einfluss können Gewitter auf den Empfang von NAVTEX-Aussendungen auf Mittelwelle haben?</text>
+    <correct>Störungen bis zur vollständigen Unlesbarkeit</correct>
+    <incorrect>Unverändert hohe Übertragungsqualität</incorrect>
+    <incorrect>Überreichweiten</incorrect>
+    <incorrect>Entstehung „Toter Zonen“</incorrect>
+  </question>
+  <question id='4426' reference='31'>
+    <text>Welcher Frequenz- bzw. Wellenbereich wird für den Weitverkehr im terrestrischen Seefunkdienst benutzt?</text>
+    <correct>Kurzwelle (KW/HF)</correct>
+    <incorrect>Grenzwelle (GW/MF)</incorrect>
+    <incorrect>Langwelle (LW/LF)</incorrect>
+    <incorrect>Ultrakurzwelle (UKW/VHF)</incorrect>
+  </question>
+  <question id='4427' reference='32'>
+    <text>Welche Frequenzen umfasst der allgemeine Kurzwellenbereich (KW/HF)?</text>
+    <correct>3 bis 30 MHz</correct>
+    <incorrect>30 bis 300 MHz</incorrect>
+    <incorrect>30 bis 300 kHz</incorrect>
+    <incorrect>Unter 30 kHz</incorrect>
+  </question>
+  <question id='4428' reference='33'>
+    <text>In welchem Frequenz- bzw. Wellenbereich spielt die Raumwelle die entscheidende Rolle bei der Ausbreitung?</text>
+    <correct>Kurzwelle (KW/HF)</correct>
+    <incorrect>Langwelle (LW/LF)</incorrect>
+    <incorrect>Ultrakurzwelle (UKW/VHF)</incorrect>
+    <incorrect>Grenzwelle (GW/MF)</incorrect>
+  </question>
+  <question id='4429' reference='34'>
+    <text>In welchem Frequenz- bzw. Wellenbereich tritt die „Tote Zone“ besonders auf?</text>
+    <correct>Kurzwelle (KW/HF)</correct>
+    <incorrect>Langwelle (LW/LF)</incorrect>
+    <incorrect>Ultrakurzwelle (UKW/VHF)</incorrect>
+    <incorrect>Grenzwelle (GW/MF)</incorrect>
+  </question>
+  <question id='4430' reference='35'>
+    <text>Um die Mittagszeit wird zur Überbrückung einer bestimmten Entfernung eine Frequenz im 16-MHz-Bereich benutzt. Welcher Frequenzbereich sollte für die Überbrückung derselben Entfernung gegen Mitternacht vorzugsweise gewählt werden?</text>
+    <correct>Niedrigerer Frequenzbereich</correct>
+    <incorrect>Gleicher Frequenzbereich</incorrect>
+    <incorrect>Höherer Frequenzbereich</incorrect>
+    <incorrect>UKW-Frequenzbereich</incorrect>
+  </question>
+  <question id='4431' reference='36'>
+    <text>Welche Aussage trifft für den Kurzwellen-Funkverkehr zu?</text>
+    <correct>Die Ausbreitungseigenschaften der Kurzwellen unterliegen tageszeitlichen, jahreszeitlichen und durch die Sonnenaktivität bedingten Schwankungen; Funkverbindungen lassen sich nicht mit Sicherheit vorausplanen.</correct>
+    <incorrect>Im Kurzwellenbereich sind jederzeit weltweite Funkverbindungen zwischen beliebig wählbaren Standorten möglich.</incorrect>
+    <incorrect>Bei Internet und E-Mail über Kurzwelle lässt sich die übliche DSL-Geschwindigkeit erreichen.</incorrect>
+    <incorrect>Bei klarer Sicht und geringer Bewölkung ist die Verständigung im Kurzwellenbereich besonders gut.</incorrect>
+  </question>
+  <question id='4432' reference='37'>
+    <text>Welche Eigenschaften sollte eine Schiffsantenne für die Überbrückung von großen Entfernungen über Kurzwellen besitzen und warum?</text>
+    <correct>Die Antenne sollte die Sendeenergie möglichst flach abstrahlen, um mit wenigen Sprüngen (hops) den Empfangsort zu erreichen.</correct>
+    <incorrect>Die Antenne sollte gut isoliert sein, damit man sich beim Senden nicht verbrennen kann.</incorrect>
+    <incorrect>Die Antenne sollte möglichst lang sein, um eine große Wirkungsfläche zu haben und eine hohe Anzahl von Sprüngen (hops) zu ermöglichen.</incorrect>
+    <incorrect>Die Antenne sollte die Sendeenergie möglichst steil abstrahlen, um Personen an Bord nicht zu gefährden.</incorrect>
+  </question>
+  <question id='4433' reference='38'>
+    <text>Eine Yacht ist im Mittelmeer von Rom nach Neapel unterwegs. Die Crew möchte tagsüber über Kiel Radio eine E-mail versenden. Welcher Frequenzbereich ist dafür meistens geeignet?</text>
+    <correct>Kurzwelle bei 8 MHz</correct>
+    <incorrect>Grenzwelle</incorrect>
+    <incorrect>Kurzwelle bei 4 MHz</incorrect>
+    <incorrect>VHF</incorrect>
+  </question>
+  <question id='4434' reference='39'>
+    <text>Eine Yacht ist vor der ostenglischen Küste unterwegs. Der Schiffsführer möchte in den Abendstunden über Stockholm Radio ein Medico-Gespräch mit Cuxhaven anmelden. Welcher Frequenzbereich ist dafür meistens geeignet?</text>
+    <correct>Kurzwelle bei 6 MHz</correct>
+    <incorrect>Grenzwelle</incorrect>
+    <incorrect>Kurzwelle bei 16 MHz</incorrect>
+    <incorrect>VHF</incorrect>
+  </question>
+  <question id='4435' reference='40'>
+    <text>Eine Yacht steht 100 Seemeilen westlich Stavanger. Der Schiffsführer möchte Verbindung zu Rogaland Radio aufnehmen. Welcher Frequenzbereich ist dafür vorzugsweise geeignet?</text>
+    <correct>Grenzwelle</correct>
+    <incorrect>Kurzwelle zwischen 4 MHz und 6 MHz</incorrect>
+    <incorrect>Kurzwelle zwischen 10 MHz und 16 MHz</incorrect>
+    <incorrect>VHF</incorrect>
+  </question>
+</topic>
+<topic id='4436' name='Betriebsverfahren'>
+  <question id='4437' reference='41'>
+    <text>Wer bestimmt bei einer Verbindung zwischen See- und Küstenfunkstelle die zu benutzende Arbeitsfrequenz?</text>
+    <correct>Küstenfunkstelle</correct>
+    <incorrect>Seefunkstelle</incorrect>
+    <incorrect>Schiffsführer</incorrect>
+    <incorrect>On-Scene Coordinator</incorrect>
+  </question>
+  <question id='4438' reference='42'>
+    <text>Welches von der Internationalen Fernmeldeunion (International Telecommunication Union [ITU|) herausgegebene Verzeichnis enthält Angaben über Arbeitsfrequenzen von Küstenfunkstellen?</text>
+    <correct>Verzeichnis der Küstenfunkstellen (List of Coast Stations)</correct>
+    <incorrect>Verzeichnis der Seefunkstellen (List of Ship Stations)</incorrect>
+    <incorrect>Inmarsat-Handbuch</incorrect>
+    <incorrect>Handbuch für den Seefunkdienst und den Seefunkdienst über Satelliten (Manual for Use by the Maritime Mobile and Maritime Mobile-Satellite Services)</incorrect>
+  </question>
+  <question id='4439' reference='43'>
+    <text>Welche Frequenzbereiche dürfen in deutschen Häfen benutzt werden?</text>
+    <correct>Ultrakurzwellen (UKW/VHF), Ultrahohe Frequenzen (UHF) und der 1,6-GHz-Bereich (Inmarsat)</correct>
+    <incorrect>Ultrakurzwellen (UKW/VHF) und Grenzwellen (GW/MF)</incorrect>
+    <incorrect>Mittelwellen (MW/MF), Grenzwellen (GW/MF) und Kurzwellen (KW/HF)</incorrect>
+    <incorrect>Ultrakurzwellen (UKW/VHF) und Kurzwellen (KW/HF)</incorrect>
+  </question>
+  <question id='4440' reference='44'>
+    <text>Was bedeutet die Angabe „ITU-Channel 1604“?</text>
+    <correct>Kanal 04 im 16-MHz-Seefunkband</correct>
+    <incorrect>Kanal 16 im 4-MHz-Seefunkband</incorrect>
+    <incorrect>Kanal 1605 im Kurzwellenband</incorrect>
+    <incorrect>Kanal 16 und Kanal 04 im Ultrakurzwellenband</incorrect>
+  </question>
+  <question id='4441' reference='45'>
+    <text>Welches ist die internationale Not- und Sicherheitsfrequenz für den Sprechfunkverkehr im Grenzwellenbereich (GW/MF)?</text>
+    <correct>2182,0 kHz</correct>
+    <incorrect>2187,5 kHz</incorrect>
+    <incorrect>2614,0 kHz</incorrect>
+    <incorrect>3161,0 kHz</incorrect>
+  </question>
+  <question id='4442' reference='46'>
+    <text>Welche Frequenz im Grenzwellenbereich (GW/MF) soll im Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) nach Ankündigung per DSC für die Aussendung einer Dringlichkeitsmeldung „An alle Funkstellen“ grundsätzlich benutzt werden?</text>
+    <correct>2182,0 kHz</correct>
+    <incorrect>2187,5 kHz</incorrect>
+    <incorrect>2614,0 kHz</incorrect>
+    <incorrect>3161,0 kHz</incorrect>
+  </question>
+  <question id='4443' reference='47'>
+    <text>Wie ist zu verfahren, wenn während eines Notverkehrs auf 2182 kHz die Ankündigung und Aussendung einer Dringlichkeitsmeldung „An alle Funkstellen“ von einer Seefunkstelle vorgenommen werden soll?</text>
+    <correct>Zuerst Ankündigung per Digitalen Selektivruf (DSC) auf 2187,5 kHz, dann Aussendung auf einer Schiff-Schiff-Frequenz.</correct>
+    <incorrect>Zuerst die Funkstelle, die den Funkverkehr leitet, auf 2182 kHz um Erlaubnis fragen, dann Aussendung auf einer Schiff-Schiff-Frequenz.</incorrect>
+    <incorrect>Zuerst Ankündigung auf 2182 kHz, dann Aussendung auf einer Schiff-Schiff-Frequenz.</incorrect>
+    <incorrect>Zuerst Ankündigung per Digitalen Selektivruf (DSC), dann Aussendung auf 2182 kHz.</incorrect>
+  </question>
+  <question id='4444' reference='48'>
+    <text>Wie ist zu verfahren, wenn eine wichtige Meldung im Grenzwellen-Bereich (GW/MF) auszusenden ist, welche die Sicherheit der Seeschifffahrt betrifft?</text>
+    <correct>Zuerst Ankündigung per Digitalem Selektivruf (DSC) auf 2187,5 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf einer GW-Schiff-Schiff-Arbeitsfrequenz.</correct>
+    <incorrect>Zuerst Ankündigung auf 2182 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf einer KW-Schiff-Schiff-Arbeitsfrequenz.</incorrect>
+    <incorrect>Zuerst Ankündigung auf 2182 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf 2182 kHz.</incorrect>
+    <incorrect>Zuerst Ankündigung per Digitalem Selektivruf (DSC) auf 2187,5 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf 2187,5 kHz.</incorrect>
+  </question>
+  <question id='4445' reference='49'>
+    <text>Auf welcher Frequenz wird im Kurzwellenbereich (KW/HF) der Notverkehr im Sprechfunkverfahren abgewickelt?</text>
+    <correct>Notfrequenz für Sprechfunk des Kurzwellenbandes, in dem die Notalarmierung ausgesendet worden ist.</correct>
+    <incorrect>Notfrequenz für Sprechfunk nach Maßgabe des Inmarsat-Handbuchs.</incorrect>
+    <incorrect>Notfrequenz für Sprechfunk des Kurzwellenbandes 6 MHz.</incorrect>
+    <incorrect>Notfrequenz für Sprechfunk des Kurzwellenbandes 8 MHz.</incorrect>
+  </question>
+  <question id='4446' reference='50'>
+    <text>Welche Sendeart wird bei Aussendungen des Sprech-Seefunkdienstes grundsätzlich im Grenz- und Kurzwellenbereich verwendet?</text>
+    <correct>Einseitenband mit unterdrücktem Träger, SSB, J3E</correct>
+    <incorrect>Analoge Frequenzmodulation, FM, F3E</incorrect>
+    <incorrect>Einseitenband mit reduziertem Träger, (R3E)</incorrect>
+    <incorrect>Zweiseitenbandmodulation, AM, A3E</incorrect>
+  </question>
+</topic>
+<topic id='4447' name='Inmarsat'>
+  <question id='4448' reference='51'>
+    <text>Welche Veröffentlichung enthält Angaben über die Abdeckungsbereiche der Inmarsat-Satelliten?</text>
+    <correct>Inmarsat-Handbuch</correct>
+    <incorrect>Nachrichten für Seefahrer (NfS)</incorrect>
+    <incorrect>Mitteilungen für Seefunkstellen (MfS)</incorrect>
+    <incorrect>Jachtfunkdienst</incorrect>
+  </question>
+  <question id='4449' reference='52'>
+    <text>Welche Veröffentlichung enthält Angaben über Land-Erdfunkstellen (LES)?</text>
+    <correct>Inmarsat-Handbuch</correct>
+    <incorrect>Jachtfunkdienst</incorrect>
+    <incorrect>Nachrichten für Seefahrer</incorrect>
+    <incorrect>Mitteilungen für Seefunkstellen und Schiffsfunkstellen</incorrect>
+  </question>
+  <question id='4450' reference='53'>
+    <text>Welche Aufgaben hat das Operation Control Centre (OCC)?</text>
+    <correct>Freischaltung der Schiffs-Erdfunkstelle (MES)</correct>
+    <incorrect>Automatische Vergabe der Arbeitskanäle an Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</incorrect>
+    <incorrect>Abwicklung des Grenzwellen-Verkehrs per DSC</incorrect>
+    <incorrect>Abwicklung des Seefunkdienstes über Satellitennetze (SES)</incorrect>
+  </question>
+  <question id='4451' reference='54'>
+    <text>Welche Aufgabe hat die Network Co-ordination Station (NCS)?</text>
+    <correct>Automatische Vergabe der Arbeitskanäle an Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</correct>
+    <incorrect>Freischaltung der Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</incorrect>
+    <incorrect>Abwicklung des Grenzwellen-Verkehrs per DSC</incorrect>
+  </question>
+  <question id='4452' reference='55'>
+    <text>Wie sind die Satelliten des Inmarsat-Systems positioniert?</text>
+    <correct>Geostationär</correct>
+    <incorrect>Polumlaufend</incorrect>
+    <incorrect>Polumlaufend und geostationär</incorrect>
+    <incorrect>Exzentrisch</incorrect>
+  </question>
+  <question id='4453' reference='56'>
+    <text>Über welchem Breitengrad befinden sich die Satelliten des Inmarsat-Systems?</text>
+    <correct>0 Grad</correct>
+    <incorrect>90 Grad N</incorrect>
+    <incorrect>70 Grad S</incorrect>
+    <incorrect>45 Grad S</incorrect>
+  </question>
+  <question id='4454' reference='57'>
+    <text>Welches Seegebiet deckt der Satellit mit der Bezeichnung AOR-E im Inmarsat-System hauptsächlich ab?</text>
+    <correct>Atlantik</correct>
+    <incorrect>Polarmeere</incorrect>
+    <incorrect>Pazifischer Ozean</incorrect>
+    <incorrect>Indischer Ozean</incorrect>
+  </question>
+  <question id='4455' reference='58'>
+    <text>Welches Seegebiet deckt der Satellit mit der Bezeichnung IOR im Inmarsat-System hauptsächlich ab?</text>
+    <correct>Indischer Ozean</correct>
+    <incorrect>Westlicher Atlantik</incorrect>
+    <incorrect>Östlicher Atlantik</incorrect>
+    <incorrect>Pazifischer Ozean</incorrect>
+  </question>
+  <question id='4456' reference='59'>
+    <text>Welcher Satellit deckt das Seegebiet des Pazifischen Ozeans im Inmarsat-System hauptsächlich ab?</text>
+    <correct>POR</correct>
+    <incorrect>AOR-E</incorrect>
+    <incorrect>AOR-W</incorrect>
+    <incorrect>IOR</incorrect>
+  </question>
+  <question id='4457' reference='60'>
+    <text>Eine Yacht steht vor Hawaii. Der Schiffsführer möchte eine Verbindung nach Europa über Inmarsat herstellen. Welcher Satellit sollte vorzugsweise benutzt werden?</text>
+    <correct>Pacific Ocean Region (POR)</correct>
+    <incorrect>Indian Ocean Region (IOR)</incorrect>
+    <incorrect>Atlantic Ocean Region - East (AOR-E)</incorrect>
+    <incorrect>Atlantic Ocean Region - West (AOR-W)</incorrect>
+  </question>
+  <question id='4458' reference='61'>
+    <text>Eine Yacht ist vor den Malediven unterwegs. Der Schiffsführer möchte eine Verbindung nach Europa über Inmarsat herstellen. Welcher Satellit sollte vorzugsweise benutzt werden?</text>
+    <correct>Indian Ocean Region (IOR)</correct>
+    <incorrect>Atlantic Ocean Region - East (AOR-E)</incorrect>
+    <incorrect>Atlantic Ocean Region - West (AOR-W)</incorrect>
+    <incorrect>Pacific Ocean Region (POR)</incorrect>
+  </question>
+  <question id='4459' reference='62'>
+    <text>Wie wird das Seegebiet außerhalb der Abdeckung durch Inmarsat-Satelliten bezeichnet?</text>
+    <correct>Seegebiet A4</correct>
+    <incorrect>Seegebiet A1</incorrect>
+    <incorrect>Seegebiet A2</incorrect>
+    <incorrect>Seegebiet A3</incorrect>
+  </question>
+  <question id='4460' reference='63'>
+    <text>Wie wird das Seegebiet bezeichnet, das innerhalb der Sprechfunkreichweite der Grenzwellen-Küstenfunkstelle liegt, die ununterbrochen für DSC-Alarmierungen zur Verfügung steht?</text>
+    <correct>Seegebiet A2</correct>
+    <incorrect>Seegebiet A1</incorrect>
+    <incorrect>Seegebiet A3</incorrect>
+    <incorrect>Seegebiet A4</incorrect>
+  </question>
+  <question id='4461' reference='64'>
+    <text>Zur Herstellung welcher Verbindungen werden im Inmarsat-System dreistellige Satelliten-Kennnummern benötigt?</text>
+    <correct>Schiff-Schiff und Land-Schiff</correct>
+    <incorrect>Schiff-Schiff und Schiff-Land</incorrect>
+    <incorrect>Land-Schiff und Schiff-Land</incorrect>
+    <incorrect>Schiff-Land</incorrect>
+  </question>
+  <question id='4462' reference='65'>
+    <text>Welches ist die erste Ziffer einer Inmarsat-C-Rufnummer?</text>
+    <correct>4</correct>
+    <incorrect>3</incorrect>
+    <incorrect>2</incorrect>
+    <incorrect>1</incorrect>
+  </question>
+  <question id='4463' reference='66'>
+    <text>Welchem Inmarsat-Dienst ist die Identifikationsnummer (ID) 421135910 zugeordnet?</text>
+    <correct>Inmarsat C</correct>
+    <incorrect>Inmarsat Mini-M</incorrect>
+    <incorrect>Inmarsat F</incorrect>
+    <incorrect>Inmarsat Fleet</incorrect>
+  </question>
+  <question id='4464' reference='67'>
+    <text>Welche Dienste bietet Inmarsat C?</text>
+    <correct>Telex, Datenübertragung und Telefax Richtung See-Land</correct>
+    <incorrect>Telefonie, Datenübertragung und SMS</incorrect>
+    <incorrect>Telefonie, Datenübertragung und ISDN</incorrect>
+    <incorrect>Telex, Telefax Richtung See-Land und Telefonie</incorrect>
+  </question>
+  <question id='4465' reference='68'>
+    <text>Mit welcher Aussendung kann die Funktionsfähigkeit der eigenen Inmarsat-C-Anlage überprüft werden?</text>
+    <correct>Nachricht von der eigenen an die eigene Anlage</correct>
+    <incorrect>Nachricht an ein LUT</incorrect>
+    <incorrect>Nachricht an ein MRCC</incorrect>
+    <incorrect>Nachricht an ein anderes Schiff</incorrect>
+  </question>
+  <question id='4466' reference='69'>
+    <text>Was ist beim Ausschalten einer Inmarsat-C-Anlage zu beachten?</text>
+    <correct>Vorheriges Ausloggen</correct>
+    <incorrect>Vom Bordnetz trennen</incorrect>
+    <incorrect>Zuerst auf „stand by“ schalten, dann vom Bordnetz trennen</incorrect>
+    <incorrect>Der CES mitteilen, ab wann das Schiff nicht zu erreichen ist</incorrect>
+  </question>
+  <question id='4467' reference='70'>
+    <text>Welches Verfahren wird für den Anruf von Land an eine bestimmte Schiffs-Erdfunkstelle benutzt?</text>
+    <correct>Erweiterter Gruppenanruf (EGC)</correct>
+    <incorrect>Digitaler Selektivruf (DSC)</incorrect>
+    <incorrect>Tonruf (SSFC)</incorrect>
+    <incorrect>Mehrfrequenzwahlverfahren (DTMF)</incorrect>
+  </question>
+  <question id='4468' reference='71'>
+    <text>Welcher Dienst verwendet den Erweiterten Gruppenanruf (EGC)?</text>
+    <correct>Informationsdienst über Satelliten</correct>
+    <incorrect>Informationsdienst über NAVTEX</incorrect>
+    <incorrect>Informationsdienst über UKW-Sprechfunk</incorrect>
+    <incorrect>Informationsdienst über Grenzwelle</incorrect>
+  </question>
+  <question id='4469' reference='72'>
+    <text>Welche Meldungen werden im mobilen Seefunkdienst über „Enhanced Group Call (EGC)“ ausgesendet?</text>
+    <correct>Sicherheitsmeldungen für die Schifffahrt (MSI) oder Informationen an bestimmte Empfänger</correct>
+    <incorrect>Nachrichten für Seefahrer oder Sammelanrufe</incorrect>
+    <incorrect>Regelmäßige Wetterberichte oder nautische Warnnachrichten für bestimmte Seegebiete</incorrect>
+    <incorrect>Küstenwetterberichte oder Dringlichkeitsmeldungen</incorrect>
+  </question>
+  <question id='4470' reference='73'>
+    <text>Was ist für den Empfang eines Enhanced Group Call (EGC) erforderlich?</text>
+    <correct>Satelliten-Empfänger</correct>
+    <incorrect>NAVTEX-Empfänger</incorrect>
+    <incorrect>UKW-Empfänger</incorrect>
+    <incorrect>DSC-Wachempfänger</incorrect>
+  </question>
+  <question id='4471' reference='74'>
+    <text>An wen wird ein über Inmarsat ausgelöster Notalarm umgehend geleitet?</text>
+    <correct>Rettungsleitstelle (RCC) oder Seenotleitstelle (MRCC)</correct>
+    <incorrect>Küsten-Erdfunkstelle (CES) oder On-Scene Co-ordinator (OSC)</incorrect>
+    <incorrect>International Maritime Organization (IMO) oder Seenotleitstelle (MRCC)</incorrect>
+    <incorrect>Rettungsleitstelle (RCC) oder Küsten-Erdfunkstelle (CES)</incorrect>
+  </question>
+  <question id='4472' reference='75'>
+    <text>Welcher Dienst sendet Nachrichten für die Sicherheit der Seeschifffahrt (MSI) auf Satellitenfrequenzen aus?</text>
+    <correct>SafetyNet</correct>
+    <incorrect>GALILEO</incorrect>
+    <incorrect>COSPAS-SARSAT</incorrect>
+    <incorrect>NAVTEX</incorrect>
+  </question>
+  <question id='4473' reference='76'>
+    <text>Welche Informationen werden über das Internationale Sicherheitsnetz (SafetyNet) verbreitet?</text>
+    <correct>Informationen für die Sicherheit der Seeschifffahrt (Maritime Safety Information [MSI]).</correct>
+    <incorrect>AMVER-Meldungen des weltweiten Positionsmeldesystems für Such- und Rettungszwecke</incorrect>
+    <incorrect>Notmeldungen von COSPAS-SARSAT-Satelliten-Seenotfunkbaken (EPIRB)</incorrect>
+    <incorrect>NAVTEX-Warnnachrichten und -Sicherheitsmeldungen</incorrect>
+  </question>
+</topic>
+</questionaire>
