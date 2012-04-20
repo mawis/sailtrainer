@@ -166,7 +166,7 @@
 <topic id='4195' name='Funkeinrichtungen und Seefunkstellen'>
   <question id='4196' reference='24'>
     <text>Was ist eine „Seefunkstelle“?</text>
-    <correct>Funkstelle des mobilen Seefunkdienstes an Bod eines nicht dauern verankerten Seefahrzeuges.</correct>
+    <correct>Funkstelle des mobilen Seefunkdienstes an Bod eines nicht dauernd verankerten Seefahrzeuges.</correct>
     <incorrect>Typgeprüfte Funkstelle, die kein ATIS-Signal aussendet.</incorrect>
     <incorrect>Seefunkgerät samt Antenne, das im UKW- bzw. Grenz- und Kurzwellenbereich betrieben wird.</incorrect>
     <incorrect>Funkstelle, die am GMDSS teilnehmen darf.</incorrect>
