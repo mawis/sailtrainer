@@ -387,6 +387,7 @@
     <correct>Automatische Vergabe der Arbeitskanäle an Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</correct>
     <incorrect>Freischaltung der Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</incorrect>
     <incorrect>Abwicklung des Grenzwellen-Verkehrs per DSC</incorrect>
+    <incorrect>Abwicklung des Seefunkdienstes über Satellitennetze (SES)</incorrect>
   </question>
   <question id='4452' reference='55'>
     <text>Wie sind die Satelliten des Inmarsat-Systems positioniert?</text>
