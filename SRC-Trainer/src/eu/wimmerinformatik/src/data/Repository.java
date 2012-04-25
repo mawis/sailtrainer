@@ -27,7 +27,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 1);
+		super(context, "topics", null, 2);
 		this.context = context;
 	}
 
@@ -300,8 +300,23 @@ public class Repository extends SQLiteOpenHelper {
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		// TODO Auto-generated method stub
+		if (oldVersion <= 1) {
+			final ContentValues updates = new ContentValues();
+			updates.put("question", "Welche Publikationen des Bundesamtes fŸr Seeschifffahrt und Hydrographie (BSH) enthalten speziell fŸr die Sportschifffahrt Informationen zum Seefunk?");
+			db.update("question", updates, "_id=?", new String[]{"4177"});
 
+			updates.clear();
+			updates.put("question", "Welche Sendeleistungen lassen sich bei einer fest installierten UKW-Seefunkanlage schalten?");
+			db.update("question", updates, "_id=?", new String[]{"4209"});
+
+			updates.clear();
+			updates.put("answer", "Funkstelle des mobilen Seefunkdienstes an Bord eines nicht dauernd verankerten Seefahrzeuges.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"4196", "0"});
+
+			updates.clear();
+			updates.put("answer", "COSPAS-SARSAT, Inmarsat");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"4186", "0"});
+		}
 	}
 
 }

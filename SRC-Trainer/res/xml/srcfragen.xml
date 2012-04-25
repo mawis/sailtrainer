@@ -37,7 +37,7 @@
     <incorrect>Die Vollzugsordnung für den Funkdienst (RR) regelt die Benutzung von Radaranlagen auf Seeschiffen auf See und in Häfen.</incorrect>
   </question>
   <question id='4177' reference='6'>
-    <text>Welche Publikationen des Bundesamtes für Seeschifffahrt und Hydrographie (BSH) enthalten spezielle für die Sportschifffahrt Informationen zum Seefunk?</text>
+    <text>Welche Publikationen des Bundesamtes für Seeschifffahrt und Hydrographie (BSH) enthalten speziell für die Sportschifffahrt Informationen zum Seefunk?</text>
     <correct>Jachtfunkdienst „Nord- und Ostsee“</correct>
     <incorrect>Nautisches Jahrbuch</incorrect>
     <incorrect>Nachrichten für Seefahrer</incorrect>
@@ -101,7 +101,7 @@
   </question>
   <question id='4186' reference='15'>
     <text>Welches sind die satellitengestützten Alarmierungssysteme im Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS)?</text>
-    <correct>COSPAS-SARSAT, Inmarset</correct>
+    <correct>COSPAS-SARSAT, Inmarsat</correct>
     <incorrect>Eutelsat, Gobalstar</incorrect>
     <incorrect>EPIRB, AIS</incorrect>
     <incorrect>DSC, COSPAS-SARSAT</incorrect>
@@ -256,7 +256,7 @@
     <incorrect>in jedem Fall.</incorrect>
   </question>
   <question id='4209' reference='37'>
-    <text>Welche Sendeleistung lassen sich bei einer fest installierten UKW-Seefunkanlage schalten?</text>
+    <text>Welche Sendeleistungen lassen sich bei einer fest installierten UKW-Seefunkanlage schalten?</text>
     <correct>1 Watt oder maximal 25 Watt.</correct>
     <incorrect>25 Watt oder maximal 50 Watt.</incorrect>
     <incorrect>0,1 Watt oder maximal 2,5 Watt.</incorrect>
