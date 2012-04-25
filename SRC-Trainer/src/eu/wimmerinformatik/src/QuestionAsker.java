@@ -21,6 +21,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -117,6 +118,9 @@ public class QuestionAsker extends Activity {
 	private void showStandardView() {
         setContentView(R.layout.question_asker);
         showingStandardView = true;
+        
+        ProgressBar progress = (ProgressBar) findViewById(R.id.progressBar1);
+        progress.setMax(5);
 	
 		final Button contButton = (Button) findViewById(R.id.button1);
         contButton.setOnClickListener(new View.OnClickListener() {
@@ -266,6 +270,9 @@ public class QuestionAsker extends Activity {
 		for (int i = 0; i < 4; i++) {
 			radioButtons.get(order.get(i)).setText(question.getAnswers().get(i));
 		}
+		
+		final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar1);
+		progressBar.setProgress(question.getLevel());
 	}
 	
 	private void showNextQuestionAt(final Date when) {
