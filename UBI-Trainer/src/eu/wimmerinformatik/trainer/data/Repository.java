@@ -27,7 +27,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 1);
+		super(context, "topics", null, 2);
 		this.context = context;
 	}
 
@@ -300,8 +300,9 @@ public class Repository extends SQLiteOpenHelper {
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		// TODO Auto-generated method stub
-
+		if (oldVersion <= 1) {
+			// no changes from version 1 to 2, incrementing to keep in sync with SRC + LRC versions
+		}
 	}
 
 }
