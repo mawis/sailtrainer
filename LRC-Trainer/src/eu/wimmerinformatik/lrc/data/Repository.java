@@ -27,7 +27,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 2);
+		super(context, "topics", null, 3);
 		this.context = context;
 	}
 
@@ -300,9 +300,9 @@ public class Repository extends SQLiteOpenHelper {
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		if (oldVersion <= 1) {
+		if (oldVersion <= 2) {
 			final ContentValues updates = new ContentValues();
-			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu kÃ¶nnen?");
+			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu kšnnen?");
 			db.update("question", updates, "_id=?", new String[]{"4408"});
 		}
 	}
