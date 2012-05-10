@@ -4,10 +4,13 @@
     <string name="infoMessage">Diese App enthält die Fragen für die Prüfung für das Long Range Certificate (LRC) ab Oktober 2011</string>
     <string name="selectTopic">Bitte wählen sie ein Kapitel:</string>
     <string name="continueButtonText">Weiter</string>
-    <string name="waitBeforeContinue">Bitte warten Sie etwas bevor Sie weiter lernen…</string>
+    <string name="waitBeforeContinue">Bitte warten Sie etwas bevor Sie weiter lernen …</string>
     <string name="nextQuestionAt">Die nächste Frage sehen Sie um:</string>
-    <string name="continueNow">Jetzt weiter machen…</string>
+    <string name="continueNow">Jetzt weiter machen …</string>
     <string name="restart">Neu beginnen</string>
-    <string name="chapterFinished">Sie haben dieses Kapitel erfolgreich abgeschlossen…</string>
+    <string name="chapterFinished">Sie haben dieses Kapitel erfolgreich abgeschlossen …</string>
     <string name="offeneFragen">Offene Fragen:</string>
+    <string name="nextLabel">Nächste: </string>
+    <string name="right">Richtig!</string>
+    <string name="done">fertig</string>
 </resources>

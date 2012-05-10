@@ -28,6 +28,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="" />
+        
+        <TextView
+            android:id="@+id/nextQuestionTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="" />
 
     </LinearLayout>
 </LinearLayout>
