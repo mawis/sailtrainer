@@ -140,7 +140,7 @@ public class QuestionAsker extends Activity {
 				
 				int selectedButton = radioGroup.getCheckedRadioButtonId();
 				if (selectedButton == correctChoice) {
-					Toast.makeText(QuestionAsker.this, "Richtig!", Toast.LENGTH_SHORT).show();
+					Toast.makeText(QuestionAsker.this, getString(R.string.right), Toast.LENGTH_SHORT).show();
 					
 					repository.answeredCorrect(currentQuestion);
 					

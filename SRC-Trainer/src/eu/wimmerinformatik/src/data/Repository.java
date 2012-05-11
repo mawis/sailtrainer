@@ -23,11 +23,13 @@ public class Repository extends SQLiteOpenHelper {
 	private final Context context;
 	private int answerIdSeq;
 	private SQLiteDatabase database;
+	private final String done;
 	
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 2);
+		super(context, "topics", null, 3);
+		done = context.getString(R.string.done);
 		this.context = context;
 	}
 
@@ -37,8 +39,8 @@ public class Repository extends SQLiteOpenHelper {
 		db.beginTransaction();
 		try {
 			db.execSQL("CREATE TABLE topic (_id INT NOT NULL PRIMARY KEY, order_index INT NOT NULL UNIQUE, name TEXT NOT NULL)");
-			db.execSQL("CREATE TABLE question (_id INT NOT NULL PRIMARY KEY, topic_id INT NOT NULL REFERENCES topic(id) ON DELETE CASCADE, reference TEXT, question TEXT NOT NULL, level INT NOT NULL, next_time INT NOT NULL)");
-			db.execSQL("CREATE TABLE answer (_id INT NOT NULL PRIMARY KEY, question_id INT NOT NULL REFERENCES question(id) ON DELETE CASCADE, order_index INT NOT NULL, answer TEXT NOT NULL)");
+			db.execSQL("CREATE TABLE question (_id INT NOT NULL PRIMARY KEY, topic_id INT NOT NULL REFERENCES topic(_id) ON DELETE CASCADE, reference TEXT, question TEXT NOT NULL, level INT NOT NULL, next_time INT NOT NULL)");
+			db.execSQL("CREATE TABLE answer (_id INT NOT NULL PRIMARY KEY, question_id INT NOT NULL REFERENCES question(_id) ON DELETE CASCADE, order_index INT NOT NULL, answer TEXT NOT NULL)");
 			db.setTransactionSuccessful();
 		} finally {
 			db.endTransaction();
@@ -239,7 +241,7 @@ public class Repository extends SQLiteOpenHelper {
 	}
 	
 	public Cursor getTopicsCursor(final SQLiteDatabase db) {
-		final Cursor cursor = db.query("topic", new String[]{"_id","order_index","name"}, null, null, null, null, "order_index");
+		final Cursor cursor = db.rawQuery("SELECT t._id AS _id, t.order_index AS order_index, t.name AS name, CASE WHEN MIN(level) >= " + NUMBER_LEVELS + " THEN ? ELSE SUM(CASE WHEN level < " + NUMBER_LEVELS +" THEN 1 ELSE 0 END) END AS status, MIN(CASE WHEN level >= " + NUMBER_LEVELS + " THEN NULL ELSE next_time END) AS next_question FROM topic t LEFT JOIN question q ON q.topic_id = t._id GROUP BY t._id, t.order_index, t.name ORDER BY t.order_index", new String[]{done});
 		return cursor;
 	}
 	
