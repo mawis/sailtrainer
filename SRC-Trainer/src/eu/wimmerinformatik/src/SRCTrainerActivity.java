@@ -37,7 +37,6 @@ public class SRCTrainerActivity extends Activity {
         
         final SimpleCursorAdapter adapter = new SimpleCursorAdapter(this, R.layout.topic_list_item, null, new String[]{"name", "status", "next_question"}, new int[]{R.id.topicListItem, R.id.topicStatusView, R.id.nextQuestionTime});
 	adapter.setViewBinder(new ViewBinder() {
-	    @Override
 	    public boolean setViewValue(final View view, final Cursor cursor, final int columnIndex) {
 		if (columnIndex == 4) {
 		    final TextView textView = (TextView) view;
