@@ -1,4 +1,4 @@
-package eu.wimmerinformatik.trainer.data;
+package eu.wimmerinformatik.sks.data;
 
 import java.io.IOException;
 import java.util.Date;
@@ -17,18 +17,17 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.SimpleCursorAdapter;
 
-import eu.wimmerinformatik.trainer.R;
+import eu.wimmerinformatik.sks.R;
 
 public class Repository extends SQLiteOpenHelper {
 	private final Context context;
-	private int answerIdSeq;
 	private SQLiteDatabase database;
 	private final String done;
 	
-	private static final int NUMBER_LEVELS = 5;
+	private static final int NUMBER_LEVELS = 2;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 3);
+		super(context, "topics", null, 1);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -39,8 +38,7 @@ public class Repository extends SQLiteOpenHelper {
 		db.beginTransaction();
 		try {
 			db.execSQL("CREATE TABLE topic (_id INT NOT NULL PRIMARY KEY, order_index INT NOT NULL UNIQUE, name TEXT NOT NULL)");
-			db.execSQL("CREATE TABLE question (_id INT NOT NULL PRIMARY KEY, topic_id INT NOT NULL REFERENCES topic(_id) ON DELETE CASCADE, reference TEXT, question TEXT NOT NULL, level INT NOT NULL, next_time INT NOT NULL)");
-			db.execSQL("CREATE TABLE answer (_id INT NOT NULL PRIMARY KEY, question_id INT NOT NULL REFERENCES question(_id) ON DELETE CASCADE, order_index INT NOT NULL, answer TEXT NOT NULL)");
+			db.execSQL("CREATE TABLE question (_id INT NOT NULL PRIMARY KEY, topic_id INT NOT NULL REFERENCES topic(_id) ON DELETE CASCADE, reference TEXT, question TEXT NOT NULL, answer TEXT, level INT NOT NULL, next_time INT NOT NULL)");
 			db.setTransactionSuccessful();
 		} finally {
 			db.endTransaction();
@@ -50,7 +48,7 @@ public class Repository extends SQLiteOpenHelper {
 		try {
 			final List<Topic> topics = new LinkedList<Topic>();
 			final List<Question> questions = new LinkedList<Question>();
-			final XmlResourceParser xmlResourceParser = context.getResources().getXml(R.xml.ubifragen);
+			final XmlResourceParser xmlResourceParser = context.getResources().getXml(R.xml.sksfragen);
 			int eventType = xmlResourceParser.getEventType();
 			Topic currentTopic = null;
 			Question currentQuestion = null;
@@ -74,9 +72,7 @@ public class Repository extends SQLiteOpenHelper {
 						currentQuestion.setTopicId(currentTopic.getId());
 					} else if ("text".equals(tagName)) {
 						expectingQuestion = true;
-					} else if ("correct".equals(tagName)) {
-						expectingAnswer = true;
-					} else if ("incorrect".equals(tagName)) {
+					} else if ("answer".equals(tagName)) {
 						expectingAnswer = true;
 					}
 					break;
@@ -86,7 +82,7 @@ public class Repository extends SQLiteOpenHelper {
 						expectingQuestion = false;
 					}
 					if (expectingAnswer) {
-						currentQuestion.getAnswers().add(xmlResourceParser.getText());
+						currentQuestion.setAnswer(xmlResourceParser.getText());
 						expectingAnswer = false;
 					}
 				case XmlPullParser.END_TAG:
@@ -177,7 +173,7 @@ public class Repository extends SQLiteOpenHelper {
 	public Question getQuestion(final int questionId) {
 		final Question question = new Question();
 		
-		final Cursor c = getDb().query("question", new String[]{"_id", "topic_id", "reference", "question", "level", "next_time"}, "_id=?", new String[]{Integer.toString(questionId)}, null, null, null, null);
+		final Cursor c = getDb().query("question", new String[]{"_id", "topic_id", "reference", "question", "answer", "level", "next_time"}, "_id=?", new String[]{Integer.toString(questionId)}, null, null, null, null);
 		try {
 			c.moveToNext();
 			if (c.isAfterLast()) {
@@ -187,22 +183,11 @@ public class Repository extends SQLiteOpenHelper {
 			question.setTopicId(c.getInt(1));
 			question.setReference(c.getString(2));
 			question.setQuestionText(c.getString(3));
-			question.setLevel(c.getInt(4));
-			question.setNextTime(new Date(c.getLong(5)));
+			question.setAnswer(c.getString(4));
+			question.setLevel(c.getInt(5));
+			question.setNextTime(new Date(c.getLong(6)));
 		} finally {
 			c.close();
-		}
-		
-		// _id INT NOT NULL PRIMARY KEY, question_id INT NOT NULL REFERENCES question(id) ON DELETE CASCADE, order_index INT NOT NULL, answer TEXT
-		final Cursor answer = getDb().query("answer", new String[]{"answer"}, "question_id=?", new String[]{Integer.toString(questionId)}, null, null, "order_index");
-		try {
-			answer.moveToNext();
-			while (!answer.isAfterLast()) {
-				question.getAnswers().add(answer.getString(0));
-				answer.moveToNext();
-			}	
-		} finally {
-			answer.close();
 		}
 		
 		return question;
@@ -257,10 +242,7 @@ public class Repository extends SQLiteOpenHelper {
 	
 	private long waitingTimeOnLevel(final int level) {
 		return level <= 0 ? 15000L :
-			level == 1 ? 60000L :
-			level == 2 ? 30*60000L :
-			level == 3 ? 86400000L :
-			level == 4 ? 3*86400000L :
+			level == 1 ? 86400000L :
 			0;
 	}
 
@@ -280,17 +262,8 @@ public class Repository extends SQLiteOpenHelper {
 		contentValues.put("question", question.getQuestionText());
 		contentValues.put("level", 0);
 		contentValues.put("next_time", question.getNextTime().getTime());
+		contentValues.put("answer", question.getAnswer());
 		db.insert("question", null, contentValues);
-			
-		int answerIndex = 0;
-		for (final String answer : question.getAnswers()) {
-			contentValues.clear();
-			contentValues.put("_id", ++answerIdSeq);
-			contentValues.put("question_id", question.getId());
-			contentValues.put("order_index", answerIndex++);
-			contentValues.put("answer", answer);
-			db.insert("answer", null, contentValues);
-		}
 	}
 	
 	private SQLiteDatabase getDb() {
@@ -302,9 +275,5 @@ public class Repository extends SQLiteOpenHelper {
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		if (oldVersion <= 1) {
-			// no changes from version 1 to 2, incrementing to keep in sync with SRC + LRC versions
-		}
 	}
-
 }

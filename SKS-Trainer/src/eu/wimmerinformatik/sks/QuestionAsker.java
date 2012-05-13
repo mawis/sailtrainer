@@ -1,30 +1,25 @@
 /**
  * 
  */
-package eu.wimmerinformatik.trainer;
+package eu.wimmerinformatik.sks;
 
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import eu.wimmerinformatik.trainer.data.Question;
-import eu.wimmerinformatik.trainer.data.QuestionSelection;
-import eu.wimmerinformatik.trainer.data.Repository;
+import eu.wimmerinformatik.sks.data.Question;
+import eu.wimmerinformatik.sks.data.QuestionSelection;
+import eu.wimmerinformatik.sks.data.Repository;
+import eu.wimmerinformatik.sks.R;
 import android.app.Activity;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * @author matthias
@@ -35,10 +30,7 @@ public class QuestionAsker extends Activity {
 	private int currentQuestion;
 	private int topicId;
 	private int correctChoice;
-	private Random rand = new Random();
 	private Drawable defaultBackground;
-	private int correctMarkBackground;
-	private List<Integer> order;
 	private boolean showingCorrectAnswer;
 	private Date nextTime;
 	private Timer waitTimer;
@@ -52,9 +44,7 @@ public class QuestionAsker extends Activity {
 		
 		repository.close();
 		repository = null;
-		rand = null;
 		defaultBackground = null;
-		order = null;
 		nextTime = null;
 	}
 	
@@ -67,17 +57,6 @@ public class QuestionAsker extends Activity {
 		outState.putLong(getClass().getName() + ".topic", topicId);
 		if (nextTime != null) {
 			outState.putLong(getClass().getName() + ".nextTime", nextTime.getTime());
-		}
-		
-		if (order != null) {
-			final StringBuilder orderString = new StringBuilder();
-			for (int i = 0; i < order.size(); i++) {
-				if (i > 0) {
-					orderString.append(',');
-				}
-				orderString.append(order.get(i));
-			}
-			outState.putString(getClass().getName() + ".order", orderString.toString());
 		}
 	}
 	
@@ -96,15 +75,6 @@ public class QuestionAsker extends Activity {
         	nextTime = nextTimeLong > 0L ? new Date(nextTimeLong) : null;
         	showingCorrectAnswer = savedInstanceState.getBoolean(getClass().getName()+".showingCorrectAnswer");
         	
-        	final String orderString = savedInstanceState.getString(getClass().getName()+".order");
-        	if (orderString != null) {
-        		final String[] orderArray = orderString.split(",");
-        		order = new LinkedList<Integer>();
-        		for (int i = 0; i < orderArray.length; i++) {
-        			order.add(Integer.parseInt(orderArray[i]));
-        		}
-        	}
-        	
         	showQuestion();
         } else {
         	topicId = (int) getIntent().getExtras().getLong(getClass().getName()+".topic");
@@ -117,52 +87,18 @@ public class QuestionAsker extends Activity {
 	private void showStandardView() {
         setContentView(R.layout.question_asker);
         showingStandardView = true;
+        showingCorrectAnswer = false;
 
 		ProgressBar progress = (ProgressBar) findViewById(R.id.progressBar1);
-		progress.setMax(5);
+		progress.setMax(2);
 	
-		final Button contButton = (Button) findViewById(R.id.button1);
+		final Button contButton = (Button) findViewById(R.id.showAnswerButton);
         contButton.setOnClickListener(new View.OnClickListener() {
 
 			// @Override
 			public void onClick(View v) {
-
-				// find what has been selected
-				final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
-				
-				if (showingCorrectAnswer) {
-					showingCorrectAnswer = false;
-					radioGroup.setEnabled(true);
-					nextQuestion();
-					return;
-				}
-				
-				int selectedButton = radioGroup.getCheckedRadioButtonId();
-				if (selectedButton == correctChoice) {
-					Toast.makeText(QuestionAsker.this, getString(R.string.right), Toast.LENGTH_SHORT).show();
-					
-					repository.answeredCorrect(currentQuestion);
-					
-					nextQuestion();
-					
-					return;
-				} else {
-					repository.answeredIncorrect(currentQuestion);
-					
-					showingCorrectAnswer = true;
-					radioGroup.setEnabled(false);
-					
-					final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
-					if (defaultBackground == null) {
-						defaultBackground = correctButton.getBackground();
-					}
-					if (correctMarkBackground == 0) {
-						correctMarkBackground = Color.rgb(0, 64, 0);
-					}
-					correctButton.setBackgroundColor(correctMarkBackground);
-					
-					return;
-				}
+				showingCorrectAnswer = true;
+				showQuestion();
 			}
         });		
 	}
@@ -176,11 +112,6 @@ public class QuestionAsker extends Activity {
 			final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
 			correctButton.setBackgroundDrawable(defaultBackground);
 		}
-		
-		order = null;
-		
-		final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
-		radioGroup.clearCheck();
 		
 		final QuestionSelection nextQuestion = repository.selectQuestion(topicId);
 		
@@ -214,15 +145,6 @@ public class QuestionAsker extends Activity {
 		return;
 	}
 	
-	private List<RadioButton> getRadioButtons() {
-		final List<RadioButton> radioButtons = new LinkedList<RadioButton>();
-		radioButtons.add((RadioButton) findViewById(R.id.radio0));
-		radioButtons.add((RadioButton) findViewById(R.id.radio1));
-		radioButtons.add((RadioButton) findViewById(R.id.radio2));
-		radioButtons.add((RadioButton) findViewById(R.id.radio3));
-		return radioButtons;
-	}
-	
 	private void showQuestion() {
 		if (nextTime != null) {
 			showingStandardView = false;
@@ -248,7 +170,44 @@ public class QuestionAsker extends Activity {
 				
 			});
 			return;
-		}		
+		}
+		
+		if (showingCorrectAnswer) {
+			showingStandardView = false;
+			setContentView(R.layout.show_answer);
+			
+			final Question question = repository.getQuestion(currentQuestion);
+			
+			final TextView textView = (TextView) findViewById(R.id.answerTextViewFrage);
+			textView.setText(question.getQuestionText());
+			
+			final TextView answerView = (TextView) findViewById(R.id.answerText);
+			answerView.setText(question.getAnswer());
+			
+			final ProgressBar progressBar = (ProgressBar) findViewById(R.id.answerProgressBar);
+			progressBar.setMax(2);
+			progressBar.setProgress(question.getLevel());
+			
+			final Button correctButton = (Button) findViewById(R.id.buttonCorrect);
+			correctButton.setOnClickListener(new View.OnClickListener() {
+				
+				public void onClick(View v) {
+					repository.answeredCorrect(currentQuestion);
+					nextQuestion();
+				}
+			});
+			
+			final Button incorrectButton = (Button) findViewById(R.id.buttonIncorrect);
+			incorrectButton.setOnClickListener(new View.OnClickListener() {
+				
+				public void onClick(View v) {
+					repository.answeredIncorrect(currentQuestion);
+					nextQuestion();
+				}
+			});
+			
+			return;
+		}
 		
 		final Question question = repository.getQuestion(currentQuestion);
 
@@ -256,20 +215,6 @@ public class QuestionAsker extends Activity {
         
 		textView.setText(question.getQuestionText());
 		
-		final List<RadioButton> radioButtons = getRadioButtons();
-		
-		if (order == null) {
-			order = new LinkedList<Integer>();
-
-			for (int i = 0; i < 4; i++) {
-				order.add(rand.nextInt(order.size() + 1), i);
-			}
-		}
-		correctChoice = radioButtons.get(order.get(0)).getId();
-		for (int i = 0; i < 4; i++) {
-			radioButtons.get(order.get(i)).setText(question.getAnswers().get(i));
-		}
-
 		final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar1);
 		progressBar.setProgress(question.getLevel());
 	}
