@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SKS-Trainer</string>
-    <string name="infoMessage">Diese App enthält die Fragen für die Prüfung für das Long Range Certificate (LRC) ab Oktober 2011</string>
+    <string name="infoMessage">Diese App enthält die Fragen für die Prüfung des Sportküstenschifferscheines ab 2007</string>
     <string name="selectTopic">Bitte wählen sie ein Kapitel:</string>
     <string name="showAnswerButtonText">Antwort zeigen</string>
     <string name="waitBeforeContinue">Bitte warten Sie etwas bevor Sie weiter lernen …</string>
@@ -16,4 +16,6 @@
     <string name="answer">Antwort:</string>
     <string name="answeredCorrect">Richtig</string>
     <string name="answeredIncorrect">Falsch</string>
+    <string name="firstPass">Erster Durchgang</string>
+    <string name="secondPass">Zweiter Durchgang</string>
 </resources>

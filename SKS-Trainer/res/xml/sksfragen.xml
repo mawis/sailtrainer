@@ -2550,65 +2550,65 @@ Nachteile: hohes Gewicht, Rostanfälligkeit.</answer>
     <text>Was bedeutet der Begriff „Kategorie“ im Zusammenhang mit dem CE-Zeichen für Wassersportfahrzeuge?</text>
     <answer>Mit der Kategorie legt der Hersteller fest, in welchem Fahrgebiet, bis zu welcher Windstärke und bis zu welcher charakteristischen Wellenhöhe das Fahrzeug sicher betrieben werden kann.</answer>
   </question>
-  <question id='8499' reference='Aufgabe 10'>
+  <question id='8499' reference='10'>
     <text>Welche Kategorien können in Zusammenhang mit dem CE-Zeichen für Wassersportfahrzeuge vergeben werden?</text>
     <answer>1. A Hochsee,
 2. B Außerhalb von Küstengewässern,
 3. C Küstennahe Gewässer,
 4. D Geschützte Gewässer.</answer>
   </question>
-  <question id='8500' reference='Aufgabe 11'>
+  <question id='8500' reference='11'>
     <text>Was bedeutet die im Zusammenhang mit dem CE-Zeichen für Wassersportfahrzeuge angegebene Kategorie „B Außerhalb von Küstengewässern“?</text>
     <answer>Das Fahrzeug ist ausgelegt für Fahrten außerhalb von Küstengewässern, in denen Windstärken bis einschließlich 8 Bft und signifikante Wellenhöhen bis einschließlich 4 m auftreten können.</answer>
   </question>
-  <question id='8501' reference='Aufgabe 12'>
+  <question id='8501' reference='12'>
     <text>Beschreiben Sie den Aufbau einer Radsteuerung mit Seilzügen.</text>
     <answer>Das Rad dreht ein Zahnrad, über das eine Kette in der Steuersäule nach unten verläuft. Die Kette ist mit den Steuerseilen verbunden, welche über Umlenkrollen zum Ruderquadranten führen.</answer>
   </question>
-  <question id='8502' reference='Aufgabe 13'>
+  <question id='8502' reference='13'>
     <text>Wozu dient der Lenzkorb am Ansaugstutzen einer Lenzpumpe und wie erhalten Sie seine Funktionsfähigkeit?</text>
     <answer>Der Lenzkorb verhindert Verunreinigungen und Verstopfungen der Lenzpumpe. Er muss regelmäßig überprüft und gereinigt werden.</answer>
   </question>
-  <question id='8503' reference='Aufgabe 14'>
+  <question id='8503' reference='14'>
     <text>Welche Lenzvorrichtungen und -möglichkeiten sollten auf jeder seegehenden Yacht vorhanden sein?</text>
     <answer>Zwei voneinander unabhängige Bilgepumpen, von denen eine über Deck bedienbar ist, sowie 2 Pützen mit Leinen.</answer>
   </question>
-  <question id='8504' reference='Aufgabe 15'>
+  <question id='8504' reference='15'>
     <text>Warum sollten Sie mehr als einen Anker an Bord haben, möglichst unterschiedlicher Art?</text>
     <answer>1. Als Ersatz bei Verlust,
 2. zum Verwarpen oder Verkatten,
 3. um unterschiedliche Ankergründe berücksichtigen zu können,
 4. um bei schwerem Wetter oder in Tidengewässern vor 2 Ankern liegen zu können.</answer>
   </question>
-  <question id='8505' reference='Aufgabe 16'>
+  <question id='8505' reference='16'>
     <text>Wie viele Fender und Festmacherleinen sollten Sie mindestens an Bord haben?</text>
     <answer>4 Festmacherleinen und 4 Fender</answer>
   </question>
-  <question id='8506' reference='Aufgabe 17'>
+  <question id='8506' reference='17'>
     <text>Was sollte auf jeder Motoryacht außer Festmacherleinen an Tauwerk vorhanden sein?</text>
     <answer>Reservetauwerk, Wurfleine, Schlepptrosse und Ankerleine.</answer>
   </question>
-  <question id='8507' reference='Aufgabe 18'>
+  <question id='8507' reference='18'>
     <text>In welchen Publikationen finden Sie amtliche Informationen über die Ausrüstung und Sicherheit von Sportbooten, die auch bei der Beurteilung von Sportbootunfällen herangezogen werden?</text>
     <answer>1. „Sicherheit im See- und Küstenbereich, Sorgfaltsregeln für Wassersportler“, herausgegeben vom BSH.
 2. „Sicherheit auf dem Wasser, Leitfaden für Wassersportler“, herausgegeben vom Bundesministerium für Verkehr, Bau und Stadtentwicklung.</answer>
   </question>
-  <question id='8508' reference='Aufgabe 19'>
+  <question id='8508' reference='19'>
     <text>Warum müssen auf Yachten zusätzlich zu elektrisch oder motorgetriebenen Lenzpumpen auch Handlenzpumpen vorhanden sein?</text>
     <answer>Weil sie auch bei Strom- und Motorausfall betätigt werden können.</answer>
   </question>
-  <question id='8509' reference='Aufgabe 20'>
+  <question id='8509' reference='20'>
     <text>Warum ist Flüssiggas (Propan, Butan) auf einer Yacht besonders gefährlich?</text>
     <answer>Es ist schwerer als Luft, sinkt nach unten und bildet mit Luft ein explosives Gemisch; es kann sich im Schiffsinneren (z.B. in der Bilge) sammeln.</answer>
   </question>
-  <question id='8510' reference='Aufgabe 21'>
+  <question id='8510' reference='21'>
     <text>Welche 4 Bedienelemente besitzt ein mit Handpumpe betriebenes Bord-WC auf einer Yacht?</text>
     <answer>1. Seeventil und Spülwasserschlauch (Seewasser),
 2. Handpumpe für Toilettenspülung,
 3. Hebel zur Unterbrechung der Seewasserzufuhr (Handpumpe dient dann nur noch zum Abpumpen),
 4. Abwasserschlauch (via Fäkalientank) zum Seeventil.</answer>
   </question>
-  <question id='8511' reference='Aufgabe 22'>
+  <question id='8511' reference='22'>
     <text>Beschreiben Sie in 5 Schritten die Bedienung eines Bord-WC auf einer Yacht.</text>
     <answer>1. Seeventil für Seewasserspülung öffnen,
 2. Handpumpe betätigen, sodass das Becken gespült wird und gleichzeitig die Fäkalien abfließen - ausgiebig spülen,
@@ -2616,22 +2616,22 @@ Nachteile: hohes Gewicht, Rostanfälligkeit.</answer>
 4. Becken mit Handpumpe leer pumpen,
 5. Seeventile für Zu- und Abfluss schließen.</answer>
   </question>
-  <question id='8512' reference='Aufgabe 23'>
+  <question id='8512' reference='23'>
     <text>Was versteht man unter der „Stabilität“ eines Schiffes?</text>
     <answer>Unter Stabilität eines Schiffes versteht man seine Eigenschaft, in aufrechter Lage zu schwimmen und sich aus einer Krängung wieder aufzurichten.</answer>
   </question>
-  <question id='8513' reference='Aufgabe 24'>
+  <question id='8513' reference='24'>
     <text>Wovon häng die Stabilität eines Schiffes in ruhigem Wasser ab? Nennen Sie Beispiele für äußere Momente, welche die Stabilität beanspruchen.</text>
     <answer>Die Stabilität eines Schiffes hängt ab von:
 1. seiner Geometrie (Form),
 2. der Gewichtsverteilung im Schiff (Ausrüstung, Crew, Ballast).
 Beispiele für eine Beanspruchung der Stabilität sind krängende Momente durch Seitenwind, Trossenzug oder Drehkreisfahrt bei schnellen Motoryachten.</answer>
   </question>
-  <question id='8514' reference='Aufgabe 25'>
+  <question id='8514' reference='25'>
     <text>Wovon hängt eine in ruhigem Wasser vorhandene Stabilität zusätzlich in schwerem Wetter ab?</text>
     <answer>Die Stabilität in schwerem Wetter hängt zusätzlich von Wind und Seegang, besonders von brechenden Wellen ab.</answer>
   </question>
-  <question id='8515' reference='Aufgabe 26'>
+  <question id='8515' reference='26'>
     <text>Was versteht man unter
 1. Formschwerpunkt (F)?
 2. Massenschwerpunkt (Gewichtsschwerpunkt, G)?
@@ -2639,66 +2639,66 @@ Welche Kräfte wirken in den beiden Punkten?</text>
     <answer>1. Im Formschwerpunkt F kann man sich die Masse des vom Schiff verdrängten Wassers vereinigt denken. In F wirkt die Auftriebskraft senkrecht zur Wasseroberfläche nach oben.
 2. Im Massenschwerpunkt G kann man sich die Masse des Schiffes einschließlich Ausrüstung und Besatzung vereinigt denken. In G wirkt die Gewichtskraft senkrecht zur Wasseroberfläche nach unten.</answer>
   </question>
-  <question id='8516' reference='Aufgabe 27'>
+  <question id='8516' reference='27'>
     <text>Was geschieht bei einer Neigung des Schiffes, z.B. durch seitlichen Winddruck, solange sich die Lage des Massenschwerpunktes (Gewichtsschwerpunktes) nicht verändert?
 (Begründung!)</text>
     <answer>Der Formschwerpunkt F wandert zur geneigten Seite aus, weil dort ein größerer Teil des Bootskörpers unter Wasser gelangt. Die Wirklinie der Auftriebskraft bekommt dadurch einen seitlichen Abstand zur Wirklinie der Gewichtskraft. Es entsteht ein Kräftepaar, der seitliche Abstand zwischen den Wirklinien ist der Hebelarm. Es entsteht ein aufrichtendes Moment, welches gleich dem Produkt aus Gewichtskraft und Hebelarm ist.</answer>
   </question>
-  <question id='8517' reference='Aufgabe 28'>
+  <question id='8517' reference='28'>
     <text>Was verstehen Sie unter „Trimm“?</text>
     <answer>Der Trimm ist der Unterschied zwischen dem vorderen und dem achteren Tiefgang.</answer>
   </question>
-  <question id='8518' reference='Aufgabe 29'>
+  <question id='8518' reference='29'>
     <text>Nennen Sie mögliche Trimmlagen einer Motoryacht.</text>
     <answer>Ist der vordere Tiefgang größer als der achtere, ergibt dies einen vorlichen Trimm. Ist der achtere Tiefgang größer als der vordere, ergibt dies einen achterlichen Trimm. Sind beide gleich, liegt eine Yacht auf ebenem Kiel.</answer>
   </question>
-  <question id='8519' reference='Aufgabe 30'>
+  <question id='8519' reference='30'>
     <text>Was verstehen Sie unter „Rumpfgeschwindigkeit“ und wovon ist sie abhängig?</text>
     <answer>Rumpfgeschwindigkeit ist die rechnerische Höchstfahrt eines Verdrängers. Sie ist abhängig von der Wasserlinienlänge.</answer>
   </question>
-  <question id='8520' reference='Aufgabe 31'>
+  <question id='8520' reference='31'>
     <text>Erklären Sie die wesentlichen Vorteile des Dieselmotors gegenüber dem Benzinmotor.</text>
     <answer>1. Der zum Betrieb erforderliche Kraftstoff (Diesel) ist weniger feuergefährlich als der für einen Benzinmotor.
 2. Er hat einen geringeren Kraftstoffverbrauch.</answer>
   </question>
-  <question id='8521' reference='Aufgabe 32'>
+  <question id='8521' reference='32'>
     <text>Erklären Sie die wesentlichen Nachteile des Benzinmotors gegenüber dem Dieselmotor.</text>
     <answer>1. Das Benzin-Luft-Gemisch birgt Explosions- und Brandgefahr im Schiff
 2. Die Zündanlage kann störempfindlich gegen Feuchtigkeit und Nässe sein.
 3. Der Motor hat einen höheren Kraftstoffverbrauch als der Dieselmotor.</answer>
   </question>
-  <question id='8522' reference='Aufgabe 33'>
+  <question id='8522' reference='33'>
     <text>Wozu dient das Wendegetriebe eines Motors?</text>
     <answer>1. Zum Ein- und Auskuppeln des Propellers,
 2. zum Umsteuern des Propellers auf Rückwärtsfahrt,
 3. zur Drehzahluntersetzung.</answer>
   </question>
-  <question id='8523' reference='Aufgabe 34'>
+  <question id='8523' reference='34'>
     <text>Wodurch unterscheiden sich Einhebel- und Zweihebelschaltung?</text>
     <answer>1. Bei Einhebelschaltung werden Gas und Getriebe gleichzeitig bedient.
 2. Bei Zweihebelschaltung werden Gas und Getriebe mit 2 Hebeln getrennt bedient.</answer>
   </question>
-  <question id='8524' reference='Aufgabe 35'>
+  <question id='8524' reference='35'>
     <text>Erklären Sie die Grundstruktur des Zweikreis-Kühlsystems bei der Motorkühlung.</text>
     <answer>Das Zweikreis-Kühlsystem besteht aus einem geschlossenen inneren Süßwasserkreislauf mit eigenem Kühlwassertank und einem offenen Seewasserkreislauf. Beide Kreisläufe sind in einem thermostatgeregelten Wärmetauscher wärmetechnisch miteinander verbunden. Der innere Süßwasserkreislauf durchfließt den Motor.</answer>
   </question>
-  <question id='8525' reference='Aufgabe 36'>
+  <question id='8525' reference='36'>
     <text>Welchen Vorteil hat die Zweikreis-Kühlung gegenüber der Einkreis-Kühlung?</text>
     <answer>Im Zweikreis-Kühlsystem wird im inneren geschlossenen Kühlwasserkreislauf Süßwasser gefahren. Dem geschlossenen Kühlwassersystem können Zusätze (z.B. Frostschutzmittel) zugegeben werden. Ablagerungen durch Fremdwasser werden verhindert.
 Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und äußerem Kreislauf erreicht der Motor schneller seine Betriebstemperatur, diese wird auch konstant gehalten.</answer>
   </question>
-  <question id='8526' reference='Aufgabe 37'>
+  <question id='8526' reference='37'>
     <text>Was sollte nach dem Anlassen der Maschine kontrolliert werden?</text>
     <answer>1. Kühlwasserdurchlauf,
 2. Öldruck und Ladung,
 3. Motorengeräusche und
 4. Auspuffgase.</answer>
   </question>
-  <question id='8527' reference='Aufgabe 38'>
+  <question id='8527' reference='38'>
     <text>Was können erste Störungsanzeichen im Motorbetrieb sein?</text>
     <answer>Ungewöhnliche und fremde Motorengeräusche, Vibrationen, Verfärbung der Abgase, Aufleuchten der Ladekontrolle bzw. Öldruckkontrolle und die entsprechenden akustischen Warnungen.</answer>
   </question>
-  <question id='8528' reference='Aufgabe 39'>
+  <question id='8528' reference='39'>
     <text>Der Dieselmotor Ihres Bootes startet nicht. Welche Teile der Kraftstoffanlage sollten überprüft werden?</text>
     <answer>1. Kraftstofffüllung,
 2. Kraftstoffabsperrhahn,
@@ -2706,7 +2706,7 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 4. Kraftstofffilter,
 5. Kraftstoffpumpe.</answer>
   </question>
-  <question id='8529' reference='Aufgabe 40'>
+  <question id='8529' reference='40'>
     <text>Der Benzinmotor Ihres Bootes startet nicht. Welche Teile der Kraftstoffanlage sollten überprüft werden?</text>
     <answer>1. Kraftstofffüllung,
 2. Kraftstoffabsperrhahn,
@@ -2715,7 +2715,7 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 5. Kraftstoffpumpe,
 6. Vergaser.</answer>
   </question>
-  <question id='8530' reference='Aufgabe 41'>
+  <question id='8530' reference='41'>
     <text>Welche Ursachen können zu einer Anzeige eines zu geringen Öldrucks führen?</text>
     <answer>1. Ein verstopftes Ölsieb (Ölwanne),
 2. ein zu geringer Ölstand,
@@ -2724,13 +2724,13 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 5. ein defektes Öldruckventil,
 6. ein defektes Anzeigegerät.</answer>
   </question>
-  <question id='8531' reference='Aufgabe 42'>
+  <question id='8531' reference='42'>
     <text>Welche Ursachen kann das Aufleuchten der Warnlampe der Batterie-Ladekontrolle während des Betriebes zur Folge haben?</text>
     <answer>1. Kabelverbindungen sind unterbrochen (oxidiert, lose oder gebrochen).
 2. Der Keilriemen zum Antrieb der Lichtmaschine ist defekt und es erfolgt keine Stromerzeugung.
 3. Der Regler oder die Lichtmaschine können defekt sein.</answer>
   </question>
-  <question id='8532' reference='Aufgabe 43'>
+  <question id='8532' reference='43'>
     <text>Welche Fehlerursachen kann eine schwarze Färbung der Auspuffgase haben?</text>
     <answer>Unvollständige Verbrennung durch:
 1. kalten Motor,
@@ -2739,14 +2739,14 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 4. verstellte Einspritzpumpe,
 5. Überlastung des Motors.</answer>
   </question>
-  <question id='8533' reference='Aufgabe 44'>
+  <question id='8533' reference='44'>
     <text>Welche Fehlerursachen kann eine weiße Färbung der Auspuffgase haben?</text>
     <answer>Verdampfung von Wasser durch z.B.
 1. Kondensat im Auspuffsystem bei noch kaltem Motor,
 2. gerissenen Zylinderkopf,
 3. defekte Zylinderkopfdichtung.</answer>
   </question>
-  <question id='8534' reference='Aufgabe 45'>
+  <question id='8534' reference='45'>
     <text>Welche Vorsichtsmaßnahmen müssen beim Tanken und Umfüllen von Brennstoffen getroffen werden?</text>
     <answer>1. Maschine abstellen.
 2. Offenes Feuer löschen (Rauchen einstellen).
@@ -2754,14 +2754,14 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 4. Alle Öffnungen schließen.
 5. Tragbare Tanks möglichst außerhalb des Bootes befüllen.</answer>
   </question>
-  <question id='8535' reference='Aufgabe 46'>
+  <question id='8535' reference='46'>
     <text>Welche Maßnahmen sind vor dem Anlassen eines Dieselmotors zu treffen?</text>
     <answer>1. Hauptstromschalter einschalten.
 2. Kraftstoff- und Kühlwasserventile öffnen.
 3. Getriebe auf „neutral“ stellen.
 4. Kühlwasser prüfen (Zweikreis-Kühlsystem).</answer>
   </question>
-  <question id='8536' reference='Aufgabe 47'>
+  <question id='8536' reference='47'>
     <text>Welche Maßnahmen sind vor dem Anlassen eines Benzinmotors zu treffen?</text>
     <answer>1. Hauptstromschalter einschalten.
 2. Motorraum mit Bilge entlüften.
@@ -2769,7 +2769,7 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 4. Getriebe auf „neutral“ stellen.
 5. Kühlwasser prüfen (Zweikreis-Kühlsystem).</answer>
   </question>
-  <question id='8537' reference='Aufgabe 48'>
+  <question id='8537' reference='48'>
     <text>Wie kontrollieren Sie den ordnungsgemäßen Betrieb des Motors?</text>
     <answer>Kontrolle der Anzeigegeräte auf:
 1. Öldruck und Öltemperatur,
@@ -2778,59 +2778,59 @@ Durch eine thermostatische Regelung des Wärmeaustauschers zwischen innerem und 
 4. Batterieladung.
 Außerdem auf Motorgeräusche, Vibrationen und Farbe der Auspuffgase achten.</answer>
   </question>
-  <question id='8538' reference='Aufgabe 49'>
+  <question id='8538' reference='49'>
     <text>Welche Maßnahmen treffen Sie nach dem Abstellen des Motors?</text>
     <answer>1. Kraftstoffventil schließen.
 2. Hauptschalter (Batterie) ausschalten.
 3. Seeventile schließen.</answer>
   </question>
-  <question id='8539' reference='Aufgabe 50'>
+  <question id='8539' reference='50'>
     <text>Während Sie unter Maschine laufen, steigt plötzlich die Kühlwassertemperatur stark an. Ihre Yacht ist mit einem Saildrive-Antrieb ausgestattet.
 1. Welche typische Ursache hat der Temperaturanstieg, wenn eine technische Störung unwahrscheinlich ist?
 2. Wie können Sie die Störung einfach beheben?</text>
     <answer>1. Fremdkörper (Folienstücke, Plastiktüten, Pflanzenteile o.Ä.) haben den Kühlwassereinlass verstopft.
 2. Mehrmals abwechseld vor- und zurückfahren, sodass sich die Fremdkörper vom Kühlwassereinlass lösen.</answer>
   </question>
-  <question id='8540' reference='Aufgabe 51'>
+  <question id='8540' reference='51'>
     <text>Welche Fehlerursachen kann eine blaue Färbung der Auspuffgase haben?</text>
     <answer>Zweitaktmotor: zu fettes Benzin-Öl-Gemisch. Es ist zu viel Schmieröl im Gemisch.
 Viertaktmotor: zu viel Schmieröl, Ölabstreifringe bzw. Kolbenringe defekt.
 In beiden Fällen verbrennt/verdampt Schmieröl.</answer>
   </question>
-  <question id='8541' reference='Aufgabe 52'>
+  <question id='8541' reference='52'>
     <text>Erklären Sie die Arbeitsweise in Bezug auf die Zündung beim Ottomotor und Dieselmotor.</text>
     <answer>Beim Ottomotor wird das zündfähige Benzin-Luft-Gemisch im Vergaser durch Einspritzung erzeugt und mit Fremdzündung durch die Zündkerze gezündet.
 Beim Dieselmotor wird die angesaugte Luft hoch verdichtet und so erwärmt, dass der eingespritzte Dieselkraftstoff sich durch Eigenzündung in dieser komprimierten Luft entzündet.</answer>
   </question>
-  <question id='8542' reference='Aufgabe 53'>
+  <question id='8542' reference='53'>
     <text>Weshalb sollte dringend vermieden werden, dass beim Dieselmotor der Kraftstofftank leer gefahren wird?</text>
     <answer>In die Einspritzpumpe/Kraftstoffleitung würde Luft gelangen. Startversuche nach dem Tanken wären erfolglos. Vor dem Tanken müssten die Leitung und die Einspritzpumpe entlüftet werden. Ablagerungen sowie Kondenswasserbildung durch Temperaturschwankungen können entstehen.</answer>
   </question>
-  <question id='8543' reference='Aufgabe 54'>
+  <question id='8543' reference='54'>
     <text>Während der Fahrt lässt plötzlich die Motordrehzahl abrupt nach und der Motor geht beim Zurücklegen des Gashebels gänzlich aus. Was kann die Ursache sein?</text>
     <answer>Es ist möglicherweise ein schwimmender Fremdkörper (Leine, Trosse, Plane, Persenning o.Ä.) in den Propeller geraten und behindert bzw. blockiert ihn.</answer>
   </question>
-  <question id='8544' reference='Aufgabe 55'>
+  <question id='8544' reference='55'>
     <text>In welchen Bereichen werden an Bord Batterien eingesetzt?</text>
     <answer>Zum Starten und für das Bordnetz.</answer>
   </question>
-  <question id='8545' reference='Aufgabe 56'>
+  <question id='8545' reference='56'>
     <text>Was ist beim Laden von Batterien dringend zu beachten?</text>
     <answer>Die Batteriekästen bzw. -räume müssen ausreichend be- und entlüftet sein.</answer>
   </question>
-  <question id='8546' reference='Aufgabe 57'>
+  <question id='8546' reference='57'>
     <text>1. Was bedeutet die Angabe einer Batteriekapazität „2 x 60 Ah“? (Begründung!)
 2. Welche Nettokapazität steht in dem Fall zu Verfügung? (Begründung!)</text>
     <answer>1. Es handelt sich um 2 Batterien (Akkus) mit jeweis 60 Amperestunden, insgesamt also 120 Ah Nennkapazität.
 2. Dem entspricht eine Nettokapazität von etwa 72 Ah, da ein Akku kaum über 80 % seiner Nennkapazität geladen werden kann.</answer>
   </question>
-  <question id='8547' reference='Aufgabe 58'>
+  <question id='8547' reference='58'>
     <text>Geben Sie die benötigte Strommenge (in Amperestunden) an, um bei einer 12-Volt-Anlage zwei Verbraucher mit je 24 Watt 10 Stunden betreiben zu können (mit Angabe der Berechnung)!</text>
     <answer>Benötigte Strommenge je Verbraucher:
 24 : 12 = 2 Ampere mal Anzahl der Verbraucher mal Stunden ergibt:
 2 x 2 A x 10 h = 40 Ah.</answer>
   </question>
-  <question id='8548' reference='Aufgabe 59'>
+  <question id='8548' reference='59'>
     <text>Was könnte zu möglichen Motorschäden bis hin zum Kolbenfresser führen?</text>
     <answer>- Zu wenig Kühlwasser, Dampfblasen im Kühlwasserschauglas,
 - Kühlwassertemperatur zu hoch,
@@ -2838,150 +2838,150 @@ Beim Dieselmotor wird die angesaugte Luft hoch verdichtet und so erwärmt, dass 
 - zu wenig oder nicht geeignetes Öl,
 - fallende Drehzahl, zitternde Nadel im Drehzahlmesser, klopfende Motorgeräusche.</answer>
   </question>
-  <question id='8549' reference='Aufgabe 60'>
+  <question id='8549' reference='60'>
     <text>Wie muss Tauwerk beschaffen sein, das für Festmacherleinen, Anker- und Schlepptrossen verwendet wird?</text>
     <answer>Es muss bruchfest und elastisch sein.</answer>
   </question>
-  <question id='8550' reference='Aufgabe 61'>
+  <question id='8550' reference='61'>
     <text>Wodurch können Sie verhindern, dass Festmacherleinen durch Schamfilen in Klüsen oder an Kanten an der Pier beschädigt werden?</text>
     <answer>Durch einen gegen Verrutschen gesicherten Plastikschlauch, der über den Festmacher an der Scheuerstelle gezogen wird, hilfsweise mit Tuchstreifen.</answer>
   </question>
-  <question id='8551' reference='Aufgabe 62'>
+  <question id='8551' reference='62'>
     <text>Was müssen Sie hinsichtlich der Festigkeit bedenken, wenn Sie Leinen zusammenknoten?</text>
     <answer>Beim Knoten können Festigkeitsverluste bis zu 50 % auftreten.</answer>
   </question>
-  <question id='8552' reference='Aufgabe 63'>
+  <question id='8552' reference='63'>
     <text>Wodurch können Sie verhindern, dass bei Tauwerk aus unterschiedlichen Innen- und Außenmaterial die Seele in den Mantel rutscht?</text>
     <answer>Durch einen genähten Takling.</answer>
   </question>
-  <question id='8553' reference='Aufgabe 64'>
+  <question id='8553' reference='64'>
     <text>Wie sind längsseits liegende Fahrzeuge festzumachen? Ergänzen Sie die Skizze und benennen Sie die Leinen.</text>
     <answer>1. Achterleine,
 2. Achterspring,
 3. Vorspring,
 4. Vorleine.</answer>
   </question>
-  <question id='8554' reference='Aufgabe 65'>
+  <question id='8554' reference='65'>
     <text>Wie können Sie mit Hilfe von zwei Fendern und einem Fenderbrett Ihr Boot festmachen, wenn die Pier mit vorspringenden Pfählen versehen ist? Ergänzen Sie die Skizze mit Leinen.</text>
     <answer>(siehe Bild)</answer>
   </question>
-  <question id='8555' reference='Aufgabe 66'>
+  <question id='8555' reference='66'>
     <text>Was ist beim Reinigen eines mit Antifouling behandelten Unterwasserschiffes zu beachten?</text>
     <answer>Umweltschutzbestimmungen beachten, d.h. das Schiff nur auf einem entsprechend ausgerüsteten Reinigungsplatz abspritzen und Wasser und Schmutz auffangen, also nicht in die Kanalisation leiten.</answer>
   </question>
-  <question id='8556' reference='Aufgabe 67'>
+  <question id='8556' reference='67'>
     <text>Ein funktionsfähiges elektrisches Gerät arbeitet an Bord nicht. Nennen Sie häufige Ursachen und was kann zur Behebung getan werden?</text>
     <answer>1. Schlechte Kontakte und Korrosion.
 2. Kontakte fest anziehen, korrodierte Stellen mit feinstem Schleifpapier säubern, Kontaktspray verwenden.</answer>
   </question>
-  <question id='8557' reference='Aufgabe 68'>
+  <question id='8557' reference='68'>
     <text>Warum müssen Schäden im Gelcoat unverzüglich beseitigt werden?</text>
     <answer>Das Laminat unter der Gelcoatschicht nimmt Wasser auf und wird dadurch geschädigt.</answer>
   </question>
-  <question id='8558' reference='Aufgabe 69'>
+  <question id='8558' reference='69'>
     <text>Welche Daten sollten an Bord mindestens im Logbuch dokumentiert werden?</text>
     <answer>1. Namen und Funktionen der Crewmitglieder,
 2. Beginn und Ende einer Fahrt und
 3. in angemessenen Zeitabständen: Position, Kurs, Geschwindigkeit, Strömung, Wetter, Luftdruck.</answer>
   </question>
-  <question id='8559' reference='Aufgabe 70'>
+  <question id='8559' reference='70'>
     <text>Welche Sicherheitsmaßnahmen müssen auch bei ruhigem Wetter bei Nachtfahrten beachtet werden?</text>
     <answer>1. Bei jeder Tätigkeit an Deck Rettungswesten und Sicherheitsgurt tragen.
 2. Nur mit am Schiff eingepickter Sicherheitsleine über Deck gehen.</answer>
   </question>
-  <question id='8560' reference='Aufgabe 71'>
+  <question id='8560' reference='71'>
     <text>Was verstehen Sie unter „Radeffekt“ des Schiffspropellers (Schraube)?</text>
     <answer>„Radeffekt“ ist die seitliche Versetzung des Hecks durch die drehende Schraube.</answer>
   </question>
-  <question id='8561' reference='Aufgabe 72'>
+  <question id='8561' reference='72'>
     <text>Mit welchen 4 Angaben werden Propeller auf Yachten beschrieben?</text>
     <answer>Anzahl der Flügel, Größe ihrer Fläche, Durchmesser und Steigung.</answer>
   </question>
-  <question id='8562' reference='Aufgabe 73'>
+  <question id='8562' reference='73'>
     <text>Wie wirkt der rechts- bzw. linksdrehende Propeller auf das Schiffsheck bei Rückwärtsfahrt?</text>
     <answer>Ein rechtsdrehender Propeller versetzt das Heck bei Rückwärtsfahrt nach Backbord, ein linksdrehender nach Steuerbord.</answer>
   </question>
-  <question id='8563' reference='Aufgabe 74'>
+  <question id='8563' reference='74'>
     <text>1. Wie drehen bei einem Zweischrauber in der Regel die Propeller?
 2. Welchen manövriertechnischen Vorteil haben Yachten mit 2 Propellern?</text>
     <answer>1. Gegenläufig.
 2. Mit 2 Propellern kann man nahezu auf der Stelle drehen, indem man einen Propeller vorwärts und einen Propeller rückwärts arbeiten lässt. Die Manövrierfähigkeit wird dadurch verbessert.</answer>
   </question>
-  <question id='8564' reference='Aufgabe 75'>
+  <question id='8564' reference='75'>
     <text>Warum gibt es bei einem Zweischrauben-Schiff (in der Regel) keinen Radeffekt?</text>
     <answer>Die Drehrichtungen der Schrauben sind gegenläufig. So heben sich die jeweiligen Radeffekte gegenseitig auf.</answer>
   </question>
-  <question id='8565' reference='Aufgabe 76'>
+  <question id='8565' reference='76'>
     <text>Was ist ein Bugstrahlruder und wozu dient es?</text>
     <answer>Eine im Bug einer Yacht befindliche Röhre mit einem Propeller, mit dem ein Querschub und damit ein drehen des Buges bei geringen Vorausgeschwindigkeiten erreicht werden kann.</answer>
   </question>
-  <question id='8566' reference='Aufgabe 77'>
+  <question id='8566' reference='77'>
     <text>Wann sollte aus Gründen der Sicherheit auf Motoryachten der Außenfahrstand besetzt werden?</text>
     <answer>1. Bei verminderter Sicht zum Wahrnehmen der Schallsignale.
 2. Bei Manövern in engen Gewässern zur besseren Rundumsicht.</answer>
   </question>
-  <question id='8567' reference='Aufgabe 78'>
+  <question id='8567' reference='78'>
     <text>Warum empfiehlt sich beim Schleppen die Verwendung einer Hahnepot und wo sollte sie belegt werden?</text>
     <answer>1. Eine Hahnepot verteilt die Zugkräfte auf mehrere Belegpunkte für die Schleppleine an der Durchführung an Bug und auf den beiden Bootsseiten.
 2. Zum Belegen eignen sich zumeist kräftigere Klampen für die Vorspring auf den Bootsseiten.</answer>
   </question>
-  <question id='8568' reference='Aufgabe 79'>
+  <question id='8568' reference='79'>
     <text>Sie wollen in eine Box einlaufen. Wie bereiten Sie die Achterleinen vor und machen sie fest?</text>
     <answer>Achterleinen mit Auge versehen. Möglichst frühzeitig über die Pfähle legen, bei seitlichem Wind zuerst über den Luvpfahl.</answer>
   </question>
-  <question id='8569' reference='Aufgabe 80'>
+  <question id='8569' reference='80'>
     <text>Welche Vorbereitung haben Sie für ein Anlegemanöver zu treffen?</text>
     <answer>1. Crew für Manöver einteilen.
 2. Leinen und Fender bereitlegen.</answer>
   </question>
-  <question id='8570' reference='Aufgabe 81'>
+  <question id='8570' reference='81'>
     <text>Beschreiben Sie das Fahrmanöver mit einem Zweischrauben-Schiff bei einer Drehung auf engem Raum über Steuerbord.</text>
     <answer>Ruder hart Steuerbord, Steuerbordmaschine rückwärts, Backbordmaschine voraus.</answer>
   </question>
-  <question id='8571' reference='Aufgabe 82'>
+  <question id='8571' reference='82'>
     <text>Bei welchen Manövern können Sie ein Bugstrahlruder sinnvoll einsetzen?</text>
     <answer>1. Beim An- und Ablegen.
 2. Beim Drehen auf engem Raum.</answer>
   </question>
-  <question id='8572' reference='Aufgabe 83'>
+  <question id='8572' reference='83'>
     <text>Sie liegen längsseits mit der Steuerbordseite an einer Pier. Beschreiben Sie ein Ablegemanöver unter gleichzeitigem Einsatz von Bugstrahlruder und Maschine.</text>
     <answer>1. Hebel für Bugstrahlruder nach Backbord legen, sodass der Bug von der Pier weggedrückt wird (nach Backbord schwenkt) und gleichzeitig
 2. Ruderlage deutlich nach Steuerbord und langsame Fahrt voraus, sodass das Heck nach Backbord ausschwenkt.
 So wird das Schiff fast parallel von der Pier abgedrückt.</answer>
   </question>
-  <question id='8573' reference='Aufgabe 84'>
+  <question id='8573' reference='84'>
     <text>Warum kann das Anlaufen eines Hafens bei auflandigem Starkwind bzw. schwerem Wetter gefährlich werden?</text>
     <answer>Gefahr durch Grundseen bzw. Kreuzseen. Möglichkeit von Querstromwirbeln.</answer>
   </question>
-  <question id='8574' reference='Aufgabe 85'>
+  <question id='8574' reference='85'>
     <text>Sie werden in Küstennähe von einem Sturm überrascht. Wie verhalten Sie sich mit einer Motoryacht?</text>
     <answer>1. Möglichst rasch versuchen, Hafen oder Landschutz anzulaufen.
 2. Ggf. Motoryacht mit langsamer Fahrt gegen die See halten.
 3. Sicherheitsmaßnahmen für die Besatzung treffen.</answer>
   </question>
-  <question id='8575' reference='Aufgabe 86'>
+  <question id='8575' reference='86'>
     <text>Worauf müssen Sie achten, wenn Sie in Tidengewässern längsseits einer Pier festgemacht haben?</text>
     <answer>1. Die Wassertiefe muss auch bei Niedrigwasser ausreichen oder sicheres Aufsetzen muss gewährleistet sein.
 2. Die Leinen müssen für den Tidenstieg oder -fall ausreichend lang sein. Bei größerem Tidenhub darf das Fahrzeug keinesfalls unbeaufsichtigt bleiben.</answer>
   </question>
-  <question id='8576' reference='Aufgabe 87'>
+  <question id='8576' reference='87'>
     <text>Sie fahren bei frischem Wind und mitlaufendem Strom (Wind gegen Strom) nach Luv. Welche Auswirkungen hat ein gegen den Wind setzender Strom auf den Seegang?</text>
     <answer>Durch den Strom entsteht eine kurze, steile und kabbelige See.</answer>
   </question>
-  <question id='8577' reference='Aufgabe 88'>
+  <question id='8577' reference='88'>
     <text>Wie wirkt sich mitlaufender Strom auf die Fahrt eines Fahrzeuges und die Loganzeige aus?</text>
     <answer>1. Der Strom erhöht die Fahrt über Grund.
 2. Das Log zeigt dies nicht an.</answer>
   </question>
-  <question id='8578' reference='Aufgabe 89'>
+  <question id='8578' reference='89'>
     <text>Welcher Kurswinkel ist bei schwerer See am besten geeignet das Aufschlagen des Bootes zu verringern?</text>
     <answer>Ein Kurswinkel von 20° bis 25° bezogen auf die Seegangsrichtung ist am besten geeignet hartes Aufschlagen zu verringern.</answer>
   </question>
-  <question id='8579' reference='Aufgabe 90'>
+  <question id='8579' reference='90'>
     <text>Welche Hilfsmittel können Sie einsetzen, um einen Überbordgefallenen an Deck zu bekommen?</text>
     <answer>Bewegliche (und gesicherte) Badeleiter, beschwerte Trittschlinge, Rettungstalje, Bergegurt.</answer>
   </question>
-  <question id='8580' reference='Aufgabe 91'>
+  <question id='8580' reference='91'>
     <text>Welche Sofortmaßnahmen sind einzuleiten, wenn jemand über Bord gefallen ist?</text>
     <answer>1. Ruf: „Mensch über Bord!“,
 2. Rettungsmittel zuwerfen,
@@ -2993,13 +2993,13 @@ So wird das Schiff fast parallel von der Pier abgedrückt.</answer>
 8. ggf. MOB-Taste eines satellitengestützten Navigationsgerätes drücken,
 9. Bergung durchführen.</answer>
   </question>
-  <question id='8581' reference='Aufgabe 92'>
+  <question id='8581' reference='92'>
     <text>Welche Maßnahmen können gegen das Überbordfallen getroffen werden?</text>
     <answer>1. Sicherheitsgurte anlegen und einpicken.
 2. Anbringen von Strecktau oder Laufleinen von Bug zum Heck.
 3. Crew auf Befestigungspunkte (Einpickpunkte für Karabinerhaken) hinweisen.</answer>
   </question>
-  <question id='8582' reference='Aufgabe 93'>
+  <question id='8582' reference='93'>
     <text>Nennen Sie die grundsätzlichen Schritte und ihre Ziele zur Rettung einer über Bord gegangenen Person.</text>
     <answer>1. Maschine starten,
 2. Suche, Herstellung eines Sichtkontaktes zur über Bord gegangenen Person,
@@ -3008,12 +3008,12 @@ So wird das Schiff fast parallel von der Pier abgedrückt.</answer>
 5. Erste Hilfe, Betreuung,
 6. ggf. Notalarm abgeben.</answer>
   </question>
-  <question id='8583' reference='Aufgabe 94'>
+  <question id='8583' reference='94'>
     <text>Mit welchen Hilfsmitteln können Sie den Bezugspunkt (internationaler Begriff: Datum) für die Suche nach einem Überbordgefallenen sichern?</text>
     <answer>1. Markierungsblitzboje,
 2. MOB-Taste eines satellitengestützten Navigationsgerätes (z.B. GPS).</answer>
   </question>
-  <question id='8584' reference='Aufgabe 95'>
+  <question id='8584' reference='95'>
     <text>Was gehört u.a. zur Sicherheitsausrüstung z.B. einer 10-m-Yacht?
 Nennen Sie mindestens 6 Ausrüstungsgegenstände.</text>
     <answer>1. Lenzpumpen und Pützen,
@@ -3028,26 +3028,26 @@ Nennen Sie mindestens 6 Ausrüstungsgegenstände.</text>
 10. Radarreflektor und
 11. Rettungsmittel.</answer>
   </question>
-  <question id='8585' reference='Aufgabe 96'>
+  <question id='8585' reference='96'>
     <text>Was gehört zur Sicherheitsausrüstung der Besatzung in der Küstenfahrt?</text>
     <answer>1. Rettungsweste und Sicherheitsgurt (Lifebelt) für jedes Besatzungsmitglied,
 2. Rettungsfloß (Rettungsinsel),
 3. Rettungskragen mit Tag- und Nachtsignal und
 4. Erste-Hilfe-Ausrüstung mit Anleitung.</answer>
   </question>
-  <question id='8586' reference='Aufgabe 97'>
+  <question id='8586' reference='97'>
     <text>Wie erhalten Sie Kenntnis über das nächste Wartungsdatum eines Rettungsfloßes?</text>
     <answer>Die runde, auf der Insel klebende farbige Serviceplakette oder das bei der letzten Wartung mitgelieferte Zertifikat geben Auskunft über den nächsten Wartungstermin.</answer>
   </question>
-  <question id='8587' reference='Aufgabe 98'>
+  <question id='8587' reference='98'>
     <text>Worauf müssen Sie bei Ihren Automatikrettungswesten hinsichtlich der Funktionssicherheit achten?</text>
     <answer>Auf regelmäßige Wartung. Wartungsfälligkeit erkennbar an der farbigen Serviceplakette.</answer>
   </question>
-  <question id='8588' reference='Aufgabe 99'>
+  <question id='8588' reference='99'>
     <text>Was ist auf Deck einer Yacht ein Strecktau (auch Laufleine genannt) und wozu dient es?</text>
     <answer>Ein neben der Fußreling verlaufender Dreht, Gurt oder eine starke Leine zwischen Cockpit und Vorschiff straff gespannt zum Einpicken der Sicherheitsleine (Lifebelts).</answer>
   </question>
-  <question id='8589' reference='Aufgabe 100'>
+  <question id='8589' reference='100'>
     <text>Welche Seenotsignalmittel sollten Sie an Bord haben? Nennen Sie mindestens 6 Beispiele.</text>
     <answer>1. Handfackeln, rot,
 2. Handraketen, rot,
@@ -3058,26 +3058,26 @@ Nennen Sie mindestens 6 Ausrüstungsgegenstände.</text>
 7. Signallampe,
 8. Seenotfunkboje.</answer>
   </question>
-  <question id='8590' reference='Aufgabe 101'>
+  <question id='8590' reference='101'>
     <text>Welche Feuerlöscheinrichtungen sollten an Bord sein?</text>
     <answer>1. Feuerlöscher (ABC-Pulverlöscher und eventuell CO2-Löscher),
 2. Pütz zum Löschen von Bränden fester Stoffe,
 3. Feuerlöschdecke,
 4. Löschdurchlass für geschlossene Motorräume, der das Löschen von Bränden mit CO2-Löschern ohne Sauerstoffzutritt ermöglicht.</answer>
   </question>
-  <question id='8591' reference='Aufgabe 102'>
+  <question id='8591' reference='102'>
     <text>Welche Feuerlöscharten sind für Sportboote geeignet?
 Wie und wo sind sie an Bord unterzubringen?</text>
     <answer>1. Der ABC-Pulverlöscher, für geschlossene Motorräume der CO2-Löscher.
 2. Der Feuerlöscher muss gebrauchsfertig und leicht erreichbar sein, CO2-Löscher nicht im Schiffsinneren unterbringen (Erstickungsgefahr bei Leckage).
 3. Er soll in der Nähe der Maschinenräume, der Kombüse sowie der Koch- oder Heizstelle montiert sein.</answer>
   </question>
-  <question id='8592' reference='Aufgabe 103'>
+  <question id='8592' reference='103'>
     <text>Wie wird die ständige Funktionssicherheit eines Feuerlöschers sichergestellt?</text>
     <answer>1. Durch Einhaltung des vorgeschriebenen Prüftermins, ersichtlich aus der Prüfplakette.
 2. Der Feuerlöscher muss vor Feuchtigkeit und Korrosion geschützt werden.</answer>
   </question>
-  <question id='8593' reference='Aufgabe 104'>
+  <question id='8593' reference='104'>
     <text>Wie wird ein Brand an Bord wirksam bekämpft?</text>
     <answer>1. Alle Öffnungen schließen,
 2. Brennstoffzufuhr (Hauptschalter) unterbrechen,
@@ -3086,7 +3086,7 @@ Wie und wo sind sie an Bord unterzubringen?</text>
 5. Löschdecke einsetzen,
 6. Flüssigkeitsbrände nicht mit Wasser bekämpfen.</answer>
   </question>
-  <question id='8594' reference='Aufgabe 105'>
+  <question id='8594' reference='105'>
     <text>Was ist vor Reisebeginn beim Seeklarmachen zu überprüfen und zu beachten? Nennen Sie mindestens 6 Beispiele.</text>
     <answer>1. Seetüchtigkeit der Yacht,
 2. Treibstoffvorrat,
@@ -3101,7 +3101,7 @@ Wie und wo sind sie an Bord unterzubringen?</text>
 11. Feuerlöscher,
 12. Boots- und Personalpapiere.</answer>
   </question>
-  <question id='8595' reference='Aufgabe 106'>
+  <question id='8595' reference='106'>
     <text>Was gehört zur Sicherheitseinweisung der gesamten Besatzung vor Reisebeginn? Nennen Sie mindestes 6 Beispiele.</text>
     <answer>Einweisung in Gebrauch und Bedienung
 1. der Rettungswesten und Sicherheitsgurte,
@@ -3117,7 +3117,7 @@ Wie und wo sind sie an Bord unterzubringen?</text>
 11. Verhalten bei „Mensch-über-Bord“,
 12. Erkennen der Seekrankheit und entsprechendes Verhalten.</answer>
   </question>
-  <question id='8596' reference='Aufgabe 107'>
+  <question id='8596' reference='107'>
     <text>In welche technischen Einrichtungen/Ausrüstungen muss der Schiffsführer die Besatzung vor Reiseantritt unbedingt einweisen? Nennen Sie mindestens 6 Beispiele.</text>
     <answer>1. Ankergeschirr,
 2. Lenzeinrichtung,
@@ -3129,7 +3129,7 @@ Wie und wo sind sie an Bord unterzubringen?</text>
 8. Seenotsignalmittel,
 9. Notrudereinrichtung.</answer>
   </question>
-  <question id='8597' reference='Aufgabe 108'>
+  <question id='8597' reference='108'>
     <text>Welche Sicherheitsmaßnahmen sind vor jedem Auslaufen durchzuführen?
 Nennen Sie mindestens 6 Beispiele.</text>
     <answer>1. Wetterbericht einholen,
@@ -3142,19 +3142,19 @@ Nennen Sie mindestens 6 Beispiele.</text>
 8. Kontrolle der Navigationslichter,
 9. Bereitlegen der aktuellen Seekarten und nautischen Veröffentlichtungen.</answer>
   </question>
-  <question id='8598' reference='Aufgabe 109'>
+  <question id='8598' reference='109'>
     <text>Warum sollten alle Crewmitglieder Lage und Funktion sämtlicher Pumpen und Ventile kennen?</text>
     <answer>Damit im Bedarfsfall sie jeder bedienen kann.</answer>
   </question>
-  <question id='8599' reference='Aufgabe 110'>
+  <question id='8599' reference='110'>
     <text>Warum sollte die Crew in die Funktion des Bord-WC eingewiesen werden?</text>
     <answer>Weil durch unsachgemäße Bedienung Wasser ins Bootsinnere gelangen kann.</answer>
   </question>
-  <question id='8600' reference='Aufgabe 111'>
+  <question id='8600' reference='111'>
     <text>Warum sollte die Crew vor Reisebeginn in die Funktion des Ankergeschirrs und die Durchführung eines Ankermanövers eingewiesen werden?</text>
     <answer>Damit jeder den Anker sicher ausbringen und einholen kann.</answer>
   </question>
-  <question id='8601' reference='Aufgabe 112'>
+  <question id='8601' reference='112'>
     <text>Wie verhalten Sie sich, wenn Ihr Schiff leckgeschlagen ist?</text>
     <answer>1. Meldung abgeben.
 2. Je nach Erfordernissen Fahrt aus dem Schiff nehmen.
@@ -3162,18 +3162,18 @@ Nennen Sie mindestens 6 Beispiele.</text>
 4. Küste bzw. flaches Wasser ansteuern.
 5. Fahrzeug so trimmen, dass Leckstelle aus dem Wasser kommt bzw. möglichst wenig unter Wasser ist.</answer>
   </question>
-  <question id='8602' reference='Aufgabe 113'>
+  <question id='8602' reference='113'>
     <text>Was tun Sie, wenn Ihr Schiff leckgeschlagen ist und das Wasser im Schiff trotz aller Maßnahmen weiter steigt?</text>
     <answer>1. Notzeichen geben, Funkmeldung abgeben, ggf. Radartransponder einschalten.
 2. Verlassen des Bootes vorbereiten, Rettungswesten anlegen, Rettungsfloß klarmachen.
 3. Wenn möglich, ruhiges Flachwasser anlaufen und Schiff auf Grund setzen.</answer>
   </question>
-  <question id='8603' reference='Aufgabe 114'>
+  <question id='8603' reference='114'>
     <text>Welche Folgen können Grundberührungen und harte Stöße, z.B. bei Anlegemanövern oder Kollisionen mit treibenden Gegenständen, haben?</text>
     <answer>1. Eine Beschädigung der Bordwand kann eintreten.
 2. Es kann Sinkgefahr entstehen.</answer>
   </question>
-  <question id='8604' reference='Aufgabe 115'>
+  <question id='8604' reference='115'>
     <text>Welche grundsätzliche Verhaltensweise sollte beachtet und welche Maßnahmen sollten ergriffen werden, wenn Ihr Schiff in Seenot kommt?</text>
     <answer>1. Ruhe bewahren und überlegt handeln.
 2. Notalarm abgeben, ggf. Radartransponder einschalten.
@@ -3182,50 +3182,50 @@ Nennen Sie mindestens 6 Beispiele.</text>
 5. So lange wie möglich an Bord bleiben.
 6. Wärmende Kleidung anziehen.</answer>
   </question>
-  <question id='8605' reference='Aufgabe 116'>
+  <question id='8605' reference='116'>
     <text>Welche Maßnahmen treffen Sie, bevor Sie von Ihrem Fahrzeug in ein Rettungsfloß übersteigen?</text>
     <answer>1. Rettungsweste und Sicherheitsgurt anlegen.
 2. Wärmende Kleidung anziehen.
 3. Nach Möglichkeit vorher reichlich warme Flüssigkeit trinken.
 4. Soweit noch nicht geschehen, Proviant, Wasser, Seenotsignalmittel und ggf. Seenotfunkbake, Radartransponder und UKW-Handsprechfunkgeräte in das Rettungsfloß bringen.</answer>
   </question>
-  <question id='8606' reference='Aufgabe 117'>
+  <question id='8606' reference='117'>
     <text>Warum sollte ein sinkendes Schiff im Notfall so spät wie möglich verlassen werden?</text>
     <answer>1. Die Überlebensmöglichkeiten sind auf dem Schiff größer.
 2. Ein Schiff ist besser zu orten.
 3. Einstieg in das Rettungsfloß und Aufenthalt können sehr schwierig sein.</answer>
   </question>
-  <question id='8607' reference='Aufgabe 118'>
+  <question id='8607' reference='118'>
     <text>Erklären Sie die Handhabung der Hubschrauberrettungsschlinge im Einsatz!</text>
     <answer>1. Bei offener Rettungsschlinge: zuerst den Karabinerhaken einpicken.
 2. Mit dem Kopf und beiden Armen in die Rettungsschlinge einsteigen.
 3. Die arme müssen nach unten gedrückt werden und die Hände sind zu schließen.
 4. Das Windenseil muss frei hängen, es darf nicht an Bord befestigt werden.</answer>
   </question>
-  <question id='8608' reference='Aufgabe 119'>
+  <question id='8608' reference='119'>
     <text>Wann dürfen Notzeichen gegeben werden?</text>
     <answer>Nach Feststellung des Notfalles auf Anordnung des Schiffsführers; bei unmittelbarer Gefahr für das Schiff oder die Besatzung, die ohne fremde Hilfe nicht überwunden werden kann.</answer>
   </question>
-  <question id='8609' reference='Aufgabe 120'>
+  <question id='8609' reference='120'>
     <text>Wann darf ein UKW-Sprechfunkgerät auch ohne entsprechenden Befähigungsnachweis benutzt werden?</text>
     <answer>In Notfällen.</answer>
   </question>
-  <question id='8610' reference='Aufgabe 121'>
+  <question id='8610' reference='121'>
     <text>Worauf ist zu achten, wenn Crewmitglieder seekrank sind?</text>
     <answer>1. Aufenthalt im Cockpit beaufsichtigen und Crewmitglieder gegen Überbordfallen sichern,
 2. Flüssigkeitsverlust ausgleichen (Wasser),
 3. Crewmitglied anhalten, zur Küste oder zum Horizont zu schauen,
 4. mit Arbeiten beschäftigen.</answer>
   </question>
-  <question id='8611' reference='Aufgabe 122'>
+  <question id='8611' reference='122'>
     <text>Wozu dient ein Reitgewicht (Gleitgewicht, Ankergewicht) beim Ankern?</text>
     <answer>Es soll die Ankertrosse auf den Grund ziehen, damit der Anker nicht durch einen zu steilen Winkel aus dem Grund gebrochen wird. Es wirkt ruckdämpfend.</answer>
   </question>
-  <question id='8612' reference='Aufgabe 123'>
+  <question id='8612' reference='123'>
     <text>Warum sollte beim Verwenden einer Ankertrosse ein Kettenvorlauf benutzt werden?</text>
     <answer>Damit der Zug auf den Anker nicht zu steil wird.</answer>
   </question>
-  <question id='8613' reference='Aufgabe 124'>
+  <question id='8613' reference='124'>
     <text>Welcher Ankergrund ist für die üblichen Leichtgewichtsanker
 1. gut geeignet?
 2. mäßig geeignet?
@@ -3234,80 +3234,80 @@ Nennen Sie mindestens 6 Beispiele.</text>
 2. harter Ton und Lehm,
 3. steinige, verkrautete und stark schlammige Böden.</answer>
   </question>
-  <question id='8614' reference='Aufgabe 125'>
+  <question id='8614' reference='125'>
     <text>Was müssen Sie bei der Auswahl eines Ankerplatzes beachten?</text>
     <answer>1. Der Ankerplatz sollte Schutz vor Wind und Wellen bieten.
 2. Auf ausreichenden Platz zum Schwojen achten.
 3. Mögliche Winddrehungen einplanen.</answer>
   </question>
-  <question id='8615' reference='Aufgabe 126'>
+  <question id='8615' reference='126'>
     <text>Welchen Ankergrund sollten Sie nach Möglichkeit meiden?</text>
     <answer>Steinige, verkrautete und stark schlammige Böden.</answer>
   </question>
-  <question id='8616' reference='Aufgabe 127'>
+  <question id='8616' reference='127'>
     <text>Wie können Sie die Haltekraft eines Ankers erhöhen, wenn Sie auf engem Raum (z.B. zwischen zwei Stegen) nicht die erforderliche Kettenlänge stecken können?</text>
     <answer>Mit einem Reitgewicht, um so den Anker besser am Boden zu halten.</answer>
   </question>
-  <question id='8617' reference='Aufgabe 128'>
+  <question id='8617' reference='128'>
     <text>Sie ankern in einer Bucht. Wie können Sie bei zunehmendem Wind die Haltekraft Ihres Ankers verbessern?</text>
     <answer>1. Mehr Trosse oder Kette stecken,
 2. Reitgewicht verwenden.</answer>
   </question>
-  <question id='8618' reference='Aufgabe 129'>
+  <question id='8618' reference='129'>
     <text>Sie wollen auf verkrautetem Grund ankern. Ihnen steht ein Leichtgewichtsanker und ein Stockanker zur Verfügung. Welchen Benutzen Sie und warum?</text>
     <answer>Den Stockanker, weil er sich insbesondere auch aufgrund seines höheren Gewichtes besser eingräbt.</answer>
   </question>
-  <question id='8619' reference='Aufgabe 130'>
+  <question id='8619' reference='130'>
     <text>Wozu dient eine Ankerboje?</text>
     <answer>1. Sie zeigt die Lage des Ankers an.
 2. Mit der Trippleine kann das Bergen eines unklaren Ankers unterstützt werden.</answer>
   </question>
-  <question id='8620' reference='Aufgabe 131'>
+  <question id='8620' reference='131'>
     <text>Wie erkennen Sie, ob der Anker hält?</text>
     <answer>1. Vibration von Kette oder Trosse prüfen,
 2. Einrucken des Ankers prüfen,
 3. durch wiederholte Peilungen und ggf. Schätzungen des Abstands zu anderen Schiffen oder zu Landmarken,
 4. falls GPS vorhanden ist, die Ankeralarmfunktion einschalten.</answer>
   </question>
-  <question id='8621' reference='Aufgabe 132'>
+  <question id='8621' reference='132'>
     <text>Welche Ankerarten finden überwiegend auf Sportbooten Verwendung? Nennen Sie 3.</text>
     <answer>1. Patentanker,
 2. Stockanker (einklappbarer Stock),
 3. Draggen (klappbare Flunken),
 4. Pflugscharanker.</answer>
   </question>
-  <question id='8622' reference='Aufgabe 133'>
+  <question id='8622' reference='133'>
     <text>Nennen Sie 3 Ankertypen, die vom Germanischen Lloyd als Anker mit hoher Haltekraft anerkannt sind.</text>
     <answer>Bruce-Anker, CQR-Anker, Danforth-Anker, D'Hone-Anker.</answer>
   </question>
-  <question id='8623' reference='Aufgabe 134'>
+  <question id='8623' reference='134'>
     <text>1. Welches sind die Vorteile einer Ankerkette gegenüber einer Ankerleine?
 2. Wie kombiniert man auf Yachten häufig die Systeme?</text>
     <answer>1. Die Kette unterstützt das Eingraben, verkleinert den Schwojeraum, wirkt ruckdämpfend, kann nicht an Steinen durchscheuern und erhöht die Haltekraft des Ankers.
 2. Es wird zwischen Anker und Leine ein Kettenvorlauf von 3 bis 5 m gefahren.</answer>
   </question>
-  <question id='8624' reference='Aufgabe 135'>
+  <question id='8624' reference='135'>
     <text>1. Warum soll eine Ankerleine nicht an den Anker geknotet werden?
 2. Warum muss die Ankerkette mit einem Taustropp am Schiff bzw. im Kettenkasten befestigt werden?</text>
     <answer>1. Knoten reduzieren die Bruchlast einer leine um bis zu 50 %.
 2. Damit die Kette im Notfall schnell gekappt werden kann.</answer>
   </question>
-  <question id='8625' reference='Aufgabe 136'>
+  <question id='8625' reference='136'>
     <text>Sie wollen in einer Bucht ankern, in der das (ausreichend tiefe) Wasser unterschiedliche Färbungen zeigt. Wo wählen Sie den Ankerplatz? (Begründung!)</text>
     <answer>Ich ankere auf hellem Wasser. Begründung: Der Grund ist hier sandig, der Anker hält gut. Dunkler Grund weist auf Bewuchs hin, wo der Anker schlecht hält.</answer>
   </question>
-  <question id='8626' reference='Aufgabe 137'>
+  <question id='8626' reference='137'>
     <text>Warum darf der Anker nicht zusammen mit seiner Leine am Ankerplatz über Bord geworfen werden?</text>
     <answer>Die Leine könnte mit dem Anker vertörnen und dadurch das Eingraben des Ankers verhindern. Der Anker würde dann nicht halten.</answer>
   </question>
-  <question id='8627' reference='Aufgabe 138'>
+  <question id='8627' reference='138'>
     <text>Beschreiben Sie die Vorbereitung eines Ankermanövers.</text>
     <answer>- Auswählen eines geeigneten Ankerplatzes anhand der Seekarte bzw. des Seehandbuches (Meeresgrund/Wassertiefe geeignet?),
 - Ermitteln der Wind- und/oder Stromrichtung und -stärke,
 - Klarmachen des Ankergeschirrs und des Ankersignals,
 - mit langsamster Fahrt – Kurs gegen Strom bzw. Wind – den Ankerplatz ansteuern.</answer>
   </question>
-  <question id='8628' reference='Aufgabe 139'>
+  <question id='8628' reference='139'>
     <text>Beschreiben Sie wichtige Elemente eines Ankermanövers.</text>
     <answer>- Geeigneten Ankerplatz festlegen/planen,
 - Ansteuerung planen (in der Regel gegen Wind und/oder Strom),
@@ -3316,35 +3316,35 @@ Nennen Sie mindestens 6 Beispiele.</text>
 - Ankerball/Ankerlicht setzen,
 - Ankerposition feststellen, dokumentieren und ansreichend kontrollieren.</answer>
   </question>
-  <question id='8629' reference='Aufgabe 140'>
+  <question id='8629' reference='140'>
     <text>Was müssen Sie bedenken, wenn ein großes Schiff auf Ihr Sportboot zukommt?</text>
     <answer>1. Andere Manövrierfähigkeit (größere Drehkreise, längere Stoppstrecken),
 2. u.U. eingeschränkte Sicht des anderen Fahrzeugs, insbesondere nach voraus,
 3. Möglichkeit des Übersehenwerdens, weil man sich im Radarschatten befindet,
 4. Beeinträchtigung durch Bugwellen des großen Schiffes.</answer>
   </question>
-  <question id='8630' reference='Aufgabe 141'>
+  <question id='8630' reference='141'>
     <text>Warum sollten Sie nicht zu dicht hinter dem Heck eines vorbeifahrenden Schiffes durchfahren?</text>
     <answer>Sog und Hecksee können das eigene Boot erheblich gefährden.</answer>
   </question>
-  <question id='8631' reference='Aufgabe 142'>
+  <question id='8631' reference='142'>
     <text>Was müssen Sie beim Passieren eines großen Schiffes bei dessen Kursänderungen, z.B. in einem kurvenreichen Fahrwasser, beachten?</text>
     <answer>Bei einer Kursänderung schwenkt das Heck deutlich in die entgegengesetzte Richtung aus, also nach Backbord bei einer Kursänderung nach Steuerbord und umgekehrt.</answer>
   </question>
-  <question id='8632' reference='Aufgabe 143'>
+  <question id='8632' reference='143'>
     <text>Mit welchen Stoppstrecken und Stoppzeiten müssen Sie bei großen Schiffen in voller Fahrt rechnen und wovon hängen sie ab?</text>
     <answer>Abhängig von Schiffstyp und -größe, Beladungszustand und Ausgangsgeschwindigkeit ist mit der 8- bis 12-fachen Schiffslänge und bis zu 8 bis 12 Minuten Dauer (z.B. ein 300 m langes Containerschiff voll abgeladen mit 24 kn: Stoppstrecke ca. 2 sm, Stoppzeit ca. 12 Minuten) zu rechnen.</answer>
   </question>
-  <question id='8633' reference='Aufgabe 144'>
+  <question id='8633' reference='144'>
     <text>Wie reagiert ein großes Schiff, wenn bei ca. 20 kn Fahrt ein Ausweichmanöver durch Hartruderlage eingeleitet wird?
 Nach welcher Distanz verlässt es in etwa die alte Kurslinie?</text>
     <answer>Der Steven bewegt sich in Richtung der Hartruderlage, das Heck schlägt relativ weit zur entgegengesetzten Richtung aus. Das Schiff verlässt mit seinem Heck erst nach mehreren Schiffslängen seine bisherige Kurslinie, bewegt sich also zunächst in der alten Kursrichtung fort. Diese Strecke kann bei 300 m langen Containerschiffen 1,5 bis 2,5 Schiffslängen, d.h. ca. 500 bis 600 m betragen.</answer>
   </question>
-  <question id='8634' reference='Aufgabe 145'>
+  <question id='8634' reference='145'>
     <text>Auf vielen großen Schiffen ist die Sicht nach vorne eingeschränkt. Welchen Abstand vor einem Schiff müssen Sie als nicht einsehbar mindestens berücksichtigen?</text>
     <answer>Sichtbeschränkung nach voraus maximal 2 Schiffslängen oder 500 m.</answer>
   </question>
-  <question id='8635' reference='Aufgabe 146'>
+  <question id='8635' reference='146'>
     <text>Wie können Sie die Wahrscheinlichkeit erhöhen, im Radar von anderen Fahrzeugen gesehen zu werden?</text>
     <answer>Durch einen möglichst hoch und fest angebrachten passiven Radarreflektor bzw. besser noch durch einen „aktiven“ Radarreflektor.</answer>
   </question>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SKS Trainer</string>
-    <string name="infoMessage">This App contains the questions for the German Long Range Certificate exam starting at October 2011.</string>
+    <string name="infoMessage">This App contains the questions for the German Sportküstenschifferschein (SKS) exam starting at 2007.</string>
     <string name="selectTopic">Please select a topic:</string>
     <string name="showAnswerButtonText">Show answer</string>
     <string name="waitBeforeContinue">Please wait before you continue to learn…</string>
@@ -14,4 +14,8 @@
     <string name="right">Correct!</string>
     <string name="done">done</string>
     <string name="answer">Answer:</string>
+    <string name="answeredCorrect">Correct</string>
+    <string name="answeredIncorrect">Incorrect</string>
+    <string name="firstPass">First Pass</string>
+    <string name="secondPass">Second Pass</string>
 </resources>

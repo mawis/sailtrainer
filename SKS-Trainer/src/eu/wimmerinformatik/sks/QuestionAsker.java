@@ -13,10 +13,13 @@ import eu.wimmerinformatik.sks.data.QuestionSelection;
 import eu.wimmerinformatik.sks.data.Repository;
 import eu.wimmerinformatik.sks.R;
 import android.app.Activity;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -28,6 +31,8 @@ import android.widget.TextView;
 public class QuestionAsker extends Activity {
 	private Repository repository;
 	private int currentQuestion;
+	private int maxProgress;
+	private int currentProgress;
 	private int topicId;
 	private int correctChoice;
 	private Drawable defaultBackground;
@@ -54,6 +59,8 @@ public class QuestionAsker extends Activity {
 		
 		outState.putBoolean(getClass().getName() + ".showingCorrectAnswer", showingCorrectAnswer);
 		outState.putInt(getClass().getName() + ".currentQuestion", currentQuestion);
+		outState.putInt(getClass().getName() + ".maxProgress", maxProgress);
+		outState.putInt(getClass().getName() + ".currentProgress", currentProgress);
 		outState.putLong(getClass().getName() + ".topic", topicId);
 		if (nextTime != null) {
 			outState.putLong(getClass().getName() + ".nextTime", nextTime.getTime());
@@ -74,6 +81,8 @@ public class QuestionAsker extends Activity {
         	final long nextTimeLong = savedInstanceState.getLong(getClass().getName()+".nextTime");
         	nextTime = nextTimeLong > 0L ? new Date(nextTimeLong) : null;
         	showingCorrectAnswer = savedInstanceState.getBoolean(getClass().getName()+".showingCorrectAnswer");
+        	maxProgress = savedInstanceState.getInt(getClass().getName() + ".maxProgress");
+        	currentProgress = savedInstanceState.getInt(getClass().getName() + ".currentProgress");
         	
         	showQuestion();
         } else {
@@ -88,9 +97,6 @@ public class QuestionAsker extends Activity {
         setContentView(R.layout.question_asker);
         showingStandardView = true;
         showingCorrectAnswer = false;
-
-		ProgressBar progress = (ProgressBar) findViewById(R.id.progressBar1);
-		progress.setMax(2);
 	
 		final Button contButton = (Button) findViewById(R.id.showAnswerButton);
         contButton.setOnClickListener(new View.OnClickListener() {
@@ -119,6 +125,8 @@ public class QuestionAsker extends Activity {
 		final int selectedQuestion = nextQuestion.getSelectedQuestion();
 		if (selectedQuestion != 0) {
 			currentQuestion = selectedQuestion;
+			maxProgress = nextQuestion.getMaxProgress();
+			currentProgress = nextQuestion.getCurrentProgress();
 			nextTime = null;
 			showQuestion();
 			return;
@@ -178,6 +186,10 @@ public class QuestionAsker extends Activity {
 			
 			final Question question = repository.getQuestion(currentQuestion);
 			
+			final TextView levelText = (TextView) findViewById(R.id.answerLevelText);
+			levelText.setText(question.getLevel() == 0 ? getString(R.string.firstPass) :
+				question.getLevel() == 1 ? getString(R.string.secondPass) : "");
+			
 			final TextView textView = (TextView) findViewById(R.id.answerTextViewFrage);
 			textView.setText(question.getQuestionText());
 			
@@ -185,8 +197,8 @@ public class QuestionAsker extends Activity {
 			answerView.setText(question.getAnswer());
 			
 			final ProgressBar progressBar = (ProgressBar) findViewById(R.id.answerProgressBar);
-			progressBar.setMax(2);
-			progressBar.setProgress(question.getLevel());
+			progressBar.setMax(maxProgress);
+			progressBar.setProgress(currentProgress);
 			
 			final Button correctButton = (Button) findViewById(R.id.buttonCorrect);
 			correctButton.setOnClickListener(new View.OnClickListener() {
@@ -206,17 +218,151 @@ public class QuestionAsker extends Activity {
 				}
 			});
 			
+			// remove previous question image if any
+			final LinearLayout linearLayout = (LinearLayout) findViewById(R.id.answerLinearLayout);
+			for (int i = linearLayout.getChildCount() - 1; i >= 0; i--) {
+				final View childAtIndex = linearLayout.getChildAt(i);
+				if (childAtIndex instanceof ImageView) {
+					linearLayout.removeViewAt(i);
+				}
+			}
+			
+			final ImageView answerImage = getAnswerImage();
+			if (answerImage != null) {
+				linearLayout.addView(answerImage, 4);
+			}
+			
+			final ImageView questionImage = getQuestionImage();
+			if (questionImage != null) {
+				linearLayout.addView(questionImage, 2);
+			}
+			
 			return;
 		}
 		
 		final Question question = repository.getQuestion(currentQuestion);
+		
+		final TextView levelText = (TextView) findViewById(R.id.levelText);
+		levelText.setText(question.getLevel() == 0 ? getString(R.string.firstPass) :
+			question.getLevel() == 1 ? getString(R.string.secondPass) : "");
 
 		final TextView textView = (TextView) findViewById(R.id.textViewFrage);
         
 		textView.setText(question.getQuestionText());
 		
 		final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar1);
-		progressBar.setProgress(question.getLevel());
+		progressBar.setMax(maxProgress);
+		progressBar.setProgress(currentProgress);
+		
+		// remove previous question image if any
+		final LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayout1);
+		for (int i = 0; i < linearLayout.getChildCount(); i++) {
+			final View childAtIndex = linearLayout.getChildAt(i);
+			if (childAtIndex instanceof ImageView) {
+				linearLayout.removeViewAt(i);
+				break;
+			}
+		}
+		
+		final ImageView questionImage = getQuestionImage();
+		if (questionImage != null) {
+			linearLayout.addView(questionImage, 2);
+		}
+	}
+	
+	private ImageView getAnswerImage() {
+		int imageResourceId = -1;
+		switch (currentQuestion) {
+		case 1313:
+			imageResourceId = R.drawable.sm_answer41;
+			break;
+		case 1350:
+			imageResourceId = R.drawable.sm_answer78;
+			break;
+		case 1351:
+			imageResourceId = R.drawable.sm_answer79;
+			break;
+		case 1376:
+			imageResourceId = R.drawable.sm_answer104;
+			break;
+		case 8553:
+			imageResourceId = R.drawable.smii_answer64;
+			break;
+		case 8554:
+			imageResourceId = R.drawable.smii_answer65;
+			break;
+		default:
+			return null;
+		}
+		
+		final ImageView image = new ImageView(this);
+		image.setBackgroundColor(Color.WHITE);
+		image.setImageResource(imageResourceId);
+		return image;
+	}
+	
+	private ImageView getQuestionImage() {
+		int imageResourceId = -1;
+		switch (currentQuestion) {
+		case 1025:
+			imageResourceId = R.drawable.sr19;
+			break;
+		case 1079:
+			imageResourceId = R.drawable.sr19;
+			break;
+		case 1081:
+			imageResourceId = R.drawable.sr21;
+			break;
+		case 1082:
+			imageResourceId = R.drawable.sr22;
+			break;
+		case 1083:
+			imageResourceId = R.drawable.sr23;
+			break;
+		case 1109:
+			imageResourceId = R.drawable.sr49;
+			break;
+		case 1111:
+			imageResourceId = R.drawable.sr51;
+			break;
+		case 1137:
+			imageResourceId = R.drawable.sr77;
+			break;
+		case 1138:
+			imageResourceId = R.drawable.sr78;
+			break;
+		case 1142:
+			imageResourceId = R.drawable.sr82;
+			break;
+		case 1204:
+			imageResourceId = R.drawable.w33;
+			break;
+		case 1205:
+			imageResourceId = R.drawable.w34;
+			break;
+		case 1350:
+			imageResourceId = R.drawable.sm78;
+			break;
+		case 1351:
+			imageResourceId = R.drawable.sm79;
+			break;
+		case 1376:
+			imageResourceId = R.drawable.sm104;
+			break;
+		case 8553:
+			imageResourceId = R.drawable.smii64;
+			break;
+		case 8554:
+			imageResourceId = R.drawable.smii65;
+			break;
+		default:
+			return null;
+		}
+		
+		final ImageView image = new ImageView(this);
+		image.setBackgroundColor(Color.WHITE);
+		image.setImageResource(imageResourceId);
+		return image;
 	}
 	
 	private void showNextQuestionAt(final Date when) {
