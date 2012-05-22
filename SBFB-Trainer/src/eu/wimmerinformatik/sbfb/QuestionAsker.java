@@ -20,6 +20,8 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -272,7 +274,78 @@ public class QuestionAsker extends Activity {
 
 		final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar1);
 		progressBar.setProgress(question.getLevel());
+		
+        // remove previous question image if any
+        final LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayout1);
+        for (int i = 0; i < linearLayout.getChildCount(); i++) {
+            final View childAtIndex = linearLayout.getChildAt(i);
+            if (childAtIndex instanceof ImageView) {
+                linearLayout.removeViewAt(i);
+                break;
+            }
+        }
+
+        final ImageView questionImage = getQuestionImage();
+        if (questionImage != null) {
+            linearLayout.addView(questionImage, 2);
+        }
+
 	}
+	
+    private ImageView getQuestionImage() {
+        int imageResourceId = -1;
+        switch (currentQuestion) {
+        case 8961:
+        	imageResourceId = R.drawable.q17;
+        	break;
+        case 8962:
+        	imageResourceId = R.drawable.q18;
+        	break;
+        case 8963:
+        	imageResourceId = R.drawable.q19;
+        	break;
+        case 8964:
+        	imageResourceId = R.drawable.q20;
+        	break;
+        case 8965:
+        	imageResourceId = R.drawable.q21;
+        	break;
+        case 8966:
+        	imageResourceId = R.drawable.q22;
+        	break;
+        case 8967:
+        	imageResourceId = R.drawable.q23;
+        	break;
+        case 8968:
+        	imageResourceId = R.drawable.q24;
+        	break;
+        case 8969:
+        	imageResourceId = R.drawable.q25;
+        	break;
+        case 8970:
+        	imageResourceId = R.drawable.q26;
+        	break;
+        case 8971:
+        	imageResourceId = R.drawable.q27;
+        	break;
+        case 8972:
+        	imageResourceId = R.drawable.q28;
+        	break;
+        case 8973:
+        	imageResourceId = R.drawable.q29;
+        	break;
+        case 8974:
+        	imageResourceId = R.drawable.q30;
+        	break;
+        default:
+            return null;
+        }
+
+        final ImageView image = new ImageView(this);
+        image.setBackgroundColor(Color.WHITE);
+        image.setImageResource(imageResourceId);
+        return image;
+    }
 	
 	private void showNextQuestionAt(final Date when) {
 		scheduleTask(new TimerTask() {
