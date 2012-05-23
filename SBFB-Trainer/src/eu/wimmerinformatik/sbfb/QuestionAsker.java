@@ -337,6 +337,156 @@ public class QuestionAsker extends Activity {
         case 8974:
         	imageResourceId = R.drawable.q30;
         	break;
+        case 9052:
+        	imageResourceId = R.drawable.q107;
+        	break;
+        case 9053:
+        	imageResourceId = R.drawable.q108;
+        	break;
+        case 9055:
+        	imageResourceId = R.drawable.q110;
+        	break;
+        case 9056:
+        	imageResourceId = R.drawable.q111;
+        	break;
+        case 9057:
+        	imageResourceId = R.drawable.q112;
+        	break;
+        case 9058:
+        	imageResourceId = R.drawable.q113;
+        	break;
+        case 9059:
+        	imageResourceId = R.drawable.q114;
+        	break;
+        case 9060:
+        	imageResourceId = R.drawable.q115;
+        	break;
+        case 9061:
+        	imageResourceId = R.drawable.q116;
+        	break;
+        case 9065:
+        	imageResourceId = R.drawable.q120;
+        	break;
+        case 9066:
+        	imageResourceId = R.drawable.q121;
+        	break;
+        case 9067:
+        	imageResourceId = R.drawable.q122;
+        	break;
+        case 9068:
+        	imageResourceId = R.drawable.q123;
+        	break;
+        case 9069:
+        	imageResourceId = R.drawable.q124;
+        	break;
+        case 9070:
+        	imageResourceId = R.drawable.q125;
+        	break;
+        case 9072:
+        	imageResourceId = R.drawable.q127;
+        	break;
+        case 9074:
+        	imageResourceId = R.drawable.q129;
+        	break;
+        case 9076:
+        	imageResourceId = R.drawable.q131;
+        	break;
+        case 9077:
+        	imageResourceId = R.drawable.q132;
+        	break;
+        case 9090:
+        	imageResourceId = R.drawable.q145;
+        	break;
+        case 9091:
+        	imageResourceId = R.drawable.q146;
+        	break;
+        case 9092:
+        	imageResourceId = R.drawable.q147;
+        	break;
+        case 9093:
+        	imageResourceId = R.drawable.q148;
+        	break;
+        case 9094:
+        	imageResourceId = R.drawable.q149;
+        	break;
+        case 9095:
+        	imageResourceId = R.drawable.q150;
+        	break;
+        case 9096:
+        	imageResourceId = R.drawable.q151;
+        	break;
+        case 9097:
+        	imageResourceId = R.drawable.q152;
+        	break;
+        case 9098:
+        	imageResourceId = R.drawable.q153;
+        	break;
+        case 9099:
+        	imageResourceId = R.drawable.q154;
+        	break;
+        case 9100:
+        	imageResourceId = R.drawable.q155;
+        	break;
+        case 9101:
+        	imageResourceId = R.drawable.q156;
+        	break;
+        case 9102:
+        	imageResourceId = R.drawable.q157;
+        	break;
+        case 9125:
+        	imageResourceId = R.drawable.q180;
+        	break;
+        case 9128:
+        	imageResourceId = R.drawable.q183;
+        	break;
+        case 9130:
+        	imageResourceId = R.drawable.q185;
+        	break;
+        case 9131:
+        	imageResourceId = R.drawable.q186;
+        	break;
+        case 9133:
+        	imageResourceId = R.drawable.q188;
+        	break;
+        case 9137:
+        	imageResourceId = R.drawable.q192;
+        	break;
+        case 9138:
+        	imageResourceId = R.drawable.q193;
+        	break;
+        case 9141:
+        	imageResourceId = R.drawable.q196;
+        	break;
+        case 9143:
+        	imageResourceId = R.drawable.q198;
+        	break;
+        case 9144:
+        	imageResourceId = R.drawable.q199;
+        	break;
+        case 9145:
+        	imageResourceId = R.drawable.q200;
+        	break;
+        case 9146:
+        	imageResourceId = R.drawable.q201;
+        	break;
+        case 9147:
+        	imageResourceId = R.drawable.q202;
+        	break;
+        case 9148:
+        	imageResourceId = R.drawable.q203;
+        	break;
+        case 9149:
+        	imageResourceId = R.drawable.q204;
+        	break;
+        case 9188:
+        	imageResourceId = R.drawable.q243;
+        	break;
+        case 9189:
+        	imageResourceId = R.drawable.q244;
+        	break;
+        case 9241:
+        	imageResourceId = R.drawable.q295;
+        	break;
         default:
             return null;
         }
