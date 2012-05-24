@@ -261,7 +261,7 @@
     <incorrect>Das größere Fahrzeug kann durch Wellenbildung aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.</incorrect>
   </question>
   <question id='8982' reference='38'>
-    <text>Wie viel Ankerkette bzw. -leine soll man unter günstigen Verhältnissen beim Ankern an einem geschützten Ankerlatz ausstecken?</text>
+    <text>Wie viel Ankerkette bzw. -leine soll man unter günstigen Verhältnissen beim Ankern an einem geschützten Ankerplatz ausstecken?</text>
     <correct>Mindestens die dreifache Wassertiefe bei Kette oder die fünffache bei Leine.</correct>
     <incorrect>Mindestens die fünffache Wassertiefe bei Kette oder die dreifache bei Leine.</incorrect>
     <incorrect>Mindestens die dreifache Wassertiefe bei Kette oder die vierfache bei Leine.</incorrect>
@@ -1483,7 +1483,7 @@
   <question id='9157' reference='212'>
     <text>Welche Notsignale kann ein Segelsurfer auf Binnenschifffahrtsstraßen geben?</text>
     <correct>Kreisförmiges Schwenken der Arme oder eines Gegenstandes, lange Töne mit einer Pfeife oder langsames Heben und Senken der seitlich ausgestreckten Arme.</correct>
-    <incorrect>Kreisförmiges Schwenkgen einer grünen Flagge, die mit anderen Zeichen nicht verwechselt werden kann.</incorrect>
+    <incorrect>Kreisförmiges Schwenken einer grünen Flagge, die mit anderen Zeichen nicht verwechselt werden kann.</incorrect>
     <incorrect>Wiederholt lange Gruppen von Glockenschlägen.</incorrect>
     <incorrect>Kreisförmiges Schwenken der Arme ist zu vermeiden, das Surfsegel ist möglichst senkrecht zu stellen.</incorrect>
   </question>
@@ -1682,7 +1682,7 @@
     <incorrect>Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.</incorrect>
   </question>
   <question id='9186' reference='241'>
-    <text>Ein Fahrzeug in der Fahrrinne gegen den Strom. Voraus liegt eine grüne Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?</text>
+    <text>Ein Fahrzeug fährt in der Fahrrinne gegen den Strom. Voraus liegt eine grüne Tonne. Auf welcher Fahrrinnenseite befindet sich diese Tonne und an welcher Schiffsseite muss diese Tonne passiert werden?</text>
     <correct>Sie befindet sich auf der linken Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.</correct>
     <incorrect>Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Steuerbordseite des Schiffes passiert werden.</incorrect>
     <incorrect>Sie befindet sich auf der linken Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.</incorrect>
