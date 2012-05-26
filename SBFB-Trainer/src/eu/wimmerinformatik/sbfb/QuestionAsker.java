@@ -448,6 +448,9 @@ public class QuestionAsker extends Activity {
         case 9133:
         	imageResourceId = R.drawable.q188;
         	break;
+        case 9134:
+        	imageResourceId = R.drawable.q189;
+        	break;
         case 9137:
         	imageResourceId = R.drawable.q192;
         	break;
@@ -492,7 +495,7 @@ public class QuestionAsker extends Activity {
         }
 
         final ImageView image = new ImageView(this);
-        image.setBackgroundColor(Color.WHITE);
+        // image.setBackgroundColor(Color.WHITE);
         image.setImageResource(imageResourceId);
         return image;
     }

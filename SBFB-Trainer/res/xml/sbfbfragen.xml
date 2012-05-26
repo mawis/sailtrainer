@@ -136,7 +136,7 @@
   </question>
   <question id='8964' reference='20'>
     <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
-    <correct>Mindestabstand in Metern, der in der nachfolgenden Stracke vom Aufstellungsort der Tafel an eingehalten werden muss.</correct>
+    <correct>Mindestabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.</correct>
     <incorrect>Maximalgeschwindigkeit in km/h, die auf der in Fahrtrichtung rechten Fahrwasserseite nicht überschritten werden darf.</incorrect>
     <incorrect>Maximalabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.</incorrect>
     <incorrect>Verengung des Fahrwassers auf 40 m.</incorrect>
@@ -823,7 +823,7 @@
     <incorrect>Ausfahrt verboten, schließen der Schleuse wird vorbereitet.</incorrect>
   </question>
   <question id='9063' reference='118'>
-    <text>In welcher Richtung fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?</text>
+    <text>In welcher Reihenfolge fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?</text>
     <correct>Kleinfahrzeuge fahren erst nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und nach Aufforderung durch die Schleusenaufsicht in die Schleuse ein.</correct>
     <incorrect>Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und vor Aufforderung durch die Schleusenaufsicht in die Schleuse ein.</incorrect>
     <incorrect>Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.</incorrect>
@@ -893,7 +893,7 @@
     <incorrect>Fahrzeug der Überwachungsbehörden im Einsatz.</incorrect>
   </question>
   <question id='9073' reference='128'>
-    <text>Was bedeuten auf einem Fahrzeug zwei blaube Lichter übereinander?</text>
+    <text>Was bedeuten auf einem Fahrzeug zwei blaue Lichter übereinander?</text>
     <correct>Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.</correct>
     <incorrect>Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.</incorrect>
     <incorrect>Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.</incorrect>
@@ -1086,7 +1086,7 @@
     <correct>Schutzbedürftiges Fahrzeug, Vorbeifahrt in möglichst weitem Abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden.</correct>
     <incorrect>Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt nicht gestattet.</incorrect>
     <incorrect>Ein festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an jeder Seite mit unverminderter Geschwindigkeit gestattet.</incorrect>
-    <incorrect>Schwimmende Anlage / Schwimmkörper. Vorbeifahrt in möglichst weitem abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Schwimmende Anlage / Schwimmkörper. Vorbeifahrt in möglichst weitem Abstand, Geschwindigkeit vermindern, Sog und Wellenschlag vermeiden.</incorrect>
   </question>
   <question id='9101' reference='156'>
     <text>Was bedeutet dieses Tafelzeichen?</text>
@@ -1264,7 +1264,7 @@
     <incorrect>Beide Fahrzeuge sind ausweichpflichtig.</incorrect>
   </question>
   <question id='9126' reference='181'>
-    <text>Was hat Schiffsführer eines Kleinfahrzeugs beim Begegnen mit Fahrzeugen, die nicht Kleinfahrzeuge sind, zu beachten?</text>
+    <text>Was hat der Schiffsführer eines Kleinfahrzeugs beim Begegnen mit Fahrzeugen, die nicht Kleinfahrzeuge sind, zu beachten?</text>
     <correct>Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind, ausweichpflichtig. Sie müssen für deren Kurs und zum Manövrieren notwendigen Raum lassen.</correct>
     <incorrect>Kleinfahrzeuge sind gegenüber anderen Fahrzeugen, die nicht Kleinfahrzeuge sind, nicht ausweichpflichtig.</incorrect>
     <incorrect>Kleinfahrzeuge sind gegenüber Fahrzeugen, die nicht Kleinfahrzeuge sind bei der Begegnung gleichgestellt.</incorrect>
@@ -1362,7 +1362,7 @@
     <incorrect>Kleinfahrzeug unter Segel mit Maschinenantrieb.</incorrect>
   </question>
   <question id='9140' reference='195'>
-    <text>Ein Kleinfahrzeug unter Segel kreuzt nachts im Fahrwasser. Von achter kommt ein Fahrzeug auf das eine Zweifarbenlaterne und ein Topplicht führt. Was bedeuten diese Lichter?</text>
+    <text>Ein Kleinfahrzeug unter Segel kreuzt nachts im Fahrwasser. Von achtern kommt ein Fahrzeug auf das eine Zweifarbenlaterne und ein Topplicht führt. Was bedeuten diese Lichter?</text>
     <correct>Kleinfahrzeug mit Maschinenantrieb.</correct>
     <incorrect>Kleinfahrzeug ohne Maschinenantrieb.</incorrect>
     <incorrect>Kleinfahrzeug unter Segel.</incorrect>
@@ -1547,7 +1547,7 @@
     <text>Wo darf auf Binnenschifffahrtsstraßen Wasserski gelaufen werden?</text>
     <correct>Nur in durch Tafelzeichen freigegebenen Bereichen.</correct>
     <incorrect>Außerhalb des Fahrwassers.</incorrect>
-    <incorrect>außerhalb der Fahrrinne.</incorrect>
+    <incorrect>Außerhalb der Fahrrinne.</incorrect>
     <incorrect>Überall, ohne die Schifffahrt zu gefährden.</incorrect>
   </question>
   <question id='9167' reference='222'>
@@ -1769,7 +1769,7 @@
   </question>
   <question id='9198' reference='253'>
     <text>Was bedeutet Radarfahrt?</text>
-    <correct>Eine Fahrt bei unsichtigem Wetter mit Radar?</correct>
+    <correct>Eine Fahrt bei unsichtigem Wetter mit Radar.</correct>
     <incorrect>Eine Fahrt bei Nacht mit Radar.</incorrect>
     <incorrect>Eine Fahrt mit Radar.</incorrect>
     <incorrect>Eine Fahrt am Tage mit Radar.</incorrect>
@@ -2057,7 +2057,7 @@
     <incorrect>Weil es auf Raumschotkurs mehr Geschwindigkeit läuft.</incorrect>
   </question>
   <question id='9240' reference='294'>
-    <text>Welchen Einfluss hat zunehmende Krängung auf den Trimme des Bootes?</text>
+    <text>Welchen Einfluss hat zunehmende Krängung auf den Trimm des Bootes?</text>
     <correct>Die Luvgierigkeit nimmt zu.</correct>
     <incorrect>Die Leegierigkeit nimmt zu.</incorrect>
     <incorrect>Keinen.</incorrect>
