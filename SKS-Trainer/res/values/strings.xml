@@ -18,12 +18,15 @@
     <string name="answeredIncorrect">Falsch</string>
     <string name="firstPass">Erster Durchgang</string>
     <string name="secondPass">Zweiter Durchgang</string>
-    <string name="menuResetTopic">Kapitel neu starten</string>
-    <string name="menuResetTopicCondensed">Neu starten</string>
+    <string name="menuResetTopic">Kapitel neu beginnen</string>
+    <string name="menuResetTopicCondensed">Neu beginnen</string>
     <string name="menuStatistics">Statistik</string>
     <string name="chapter">Kapitel:</string>
     <string name="totalProgress">Gesamtfortschritt:</string>
     <string name="atLevel0">Ohne richtige Antwort:</string>
     <string name="atLevel1">Ein mal richtig:</string>
     <string name="atLevel2">Zwei mal richtig (fertig):</string>
+    <string name="warningReset">Hiermit beginnt die Abfrage dieses Kapitels von vorn.</string>
+    <string name="resetOkay">OK</string>
+    <string name="resetCancel">Abbrechen</string>
 </resources>

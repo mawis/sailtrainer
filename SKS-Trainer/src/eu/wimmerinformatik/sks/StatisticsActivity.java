@@ -1,7 +1,5 @@
 package eu.wimmerinformatik.sks;
 
-import java.util.Date;
-
 import eu.wimmerinformatik.sks.data.Repository;
 import eu.wimmerinformatik.sks.data.TopicStats;
 import android.app.Activity;

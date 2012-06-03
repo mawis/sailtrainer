@@ -13,6 +13,8 @@ import eu.wimmerinformatik.sks.data.QuestionSelection;
 import eu.wimmerinformatik.sks.data.Repository;
 import eu.wimmerinformatik.sks.R;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -120,7 +122,7 @@ public class QuestionAsker extends Activity {
 		// handle item selection
 		switch (item.getItemId()) {
 		case R.id.resetTopic:
-			restartTopic();
+			askRestartTopic();
 			return true;
 		case R.id.statistics:
 			final Intent intent = new Intent(this, StatisticsActivity.class);
@@ -130,6 +132,26 @@ public class QuestionAsker extends Activity {
 		default:
 			return super.onOptionsItemSelected(item);
 		}
+	}
+	
+	/**
+	 * Restarts the topic after asking for confirmation.
+	 */
+	private void askRestartTopic() {
+		final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage(R.string.warningReset);
+		builder.setCancelable(true);
+		builder.setPositiveButton(R.string.resetOkay, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+				restartTopic();
+			}
+		});
+		builder.setNegativeButton(R.string.resetCancel, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+			}
+		});
+		final AlertDialog alert = builder.create();
+		alert.show();
 	}
 	
 	private void showStandardView() {

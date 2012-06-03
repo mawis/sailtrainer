@@ -26,4 +26,7 @@
     <string name="atLevel0">Without correct answer:</string>
     <string name="atLevel1">On time correct:</string>
     <string name="atLevel2">Two times correct (completed):</string>
+    <string name="warningReset">This will reset your progress. The topic will be restarted.</string>
+    <string name="resetOkay">OK</string>
+    <string name="resetCancel">Cancel</string>
 </resources>
