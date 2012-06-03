@@ -13,9 +13,13 @@ import eu.wimmerinformatik.sks.data.QuestionSelection;
 import eu.wimmerinformatik.sks.data.Repository;
 import eu.wimmerinformatik.sks.R;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -93,6 +97,41 @@ public class QuestionAsker extends Activity {
 
 	}
 	
+	/**
+	 * Populate the options menu.
+	 * 
+	 * @param menu the menu to populate
+	 * @return always true
+	 */
+	@Override
+	public boolean onCreateOptionsMenu(final Menu menu) {
+		final MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.trainingmenu, menu);
+		return true;
+	}
+	
+	/**
+	 * Handle option menu selections.
+	 * 
+	 * @param item the Item the user selected
+	 */
+	@Override
+	public boolean onOptionsItemSelected(final MenuItem item) {
+		// handle item selection
+		switch (item.getItemId()) {
+		case R.id.resetTopic:
+			restartTopic();
+			return true;
+		case R.id.statistics:
+			final Intent intent = new Intent(this, StatisticsActivity.class);
+			intent.putExtra(StatisticsActivity.class.getName() + ".topic", topicId);
+			startActivity(intent);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+	}
+	
 	private void showStandardView() {
         setContentView(R.layout.question_asker);
         showingStandardView = true;
@@ -145,12 +184,16 @@ public class QuestionAsker extends Activity {
 		restartTopicButton.setOnClickListener(new View.OnClickListener() {
 			//@Override
 			public void onClick(View v) {
-				repository.resetTopic(topicId);
-				nextQuestion();
+				restartTopic();
 			}
 			
 		});
 		return;
+	}
+	
+	private void restartTopic() {
+		repository.resetTopic(topicId);
+		nextQuestion();
 	}
 	
 	private void showQuestion() {

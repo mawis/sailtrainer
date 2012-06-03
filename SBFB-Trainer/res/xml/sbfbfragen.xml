@@ -170,10 +170,10 @@
     <incorrect>Abgabe eines kurzen und eines langen Tons.</incorrect>
   </question>
   <question id='8969' reference='25'>
-    <text>Welche Bedeutung haben folgende Tafelzeichen?</text>
-    <correct>Wasserflächen im Fahrwasser, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
-    <incorrect>Wasserflächen außerhalb des Fahrwassers, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</incorrect>
-    <incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben anderen Fahrzeugen Vorfahrt zu gewähren.</incorrect>
+	<text>Welche Bedeutung haben folgende Tafelzeichen?</text>
+	<correct>Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
+	<incorrect>Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
+	<incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.</incorrect>
     <incorrect>Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
   </question>
   <question id='8970' reference='26'>

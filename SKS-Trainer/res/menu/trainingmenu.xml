@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/resetTopic" android:title="@string/menuResetTopic" android:titleCondensed="@string/menuResetTopicCondensed" android:visible="true" android:enabled="true"></item>
+    <item android:id="@+id/statistics" android:visible="true" android:title="@string/menuStatistics" android:enabled="true"></item>
+    
+
+</menu>

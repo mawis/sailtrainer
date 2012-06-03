@@ -18,4 +18,12 @@
     <string name="answeredIncorrect">Incorrect</string>
     <string name="firstPass">First Pass</string>
     <string name="secondPass">Second Pass</string>
+    <string name="menuResetTopic">Restart topic</string>
+    <string name="menuResetTopicCondensed">Restart</string>
+    <string name="menuStatistics">Statistics</string>
+    <string name="chapter">Topic:</string>
+    <string name="totalProgress">Total progress:</string>
+    <string name="atLevel0">Without correct answer:</string>
+    <string name="atLevel1">On time correct:</string>
+    <string name="atLevel2">Two times correct (completed):</string>
 </resources>
