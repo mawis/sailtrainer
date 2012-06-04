@@ -24,7 +24,7 @@
     <string name="chapter">Topic:</string>
     <string name="totalProgress">Total progress:</string>
     <string name="atLevel0">Without correct answer:</string>
-    <string name="atLevel1">On time correct:</string>
+    <string name="atLevel1">One time correct:</string>
     <string name="atLevel2">Two times correct (completed):</string>
     <string name="warningReset">This will reset your progress. The topic will be restarted.</string>
     <string name="resetOkay">OK</string>

@@ -207,6 +207,55 @@ public class Repository extends SQLiteOpenHelper {
 		
 		return question;
 	}
+
+	public Topic getTopic(final int topicId) {
+		final Topic topic = new Topic();
+		
+		final Cursor c = getDb().query("topic", new String[]{"_id", "order_index", "name"}, "_id=?", new String[]{Integer.toString(topicId)}, null, null, null);
+		try {
+			c.moveToNext();
+			if (c.isAfterLast()) {
+				return null;
+			}
+			topic.setId(c.getInt(0));
+			topic.setIndex(c.getInt(1));
+			topic.setName(c.getString(2));
+		} finally {
+			c.close();
+		}
+		
+		return topic;
+	}
+	
+	public TopicStats getTopicStat(final int topicId) {
+		final TopicStats stats = new TopicStats();
+		stats.setLevels(NUMBER_LEVELS);
+		stats.setQuestionsAtLevel(new int[NUMBER_LEVELS+1]);
+		
+		int currentProgress = 0;
+		int maxProgress = 0;
+		int questionCount = 0;
+		
+		final Cursor c = getDb().query("question", new String[]{"_id", "level"}, "topic_id=?", new String[]{Integer.toString(topicId)}, null, null, null, null);
+		try {
+			c.moveToNext();
+			while (!c.isAfterLast()) {
+				questionCount++;
+				currentProgress += c.getInt(1);
+				maxProgress += NUMBER_LEVELS;
+				stats.getQuestionsAtLevel()[c.getInt(1)]++;
+				c.moveToNext();
+			}
+		} finally {
+			c.close();
+		}
+		
+		stats.setCurrentProgress(currentProgress);
+		stats.setMaxProgress(maxProgress);
+		stats.setQuestionCount(questionCount);
+		
+		return stats;
+	}
 	
 	public void answeredCorrect(final int questionId) {
 		final Question question = getQuestion(questionId);

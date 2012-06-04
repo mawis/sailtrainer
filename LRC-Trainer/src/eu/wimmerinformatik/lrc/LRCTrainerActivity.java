@@ -48,9 +48,9 @@ public class LRCTrainerActivity extends Activity {
 						if (nextQuestion > now) {
 							
 							if (nextQuestion - now < 64800000L) {
-								textView.setText(getString(R.string.nextLabel) + DateFormat.getTimeInstance().format(new Date(nextQuestion)));
+								textView.setText(getString(R.string.nextLabel) + " " + DateFormat.getTimeInstance().format(new Date(nextQuestion)));
 							} else {
-								textView.setText(getString(R.string.nextLabel) + DateFormat.getDateTimeInstance().format(new Date(nextQuestion)));
+								textView.setText(getString(R.string.nextLabel) + " " + DateFormat.getDateTimeInstance().format(new Date(nextQuestion)));
 							}
 							return true;
 						}
