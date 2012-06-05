@@ -16,9 +16,15 @@ import eu.wimmerinformatik.src.data.QuestionSelection;
 import eu.wimmerinformatik.src.data.Repository;
 import eu.wimmerinformatik.src.R;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -111,9 +117,67 @@ public class QuestionAsker extends Activity {
         	topicId = (int) getIntent().getExtras().getLong(getClass().getName()+".topic");
         	nextQuestion();
         }
-        
-
 	}
+
+    /**
+     * Populate the options menu.
+     * 
+     * @param menu the menu to populate
+     * @return always true
+     */
+    @Override
+    public boolean onCreateOptionsMenu(final Menu menu) {
+		final MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.askermenu, menu);
+        return true;
+    }
+
+    /**
+     * Handle option menu selections.
+     * 
+     * @param item the Item the user selected
+     */
+    @Override
+    public boolean onOptionsItemSelected(final MenuItem item) {
+		// handle item selection
+		switch (item.getItemId()) {
+			case R.id.resetTopic:
+				askRestartTopic();
+				return true;
+            case R.id.statistics:
+				final Intent intent = new Intent(this, StatisticsActivity.class);
+				intent.putExtra(StatisticsActivity.class.getName() + ".topic", topicId);
+				startActivity(intent);
+				return true;
+            default:
+				return super.onOptionsItemSelected(item);
+		}
+    }
+
+    /**
+     * Restarts the topic after asking for confirmation.
+     */
+    private void askRestartTopic() {
+		final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setMessage(R.string.warningReset);
+		builder.setCancelable(true);
+		builder.setPositiveButton(R.string.resetOkay, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+				restartTopic();
+			}
+		});
+		builder.setNegativeButton(R.string.resetCancel, new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+			}
+		});
+		final AlertDialog alert = builder.create();
+		alert.show();
+	}
+
+	private void restartTopic() {
+		repository.resetTopic(topicId);
+		nextQuestion();
+    }
 	
 	private void showStandardView() {
         setContentView(R.layout.question_asker);
@@ -121,16 +185,23 @@ public class QuestionAsker extends Activity {
         
         ProgressBar progress = (ProgressBar) findViewById(R.id.progressBar1);
         progress.setMax(5);
-	
+
+		final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
 		final Button contButton = (Button) findViewById(R.id.button1);
+
+		// only enable continue when answer is selected
+		radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+			public void onCheckedChanged(RadioGroup group, int checkedId) {
+				contButton.setEnabled(radioGroup.getCheckedRadioButtonId() != -1);
+			}
+		});
+	
         contButton.setOnClickListener(new View.OnClickListener() {
 
 			// @Override
 			public void onClick(View v) {
 
 				// find what has been selected
-				final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
-				
 				if (showingCorrectAnswer) {
 					showingCorrectAnswer = false;
 					radioGroup.setEnabled(true);
@@ -147,7 +218,7 @@ public class QuestionAsker extends Activity {
 					nextQuestion();
 					
 					return;
-				} else {
+				} else if (selectedButton != -1) {
 					repository.answeredIncorrect(currentQuestion);
 					
 					showingCorrectAnswer = true;
@@ -163,6 +234,8 @@ public class QuestionAsker extends Activity {
 					correctButton.setBackgroundColor(correctMarkBackground);
 					
 					return;
+				} else {
+					Toast.makeText(QuestionAsker.this, getString(R.string.noAnswerSelected), Toast.LENGTH_SHORT).show();
 				}
 			}
         });		
@@ -182,6 +255,8 @@ public class QuestionAsker extends Activity {
 		
 		final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
 		radioGroup.clearCheck();
+		final Button contButton = (Button) findViewById(R.id.button1);
+		contButton.setEnabled(false);
 		
 		final QuestionSelection nextQuestion = repository.selectQuestion(topicId);
 		
@@ -207,7 +282,7 @@ public class QuestionAsker extends Activity {
 		restartTopicButton.setOnClickListener(new View.OnClickListener() {
 			//@Override
 			public void onClick(View v) {
-				repository.resetTopic(topicId);
+				restartTopic();
 				nextQuestion();
 			}
 			
