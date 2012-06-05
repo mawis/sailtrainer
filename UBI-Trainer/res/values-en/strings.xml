@@ -12,5 +12,20 @@
     <string name="offeneFragen">Open questions:</string>
     <string name="nextLabel">Next: </string>
     <string name="right">Correct!</string>
-    <string name="done">done</string>
+	<string name="done">done</string>
+    <string name="noAnswerSelected">You have to select a answer first.</string>
+    <string name="menuResetTopic">Restart topic</string>
+    <string name="menuResetTopicCondensed">Restart</string>
+    <string name="menuStatistics">Statistics</string>
+    <string name="chapter">Topic:</string>
+    <string name="totalProgress">Total progress:</string>
+    <string name="atLevel0">Without correct answer:</string>
+    <string name="atLevel1">One time correct:</string>
+    <string name="atLevel2">Two times correct:</string>
+    <string name="atLevel3">Three times correct:</string>
+    <string name="atLevel4">Four times correct:</string>
+    <string name="atLevel5">Five times correct (completed):</string>
+    <string name="warningReset">This will reset your progress. The topic will be restarted.</string>
+    <string name="resetOkay">OK</string>
+    <string name="resetCancel">Cancel</string>
 </resources>

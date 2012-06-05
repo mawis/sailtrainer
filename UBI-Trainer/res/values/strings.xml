@@ -13,4 +13,19 @@
 	<string name="nextLabel">Nächste: </string>
 	<string name="right">Richtig!</string>
 	<string name="done">fertig</string>
+    <string name="noAnswerSelected">Sie müssen zuerst eine Antwort auswählen!</string>
+    <string name="menuResetTopic">Kapitel neu beginnen</string>
+    <string name="menuResetTopicCondensed">Neu beginnen</string>
+    <string name="menuStatistics">Statistik</string>
+    <string name="chapter">Kapitel:</string>
+    <string name="totalProgress">Gesamtfortschritt:</string>
+    <string name="atLevel0">Ohne richtige Antwort:</string>
+    <string name="atLevel1">Ein mal richtig:</string>
+    <string name="atLevel2">Zwei mal richtig:</string>
+    <string name="atLevel3">Drei mal richtig:</string>
+    <string name="atLevel4">Vier mal richtig:</string>
+    <string name="atLevel5">Fünf mal richtig (fertig):</string>
+    <string name="warningReset">Hiermit beginnt die Abfrage dieses Kapitels von vorn.</string>
+    <string name="resetOkay">OK</string>
+    <string name="resetCancel">Abbrechen</string>
 </resources>
