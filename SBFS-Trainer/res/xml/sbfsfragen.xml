@@ -136,7 +136,7 @@
   </question>
   <question id='9608' reference='20'>
     <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
-    <correct>Mindestabstand in Metern, der in der nachfolgenden Stracke vom Aufstellungsort der Tafel an eingehalten werden muss.</correct>
+    <correct>Mindestabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.</correct>
     <incorrect>Maximalgeschwindigkeit in km/h, die auf der in Fahrtrichtung rechten Fahrwasserseite nicht überschritten werden darf.</incorrect>
     <incorrect>Maximalabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.</incorrect>
     <incorrect>Verengung des Fahrwassers auf 40 m.</incorrect>
@@ -171,9 +171,9 @@
   </question>
   <question id='9613' reference='25'>
     <text>Welche Bedeutung haben folgende Tafelzeichen?</text>
-    <correct>Wasserflächen im Fahrwasser, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
-    <incorrect>Wasserflächen außerhalb des Fahrwassers, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</incorrect>
-    <incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben anderen Fahrzeugen Vorfahrt zu gewähren.</incorrect>
+    <correct>Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
+    <incorrect>Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
+    <incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.</incorrect>
     <incorrect>Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
   </question>
   <question id='9614' reference='26'>
@@ -445,7 +445,7 @@
   <question id='9652' reference='64'>
     <text>Was ist zu tun, wenn Flüssiggas in das Innere des Bootes gelangt?</text>
     <correct>Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keinen Funk und keine Mobiltelefone benutzen.</correct>
-    <incorrect>Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen udn keine Telefone benutzen.</incorrect>
+    <incorrect>Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keine Telefone benutzen.</incorrect>
     <incorrect>Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und per Telefon Hilfe holen.</incorrect>
     <incorrect>Gasleitung entleeren und die Gasfreiheit mit dem Feuerzeug prüfen sowie über Funk oder Mobiltelefon Hilfe anfordern.</incorrect>
   </question>
@@ -479,7 +479,7 @@
   </question>
   <question id='9657' reference='69'>
     <text>Welche Maßnahme muss man ergreifen, um einen Brand mit dem Feuerlöscher wirksam zu bekämpfen?</text>
-    <correct>Luftzufuhr verhindern, Feuerlöscher erst am Brandhert einsetzen und das Feuer möglichst von unten bekämpfen.</correct>
+    <correct>Luftzufuhr verhindern, Feuerlöscher erst am Brandherd einsetzen und das Feuer möglichst von unten bekämpfen.</correct>
     <incorrect>Rauchabzug sicherstellen und Feuerlöscher rechtzeitig einsetzen, dabei den Löschstrahl möglichst in die lodernden Flammen halten.</incorrect>
     <incorrect>Luftzufuhr verhindern und den Feuerlöscher mit sparsamen Löschstrahlstößen einsetzen, dabei das Feuer möglichst von oben bekämpfen.</incorrect>
     <incorrect>Handhabungshinweise durchlesen und den Feuerlöscher sofort einsetzen, dabei das Feuer möglichst von unten bekämpfen.</incorrect>
@@ -825,7 +825,7 @@
   <question id='9707' reference='118'>
     <text>Welche Fahrzeuge geben bei verminderter Sicht mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (– ● ●)?</text>
     <correct>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</correct>
-    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Maschinenfahrzeug in Fahrt, das Fahrt durcs Wasser macht, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Maschinenfahrzeug in Fahrt, das Fahrt durchs Wasser macht, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</incorrect>
     <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker, ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
     <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker, ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
     <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</incorrect>
