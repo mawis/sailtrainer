@@ -1,0 +1,1996 @@
+<?xml version='1.0' standalone='yes'?>
+<questionaire xmlns='http://sportboot.mobi/'>
+<topic id='9588' name='Basisfragen'>
+  <question id='9589' reference='1'>
+    <text>Was ist zu tun, wenn vor Antritt der Fahrt nicht feststeht, wer Fahrzeugführer ist?</text>
+    <correct>Der verantwortliche Fahrzeugführer muss bestimmt werden.</correct>
+    <incorrect>Der verantwortliche Fahrzeugführer muss gewählt werden.</incorrect>
+    <incorrect>Ein Inhaber des Sportbootführerscheins muss die Fahrzeugführung übernehmen.</incorrect>
+    <incorrect>Ein Inhaber des Sportbootführerscheins muss die Verantwortung übernehmen.</incorrect>
+  </question>
+  <question id='9590' reference='2'>
+    <text>In welchen Fällen darf weder ein Sportboot geführt noch dessen Kurs oder Geschwindigkeit selbständig bestimmt werden?</text>
+    <correct>Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,5 ‰ oder mehr im Körper vorhanden ist.</correct>
+    <incorrect>Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,8 ‰ oder mehr im Körper vorhanden ist.</incorrect>
+    <incorrect>Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 1,0 ‰ oder mehr im Körper vorhanden ist.</incorrect>
+    <incorrect>Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,3 ‰ oder mehr im Körper vorhanden ist.</incorrect>
+  </question>
+  <question id='9591' reference='3'>
+    <text>Wann ist ein Fahrzeug in Fahrt?</text>
+    <correct>Wenn es weder vor Anker liegt noch an Land festgemacht ist noch auf Grund sitzt.</correct>
+    <incorrect>Wenn es weder vor Anker liegt noch an Land festgemacht ist noch Fahrt über Grund macht.</incorrect>
+    <incorrect>Wenn es weder auf Grund sitzt noch vor Anker liegt noch manövrierbehindert oder manövrierunfähig ist.</incorrect>
+    <incorrect>Wenn es weder an Land festgemacht ist noch vor Anker liegt noch Fahrt durchs Wasser macht.</incorrect>
+  </question>
+  <question id='9592' reference='4'>
+    <text>Wie lang ist die Dauer eines kurzen Tons (●)?</text>
+    <correct>Etwa 1 Sekunde.</correct>
+    <incorrect>Etwa 2 Sekunden.</incorrect>
+    <incorrect>Weniger als 1 Sekunde.</incorrect>
+    <incorrect>Weniger als 4 Sekunden.</incorrect>
+  </question>
+  <question id='9593' reference='5'>
+    <text>Wie lang ist die Dauer eines langen Tons (–)?</text>
+    <correct>Etwa 4 - 6 Sekunden.</correct>
+    <incorrect>Etwa 2 - 6 Sekunden.</incorrect>
+    <incorrect>Etwa 1 - 2 Sekunden.</incorrect>
+    <incorrect>Etwa 6 - 8 Sekunden.</incorrect>
+  </question>
+  <question id='9594' reference='6'>
+    <text>Wann gilt ein Fahrzeug unter Segel als Maschinenfahrzeug?</text>
+    <correct>Wenn es gleichzeitig mit Maschinenkraft fährt.</correct>
+    <incorrect>Wenn es mit einer Antriebsmaschine ausgerüstet ist.</incorrect>
+    <incorrect>Wenn es durch das Segeln keine Fahrt durchs Wasser macht.</incorrect>
+    <incorrect>Wenn es durch das Segeln keine Fahrt über Grund macht.</incorrect>
+  </question>
+  <question id='9595' reference='7'>
+    <text>Welches Signal führt ein Fahrzeug unter Segel, das als Maschinenfahrzeug gilt, zusätzlich am Tage?</text>
+    <correct>Einen schwarzen Kegel, Spitze unten.</correct>
+    <incorrect>Einen schwarzen Kegel, Spitze oben.</incorrect>
+    <incorrect>Einen schwarzen Rhombus.</incorrect>
+    <incorrect>Zwei schwarze Bälle senkrecht übereinander.</incorrect>
+  </question>
+  <question id='9596' reference='8'>
+    <text>Welche Seite wird als Luvseite bezeichnet?</text>
+    <correct>Die dem Wind zugekehrte Seite.</correct>
+    <incorrect>Die dem Wind abgewandte Seite.</incorrect>
+    <incorrect>Die Seite in Fahrtrichtung rechts.</incorrect>
+    <incorrect>Die Seite in Fahrtrichtung links.</incorrect>
+  </question>
+  <question id='9597' reference='9'>
+    <text>Welche Seite wird als Leeseite bezeichnet?</text>
+    <correct>Die dem Wind abgewandte Seite.</correct>
+    <incorrect>Die dem Wind zugekehrte Seite.</incorrect>
+    <incorrect>Die Seite in Fahrtrichtung rechts.</incorrect>
+    <incorrect>Die Seite in Fahrtrichtung links.</incorrect>
+  </question>
+  <question id='9598' reference='10'>
+    <text>Wann müssen die Lichter von Fahrzeugen geführt oder gezeigt werden?</text>
+    <correct>Von Sonnenuntergang bis Sonnenaufgang und bei verminderter Sicht.</correct>
+    <incorrect>Von Sonnenaufgang bis Sonnenuntergang und bei verminderter Sicht.</incorrect>
+    <incorrect>Von abends 18 Uhr bis morgens 06 Uhr und bei verminderter Sicht.</incorrect>
+    <incorrect>Bei Dunkelheit, schlechtem Wetter und verminderter Sicht.</incorrect>
+  </question>
+  <question id='9599' reference='11'>
+    <text>Wozu dient die Lichterführung?</text>
+    <correct>Sie zeigt Fahrtrichtung und Lage eines Fahrzeugs an.</correct>
+    <incorrect>Sie zeigt Kurs und Geschwindigkeit eines Fahrzeugs an.</incorrect>
+    <incorrect>Sie zeigt Fahrtrichtung und Position eines Fahrzeugs an.</incorrect>
+    <incorrect>Sie zeigt Fahrtrichtung und Kurs eines Fahrzeugs an.</incorrect>
+  </question>
+  <question id='9600' reference='12'>
+    <text>Was für eine Laterne kann ein Segelfahrzeug von weniger als 20 m Länge anstelle der Seitenlichter und des Hecklichtes führen?</text>
+    <correct>Eine Dreifarblaterne an oder nahe der Mastspitze.</correct>
+    <incorrect>Eine Zweifarblaterne an gut sichtbarer Stelle.</incorrect>
+    <incorrect>Eine Dreifarblaterne an gut sichtbarer Stelle.</incorrect>
+    <incorrect>Eine Zweifarblaterne an oder nahe der Mastspitze.</incorrect>
+  </question>
+  <question id='9601' reference='13'>
+    <text>Welche Lichter muss ein Fahrzeug unter Segel, das gleichzeitig mit Maschinenkraft fährt, führen?</text>
+    <correct>Die für ein Maschinenfahrzeug vorgeschriebenen Lichter.</correct>
+    <incorrect>Die für ein Segelfahrzeug vorgeschriebenen Lichter.</incorrect>
+    <incorrect>Zwei rote Rundumlichter senkrecht übereinander.</incorrect>
+    <incorrect>Seitenlichter rot und grün und ein rotes Rundumlicht.</incorrect>
+  </question>
+  <question id='9602' reference='14'>
+    <text>Wie weichen zwei Motorboote aus, die sich auf entgegengesetzten Kursen nähern?</text>
+    <correct>Jedes Fahrzeug muss seinen Kurs nach Steuerbord ändern.</correct>
+    <incorrect>Jedes Fahrzeug muss seinen Kurs nach Backbord ändern.</incorrect>
+    <incorrect>Es muss das luvwärtige Fahrzeug dem leewärtigen Fahrzeug ausweichen.</incorrect>
+    <incorrect>Es muss das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen.</incorrect>
+  </question>
+  <question id='9603' reference='15'>
+    <text>Zwei Motorboote nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. Wer ist ausweichpflichtig?</text>
+    <correct>Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Steuerbordseite hat.</correct>
+    <incorrect>Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Backbordseite hat.</incorrect>
+    <incorrect>Es muss das luvwärtige Fahrzeug dem leewärtigen Fahrzeug ausweichen.</incorrect>
+    <incorrect>Es muss das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen.</incorrect>
+  </question>
+  <question id='9604' reference='16'>
+    <text>Welche Bedeutung hat folgendes Schallsignal: (● – ● – ● – ● – ● –)</text>
+    <correct>Bleib-weg-Signal, Gefahrenbereich sofort verlassen.</correct>
+    <incorrect>Allgemeines Gefahr- und Warnsignal.</incorrect>
+    <incorrect>Ankerlieger über 100 m Länge.</incorrect>
+    <incorrect>Manövrierbehinderter Schleppverband über 200 m Länge.</incorrect>
+  </question>
+  <question id='9605' reference='17'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Überholverbot.</correct>
+    <incorrect>Begegnungsverbot.</incorrect>
+    <incorrect>Überholverbot für Fahrzeuge unter 20 m Länge.</incorrect>
+    <incorrect>Begegnungsverbot für Fahrzeuge über 20 m Länge.</incorrect>
+  </question>
+  <question id='9606' reference='18'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Begegnungsverbot an einer Engstelle.</correct>
+    <incorrect>Begegnungsverbot für Fahrzeuge über 12 m Länge.</incorrect>
+    <incorrect>Überholverbot; mit Gegenverkehr muss gerechnet werden.</incorrect>
+    <incorrect>Überholverbot für alle Fahrzeuge.</incorrect>
+  </question>
+  <question id='9607' reference='19'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Sog und Wellenschlag vermeiden.</correct>
+    <incorrect>Gefährdeter Strandbereich. Überspühlungsgefahr; Mindestpassierabstand 100 m.</incorrect>
+    <incorrect>Wasserstraße, die jederzeit sicher befahren werden kann; keine Gefahr durch Seegang.</incorrect>
+    <incorrect>Wasserstraße, die nicht jederzeit sicher befahren werden kann; Gefahr durch Seegang.</incorrect>
+  </question>
+  <question id='9608' reference='20'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Mindestabstand in Metern, der in der nachfolgenden Stracke vom Aufstellungsort der Tafel an eingehalten werden muss.</correct>
+    <incorrect>Maximalgeschwindigkeit in km/h, die auf der in Fahrtrichtung rechten Fahrwasserseite nicht überschritten werden darf.</incorrect>
+    <incorrect>Maximalabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.</incorrect>
+    <incorrect>Verengung des Fahrwassers auf 40 m.</incorrect>
+  </question>
+  <question id='9609' reference='21'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Haltegebot vor beweglichen Brücken, Sperrwerken und Schleusen.</correct>
+    <incorrect>Dauernde Sperrung einer Teilstrecke der Wasserstraße.</incorrect>
+    <incorrect>Gebot zur Abgabe eines langen Signaltons.</incorrect>
+    <incorrect>Weiterfahrt für Sportfahrzeuge verboten.</incorrect>
+  </question>
+  <question id='9610' reference='22'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Ankern verboten für alle Fahrzeuge.</correct>
+    <incorrect>Ankern verboten für Kleinfahrzeuge unter 12 m Länge.</incorrect>
+    <incorrect>Ankern verboten für Kleinfahrzeuge ab 12 m Länge.</incorrect>
+    <incorrect>Ankern und Festmachen verboten.</incorrect>
+  </question>
+  <question id='9611' reference='23'>
+    <text>Welche Bedeutung haben folgende Tafelzeichen?</text>
+    <correct>Festmache- und Liegeverbot.</correct>
+    <incorrect>Festmache- und Liegeverbot für Sportboote.</incorrect>
+    <incorrect>Festmache- und Liegeverbot für Sportboote über 12 m Länge.</incorrect>
+    <incorrect>Festmache- und Liegeverbot für gewerbliche Schiffe</incorrect>
+  </question>
+  <question id='9612' reference='24'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Abgabe eines langen Tons.</correct>
+    <incorrect>Abgabe eines kurzen Tons.</incorrect>
+    <incorrect>Abgabe von zwei langen Tönen.</incorrect>
+    <incorrect>Abgabe eines kurzen und eines langen Tons.</incorrect>
+  </question>
+  <question id='9613' reference='25'>
+    <text>Welche Bedeutung haben folgende Tafelzeichen?</text>
+    <correct>Wasserflächen im Fahrwasser, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
+    <incorrect>Wasserflächen außerhalb des Fahrwassers, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</incorrect>
+    <incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben anderen Fahrzeugen Vorfahrt zu gewähren.</incorrect>
+    <incorrect>Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
+  </question>
+  <question id='9614' reference='26'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Ende einer Gebots- oder Verbotsstrecke.</correct>
+    <incorrect>Streckenabschnitt für eine nicht frei fahrende Fähre.</incorrect>
+    <incorrect>Queren des Fahrwassers ist gestattet.</incorrect>
+    <incorrect>Wechseln der Fahrwasserseite ist gestattet.</incorrect>
+  </question>
+  <question id='9615' reference='27'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Verbot der Durchfahrt und Sperrung der Schifffahrt.</correct>
+    <incorrect>Verbot der Durchfahrt und Sperrung für Kleinfahrzeuge.</incorrect>
+    <incorrect>Verbot der Durchfahrt, jedoch für Kleinfahrzeuge ohne laufende Antriebsmaschine befahrbar.</incorrect>
+    <incorrect>Verbot der Durchfahrt, jedoch für Kleinfahrzeuge ohne Antriebsmaschine befahrbar.</incorrect>
+  </question>
+  <question id='9616' reference='28'>
+    <text>Welche Bedeutung haben folgende Schifffahrtszeichen?</text>
+    <correct>Brücke, Sperrwerk oder Schleuse geschlossen.</correct>
+    <incorrect>Anlage dauerhaft gesperrt.</incorrect>
+    <incorrect>Stoppsignal für alle Fahrzeuge.</incorrect>
+    <incorrect>Außergewöhnliche Schifffahrtsbehinderung.</incorrect>
+  </question>
+  <question id='9617' reference='29'>
+    <text>Welche Bedeutung haben folgende Schifffahrtszeichen?</text>
+    <correct>Anlage dauerhaft gesperrt.</correct>
+    <incorrect>Brücke, Sperrwerk oder Schleuse geschlossen.</incorrect>
+    <incorrect>Stoppsignal für alle Fahrzeuge.</incorrect>
+    <incorrect>Außergewöhnliche Schifffahrtsbehinderung.</incorrect>
+  </question>
+  <question id='9618' reference='30'>
+    <text>Was bedeuten diese Lichter vor einer Schleuse?</text>
+    <correct>Einfahrt frei, Gegenverkehr gesperrt.</correct>
+    <incorrect>Einfahrt frei, Schleusentor öffnet.</incorrect>
+    <incorrect>Schleuse in Betrieb, auf Einfahrtsignal gemäß Reihenfolge warten.</incorrect>
+    <incorrect>Schleuse in Betrieb, auf Ausfahrtsignal gemäß Reihenfolge warten.</incorrect>
+  </question>
+  <question id='9619' reference='31'>
+    <text>Welches Merkblatt enthält Hinweise für das Verhalten zum Schutz seltener Tiere und Pflanzen sowie zur Reinhaltung der Gewässer?</text>
+    <correct>Die 10 goldenen Regeln für Wassersportler.</correct>
+    <incorrect>Die 15 goldenen Regeln für Wassersportler.</incorrect>
+    <incorrect>Die 10 Grundregeln für Wassersportler.</incorrect>
+    <incorrect>Die 15 Verhaltensregeln für Wassersportler.</incorrect>
+  </question>
+  <question id='9620' reference='32'>
+    <text>Wie kann mitgeholfen werden, die Lebensmöglichkeiten der Pflanzen- und Tierwelt in Gewässern und Feuchtgebieten zu bewahren und zu fördern?</text>
+    <correct>Durch umweltbewusstes Verhalten und Beachtung der „Zehn goldenen Regeln für das Verhalten von Wassersportlern in der Natur“.</correct>
+    <incorrect>Durch umweltbewusstes Verhalten und Beachtung der „Zehn Grundregeln für den Wassersport“.</incorrect>
+    <incorrect>Durch umsichtiges Verhalten und Beachtung der Verkehrsvorschriften.</incorrect>
+    <incorrect>Durch vorausschauendes Fahren und Ausweichen entsprechend der Verkehrsvorschriften.</incorrect>
+  </question>
+  <question id='9621' reference='33'>
+    <text>Warum sollte man sich von Schilf- und Röhrichtzonen sowie von dicht bewachsenen Uferzonen möglichst weit fernhalten?</text>
+    <correct>Weil diese Zonen vielfach Rast- und Brutplätze besonders schutzwürdiger Vögel oder Fischlaichplätze sind.</correct>
+    <incorrect>Weil in diesen Zonen die Gefahr von Grundberührungen besteht.</incorrect>
+    <incorrect>Weil durch die Pflanzen der Propeller blockiert werden könnte.</incorrect>
+    <incorrect>Weil in diesen Zonen badende Personen schwer zu erkennen sind.</incorrect>
+  </question>
+  <question id='9622' reference='34'>
+    <text>Warum soll ein kleines Fahrzeug nicht dicht an ein großes in Fahrt befindliches Fahrzeug heranfahren?</text>
+    <correct>Es kann durch dessen Bug- oder Heckwelle kentern oder durch den Sog mit dem Fahrzeug kollidieren.</correct>
+    <incorrect>Dichtes Heranfahren ist ein Verstoß gegen die Grundregeln für das Verhalten im Verkehr.</incorrect>
+    <incorrect>Da es dem großen in Fahrt befindlichen Fahrzeug sonst nicht ausweichen kann.</incorrect>
+    <incorrect>Es kann durch dessen Bug- oder Heckwelle Seeschlag erleiden.</incorrect>
+  </question>
+  <question id='9623' reference='35'>
+    <text>Warum soll man möglichst gegen Strom und Wind anlegen?</text>
+    <correct>Weil sich das Fahrzeug dabei sicherer manövrieren lässt.</correct>
+    <incorrect>Weil dadurch Sog und Wellenschlag vermieden wird.</incorrect>
+    <incorrect>Weil dadurch Einflüsse von Wellen und Wassertiefe ausgeglichen werden.</incorrect>
+    <incorrect>Weil dies die Steuerwirkung der Schraube erhöht.</incorrect>
+  </question>
+  <question id='9624' reference='36'>
+    <text>Wie verhält man sich beim Begegnen mit anderen Fahrzeugen in einem engen Fahrwasser?</text>
+    <correct>Geschwindigkeit herabsetzen und ausreichenden Passierabstand halten.</correct>
+    <incorrect>Geschwindigkeit erhöhen, um das Begegnungsmanöver zügig durchzuführen.</incorrect>
+    <incorrect>Das gegen den Strom fahrende Fahrzeug ist ausweichpflichtig.</incorrect>
+    <incorrect>Das mit dem Strom fahrende Fahrzeug hat aufzustoppen.</incorrect>
+  </question>
+  <question id='9625' reference='37'>
+    <text>Welche Gefahren können entstehen, wenn ein kleines von einem größeren Fahrzeug überholt wird?</text>
+    <correct>Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.</correct>
+    <incorrect>Das größere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.</incorrect>
+    <incorrect>Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder kentern, in flachen Gewässern extrem versetzt werden.</incorrect>
+    <incorrect>Das größere Fahrzeug kann durch Wellenbildung aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.</incorrect>
+  </question>
+  <question id='9626' reference='38'>
+    <text>Wie viel Ankerkette bzw. -leine soll man unter günstigen Verhältnissen beim Ankern an einem geschützten Ankerplatz ausstecken?</text>
+    <correct>Mindestens die dreifache Wassertiefe bei Kette oder die fünffache bei Leine.</correct>
+    <incorrect>Mindestens die fünffache Wassertiefe bei Kette oder die dreifache bei Leine.</incorrect>
+    <incorrect>Mindestens die dreifache Wassertiefe bei Kette oder die vierfache bei Leine.</incorrect>
+    <incorrect>Mindestens die vierfache Wassertiefe bei Kette oder die fünffache bei Leine.</incorrect>
+  </question>
+  <question id='9627' reference='39'>
+    <text>Woran kann man erkennen, ob der Anker hält?</text>
+    <correct>Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung nicht ändert.</correct>
+    <incorrect>Wenn Ankerkette oder -leine nicht vibrieren und sich der anliegende Magnetkompasskurs nicht verändert.</incorrect>
+    <incorrect>Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und das Fahrzeug nicht schwojt.</incorrect>
+    <incorrect>Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung ändert.</incorrect>
+  </question>
+  <question id='9628' reference='40'>
+    <text>Welches ist der günstigste Anlaufwinkel beim Anlegen?</text>
+    <correct>Ein möglichst spitzer Winkel.</correct>
+    <incorrect>Ein Winkel von 90° bis 100°.</incorrect>
+    <incorrect>Ein möglichst stumpfer Winkel.</incorrect>
+    <incorrect>Ein Winkel von 60° bis 70°.</incorrect>
+  </question>
+  <question id='9629' reference='41'>
+    <text>Wie verhält sich im Allgemeinen das Schiff im Rückwärtsgang bei einem rechtsdrehenden Propeller?</text>
+    <correct>Das Heck dreht nach Backbord.</correct>
+    <incorrect>Das Heck dreht nach Steuerbord.</incorrect>
+    <incorrect>Der Kurs des Schiffes ändert sich nicht.</incorrect>
+    <incorrect>Der Bug dreht nach Backbord.</incorrect>
+  </question>
+  <question id='9630' reference='42'>
+    <text>Was bewirkt der Quickstopp?</text>
+    <correct>Unterbrechung von Zündkontakt bzw. Kraftstoffzufuhr.</correct>
+    <incorrect>Automatisches Anlassen des Motors.</incorrect>
+    <incorrect>Kurze Unterbrechung des Motorlaufs.</incorrect>
+    <incorrect>Automatische Schubumkehr.</incorrect>
+  </question>
+  <question id='9631' reference='43'>
+    <text>Was ist zu unternehmen, wenn Treibstoff oder Öl in die Bilge gelangt?</text>
+    <correct>Mit Lappen aufnehmen und umweltgerecht entsorgen.</correct>
+    <incorrect>Räume lüften und abwarten.</incorrect>
+    <incorrect>Gleichmäßig verteilen.</incorrect>
+    <incorrect>Mit entsprechendem Mittel neutralisieren.</incorrect>
+  </question>
+  <question id='9632' reference='44'>
+    <text>Was ist unter einem rechtsdrehenden Propeller zu verstehen?</text>
+    <correct>Von achtern gesehen in Vorausfahrt Drehung des Propellers im Uhrzeigersinn.</correct>
+    <incorrect>Von vorne gesehen in Vorausfahrt Drehung des Propellers im Uhrzeigersinn.</incorrect>
+    <incorrect>Von achtern gesehen in Vorausfahrt Drehung des Propellers gegen den Uhrzeigersinn.</incorrect>
+    <incorrect>Von vorne gesehen in Rückwärtsfahrt Drehung des Propellers gegen den Uhrzeigersinn.</incorrect>
+  </question>
+  <question id='9633' reference='45'>
+    <text>Was ist unter einem linksdrehenden Propeller zu verstehen?</text>
+    <correct>Von achtern gesehen in Vorausfahrt Drehung des Propellers gegen den Uhrzeigersinn.</correct>
+    <incorrect>Von vorne gesehen in Vorausfahrt Drehung des Propellers gegen den Uhrzeigersinn.</incorrect>
+    <incorrect>Von achtern gesehen in Vorausfahrt Drehung des Propellers im Uhrzeigersinn.</incorrect>
+    <incorrect>Von vorne gesehen in Rückwärtsfahrt Drehung des Propellers im Uhrzeigersinn.</incorrect>
+  </question>
+  <question id='9634' reference='46'>
+    <text>Was ist unter der indirekten Ruderwirkung (Radeffekt) des Propellers zu verstehen?</text>
+    <correct>Das seitliche Versetzen des Hecks.</correct>
+    <incorrect>Das Versetzen nach vorne.</incorrect>
+    <incorrect>Das Versetzen nach hinten.</incorrect>
+    <incorrect>Das seitliche Versetzen des Bugs.</incorrect>
+  </question>
+  <question id='9635' reference='47'>
+    <text>Weshalb ist die Kenntnis der Propellerdrehrichtung von Bedeutung?</text>
+    <correct>Sie hilft beim Manövrieren.</correct>
+    <incorrect>Sie hilft beim Kurshalten.</incorrect>
+    <incorrect>Sie hilft beim Überholen.</incorrect>
+    <incorrect>Sie hilft beim Begegnen.</incorrect>
+  </question>
+  <question id='9636' reference='48'>
+    <text>Welche Anlegeseite ist mit rechtsdrehendem Propeller empfehlenswert und warum?</text>
+    <correct>Die Backbordseite - der Radeffekt zieht das Fahrzeug an die Pier.</correct>
+    <incorrect>Die Steuerbordseite - der Radeffekt zieht das Fahrzeug an die Pier.</incorrect>
+    <incorrect>Die Steuerbord- oder Backbordseite je nach Ruderlage.</incorrect>
+    <incorrect>Es gibt keine empfehlenswerte Anlegeseite.</incorrect>
+  </question>
+  <question id='9637' reference='49'>
+    <text>Was muss beim Tanken beachtet werden?</text>
+    <correct>Motor abstellen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.</correct>
+    <incorrect>Motor in Leerlaufstellung, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.</incorrect>
+    <incorrect>Fenster schließen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.</incorrect>
+    <incorrect>Motor abstellen, Feuerlöscher bereithalten, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.</incorrect>
+  </question>
+  <question id='9638' reference='50'>
+    <text>Wodurch wird bei einem Fahrzeug mit Außenbordmotor und ohne Ruderlage die Ruderwirkung erzielt?</text>
+    <correct>Durch Schraubenstrom und Richtung des Propellers.</correct>
+    <incorrect>Durch Schraubenstrom und Anstellwinkel des Propellers.</incorrect>
+    <incorrect>Durch den Schraubenwiderstand und Anstellwinkel des Propellers.</incorrect>
+    <incorrect>Durch den Schraubenwiderstand und Richtung des Propellers.</incorrect>
+  </question>
+  <question id='9639' reference='51'>
+    <text>Weshalb setzt bei einem Fahrzeug mit Einbaumaschine und starrer Welle bei Aufnahme der Rückwärtsfahrt die Ruderwirkung erst relativ spät ein?</text>
+    <correct>Weil sie erst mit Anströmung des Ruderblattes einsetzt.</correct>
+    <incorrect>Weil sich durch den Radeffekt ein Unterdruck am Propeller entwickelt.</incorrect>
+    <incorrect>Durch den Abstand von Propeller und Ruderblatt.</incorrect>
+    <incorrect>Weil sich durch den Radeffekt ein Unterdruck am Ruder entwickelt.</incorrect>
+  </question>
+  <question id='9640' reference='52'>
+    <text>Während der Fahrt sollte die Maschinenanlage ständig überwacht werden. Worauf muss besonders geachtet werden?</text>
+    <correct>Motortemperatur, Öldruck, Ladekontrolle.</correct>
+    <incorrect>Kühlwasseraustritt, Drehzahlmesser, Keilriemenspannung.</incorrect>
+    <incorrect>Schraubendrehzahl, Getriebeöltemperatur, Öldruck.</incorrect>
+    <incorrect>Druck der Einspritzpumpe, Impellerpumpe, Ölpumpe.</incorrect>
+  </question>
+  <question id='9641' reference='53'>
+    <text>Die Temperatur der Antriebsmaschine überschreitet die zulässigen Grenzwerte. Was könnte die mögliche Ursache sein?</text>
+    <correct>Defektes Thermostat, defekte Impellerpumpe, geschlossenes Seeventil, zu niedriger Kühlwasserstand.</correct>
+    <incorrect>Zu viel Motoröl, defekte Impellerpumpe, geschlossenes Seeventil, zu niedriger Kühlwasserstand.</incorrect>
+    <incorrect>Defektes Thermostat, defekte Impellerpumpe, geschlossenes Seeventil, zu hohe Batteriespannung.</incorrect>
+    <incorrect>Defektes Thermostat, defekte Kupplung, geschlossenes Seeventil, zu niedriger Kühlwasserstand.</incorrect>
+  </question>
+  <question id='9642' reference='54'>
+    <text>Die Ladekontrolllampe erlischt nach dem Starten nicht. Was könnte die mögliche Ursache sein?</text>
+    <correct>Lichtmaschine bzw. Regler der Lichtmaschine defekt.</correct>
+    <incorrect>Zu hohe Motordrehzahl.</incorrect>
+    <incorrect>Keilriemen gerissen und hoher Stromverbrauch.</incorrect>
+    <incorrect>Anlasser ist nach dem Starten ausgefallen.</incorrect>
+  </question>
+  <question id='9643' reference='55'>
+    <text>Die Ölkontrollleuchte leuchtet nach dem Starten weiter. Was könnte die mögliche Ursache sein?</text>
+    <correct>Druckschalter bzw. Öldruckpumpe defekt.</correct>
+    <incorrect>Zu viel Motoröl im Motor.</incorrect>
+    <incorrect>FI-Schalter defekt.</incorrect>
+    <incorrect>Zu hohe Motordrehzahl.</incorrect>
+  </question>
+  <question id='9644' reference='56'>
+    <text>Der Motor ist gestartet worden. Was kann die Ursache sein, wenn nach dem Einkuppeln der Antriebswelle der Motor stehenbleibt?</text>
+    <correct>Blockierter Propeller.</correct>
+    <incorrect>Blockierte Kraftstoffzufuhr.</incorrect>
+    <incorrect>Verschmutzter Ölfilter.</incorrect>
+    <incorrect>Verschmutzter Luftfilter.</incorrect>
+  </question>
+  <question id='9645' reference='57'>
+    <text>Ein Außenborder mit gefülltem Tank bleibt während der Fahrt stehen. Was könnten die Ursachen sein?</text>
+    <correct>Belüftungsschraube geschlossen; verstopfte Kraftstoffleitung.</correct>
+    <incorrect>Ansaugdüsen zu groß bzw. zu klein.</incorrect>
+    <incorrect>Tankdeckel ist offen.</incorrect>
+    <incorrect>Schraube an der Welle lose.</incorrect>
+  </question>
+  <question id='9646' reference='58'>
+    <text>Was sollte stets getan werden, bevor nach Ende einer Fahrt der Außenborder hochgekippt oder abgenommen wird?</text>
+    <correct>Vergaser leerfahren, damit kein Kraftstoff ausläuft.</correct>
+    <incorrect>Kraftstoff auffüllen, wegen Tankkorrosion.</incorrect>
+    <incorrect>Quickstopp ziehen, wegen Verlust des Schlüssels.</incorrect>
+    <incorrect>Kraftstoffhahn offen lassen zur besseren Belüftung.</incorrect>
+  </question>
+  <question id='9647' reference='59'>
+    <text>Welche Einstellung führt bei Bootsmotoren zu einem besonders hohen Schadstoffausstoß und sollte unbedingt vermieden werden?</text>
+    <correct>Verringerter Luftanteil beim Luft-Kraftstoff-Gemisch; erhöhter Ölanteil beim Mischungsverhältnis bei Zweitaktmotoren.</correct>
+    <incorrect>Erhöhter Luftanteil beim Luft-Kraftstoff-Gemisch; erhöhter Ölanteil beim Mischungsverhältnis bei Zweitaktmotoren.</incorrect>
+    <incorrect>Normales Luft-Kraftstoff-Gemisch; normales Mischungsverhältnis bei Zweitaktmotoren.</incorrect>
+    <incorrect>Erhöhter Luftanteil beim Luft-Kraftstoff-Gemisch; verringerter Ölanteil beim Mischungsverhältnis bei Zweitaktmotoren.</incorrect>
+  </question>
+  <question id='9648' reference='60'>
+    <text>Welche Vorkehrungen sind für das längere Verlassen des Fahrzeugs zu treffen?</text>
+    <correct>Alle Seeventile schließen und den Hauptschalter des Bordnetzes ausschalten.</correct>
+    <incorrect>Kraftstoff- und Wassertank auffüllen und das Bordnetz aufladen.</incorrect>
+    <incorrect>Tagestank schließen und Kraftstofffilter entwässern.</incorrect>
+    <incorrect>Fahrzeug seefest hinterlassen und den Hafenmeister verständigen.</incorrect>
+  </question>
+  <question id='9649' reference='61'>
+    <text>Wie ist ein enges Gewässer zu befahren, wenn man sich am Ufer festgemachten Fahrzeugen nähert?</text>
+    <correct>Verringerung der Geschwindigkeit, um schädlichen Sog und Wellenschlag zu vermeiden.</correct>
+    <incorrect>Beibehaltung der Geschwindigkeit, um durch Gleitfahrt schädlichen Sog und Wellenschlag auszuschließen.</incorrect>
+    <incorrect>Verringerung der Geschwindigkeit und nötigenfalls vom Rechtsfahrgebot abweichen.</incorrect>
+    <incorrect>Auf Höhe der festgemachten Fahrzeuge aufstoppen und überprüfen, dass kein Dritter behindert oder geschädigt wird.</incorrect>
+  </question>
+  <question id='9650' reference='62'>
+    <text>Wo sollen die Gasbehälter einer Flüssiggasanlage gelagert werden?</text>
+    <correct>Möglichst an Deck, geschützt vor Sonneneinstrahlung, sonst in einem besonders abgeschlossenen Raum für Gasbehälter, der in Bodenhöhe eine Öffnung nach außenbords hat.</correct>
+    <incorrect>Möglichst unten im Schiff, geschützt vor Sonneneinstrahlung, sonst in einem besonders abgeschlossenen Raum für Gasbehälter, der in Bodenhöhe eine Öffnung nach außenbords hat.</incorrect>
+    <incorrect>Möglichst auf dem Vorschiff, geschützt vor Sonneneinstrahlung, sonst in einem besonders abgeschlossenen Raum für Gasbehälter, der in Bodenhöhe eine Öffnung nach außenbords hat.</incorrect>
+    <incorrect>Möglichst an Deck, geschützt vor Sonneneinstrahlung, sonst in einem besonders abgeschlossenen Raum für Gasbehälter, der oben belüftet ist.</incorrect>
+  </question>
+  <question id='9651' reference='63'>
+    <text>Warum sind die Flüssiggase Propan und Butan an Bord besonders gefährlich?</text>
+    <correct>Beide Gase sind schwerer als Luft und bilden mit Luft ein explosives Gemisch.</correct>
+    <incorrect>Beide Gase sind leichter als Luft und bilden mit Luft ein explosives Gemisch.</incorrect>
+    <incorrect>Beide Gase sind schwerer als Wasser und bilden mit Wasser ein explosives Gemisch.</incorrect>
+    <incorrect>Beide Gase sind schwerer als Luft und bilden mit Wasser ein explosives Gemisch.</incorrect>
+  </question>
+  <question id='9652' reference='64'>
+    <text>Was ist zu tun, wenn Flüssiggas in das Innere des Bootes gelangt?</text>
+    <correct>Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keinen Funk und keine Mobiltelefone benutzen.</correct>
+    <incorrect>Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen udn keine Telefone benutzen.</incorrect>
+    <incorrect>Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und per Telefon Hilfe holen.</incorrect>
+    <incorrect>Gasleitung entleeren und die Gasfreiheit mit dem Feuerzeug prüfen sowie über Funk oder Mobiltelefon Hilfe anfordern.</incorrect>
+  </question>
+  <question id='9653' reference='65'>
+    <text>Was ist vor Inbetriebnahme einer Flüssiggasanlage zu prüfen?</text>
+    <correct>Die Anlage muss abgenommen sein, Leitungen und Anschlüsse müssen dicht sein. Haupthahn und andere Absperrventile sind zu öffnen.</correct>
+    <incorrect>Die Anlage muss abgenommen sein, die Inbetriebnahme darf nur durch eine besonders geprüfte Person erfolgen.</incorrect>
+    <incorrect>Die Anlage muss abgenommen sein und jährlich überprüft werden. Die Inbetriebnahme darf nur durch eine besonders geprüfte Person erfolgen.</incorrect>
+    <incorrect>Die Abnahme der Anlage darf nicht länger als drei Jahre zurückliegen. Haupthahn und andere Absperrventile sich zu öffnen.</incorrect>
+  </question>
+  <question id='9654' reference='66'>
+    <text>Was ist zu beachten, wenn eine Flüssiggasanlage außer Betrieb gesetzt wird?</text>
+    <correct>Haupthahn und Absperrventile sind zu schließen.</correct>
+    <incorrect>Die Anlage ist gasfrei zu machen.</incorrect>
+    <incorrect>Gasflasche fachgerecht entsorgen.</incorrect>
+    <incorrect>Der Flüssiggasbehälter ist vollständig zu entleeren.</incorrect>
+  </question>
+  <question id='9655' reference='67'>
+    <text>Wie oft muss man aufblasbare Rettungsmittel warten lassen?</text>
+    <correct>Entsprechend der Herstellerangabe, mindestens alle 2 Jahre.</correct>
+    <incorrect>Jährlich und nach jedem Einsatz oder Übungsgebrauch.</incorrect>
+    <incorrect>Entsprechend der Herstellerangabe, mindestens alle 3 Jahre.</incorrect>
+    <incorrect>Jährlich, jeweils vor Beginn der Wassersportsaison.</incorrect>
+  </question>
+  <question id='9656' reference='68'>
+    <text>Welcher Feuerlöscher ist für Sportboote zweckmäßig und wie oft muss man einen Feuerlöscher überprüfen lassen?</text>
+    <correct>ABC-Pulver- und Schaumlöscher, mindestens alle 2 Jahre.</correct>
+    <incorrect>Feuerlöscher mit Löschschaum, mindestens einmal pro Jahr.</incorrect>
+    <incorrect>CO2-Feuerlöscher, mindestens alle zwei Jahre.</incorrect>
+    <incorrect>ABC-Pulverlöscher, mindestens einmal pro Jahr.</incorrect>
+  </question>
+  <question id='9657' reference='69'>
+    <text>Welche Maßnahme muss man ergreifen, um einen Brand mit dem Feuerlöscher wirksam zu bekämpfen?</text>
+    <correct>Luftzufuhr verhindern, Feuerlöscher erst am Brandhert einsetzen und das Feuer möglichst von unten bekämpfen.</correct>
+    <incorrect>Rauchabzug sicherstellen und Feuerlöscher rechtzeitig einsetzen, dabei den Löschstrahl möglichst in die lodernden Flammen halten.</incorrect>
+    <incorrect>Luftzufuhr verhindern und den Feuerlöscher mit sparsamen Löschstrahlstößen einsetzen, dabei das Feuer möglichst von oben bekämpfen.</incorrect>
+    <incorrect>Handhabungshinweise durchlesen und den Feuerlöscher sofort einsetzen, dabei das Feuer möglichst von unten bekämpfen.</incorrect>
+  </question>
+  <question id='9658' reference='70'>
+    <text>Wie hat man sich nach einem Zusammenstoß zu verhalten?</text>
+    <correct>Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; alle erforderlichen Daten austauschen.</correct>
+    <incorrect>Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; die Wasserschutzpolizei benachrichtigen.</incorrect>
+    <incorrect>Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; Notsignal geben.</incorrect>
+    <incorrect>Hilfe leisten und so lange am Unfallort bleiben, bis ein weiterer Beistand nicht mehr erforderlich ist; Verschlusszustand herstellen.</incorrect>
+  </question>
+  <question id='9659' reference='71'>
+    <text>Welche Faktoren sind hauptsächlich für das Wettergeschehen, also für Wind und Niederschläge, ausschlaggebend?</text>
+    <correct>Luftdruckänderung, Luftfeuchtigkeit und Temperatur.</correct>
+    <incorrect>Luftdruckänderung, Sonneneinstrahlung und Höhenlage.</incorrect>
+    <incorrect>Luftdruckänderung, Luftfeuchtigkeit und Jahreszeit.</incorrect>
+    <incorrect>Luftdruckänderung, Tageszeit und Temperatur.</incorrect>
+  </question>
+  <question id='9660' reference='72'>
+    <text>In welcher Situation dürfen Notsignale gegeben werden?</text>
+    <correct>Wenn Gefahr für Leib oder Leben von Personen besteht und daher Hilfe benötigt wird.</correct>
+    <incorrect>Wenn Gefahr für Leib oder Leben von Personen besteht oder das Schiff nicht mehr sicher manövriert werden kann.</incorrect>
+    <incorrect>Wenn Gefahr für Leib oder Leben von Personen oder erhebliche Sachwerte besteht und daher Hilfe benötigt wird.</incorrect>
+    <incorrect>Wenn Gefahr für Leib und Leben von Personen, erhebliche Sachwerte oder die maritime Umwelt besteht.</incorrect>
+  </question>
+</topic>
+<topic id='9661' name='Spezifische Fragen See'>
+  <question id='9662' reference='73'>
+    <text>Wo gelten die Kollisionsverhütungsregeln (KVR)?</text>
+    <correct>Auf der Hohen See und auf den mit dieser zusammenhängenden, von Seeschiffen befahrbaren Gewässern.</correct>
+    <incorrect>Auf der Hohen See und den deutschen Seeschifffahrtsstraßen, die von Seeschiffen befahren werden.</incorrect>
+    <incorrect>Auf den Seeschifffahrtsstraßen und den küstennahen deutschen Seegewässern, die von Seeschiffen befahren werden.</incorrect>
+    <incorrect>Auf der Hohen See und den von Seeschiffen befahrbaren Randmeeren, mit Ausnahme der Verkehrstrennungsgebiete.</incorrect>
+  </question>
+  <question id='9663' reference='74'>
+    <text>Was gilt, wenn eine Bestimmung der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) mit den Kollisionsverhütungsregeln (KVR) im Widerspruch steht?</text>
+    <correct>Die Vorschrift der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO).</correct>
+    <incorrect>Die Vorschrift der Kollisionsverhütungsregeln (KVR).</incorrect>
+    <incorrect>Die Grundregeln für das Verhalten im Verkehr.</incorrect>
+    <incorrect>Die Vorschrift der Schifffahrtsordnung Emsmündung.</incorrect>
+  </question>
+  <question id='9664' reference='75'>
+    <text>Welche Sportboote sind von der Fahrerlaubnispflicht auf den Seeschifffahrtsstraßen ausgenommen?</text>
+    <correct>Sportboote ohne Antriebsmaschine oder solche mit einer größten nicht überschreitbaren Nutzleistung von 3,68 Kilowatt (5 PS) oder weniger an der Propellerwelle.</correct>
+    <incorrect>Sportboote unter Segel mit einer Rumpflänge unter 15 m und solche deren Antriebsmaschine nicht benutzt wird.</incorrect>
+    <incorrect>Sportboote mit Antriebsmaschine mit einer größeren Nutzleistung als 3,68 Kilowatt (5 PS) an der Propellerwelle.</incorrect>
+    <incorrect>Sportboote, die entweder vor Anker liegen oder an Land festgemacht sind oder auf Grund sitzen.</incorrect>
+  </question>
+  <question id='9665' reference='76'>
+    <text>Wer ist für die Befolgung der Verkehrsvorschriften verantwortlich?</text>
+    <correct>Der Fahrzeugführer oder sein Stellvertreter.</correct>
+    <incorrect>Der Fahrzeugführer und sein Stellvertreter.</incorrect>
+    <incorrect>Der Fahrzeugführer und jeder sonst Verantwortliche.</incorrect>
+    <incorrect>Der Fahrzeugführer oder jeder sonst Verantwortliche.</incorrect>
+  </question>
+  <question id='9666' reference='77'>
+    <text>Was bedeutet „seemännische Sorgfaltspflicht“?</text>
+    <correct>Die Verpflichtung zur Beachtung von Vorsichtsmaßregeln über die Verkehrsvorschriften hinaus, die Seemannsbrauch oder besondere Umstände des Falles erfordern.</correct>
+    <incorrect>Die Verpflichtung zur Beachtung der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO), der Kollisionsverhütungsregeln (KVR), der Grundregeln für das Verhalten im Verkehr und der Ausweichregeln mit dem Manöver des letzten Augenblicks.</incorrect>
+    <incorrect>Die Verpflichtung zur Beachtung der Vorsichtsmaßregeln und Sicherheitsregeln der Verkehrsvorschriften und der Grundregeln für das Verhalten im Verkehr.</incorrect>
+    <incorrect>Die Verpflichtung zur Beachtung von Vorsichtsmaßregeln der Kollisionsverhütungsregeln (KVR), der Grundregeln für das Verhalten im Verkehr und der Ausweichregeln mit dem Manöver des letzten Augenblicks.</incorrect>
+  </question>
+  <question id='9667' reference='78'>
+    <text>Welche Sicherheitsmaßnahmen hat der Fahrzeugführer im Rahmen seiner seemännischen Sorgfaltspflicht vor Fahrtantritt zum Schutze und für die Sicherheit der Personen an Bord zu treffen?</text>
+    <correct>Der Fahrzeugführer hat die Besatzungsmitglieder und Gäste über die Sicherheitsvorkehrungen an Bord zu unterrichten, in die Handhabung der Rettungs- und Feuerlöschmittel einzuweisen und auf geeignete Maßnahmen gegen das Überbordfallen hinzuweisen.</correct>
+    <incorrect>Der Fahrzeugführer muss die Besatzungsmitglieder und Gäste anweisen, dass sie sich über die Sicherheitsvorkehrungen an Bord informieren, sich die Gebrauchsanweisungen der Rettungs- und Feuerlöschmittel ansehen und auf geeignete Maßnahmen gegen das Überbordfallen achten.</incorrect>
+    <incorrect>Der Fahrzeugführer hat die verantwortlichen Besatzungsmitglieder über die Sicherheitsvorkehrungen an Bord zu unterrichten, in die Handhabung der Rettungs- und Feuerlöschmittel einzuweisen und auf geeignete Maßnahmen gegen das Überbordfallen hinzuweisen.</incorrect>
+    <incorrect>Der Fahrzeugführer hat die Gäste an Bord über die Sicherheitsvorkehrungen an Bord zu unterrichten, in die Handhabung der Rettungs- und Feuerlöschmittel einzuweisen und auf geeignete Maßnahmen gegen das Überbordfallen hinzuweisen.</incorrect>
+  </question>
+  <question id='9668' reference='79'>
+    <text>Was bedeutet das „Manöver des letzten Augenblicks“?</text>
+    <correct>Ausweichmanöver des Kurshalters.</correct>
+    <incorrect>Ausweichmanöver des Ausweichpflichtigen.</incorrect>
+    <incorrect>Ausweichmanöver des Kurshalters und des Ausweichpflichtigen.</incorrect>
+    <incorrect>Ausweichmanöver des Kurshalters oder des Ausweichpflichtigen.</incorrect>
+  </question>
+  <question id='9669' reference='80'>
+    <text>Wann ist das „Manöver des letzten Augenblicks“ durchzuführen?</text>
+    <correct>Es muss durchgeführt werden, wenn ein Zusammenstoß durch Manöver des Ausweichpflichtigen allein nicht mehr vermieden werden kann.</correct>
+    <incorrect>Es muss durchgeführt werden, wenn ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.</incorrect>
+    <incorrect>Es muss im letzten Augenblick von jedem durchgeführt werden, wenn ein Zusammenstoß sonst nicht mehr vermieden werden kann.</incorrect>
+    <incorrect>Es muss kurz vor der Kollision durchgeführt werden, wenn sonst ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.</incorrect>
+  </question>
+  <question id='9670' reference='81'>
+    <text>Wann gilt ein Fahrzeug als überholendes Fahrzeug?</text>
+    <correct>Wenn es sich einem anderen Fahrzeug aus einer Richtung von mehr als 22,5° achterlicher als querab (Bereich des Hecklichtes) nähert.</correct>
+    <incorrect>Wenn es sich einem anderen Fahrzeug aus einer Richtung von mehr als 112,5° achterlicher als querab (Bereich der Seitenlichter) nähert.</incorrect>
+    <incorrect>Wenn es sich einem anderen Fahrzeug gegenüber in einer Richtung von mehr als 22,5° achterlicher als querab (Bereich des Hecklichtes) befindet.</incorrect>
+    <incorrect>Wenn es an einem anderen Fahrzeug aus einer achterlichen Richtung von mehr als 22,5° querab kommend (Bereich des Topplichtes) vorbeifährt.</incorrect>
+  </question>
+  <question id='9671' reference='82'>
+    <text>Wann ist ein Fahrzeug manövrierunfähig?</text>
+    <correct>Wenn es wegen außergewöhnlicher Umstände, z.B. Ausfall der Ruder- oder Maschinenanlage, nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.</correct>
+    <incorrect>Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.</incorrect>
+    <incorrect>Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.</incorrect>
+    <incorrect>Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.</incorrect>
+  </question>
+  <question id='9672' reference='83'>
+    <text>Wann ist ein Fahrzeug manövrierbehindert?</text>
+    <correct>Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.</correct>
+    <incorrect>Wenn es wegen außergewöhnlicher Umstände, z.B. Ausfall der Ruder- oder Maschinenanlage, nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.</incorrect>
+    <incorrect>Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.</incorrect>
+    <incorrect>Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.</incorrect>
+  </question>
+  <question id='9673' reference='84'>
+    <text>Welche besonderen Maßnahmen sind bei verminderter Sicht zu treffen?</text>
+    <correct>Es muss mit sicherer, den verminderten Sichtverhältnissen angepasster Geschwindigkeit gefahren werden, es müssen Schallsignale gegeben werden, es müssen Positionslichter eingeschaltet werden und es muss gehörig Ausguck gegangen werden.</correct>
+    <incorrect>Es muss mit sicherer, den verminderten Sichtverhältnissen angepasster Geschwindigkeit gefahren werden, es müssen Schallsignale gegeben werden, das Radargerät muss eingeschaltet werden und es muss Ausguck gegangen werden.</incorrect>
+    <incorrect>Es muss sicherer, den verminderten Sichtverhältnissen angepasster Geschwindigkeit gefahren werden, es müssen Schallsignale gegeben werden, es müssen Positionslichter eingeschaltet werden und es muss der Radarreflektor eingesetzt werden.</incorrect>
+    <incorrect>Es muss mit verminderter Geschwindigkeit gefahren werden, es müssen Schallsignale gegeben werden, es müssen Positionslichter eingeschaltet werden und es muss das AIS (Automatic Identification System) eingeschaltet werden.</incorrect>
+  </question>
+  <question id='9674' reference='85'>
+    <text>Welche Vorschriften regeln die Ausrüstung, Anordnung und Anbringung der Positionslaternen, Sichtzeichen und Schallsignalanlagen auf Fahrzeugen?</text>
+    <correct>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Schifffahrtsordnung Emsmündung (EmsSchO).</correct>
+    <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Sportbootführerscheinverordnung-See.</incorrect>
+    <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Schiffssicherheitsverordnung.</incorrect>
+    <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Verordnung zur Sicherung der Seefahrt.</incorrect>
+  </question>
+  <question id='9675' reference='86'>
+    <text>Welche Positionslaternen und Schallsignalanlagen dürfen auf Sportbooten unter deutscher Flagge verwendet werden?</text>
+    <correct>Solche, deren Baumuster vom Bundesamt für Seeschifffahrt und Hydrographie (BSH) zur Verwendung zugelassen sind oder eine als gleichwertig anerkannte Zulassung eines EU-Staates besitzen.</correct>
+    <incorrect>Solche, die die vorgeschriebene Mindesttragweite von drei Seemeilen, die Größe und Farbgebung bzw. Lautstärke erreichen und mit einer Bescheinigung einer Klassifikationsgesellschaft versehen sind.</incorrect>
+    <incorrect>Solche, die gemäß der Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und der Schifffahrtsordnung Emsmündung (EmsSchO) vorgeschrieben sind und ein CE-Zeichen haben.</incorrect>
+    <incorrect>Solche, die vom Technischen Überwachungsverein (TÜV) geprüft und mit dem Zeichen für geprüfte Sicherheit (GS) versehen sind.</incorrect>
+  </question>
+  <question id='9676' reference='87'>
+    <text>Was sind „Verkehrstrennungsgebiete“?</text>
+    <correct>Es sind bekannt gemacht Schifffahrtswege, die durch Trennlinien oder Trennzonen in Einbahnwege geteilt sind.</correct>
+    <incorrect>Es sind bekannt gemachte Fahrwasser, die durch Trennlinien oder Trennzonen in Einbahnwege geteilt sind.</incorrect>
+    <incorrect>Es sind bekannt gemachte Seeschifffahrtsstraßen, die durch Trennlinien oder Trennzonen in Einbahnwege geteilt sind.</incorrect>
+    <incorrect>Es sind bekannt gemachte Bundeswasserstraßen, die durch Trennlinien oder Trennzonen in Einbahnwege geteilt sind.</incorrect>
+  </question>
+  <question id='9677' reference='88'>
+    <text>Wie sind Verkehrstrennungsgebiete zu befahren?</text>
+    <correct>Sie dürfen jeweils nur in der allgemeinen Verkehrsrichtung rechts der Trennlinie oder Trennzone befahren werden.</correct>
+    <incorrect>Sie dürfen jeweils nur in Fahrtrichtung links der Trennlinie oder Trennzone befahren werden.</incorrect>
+    <incorrect>Sie dürfen innerhalb der äußeren Trennlinien nur in einer Fahrtrichtung befahren werden.</incorrect>
+    <incorrect>Sie dürfen nur vom Anfang bis zum Ende und jeweils nur in Fahrtrichtung rechts der Trennzone befahren werden.</incorrect>
+  </question>
+  <question id='9678' reference='89'>
+    <text>Was bedeutet „in Sicht befindlich“?</text>
+    <correct>Wenn jedes Fahrzeug vom anderen optisch wahrgenommen werden kann.</correct>
+    <incorrect>Wenn jeder Fahrzeugführer vom anderen optisch wahrgenommen werden kann.</incorrect>
+    <incorrect>Wenn beide Fahrzeuge optisch wahrgenommen werden können.</incorrect>
+    <incorrect>Wenn jedes Fahrzeug auch bei unsichtigem Wetter optisch wahrgenommen werden kann.</incorrect>
+  </question>
+  <question id='9679' reference='90'>
+    <text>Was bedeutet sichere Geschwindigkeit?</text>
+    <correct>Die Geschwindigkeit muss der Verkehrslage, den Sicht- und Witterungsverhältnissen angepasst sein und es muss jederzeit aufgestoppt werden können.</correct>
+    <incorrect>Die Geschwindigkeit muss der Verkehrslage, den Sicht- und Witterungsverhältnissen angepasst sein und der Verkehr darf nicht behindert werden.</incorrect>
+    <incorrect>Die Geschwindigkeit muss der Verkehrslage, den Sicht- und Witterungsverhältnissen und dem Treibstoffverbrauch angepasst sein.</incorrect>
+    <incorrect>Die Geschwindigkeit muss der Verkehrslage, dem Verkehrsaufkommen, den Seegangs- und Windverhältnissen angepasst sein, so dass kein Sog- und Wellenschlag entsteht.</incorrect>
+  </question>
+  <question id='9680' reference='91'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Maschinenfahrzeug in Fahrt von weniger als 50 m Länge.</correct>
+    <incorrect>Maschinenfahrzeug in Fahrt von 50 und mehr Meter Länge.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9681' reference='92'>
+    <text>Welches Fahrzeug muss diese Lichter führen?</text>
+    <correct>Maschinenfahrzeug in Fahrt von 50 und mehr Meter Länge.</correct>
+    <incorrect>Maschinenfahrzeug in Fahrt von weniger als 50 m Länge.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9682' reference='93'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Manövrierbehinderter Schleppverband in Fahrt von 200 m Länge oder weniger.</correct>
+    <incorrect>Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge.</incorrect>
+    <incorrect>Manövrierbahinderter Schleppverband in Fahrt von 200 m Länge oder weniger, ohne Fahrt durchs Wasser.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9683' reference='94'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge.</correct>
+    <incorrect>Manövrierbehinderter Schleppverband in Fahrt von 200 m Länge oder weniger.</incorrect>
+    <incorrect>Manövrierbehinderter Schleppverband in Fahrt von mehr als 200 m Länge, ohne Fahrt durchs Wasser.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert.</incorrect>
+  </question>
+  <question id='9684' reference='95'>
+    <text>Welche Lichter führen geschleppte Fahrzeuge?</text>
+    <correct>Seitenlichter rot und grün und ein weißes Hecklicht.</correct>
+    <incorrect>Seitenlichter rot und grün und ein weißes Rundumlicht.</incorrect>
+    <incorrect>Seitenlichter rot und grün und zwei rote Rundumlichter senkrecht übereinander.</incorrect>
+    <incorrect>Seitenlichter rot und grün und ein rotes Rundumlicht senkrecht über einem weißen Rundumlicht.</incorrect>
+  </question>
+  <question id='9685' reference='96'>
+    <text>Was bedeutet es, wenn jedes Fahrzeug eines Schleppverbandes einen schwarzen Rhombus führt?</text>
+    <correct>Schleppverband von mehr als 200 m Länge.</correct>
+    <incorrect>Schleppverband von mehr als 100 m Länge.</incorrect>
+    <incorrect>Schleppverband von mehr als 50 m Länge.</incorrect>
+    <incorrect>Schleppverband von weniger als 50 m Länge.</incorrect>
+  </question>
+  <question id='9686' reference='97'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Ein manövrierunfähiges Fahrzeug in Fahrt.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein tiefgangbehindertes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9687' reference='98'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Ein manövrierunfähiges Fahrzeug mit Fahrt durch das Wasser.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser.</incorrect>
+    <incorrect>Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9688' reference='99'>
+    <text>Welches Fahrzeug führt diese Signalkörper?</text>
+    <correct>Ein manövrierunfähiges Fahrzeug.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein fischendes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9689' reference='100'>
+    <text>Welche Lichter führen manövrierunfähige Fahrzeuge von 12 und mehr Meter Länge in Fahrt, ohne Fahrt durch das Wasser?</text>
+    <correct>Zwei rote Rundumlichter senkrecht übereinander.</correct>
+    <incorrect>Zwei rote Rundumlichter senkrecht übereinander und zusätzlich die Seitenlichter und das Hecklicht.</incorrect>
+    <incorrect>Drei rote Rundumlichter senkrecht übereinander.</incorrect>
+    <incorrect>Drei rote Rundumlichter senkrecht übereinander und zusätzlich die Seitenlichter und das Hecklich.</incorrect>
+  </question>
+  <question id='9690' reference='101'>
+    <text>Welche Lichter führen manövrierunfähige Fahrzeuge von 12 und mehr Meter Länge in Fahrt mit Fahrt durch das Wasser?</text>
+    <correct>Zwei rote Rundumlichter senkrecht übereinander und zusätzlich die Seitenlichter und das Hecklicht.</correct>
+    <incorrect>Zwei rote Rundumlichter senkrecht übereinander.</incorrect>
+    <incorrect>Drei rote Rundumlichter senkrecht übereinander.</incorrect>
+    <incorrect>Drei rote Rundumlichter senkrecht übereinander und zusätzlich die Seitenlichter und das Hecklicht.</incorrect>
+  </question>
+  <question id='9691' reference='102'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Ein manövrierbehindertes Fahrzeug in Fahrt.</correct>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein fischendes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von weniger als 50 m Länge.</incorrect>
+  </question>
+  <question id='9692' reference='103'>
+    <text>Welches Fahrzeug muss diese Lichter führen?</text>
+    <correct>Ein manövrierbehindertes Fahrzeug mit Fahrt durch das Wasser von 50 und mehr Meter Länge.</correct>
+    <incorrect>Ein manövrierunfähiges Fahrzeug mit Fahrt durch was Wasser von 50 und mehr Meter Länge.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug ohne Fahrt durch das Wasser von 50 und mehr Meter Länge.</incorrect>
+    <incorrect>Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9693' reference='104'>
+    <text>Welches Fahrzeug führt diese Signalkörper?</text>
+    <correct>Ein manövrierbehindertes Fahrzeug.</correct>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein fischendes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von weniger als 50 m Länge.</incorrect>
+  </question>
+  <question id='9694' reference='105'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Ein Grundsitzer von weniger als 50 m Länge.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9695' reference='106'>
+    <text>Welches Fahrzeug führt diese Signalkörper?</text>
+    <correct>Ein Grundsitzer.</correct>
+    <incorrect>Ein manövrierunfähiges Fahrzeug.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug.</incorrect>
+    <incorrect>Ein fischendes Fahrzeug.</incorrect>
+  </question>
+  <question id='9696' reference='107'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Ein Grundsitzer von 50 und mehr Meter Länge.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von weniger als 50 m Länge.</incorrect>
+  </question>
+  <question id='9697' reference='108'>
+    <text>Welches Fahrzeug muss diese Lichter führen?</text>
+    <correct>Ein tiefgangbehindertes Fahrzeug von 50 und mehr Meter Länge in Fahrt.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von weniger als 50 m Länge.</incorrect>
+  </question>
+  <question id='9698' reference='109'>
+    <text>Welches Fahrzeug führt diese Signalkörper?</text>
+    <correct>Ein tiefgangbehindertes Fahrzeug in Fahrt.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von weniger als 50 Meter Länge.</incorrect>
+  </question>
+  <question id='9699' reference='110'>
+    <text>Welches Fahrzeug muss diese Lichter führen?</text>
+    <correct>Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durch das Wasser von 50 und mehr Meter Länge.</correct>
+    <incorrect>Ein fischendes Fahrzeug in Fahrt, das nicht trawlt, z.B. Treibnetzfischer.</incorrect>
+    <incorrect>Ein Behördenfahrzeug im Einsatz.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug in Fahrt.</incorrect>
+  </question>
+  <question id='9700' reference='111'>
+    <text>Welches Fahrzeug führt diese Lichter?</text>
+    <correct>Ein fischendes Fahrzeug in Fahrt oder vor Anker, das nicht trawlt, z.B. Treibnetzfischer.</correct>
+    <incorrect>Ein Lotsenfahrzeug im Einsatz.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durchs Wasser von 50 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9701' reference='112'>
+    <text>Welches Fahrzeug führt diese Signalkörper?</text>
+    <correct>Ein fischendes Fahrzeug in Fahrt oder vor Anker.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt.</incorrect>
+    <incorrect>Ein Grundsitzer von weniger als 50 m Länge.</incorrect>
+  </question>
+  <question id='9702' reference='113'>
+    <text>Welche Fahrzeuge führen nur Seitenlichter rot und grün und ein weißes Hecklicht?</text>
+    <correct>Segelfahrzeuge, Ruderboote und geschleppte Fahrzeuge.</correct>
+    <incorrect>Segelfahrzeuge, Ruderboote und Maschinenfahrzeuge in Fahrt von weniger als 50 m Länge.</incorrect>
+    <incorrect>Segelfahrzeuge, fischende Fahrzeuge und geschleppte Fahrzeuge.</incorrect>
+    <incorrect>Segelfahrzeuge, Grundsitzer und geschleppte Fahrzeuge.</incorrect>
+  </question>
+  <question id='9703' reference='114'>
+    <text>Was für ein Licht muss ein Ankerlieger von weniger als 50 m Länge führen?</text>
+    <correct>Ein weißes Rundumlicht an gut sichtbarer Stelle.</correct>
+    <incorrect>Ein rotes Rundumlicht an gut sichtbarer Stelle.</incorrect>
+    <incorrect>Zwei weiße Rundumlichter an gut sichtbarer Stelle.</incorrect>
+    <incorrect>Zwei rote Rundumlichter an gut sichtbarer Stelle.</incorrect>
+  </question>
+  <question id='9704' reference='115'>
+    <text>Welches Fahrzeug muss diese Lichter führen?</text>
+    <correct>Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.</correct>
+    <incorrect>Ein fischender Trawler (Fischereifahrzeug) mit Fahrt durchs Wasser von 50 und mehr Meter Länge.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten und dabei die Schifffahrt behindert.</incorrect>
+    <incorrect>Ein Grundsitzer von 200 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9705' reference='116'>
+    <text>Sie hören bei verminderter Sicht mindestens alle zwei Minuten einen langen Ton mit der Pfeife (–). Welches Fahrzeug gibt dieses Signal?</text>
+    <correct>Ein Maschinenfahrzeug, das Fahrt durchs Wasser macht.</correct>
+    <incorrect>Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.</incorrect>
+    <incorrect>Ein Fahrzeug mit gefährlicher Landung vor Anker von weniger als 100 m Länge.</incorrect>
+    <incorrect>Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9706' reference='117'>
+    <text>Sie hören bei verminderter Sicht mindestens alle zwei Minuten zwei aufeinander folgende lange Töne mit der Pfeife (– –). Welches Fahrzeug gibt dieses Signal?</text>
+    <correct>Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</correct>
+    <incorrect>Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.</incorrect>
+    <incorrect>Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge.</incorrect>
+    <incorrect>Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.</incorrect>
+  </question>
+  <question id='9707' reference='118'>
+    <text>Welche Fahrzeuge geben bei verminderter Sicht mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (– ● ●)?</text>
+    <correct>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</correct>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Maschinenfahrzeug in Fahrt, das Fahrt durcs Wasser macht, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker, ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker, ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.</incorrect>
+  </question>
+  <question id='9708' reference='119'>
+    <text>Welches Fahrzeug gibt bei verminderter Sicht – im Anschluss an das Signal: lang, kurz, kurz (– ● ●) – vier aufeinander folgende Töne mit der Pfeife, und zwar: lang, kurz, kurz, kurz (– ● ● ●)?</text>
+    <correct>Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.</correct>
+    <incorrect>Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
+    <incorrect>Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug von weniger als 100 m Länge.</incorrect>
+  </question>
+  <question id='9709' reference='120'>
+    <text>Was für ein Schallsignal muss ein Segelfahrzeug in Fahrt von 12 und mehr Meter Länge bei verminderter Sicht geben?</text>
+    <correct>Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (– ● ●).</correct>
+    <incorrect>Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz (– – ●).</incorrect>
+    <incorrect>Mindestens alle zwei Minuten ein kräftiges Schallsignal, das mit den vorgeschriebenen nicht verwechselt werden kann.</incorrect>
+    <incorrect>Mit der Pfeife kurz, lang, kurz (● – ●).</incorrect>
+  </question>
+  <question id='9710' reference='121'>
+    <text>Welches Schallsignal muss ein Fahrzeug in Fahrt von weniger als 12 m Länge bei verminderter Sicht geben, wenn es die sonst vorgeschriebenen Schallsignale nicht geben kann?</text>
+    <correct>Mindestens alle zwei Minuten ein kräftiges Schallsignal, das mit den vorgeschriebenen nicht verwechselt werden kann.</correct>
+    <incorrect>Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (– ● ●).</incorrect>
+    <incorrect>Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz (– – ●).</incorrect>
+    <incorrect>Mit der Pfeife kurz, lang, kurz (● – ●).</incorrect>
+  </question>
+  <question id='9711' reference='122'>
+    <text>Welches Fahrzeug gibt bei verminderter Sicht mindestens jede Minute etwa 5 Sekunden lang rasches Läuten der Glocke?</text>
+    <correct>Ein Fahrzeug vor Anker von weniger als 100 m Länge.</correct>
+    <incorrect>Ein Fahrzeug vor Anker von 100 und mehr Meter Länge.</incorrect>
+    <incorrect>Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.</incorrect>
+    <incorrect>Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
+  </question>
+  <question id='9712' reference='123'>
+    <text>Welches Fahrzeug gibt bei verminderter Sicht mindestens jede Minute etwa 5 Sekunden lang rasches Läuten der Glocke und unmittelbar danach ungefähr 5 Sekunden lang rasch den Gong schlagen?</text>
+    <correct>Ein Fahrzeug vor Anker von 100 und mehr Meter Länge.</correct>
+    <incorrect>Ein Fahrzeug vor Anker von weniger als 100 m Länge.</incorrect>
+    <incorrect>Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.</incorrect>
+    <incorrect>Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
+  </question>
+  <question id='9713' reference='124'>
+    <text>Welches zusätzliche Schallsignal darf jeder Ankerlieger bei verminderter Sicht geben, um einem sich nähernden Fahrzeug seinen Standort anzuzeigen?</text>
+    <correct>Mit der Pfeife kurz, lang, kurz (● – ●).</correct>
+    <incorrect>Mindestens alle zwei Minuten ein kräftiges Schallsignal, das mit den vorgeschriebenen nicht verwechselt werden kann.</incorrect>
+    <incorrect>Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz (– ● ●).</incorrect>
+    <incorrect>Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz (– – ●).</incorrect>
+  </question>
+  <question id='9714' reference='125'>
+    <text>Woran kann man feststellen, ob die Möglichkeit der Gefahr eines Zusammenstoßes besteht?</text>
+    <correct>Wenn sich der Abstand zum anderen Fahrzeug verringert und sich die Peilung nicht oder nicht merklich ändert.</correct>
+    <incorrect>Wenn sich der Abstand zum anderen Fahrzeug verringert und sich der Kurs nicht oder nicht merklich ändert.</incorrect>
+    <incorrect>Wenn sich der Abstand zum anderen Fahrzeug verringert und sich die Kompasspeilung ändert.</incorrect>
+    <incorrect>Wenn sich der Abstand zum anderen Fahrzeug verringert und sich der Kurs ändert.</incorrect>
+  </question>
+  <question id='9715' reference='126'>
+    <text>Zwei in Sicht befindliche Segelfahrzeuge nähern sich im freien Seeraum oder außerhalb des Fahrwassers so, dass die Möglichkeit der Gefahr eines Zusammenstoßes besteht. Welches Fahrzeug muss dem anderen ausweichen, wenn sie den Wind von derselben Seite haben?</text>
+    <correct>Das luvwärtige Fahrzeug dem leewärtigen Fahrzeug.</correct>
+    <incorrect>Das leewärtige Fahrzeug dem luvwärtigen Fahrzeug.</incorrect>
+    <incorrect>Dasjenige Fahrzeug, das den Wind von Backbord hat.</incorrect>
+    <incorrect>Dasjenige Fahrzeug, das den Wind von Steuerbord hat.</incorrect>
+  </question>
+  <question id='9716' reference='127'>
+    <text>Wie müssen sich zwei in Sicht befindliche Maschinenfahrzeuge verhalten, die sich einander auf entgegengesetzten oder fast entgegengesetzten Kursen nähern, um die Möglichkeit der Gefahr eines Zusammenstoßes zu vermeiden?</text>
+    <correct>Jedes Fahrzeug muss seinen Kurs nach Steuerbord ändern.</correct>
+    <incorrect>Jedes Fahrzeug muss seinen Kurs nach Backbord ändern.</incorrect>
+    <incorrect>Es muss das luvwärtige Fahrzeug dem leewärtigen Fahrzeug ausweichen.</incorrect>
+    <incorrect>Es mus das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen.</incorrect>
+  </question>
+  <question id='9717' reference='128'>
+    <text>Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen Segelfahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?</text>
+    <correct>Das Maschinenfahrzeug muss ausweichen.</correct>
+    <incorrect>Das Maschinenfahrzeug muss Kurs und Geschwindigkeit beibehalten.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss seine Fahrt verringern.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss vorsichtig manövrieren bis die Gefahr vorüber ist.</incorrect>
+  </question>
+  <question id='9718' reference='129'>
+    <text>Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen manövrierunfähigen Fahrzeug zu verhalten, wenn die Möglichkeit eines Zusammenstoßes besteht?</text>
+    <correct>Das Maschinenfahrzeug muss ausweichen.</correct>
+    <incorrect>Das Maschinenfahrzeug muss Kurs und Geschwindigkeit beibehalten.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss seinen Kurs nach Steuerbord ändern.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss seine Fahrt verringern.</incorrect>
+  </question>
+  <question id='9719' reference='130'>
+    <text>Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen manövrierbehinderten Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?</text>
+    <correct>Das Maschinenfahrzeug muss ausweichen.</correct>
+    <incorrect>Das Maschinenfahrzeug muss Kurs und Geschwindigkeit beibehalten.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss seinen Kurs nach Steuerbord ändern.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss seine Fahrt verringern.</incorrect>
+  </question>
+  <question id='9720' reference='131'>
+    <text>Wie hat sich ein Maschinenfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen fischenden Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?</text>
+    <correct>Das Maschinenfahrzeug muss ausweichen.</correct>
+    <incorrect>Das Maschinenfahrzeug muss Kurs und Geschwindigkeit beibehalten.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss seinen Kurs nach Steuerbord ändern.</incorrect>
+    <incorrect>Das Maschinenfahrzeug muss vorsichtig manövrieren, bis die Gefahr vorüber ist.</incorrect>
+  </question>
+  <question id='9721' reference='132'>
+    <text>Wie hat sich ein Segelfahrzeug im freien Seeraum oder außerhalb des Fahrwassers gegenüber einem in Sicht befindlichen fischenden Fahrzeug zu verhalten, wenn die Möglichkeit der Gefahr eines Zusammenstoßes besteht?</text>
+    <correct>Das Segelfahrzeug muss ausweichen.</correct>
+    <incorrect>Das Segelfahrzeug muss seinen Kurs nach Steuerbord ändern.</incorrect>
+    <incorrect>Das Segelfahrzeug darf die sichere Durchfahrt nicht behindern.</incorrect>
+    <incorrect>Das Segelfahrzeug muss Kurs und Geschwindigkeit zunächst beibehalten.</incorrect>
+  </question>
+  <question id='9722' reference='133'>
+    <text>Wie muss man sich gegenüber diesem Fahrzeug verhalten?</text>
+    <correct>Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden.</correct>
+    <incorrect>Das Fahrzeug muss an Steuerbord passiert werden.</incorrect>
+    <incorrect>Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Kurs und Geschwindigkeit beibehalten.</incorrect>
+  </question>
+  <question id='9723' reference='134'>
+    <text>Wie muss man sich gegenüber diesem Fahrzeug verhalten?</text>
+    <correct>Die sichere Durchfahrt des Fahrzeugs darf nicht behindert werden.</correct>
+    <incorrect>Das Fahrzeug muss an Steuerbord passiert werden.</incorrect>
+    <incorrect>Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Kurs und Geschwindigkeit beibehalten.</incorrect>
+  </question>
+  <question id='9724' reference='135'>
+    <text>Wie verhält sich der Kurshaltepflichtige vor Einleitung des Manövers des letzten Augenblicks gegenüber einem ausweichpflichtigen Fahrzeug?</text>
+    <correct>Kurs und Geschwindigkeit zunächst beibehalten und dem Ausweichpflichtigen besondere Aufmerksamkeit widmen.</correct>
+    <incorrect>Kurs oder Geschwindigkeit anpassen und dem Ausweichpflichtigen besondere Aufmerksamkeit widmen.</incorrect>
+    <incorrect>Kurs nach Steuerbord ändern, Geschwindigkeit verringern und dem Ausweichpflichtigen besondere Aufmerksamkeit widmen.</incorrect>
+    <incorrect>Kurs nach Steuerbord ändern, Geschwindigkeit zunächst beibehalten und dem Ausweichpflichtigen besondere Aufmerksamkeit widmen.</incorrect>
+  </question>
+  <question id='9725' reference='136'>
+    <text>Wie muss sich ein Ausweichpflichtiger gegenüber einem Kurshalter verhalten?</text>
+    <correct>Das Ausweichmanöver muss frühzeitig, durchgreifend und klar erkennbar durchgeführt werden.</correct>
+    <incorrect>Der Kurs muss bei Annäherung an den Kurshalter Schritt für Schritt so angepasst werden, dass das Heck des Anderen sicher umfahren wird.</incorrect>
+    <incorrect>Das Manöver des letzten Augenblicks ist durchzuführen. Es muss so ausgewichen werden, wie es zur Vermeidung eines Zusammenstoßes am dienlichsten ist.</incorrect>
+    <incorrect>Die Fahrt ist auf das für die Steuerfähigkeit erforderliche Mindestmaß zu reduzieren: im Zweifelsfall muss ganz aufgestoppt werden.</incorrect>
+  </question>
+  <question id='9726' reference='137'>
+    <text>Wie hat sich ein überholendes Fahrzeug zu verhalten?</text>
+    <correct>Es hat dem zu überholenden Fahrzeug auszuweichen.</correct>
+    <incorrect>Es muss den größtmöglichen Abstand zum überholten Fahrzeug einhalten und Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Es darf die sichere Durchfahrt des zu überholenden Fahrzeugs nicht behindern.</incorrect>
+    <incorrect>Es muss vor dem Überholen ein Schallsignal abgeben, um die Zustimmung des zu überholenden Fahrzeugs einzuholen.</incorrect>
+  </question>
+  <question id='9727' reference='138'>
+    <text>Wie hat man sich zu verhalten, wenn man bei verminderter Sicht anscheinend vorlicher als querab das Schallsignal eines anderen Fahrzeugs hört?</text>
+    <correct>Es ist ebenfalls ein Schallsignal abzugeben und die Fahrt soweit zu verlangsamen, dass die Steuerfähigkeit noch erhalten bleibt. Erforderlichenfalls ist ganz aufzustoppen. In jedem Fall ist vorsichtig zu manövrieren, bis die Gefahr eines Zusammenstoßes vorüber ist.</correct>
+    <incorrect>Es ist ebenfalls ein Schallsignal abzugeben und frühzeitig, durchgreifend und klar erkennbar auszuweichen.</incorrect>
+    <incorrect>Es sind mindestens fünf kurze Töne mit der Pfeife abzugeben und das Manöver des letzten Augenblicks durchzuführen. Dabei ist so zu manövrieren, wie es zur Vermeidung eines Zusammenstoßes am dienlichten ist.</incorrect>
+    <incorrect>Es ist ebenfalls ein Schallsignal abzugeben. Kurs und Geschwindigkeit sind so lange beizubehalten, bis das andere Fahrzeug in Sicht kommt. Dann ist die Ausweichsituation nach KVR zu prüfen und man muss sich entsprechend verhalten.</incorrect>
+  </question>
+  <question id='9728' reference='139'>
+    <text>Wie verhält man sich als Kurshalter, wenn man feststellt, dass ein anderes Fahrzeug seiner Ausweichpflicht nicht nachkommt und die Gefahr einer unmittelbaren Kollision bevorsteht?</text>
+    <correct>Man gibt mindestens fünf kurze Töne mit der Pfeife ab und führt das „Manöver des letzten Augeblicks“ durch. Dabei ist so zu manövrieren, wie es zur Vermeidung eines Zusammenstoßes am dienlichsten ist.</correct>
+    <incorrect>Man gibt ein Schallsignal (vier kurze Töne) ab und verlangsamt die Fahrt soweit, dass die Steuerfähigkeit noch erhalten bleibt. Erforderlichenfalls ist ganz aufzustoppen. In jedem Fall ist vorsichtig zu manövrieren, bis die Gefahr eines Zusammenstoßes vorüber ist.</incorrect>
+    <incorrect>Man gibt mindestens fünf kurze Töne mit der Pfeife ab und reduziert die Geschwindigkeit, um Sog und Wellenschlag zu vermeiden.</incorrect>
+    <incorrect>Man behält Kurs und Geschwindigkeit zunächst bei und widmet dem Ausweichpflichtigen besondere Aufmerksamkeit.</incorrect>
+  </question>
+  <question id='9729' reference='140'>
+    <text>Welche Bedeutung hat folgendes Schallsignal: (mindestens ● ● ● ● ●)?</text>
+    <correct>Ein ausweichpflichtiges Fahrzeug wird auf seine Ausweichpflicht aufmerksam gemacht.</correct>
+    <incorrect>Allgemeines Gefahren- und Warnsignal.</incorrect>
+    <incorrect>Bleib-Weg-Signal, Explosionsgefahr durch gefährliche Güter. Sofort den Gefahrenbereich verlassen. Feuer und Zündfunken vermeiden.</incorrect>
+    <incorrect>Seeschifffahrtsstraße gesperrt. Weiterfahrt verboten, sofort aufstoppen.</incorrect>
+  </question>
+  <question id='9730' reference='141'>
+    <text>Welche Bedeutung hat folgendes Schallsignal: (● – ●)?</text>
+    <correct>Ein Ankerlieger macht ein sich näherndes Fahrzeug auf eine gefährliche Annäherung aufmerksam.</correct>
+    <incorrect>Die Maschine des Fahrzeugs läuft rückwärts.</incorrect>
+    <incorrect>Schutzbedürftige Anlage; Geschwindigkeit reduzieren, Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Maschinenfahrzeug, das seine Maschinen gestoppt hat und keine Fahrt durchs Wasser macht.</incorrect>
+  </question>
+  <question id='9731' reference='142'>
+    <text>Was ist bei der Benutzung eines Verkehrstrennungsgebietes zu beachten?</text>
+    <correct>Auf dem entsprechenden Einbahnweg in der allgemeinen Verkehrsrichtung fahren, soweit wie möglich von der Trennzone/Trennlinie klar halten, in der Regel an den Enden des Einbahnweges ein- oder auslaufen, seitliches Ein- oder Auslaufen in möglichst kleinem Winkel zur allgemeinen Verkehrsrichtung.</correct>
+    <incorrect>Auf dem entsprechenden Einbahnweg in Verkehrsrichtung links von der Trennzone fahren, so nah wie möglich an der Trennzone/Trennlinie fahren, in der Regel an den Enden des Einbahnweges ein- oder auslaufen, seitliches Ein- oder Auslaufen in möglichst rechtem Winkel zur allgemeinen Verkehrsrichtung.</incorrect>
+    <incorrect>Die Benutzung von Verkehrstrennungsgebieten ist für Segelfahrzeuge sowie für Maschinenfahrzeuge unter 20 m Länge nicht gestattet. Diese Fahrzeuge haben sich soweit wie möglich von Verkehrstrennungsgebieten klar zu halten und müssen durch ihren Kurs klar zu erkennen geben, dass sie ein Verkehrstrennungsgebiet nicht benutzen.</incorrect>
+    <incorrect>Auf den entsprechenden Einbahnwegen in der allgemeinen Verkehrsrichtung fahrende Fahrzeuge müssen sich soweit wie möglich von der Trennzone/Trennlinie klar halten und haben Vorfahrt gegenüber allen Fahrzeugen, die in ein Verkehrstrennungsgebiet einlaufen oder ein solches queren.</incorrect>
+  </question>
+  <question id='9732' reference='143'>
+    <text>Was ist hinsichtlich des Querens eines Verkehrstrennungsgebietes zu beachten?</text>
+    <correct>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies möglichst mit der Kielrichtung im rechten Winkel zur allgemeinen Verkehrsrichtung zu erfolgen. Die Kielrichtung des querenden Fahrzeugs muss auch dann einen rechten Winkel zur allgemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind und Strom versetzt wird.</correct>
+    <incorrect>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies möglichst mit einem rechtweisenden Kurs zur allgemeinen Verkehrsrichtung zu erfolgen. Der rechtweisende Kurs des querenden Fahrzeugs muss auch dann einen rechten Winkel zur algemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind oder Strom versetzt wird.</incorrect>
+    <incorrect>Das Queren von Verkehrstrennungsgebieten ist für Segelfahrzeuge sowie für Maschinenfahrzeuge unter 20 m Länge verboten. Diese Fahrzeuge haben sich soweit wie möglich von den Enden der Verkehrstrennungsgebiete klar zu halten und müssen durch ihren Kurs zu erkennen geben, dass sie ein Verkehrstrennungsgebiet nicht queren.</incorrect>
+    <incorrect>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies mit der Kielrichtung in einem möglichst spitzen Winkel zur allgemeinen Verkehrsrichtung zu erfolgen. Die Kielrichtung des querenden Fahrzeugs muss auch dann einen möglichst spitzen Winkel zur allgemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind oder Strom versetzt wird.</incorrect>
+  </question>
+  <question id='9733' reference='144'>
+    <text>In welcher Vorschrift findet man die Regeln zum Befahren von Verkehrstrennungsgebieten?</text>
+    <correct>In den Kollisionsverhütungsregeln.</correct>
+    <incorrect>In der Seeschifffahrtsstraßen-Ordnung.</incorrect>
+    <incorrect>In den Kollisionsverhütungsregeln und der Seeschifffahrtsstraßen-Ordnung.</incorrect>
+    <incorrect>In den „Bekanntmachungen der Wasser- und Schifffahrtsdirektionen Nord und Nordwest“.</incorrect>
+  </question>
+  <question id='9734' reference='145'>
+    <text>Wie hat sich ein Maschinenfahrzeug bei Kollisionsgefahr in einem Einbahnweg eines Verkehrstrennungsgebietes gegenüber einem Maschinenfahrzeug zu verhalten, das den Einbahnweg von Steuerbord kommend quert?</text>
+    <correct>Es muss dem anderen Fahrzeug ausweichen.</correct>
+    <incorrect>Es darf die sichere Durchfahrt des Maschinenfahrzeugs nicht behindern.</incorrect>
+    <incorrect>Dem querenden Fahrzeug hat es besondere Aufmerksamkeit zu widmen.</incorrect>
+    <incorrect>Es muss das Manöver des letzten Augenblicks durchführen.</incorrect>
+  </question>
+  <question id='9735' reference='146'>
+    <text>Wie hat sich ein Segelfahrzeug beim Queren eines Verkehrstrennungsgebites gegenüber einem Maschinenfahrzeug zu verhalten, das auf einem Einbahnweg in der allgemeinen Verkehrsrichtung fährt?</text>
+    <correct>Es darf die sichere Durchfahrt des Maschinenfahrzeugs nicht behindern.</correct>
+    <incorrect>Es unterliegt der Kurshaltepflicht. Kurs und Geschwindigkeit sind beizubehalten.</incorrect>
+    <incorrect>Es muss warten. Alle dem Einbahnweg folgenden Fahrzeuge haben Vorfahrt.</incorrect>
+    <incorrect>Es hat Vorfahrt. Alle dem Einbahnweg folgenden Fahrzeuge müssen warten.</incorrect>
+  </question>
+  <question id='9736' reference='147'>
+    <text>Wie haben sich Fahrzeuge von weniger als 20 m Länge oder Segelfahrzeuge in Verkehrstrennungsgebieten zu verhalten?</text>
+    <correct>Sie dürfen die sichere Durchfahrt eines dem Einbahnweg folgenden Maschinenfahrzeugs nicht behindern.</correct>
+    <incorrect>Sie gelten als Kleinfahrzeuge und dürfen Verkehrstrennungsgebiete nicht befahren.</incorrect>
+    <incorrect>Sie gelten als Kleinfahrzeuge und dürfen Verkehrstrennungsgebiete nur am Tage und bei guter Sicht befahren.</incorrect>
+    <incorrect>Sie dürfen die Trennzone befahren, damit der durchgehende Verkehr nicht behindert wird.</incorrect>
+  </question>
+  <question id='9737' reference='148'>
+    <text>Was ist das für ein Fahrzeug und was ist zu beachten?</text>
+    <correct>Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei schwarze Rhomben senkrecht übereinander angeordnet sind.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug, das die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei schwarze Bälle senkrecht übereinander angeordnet sind.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in meiner Fahrtrichtung rechts liegt.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es darf an keiner Seite passiert werden.</incorrect>
+  </question>
+  <question id='9738' reference='149'>
+    <text>Was ist das für ein Fahrzeug und was ist zu beachten?</text>
+    <correct>Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt nicht behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung rechts liegt.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung links liegt.</incorrect>
+    <incorrect>Ein manövrierunfähiges Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung rechts liegt.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug mit Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es darf an beiden Seiten passiert werden.</incorrect>
+  </question>
+  <question id='9739' reference='150'>
+    <text>Was ist das für ein Fahrzeug und was ist zu beachten?</text>
+    <correct>Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei grüne Rundumlichter senkrecht übereinander angeordnet sind.</correct>
+    <incorrect>Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das die Schifffahrt behindert. Es ist an der Seite zu passieren, an der zwei rote Rundumlichter senkrecht übereinander angeordnet sind.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Seite zu passieren, die in Fahrtrichtung links liegt.</incorrect>
+    <incorrect>Ein manövrierbehindertes Fahrzeug ohne Fahrt durchs Wasser, das baggert oder Unterwasserarbeiten ausführt und dabei die Schifffahrt behindert. Es ist an der Steuerbordseite des Fahrwassers (Rechtsfahrgebot) zu passieren.</incorrect>
+  </question>
+  <question id='9740' reference='151'>
+    <text>Was ist das für ein Fahrzeug und was ist zu beachten?</text>
+    <correct>Fahrzeug mit gefährlichen Gütern, Abstand halten, Rauchen und offenes Feuer verboten.</correct>
+    <incorrect>Fahrzeug des öffentlichen Dienstes. Es darf von den Verkehrsregeln abweichen.</incorrect>
+    <incorrect>Fahrzeug in Seenot. Hilfe leisten bzw. weitere Hilfe anfordern.</incorrect>
+    <incorrect>Fahrzeug mit Taucher im Einsatz. Großen Abstand halten.</incorrect>
+  </question>
+  <question id='9741' reference='152'>
+    <text>Wo ist festgelegt, welche Wasserflächen Seeschifffahrtsstraßen sind?</text>
+    <correct>Seeschifffahrtsstraßen-Ordnung und Schifffahrtsordnung Emsmündung.</correct>
+    <incorrect>Seeschifffahrtsstraßen-Ordnung und Kollisionsverhütungsregeln.</incorrect>
+    <incorrect>Kollisionsverhütungsregeln und Schifffahrtsordnung Emsmündung.</incorrect>
+    <incorrect>Kollisionsverhütungsregeln und Seeaufgabengesetz.</incorrect>
+  </question>
+  <question id='9742' reference='153'>
+    <text>Welche örtlichen Sondervorschriften zusätzlich zur Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und zur Schifffahrtsordnung Emsmündung (EmsSchO) gibt es und was ist darin geregelt?</text>
+    <correct>Die Bekanntmachungen der Wasser- und Schifffahrtsdirektionen (WSD) Nord und Nordwest zur Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und zur Schifffahrtsordnung Emsmündung (EmsSchO), die besondere örtliche Regelungen enthalten und Hinweise für die einzelnen Seeschifffahrtsstraßen geben.</correct>
+    <incorrect>Die Nachrichten für Seefahrer (NfS), herausgegeben vom Bundesamt für Seeschifffahrt und Hydrographie, sowie die Bekanntmachungen für Seefahrer (BfS) der örtlich zuständigen Wasser- und Schifffahrtsämter, die auf alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks und Untiefen sowie auf die Schifffahrt betreffende Maßnahmen und Ereignisse hinweisen.</incorrect>
+    <incorrect>Die nautische Veröffentlichung „Sicherheit auf dem Wasser“, herausgegeben durch das Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS), mit wichtigen Regeln und Tipps für Wassersportler.</incorrect>
+    <incorrect>Das Seesicherheitsuntersuchungsgesetz sowie die Verordnung über die Sicherung der Seefahrt, die jweils wichtige Vorschriften über das Verhalten nach einem Zusammenstoß auf den jeweiligen Seeschifffahrtsstraßen enthalten.</incorrect>
+  </question>
+  <question id='9743' reference='154'>
+    <text>Was ist das für ein Fahrzeug und was ist zu beachten?</text>
+    <correct>Fahrzeug des öffentlichen Dienstes im Einsatz. Es darf von den Verkehrsvorschriften abweichen.</correct>
+    <incorrect>Fahrzeug der Bundesmarine im Einsatz. Es hat Munition oder andere Gefahrgüter an Bord.</incorrect>
+    <incorrect>Lotsenfahrzeug mit Sonderrechten im Einsatz. Es darf vom Rechtsfahrgebot abweichen.</incorrect>
+    <incorrect>Tiefgangbehindertes Fahrzeug. Es darf nicht behindert werden.</incorrect>
+  </question>
+  <question id='9744' reference='155'>
+    <text>Wer gibt das Sichtzeichen „Leuchtkugeln mit weißen Sternen“ und was ist zu beachten?</text>
+    <correct>Fahrzeug der Bundeswehr, der Bundespolizei oder Maschinenfahrzeug, das Schießscheiben schleppt bei Übungen. Man hält sich frei.</correct>
+    <incorrect>Fahrzeug, das mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt und auf sich aufmerksam macht. Ausreichend Abstand halten.</incorrect>
+    <incorrect>Fahrzeug in Seenot, das auf sich aufmerksam macht. Hilfe leisten, ggf. weitere Hilfe anfordern.</incorrect>
+    <incorrect>Maschinenfahrzeug über 50 m Länge bei der Anforderung eines Lotsen. Man behält Kurs und Geschwindigkeit bei.</incorrect>
+  </question>
+  <question id='9745' reference='156'>
+    <text>Was sind Fahrwasser im Sinne der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und der Schifffahrtsordnung Emsmündung (EmsSchO)?</text>
+    <correct>Es sind Wasserflächen, die durchgehend durch Fahrwasserzeichnung begrenzt oder gekenntzeichnet sind, binnenwärts der Flussmündungen auch nicht gekennzeichnete Wasserflächen, die für die durchgehende Schifffahrt bestimmt sind.</correct>
+    <incorrect>Es sind Wasserflächen, die für Seeschiffe zugelassen sind; binnenwärts der Flussmündungen sind auch Binnenschiffe und Sportboote zugelassen.</incorrect>
+    <incorrect>Es sind Wasserflächen, die durchgehend durch Fahrwasserseitenbezeichnung begrenzt oder gekennzeichnet sind und auf denen das Wasserskifahren sowie das Fahren mit Wassermotorrädern erlaubt ist, sofern die durchgehende Schifffahrt nicht behindert wird.</incorrect>
+    <incorrect>Es sind Wasserflächen, die durchgehend durch Fahrwasserbezeichnung begrenzt oder gekennzeichnet sind und auf denen die Sportbootführerscheinverordnung Gültigkeit hat.</incorrect>
+  </question>
+  <question id='9746' reference='157'>
+    <text>Welches ist – außer in Wattgebieten – die Steuerbordseite eines Fahrwassers?</text>
+    <correct>Es ist die Seite, die ein von See kommendes Schiff an seiner Steuerbordseite hat.</correct>
+    <incorrect>Es ist die Seite, die ein von See kommendes Schiff an seiner Backbordseite hat.</incorrect>
+    <incorrect>Es ist die Seite, die von See kommend mit roten Tonnen bezeichnet ist.</incorrect>
+    <incorrect>Es ist die Seite, auf der die Tonnen mit fortlaufenden geraden Zahlen gekennzeichnet sind.</incorrect>
+  </question>
+  <question id='9747' reference='158'>
+    <text>Welche verkehrsrechtliche Verpflichtung hat ein Fahrzeugführer nach § 3 der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO), dessen Fahrzeug mit einer UKW-Funkanlage ausgerüstet ist?</text>
+    <correct>Er ist verpflichtet, die von der Verkehrszentrale gegebenen Verkehrsinformationen und -unterstützungen abzuhören und zu berücksichtigen.</correct>
+    <incorrect>Er ist verpflichtet, bei der Nutzung einer UKW-Funkanlage im Besitz des entsprechenden Funkzeugnisses zu sein.</incorrect>
+    <incorrect>Er ist verpflichtet, bei verminderter Sicht regelmäßig seinen Schiffsnamen und seine Position der Verkehrszentrale mitzuteilen.</incorrect>
+    <incorrect>Er ist verpflichtet, die Funkanlage während der Fahrt in Betrieb zu halten und alle sein Fahrzeug betreffenden Mitteilungen im Schiffslogbuch festzuhalten.</incorrect>
+  </question>
+  <question id='9748' reference='159'>
+    <text>Welches Licht muss ein Fahrzeug unter Segel von weniger als 12 m Länge oder ein Fahrzeug unter Rudder auf der Seeschifffahrtsstraße führen, wenn es die nach den Kollisionsverhütungsregeln (KVR) vorgeschriebenen Lichter nicht führen kann?</text>
+    <correct>Ein weißes Rundumlicht.</correct>
+    <incorrect>Ein rotes Rundumlicht.</incorrect>
+    <incorrect>Ein weißes Topplicht.</incorrect>
+    <incorrect>Eine Dreifarbenlaterne.</incorrect>
+  </question>
+  <question id='9749' reference='160'>
+    <text>Wann darf ein Maschinenfahrzeug von weniger als 7 m Länge auf Seeschifffahrtsstraßen nicht fahren, wenn es die nach den Kollisionsverhütungsregeln (KVR) vorgeschriebenen Lichter nicht führen kann?</text>
+    <correct>Es darf in der Zeit, in der die Lichterführung vorgeschrieben ist, nicht fahren, es sei denn, dass ein Notstand vorliegt.</correct>
+    <incorrect>Es darf in der Zeit zwischen Sonnenaufgang und Sonnenuntergang nicht fahren.</incorrect>
+    <incorrect>Es darf in der Zeit, in der die Lichterführung vorgeschrieben ist, nur dann fahren, wenn ein betriebsbereites Signalhorn an Bord ist.</incorrect>
+    <incorrect>Es darf in der Zeit zwischen Sonnenuntergang und Sonnenaufgang nicht fahren.</incorrect>
+  </question>
+  <question id='9750' reference='161'>
+    <text>Welches Schallsignal ist beim Einlaufen in Fahrwasser und Häfen zu geben, wenn die Verkehrslage es erfordert?</text>
+    <correct>Ein langer Ton.</correct>
+    <incorrect>Ein kurzer Ton.</incorrect>
+    <incorrect>Ein kurzer und ein langer Ton.</incorrect>
+    <incorrect>Ein langer und ein kurzer Ton.</incorrect>
+  </question>
+  <question id='9751' reference='162'>
+    <text>Welche Bedeutung hat folgendes Schallsignal? (– ● ● ● ●   – ● ● ● ●)</text>
+    <correct>Allgemeines „Gefahr- und Warnsignal“.</correct>
+    <incorrect>Sperrung der Seeschifffahrtsstraße.</incorrect>
+    <incorrect>Sofort anhalten (Fahrzeug des öffentlichen Dienstes).</incorrect>
+    <incorrect>Brücke/Schleuse kann vorübergehend nicht geöffnet werden.</incorrect>
+  </question>
+  <question id='9752' reference='163'>
+    <text>Wie lautet das „allgemeine Gefahr- und Warnsignal“?</text>
+    <correct>Zwei Gruppen von je einem langen und vier kurzen Tönen.</correct>
+    <incorrect>Zwei Gruppen von je drei langen Tönen.</incorrect>
+    <incorrect>Zwei Gruppen von je vier kurzen Tönen.</incorrect>
+    <incorrect>Zwei Gruppen von je einem kurzen und vier langen Tönen.</incorrect>
+  </question>
+  <question id='9753' reference='164'>
+    <text>Wann ist das „allgemeine Gefahr- und Warnsignal“ zu geben?</text>
+    <correct>Wenn ein Fahrzeug ein anderes Fahrzeug gefährdet oder durch dieses selbst gefährdet wird.</correct>
+    <incorrect>Wenn ein Fahrzeug ein anderes Fahrzeug im Fahrwasser an Steuerbord überholen will.</incorrect>
+    <incorrect>Wenn ein Fahrzeug einem anderen Fahrzeug nicht ausweichen kann.</incorrect>
+    <incorrect>Wenn ein Fahrzeug ein anderes Fahrzeug zur Hilfeleistung auffordert.</incorrect>
+  </question>
+  <question id='9754' reference='165'>
+    <text>Wie haben sich Fahrzeuge zu verhalten, die in ein Fahrwasser einlaufen, ein Fahrwasser queren, im Fahrwasser drehen oder ihre Anker- und Liegeplätze verlassen?</text>
+    <correct>Sie haben die Vorfahrt der dem Fahrwasserverlauf folgenden Fahrzeuge zu beachten.</correct>
+    <incorrect>Sie haben die Vorfahrt vor den Fahrzeugen im Fahrwasser.</incorrect>
+    <incorrect>Sie haben einen kurzen Ton als Achtungsignal abzugeben.</incorrect>
+    <incorrect>Sie haben ihr Manöver so durchzuführen, dass andere Fahrzeuge nicht behindert werden.</incorrect>
+  </question>
+  <question id='9755' reference='166'>
+    <text>Wie haben Segelfahrzeuge im Fahrwasser, die nicht deutlich der Richtung eines Fahrwassers folgen, untereinander auszuweichen?</text>
+    <correct>Sie haben untereinander nach den Regeln der KVR auszuweichen, wenn sie dadurch vorfahrtberechtigte Fahrzeuge nicht gefährden oder behindern.</correct>
+    <incorrect>Sie haben untereinander nach den Regeln der Seeschifffahrtsstraßenordnung auszuweichen, wenn sie dadurch vorfahrtberechtigte Fahrzeuge nicht gefährden oder behindern.</incorrect>
+    <incorrect>Sie haben untereinander nach den Regeln der Schifffahrtsordnung Ems auszuweichen, wenn sie dadurch vorfahrtberechtigte Fahrzeuge nicht gefährden oder behindern.</incorrect>
+    <incorrect>Sie haben untereinander nach den Regeln der Binnenschifffahrtsstraßen-Ordnung auszuweichen, wenn sie dadurch vorfahrtberechtigte Fahrzeuge nicht gefährden oder behindern.</incorrect>
+  </question>
+  <question id='9756' reference='167'>
+    <text>Welche Ausweichregeln gelten außerhalb des Fahrwassers?</text>
+    <correct>Die Regeln der KVR.</correct>
+    <incorrect>Die Regeln der Schifffahrtsstraßen-Ordnung.</incorrect>
+    <incorrect>Die Regeln der Schifffahrtsordnung Emsmündung.</incorrect>
+    <incorrect>Die Regeln der Binnenschifffahrtsstraßen-Ordnung.</incorrect>
+  </question>
+  <question id='9757' reference='168'>
+    <text>Wo ist das Überholen verboten?</text>
+    <correct>An Engstellen, unübersichtlichen Krümmungen, in Schleusenbereichen, innerhalb durch Überholverbotszeichen gekennzeichneter Strecken, in der Nähe nicht frei fahrender Fähren in Fahrt.</correct>
+    <incorrect>An Engstellen, unübersichtlichen Krümmungen, in Schleusenbereichen, innerhalb durch Überholverbotszeichen gekennzeichneter Strecken, in der Nähe nicht frei fahrender Fähren in Fahrt und außerhalb des Fahrwassers.</incorrect>
+    <incorrect>An Engstellen, unübersichtlichen Krümmungen, in Schleusenbereichen, innerhalb durch Überholverbotszeichen gekennzeichneter Strecken, in der Nähe nicht frei fahrender Fähren in Fahrt und in Verkehrstrennungsgebieten.</incorrect>
+    <incorrect>An Engstellen, unübersichtlichen Krümmungen, innerhalb durch Überholverbotszeichen gekennzeichneter Strecken und in Nationalparks und besonders ausgewiesenen Naturschutzgebieten.</incorrect>
+  </question>
+  <question id='9758' reference='169'>
+    <text>Wo darf Wasserski gelaufen, Wassermotorrad gefahren oder mit einem Segelsurfbrett gefahren werden?</text>
+    <correct>Außerhalb des Fahrwassers, wenn es nicht von der Wasser- und Schifffahrtsdirektion durch Bekanntmachung verboten ist. Im Fahrwasser auf Abschnitten, die durch die Wasser- und Schifffahrtsdirektion bekanntgemacht oder durch blaue Tafeln mit dem weißen Symbol eines Wasserskiläufers, eines Wassermotrrades oder eines Segelsurfers bezeichnet sind.</correct>
+    <incorrect>Außerhalb der Seeschifffahrtsstraße, wenn es nicht von der Wasser- und Schifffahrtsdirektion durch Bekanntmachung verboten ist. Innerhalb der Seeschifffahrtsstraße auf Abschnitten, die durch die Wasser- und Schifffahrtsdirektion bekanntgemacht oder durch blaue Tafeln mit dem weißen Symbol eines Wasserskiläufers, eines Wassermotorrades oder eines Segelsurfers bezeichnet sind.</incorrect>
+    <incorrect>Auf der hohen See und auf den mit dieser zusammenhängenden, von Seeschiffen befahrbaren Gewässern, sofern dabei ein Abstand von mindestens 100 m zu Ufer eingehalten wird.</incorrect>
+    <incorrect>Im Fahrwasser, wenn es nicht von der Wasser- und Schifffahrtsdirektion durch Bekanntmachung verboten ist. Außerhalb des Fahrwassers auf Abschnitten, die durch die Wasser- und Schifffahrtsdirektion bekanntgemacht oder durch blaue Tafeln mit dem weißen Symbol eines Wasserskiläufers, eines Wassermotorrades oder eines Segelsurfers bezeichnet sind.</incorrect>
+  </question>
+  <question id='9759' reference='170'>
+    <text>Wie haben sich Führer von Zugbooten der Wasserskiläufer bzw. Wassermotorräder und Segelsurfer bei der Annäherung an andere Fahrzeuge zu verhalten?</text>
+    <correct>Sie haben auszuweichen.</correct>
+    <incorrect>Sie haben bei Annäherung an andere Fahrzeuge aufzustoppen und Sog und Wellenschlag zu vermeiden.</incorrect>
+    <incorrect>Sie haben Vorfahrt und müssen vor dem Bug des anderen Fahrzeugs kreuzen.</incorrect>
+    <incorrect>Sie müssen Kurs und Geschwindigkeit beibehalten.</incorrect>
+  </question>
+  <question id='9760' reference='171'>
+    <text>Wo ist das Ankern verboten?</text>
+    <correct>Im Fahrwasser, an Engstellen und in unübersichtlichen Krümmungen; im Umkreis von 300 m von schwimmenden Geräten, Wracks und sonstigen Schifffahrtshindernissen, Kabeltonnen und sonstigen Stellen für militärische und zivile Zwecke; vor Hafeneinfahrten, Schleusen, Anlegestellen und Sielen sowie in den Zufahrten des Nord-Ostsee-Kanals; innerhalb von Fähr- und Brückenstrecken; 300 m vor und hinter Ankerverbotszeichen.</correct>
+    <incorrect>Im Fahrwasser, auf Seeschifffahrtsstraßen, an Engstellen und in unübersichtlichen Krümmungen; im Umkreis von 300 m von schwimmenden Geräten, Wracks und sonstigen Schifffahrtshindernissen, Kabeltonnen und sonstigen Stellen für militärische und zivile Zwecke; vor Hafeneinfahrten, Schleusen, Anlegestellen und Sielen sowie in den Zufahrten des Nord-Ostsee-Kanals; innerhalb von Fähr- und Brückenstrecken; 300 m vor und hinter Ankerverbotszeichen.</incorrect>
+    <incorrect>Im Fahrwasser, an Engstellen und in unübersichtlichen Krümmungen; im Umkreis von 300 m von schwimmenden Geräten, Kabeltonnen und sonstigen Stellen für militärische und zivile Zwecke; vor Hafeneinfahrten, Schleusen, Anlegestellen und Sielen sowie in den Zufahrten des Nord-Ostsee-Kanals und in Vogelschutz- und Naturschutzgebieten sowie generell innerhalb von Nationalparks.</incorrect>
+    <incorrect>Im Fahrwasser, wenn es durch die Wasser- und Schifffahrtsdirektion bekanntgemacht worden ist. Außerhalb des Fahrwassers auf Abschnitten, die durch die Wasser- und Schifffahrtsdirektion bekanntgemacht oder durch entsprechendes Sichtzeichen bezeichnet sind.</incorrect>
+  </question>
+  <question id='9761' reference='172'>
+    <text>Was ist zu unternehmen, um die Schifffahrt zu warnen, wenn das eigene Fahrzeug gesunken ist und ein Schifffahrtshindernis darstellt?</text>
+    <correct>Man informiert die Schifffahrtspolizeibehörde und gibt nach Möglichkeit die Position an.</correct>
+    <incorrect>Man informiert die Deutsche Gesellschaft zur Rettung Schiffbrüchiger, damit das Hindernis gekennzeichnet werden kann.</incorrect>
+    <incorrect>Man gibt ein Seenotsignal ab.</incorrect>
+    <incorrect>Man informiert das Bundesamt für Seeschifffahrt und Hydrographie und gibt nach Möglichkeit die Position an.</incorrect>
+  </question>
+  <question id='9762' reference='173'>
+    <text>Bei welchem Signal dürfen Sportfahrzeuge in die Schleusen des Nord-Ostsee-Kanals einfahren?</text>
+    <correct>Wenn ein weißes unterbrochenes Licht gezeigt wird.</correct>
+    <incorrect>Wenn ein weißes Funkellicht gezeigt wird.</incorrect>
+    <incorrect>Wenn zwei grüne Lichter nebeneinander gezeigt werden.</incorrect>
+    <incorrect>Wenn ein grünes Gleichtaktlicht gezeigt wird.</incorrect>
+  </question>
+  <question id='9763' reference='174'>
+    <text>Wo findet man Regeln für das Durchfahren des Nord-Ostsee-Kanals (NOK)?</text>
+    <correct>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in den Bekanntmachungen der WSD Nord.</correct>
+    <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in den Kollisionsverhütungsregeln.</incorrect>
+    <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in der Sportbootführerscheinverordnung-See.</incorrect>
+    <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie im Seeaufgabengesetz.</incorrect>
+  </question>
+  <question id='9764' reference='175'>
+    <text>Was bedeuten im Nord-Ostsee-Kanal an einem Weichensignalmast drei unterbrochene rote Lichter übereinander und was ist zu beachten?</text>
+    <correct>Ausfahren für alle Fahrzeuge verboten; Aufhebung des Signals abwarten.</correct>
+    <incorrect>Schutzbedürftige Anlage; Geschwindigkeit reduzieren, Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Dauernde Sperrung der Seeschifffahrtsstraße; Weiterfahrt verboten.</incorrect>
+    <incorrect>Dauernde Sperrung einer Teilstrecke der Seeschifffahrtsstraße; Weiterfahrt in der Teilstrecke verboten.</incorrect>
+  </question>
+  <question id='9765' reference='176'>
+    <text>Welche Bedeutung hat folgendes Tafelzeichen?</text>
+    <correct>Die Geschwindigkeit durch das Wasser in km/h, auf dem Nord-Ostsee-Kanal (NOK) über Grund in km/h, die nicht überschritten werden darf.</correct>
+    <incorrect>Mindestabstand in Metern, der in der nachfolgenden Strecke vom Aufstellungsort der Tafel an eingehalten werden muss.</incorrect>
+    <incorrect>Die Geschwindigkeit durch das Wasser in sm/h (Knoten) auf dem Nord-Ostsee-Kanal (NOK) über Grund in sm/h, die nicht überschritten werden darf.</incorrect>
+    <incorrect>Mindestabstand zu anderen Fahrzeugen in Metern, der im bekanntgemachten Streckenabschnitt nicht unterschritten werden darf.</incorrect>
+  </question>
+  <question id='9766' reference='177'>
+    <text>Welche Bedeutung haben folgende Sichtzeichen?</text>
+    <correct>Schutzbedürftige Anlage.</correct>
+    <incorrect>Dauernde Sperrung einer Teilstrecke der Seeschifffahrtsstraße.</incorrect>
+    <incorrect>Dauernde Sperrung der Seeschifffahrtsstraße</incorrect>
+    <incorrect>Außergewöhnliche Schifffahrtsbehinderung.</incorrect>
+  </question>
+  <question id='9767' reference='178'>
+    <text>Welche Bedeutung hat folgendes Schallsignal und was ist zu beachten: (● ● ● ●)?</text>
+    <correct>Brücke, Sperrwerk, Schleuse kann vorübergehend nicht geöffnet werden; Fahrt unterbrechen, Freigabe abwarten.</correct>
+    <incorrect>Ein Ausweichpflichtiger wird vom Vorfahrtberechtigten auf seine Ausweichpflicht hingewiesen; sofort Ausweichmanöver einleiten.</incorrect>
+    <incorrect>Bleib-weg-Signal, Gefahr durch gefährliche Ladung; sofort den Gefahrenbereich verlassen. Offenes Feuer vermeiden (Explossionsgefahr).</incorrect>
+    <incorrect>Brücke, Sperrwerk, Schleuse wird zur Öffnung vorbereitet; Fahrt fortsetzen.</incorrect>
+  </question>
+  <question id='9768' reference='179'>
+    <text>Welche Bedeutung hat folgendes Sichtzeichen?</text>
+    <correct>Geschwindigkeit von 8 km/h Fahrt durch das Wasser, die innerhalb eines Bereiches von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf.</correct>
+    <incorrect>Kennzeichnung besonderer Gebiete und Stellen, z.B. Warngebiete; die Bedeutung kann der Seekarte entnommen und aus der Beschriftung des Schifffahrtszeichens erkannt werden.</incorrect>
+    <incorrect>Geschwindigkeit von 8 sm/h Fahrt durch das Wasser, die innerhalb eines Mindestabstandes von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf.</incorrect>
+    <incorrect>Buhnenbauwerk, Gefahr durch Sog und Wellenschlag. Insbesondere auf Badebetrieb und Schwimmer achten.</incorrect>
+  </question>
+  <question id='9769' reference='180'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Gesperrt für alle Maschinenfahrzeuge und Wassermotorräder wegen Badebetriebs.</correct>
+    <incorrect>Höchstgeschwindigkeit von 4,3 Knoten Fahrt durch das Wasser, die innerhalb von 500 m von der jeweiligen Uferlinie wegen Badebetriebs nicht überschritten werden darf.</incorrect>
+    <incorrect>Einzelgefahrenstelle, erkennbar an ihrer Farbgebung, die an allen Seiten mit einer maximalen Geschwindigkeit von 4,3 Knoten passiert werden kann.</incorrect>
+    <incorrect>Kennzeichnung besonderer Gebietet und Stellen, z.B. Warngebiet.</incorrect>
+  </question>
+  <question id='9770' reference='181'>
+    <text>Welche Höchstgeschwindigkeit darf vor Stellen mit erkennbarem Badebetrieb – außerhalb des Fahrwassers – in einem Abstand von 500 m und weniger vom Ufer nicht überschritten werden?</text>
+    <correct>4,3 Knoten.</correct>
+    <incorrect>3,4 Knoten.</incorrect>
+    <incorrect>4,8 Knoten.</incorrect>
+    <incorrect>3,8 Knoten.</incorrect>
+  </question>
+  <question id='9771' reference='182'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Kennzeichnung von besonderen Gebieten und Stellen.</correct>
+    <incorrect>Kennzeichnung von Sperrgebieten.</incorrect>
+    <incorrect>Kennzeichnung von Schießgebieten.</incorrect>
+    <incorrect>Kennzeichnung von Badegebieten.</incorrect>
+  </question>
+  <question id='9772' reference='183'>
+    <text>Woran ist ein militärisches Warngebiet zu erkennen, das wegen Schießübungen für die Schifffahrt gesperrt ist?</text>
+    <correct>An bestimmten Tag- und Nachtsignalen, die nach der Schifffahrtspolizeiverordnung der Wasser- und Schifffahrtsdirektion Nord für militärische Sperr- und Warngebiete an entsprechenden Signalstellen und auf Sicherungsfahrzeugen gezeigt werden.</correct>
+    <incorrect>An bestimmten Tag- und Nachtsignalen, die nach der Rheinpolizeiverordnung der Wasser- und Schifffahrtsdirektionen für militärische Sperr- und Warngebiete an entsprechenden Signalstellen am Ufer und auf Sicherungsfahrzeugen gezeigt werden.</incorrect>
+    <incorrect>An bestimmten Tag- und Nachtsignalen, die nach der zuständigen Polizeiverordnung des Wasserwirtschaftsamtes für Übungs-, Sperr- und Warngebiete an entsprechenden Signalstellen am Ufer und auf Sicherungsfahrzeugen gezeigt werden.</incorrect>
+    <incorrect>An bestimmten Tag- und Nachtsignalen, die nach der Schifffahrtsordnung der Wasser- und Schifffahrtsdirektion Nordwest für militärische Sperr- und Warngebiete an entsprechenden Signalstellen am Ufer und auf Sicherungsfahrzeugen gezeigt werden.</incorrect>
+  </question>
+  <question id='9773' reference='184'>
+    <text>Welche Bedeutung haben folgende Schifffahrtszeichen?</text>
+    <correct>Sperrgebiet</correct>
+    <incorrect>Sperrgebiet und Badezone.</incorrect>
+    <incorrect>Sperrgebiet wegen Aquakulturen und Muschelzuchtanlagen.</incorrect>
+    <incorrect>Schießgebiet.</incorrect>
+  </question>
+  <question id='9774' reference='185'>
+    <text>Welche Bedeutung hat folgendes Flaggensignal?</text>
+    <correct>Anhalten.</correct>
+    <incorrect>Seenotsignal.</incorrect>
+    <incorrect>Anker behindert Schifffahrt.</incorrect>
+    <incorrect>Schleppverband, länger als 200 m.</incorrect>
+  </question>
+  <question id='9775' reference='186'>
+    <text>Welche Bedeutung hat folgendes Schallsignal: (● – ● ●)?</text>
+    <correct>Polizeifahrzeug fordert zum Anhalten auf.</correct>
+    <incorrect>Ankerlieger macht auf gefährliche Annäherung aufmerksam.</incorrect>
+    <incorrect>Letzter bemannter Anhang eines Schleppverbandes.</incorrect>
+    <incorrect>Manövrierbehindertes Fahrzeug blockiert das Fahrwasser.</incorrect>
+  </question>
+  <question id='9776' reference='187'>
+    <text>Welche Bedeutung haben folgende Sichtzeichen?</text>
+    <correct>Dauernde Sperrung der Seeschifffahrtsstraße. Weiterfahrt verboten.</correct>
+    <incorrect>Schutzbedürftige Anlage. Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Außergewöhnliche Schifffahrtsbehinderung. Vorsichtig passieren.</incorrect>
+    <incorrect>Ende einer Gebots- oder Verbotsstrecke. Freie Weiterfahrt.</incorrect>
+  </question>
+  <question id='9777' reference='188'>
+    <text>Welche Bedeutung hat folgendes Schallsignal: (– – –   – – –)?</text>
+    <correct>Sperrung der Seeschifffahrtsstraße, Weiterfahrt verboten.</correct>
+    <incorrect>Einfahrt in Schleuse oder Anlage gesperrt, auf Freigabe warten.</incorrect>
+    <incorrect>Ein Ankerlieger bei schlechter Sicht, vorsichtig weiter navigieren.</incorrect>
+    <incorrect>Fahrzeug des öffentlichen Dienstes, anhalten.</incorrect>
+  </question>
+  <question id='9778' reference='189'>
+    <text>Welche Bedeutung haben folgende Sichtzeichen?</text>
+    <correct>Außergewöhnliche Schifffahrtsbehinderung.</correct>
+    <incorrect>Dauernde Sperrung der Seeschifffahrtsstraße.</incorrect>
+    <incorrect>Schutzbedürftige Anlage.</incorrect>
+    <incorrect>Zeitweilige Sperrung der Seeschifffahrtsstraße.</incorrect>
+  </question>
+  <question id='9779' reference='190'>
+    <text>Welche Bedeutung hat folgende Tonne?</text>
+    <correct>Kennzeichnung der Mitte von Schifffahrtswegen.</correct>
+    <incorrect>Kennzeichnung von Einzelgefahrenstellen.</incorrect>
+    <incorrect>Kennzeichnung einer Reede.</incorrect>
+    <incorrect>Kennzeichnung der Backbordseite eines Fahrwassers.</incorrect>
+  </question>
+  <question id='9780' reference='191'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Die Steuerbordseite des Fahrwassers.</correct>
+    <incorrect>Die Backbordseite des Fahrwassers.</incorrect>
+    <incorrect>Die Mitte eines Schifffahrtsweges.</incorrect>
+    <incorrect>Die Kennzeichnung von Hindernissen.</incorrect>
+  </question>
+  <question id='9781' reference='192'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Die Backbordseite des Fahrwassers.</correct>
+    <incorrect>Die Steuerbordseite des Fahrwassers.</incorrect>
+    <incorrect>Die Mitte eines Wattfahrwassers.</incorrect>
+    <incorrect>Die Kennzeichnung eines Hindernisses im Wattfahrwasser.</incorrect>
+  </question>
+  <question id='9782' reference='193'>
+    <text>Welche Bedeutung hat folgende(s) Tonne/Schifffahrtszeichen?</text>
+    <correct>Die Steuerbordseite des Fahrwassers.</correct>
+    <incorrect>Die Backbordseite des Fahrwassers.</incorrect>
+    <incorrect>Die Mitte eines Schifffahrtsweges.</incorrect>
+    <incorrect>Die Kennzeichnung von Hindernissen.</incorrect>
+  </question>
+  <question id='9783' reference='194'>
+    <text>Welche Bedeutung hat folgende(s) Tonne/Schifffahrtszeichen?</text>
+    <correct>Die Backbordseite des Fahrwassers.</correct>
+    <incorrect>Die Steuerbordseite des Fahrwassers.</incorrect>
+    <incorrect>Die Mitte eines Wattfahrwassers.</incorrect>
+    <incorrect>Die Kennzeichnung eines Hindernisses im Wattfahrwasser.</incorrect>
+  </question>
+  <question id='9784' reference='195'>
+    <text>Welche Bedeutung hat folgende Tonne?</text>
+    <correct>Steuerbordseite des durchgehenden Fahrwassers/Backbordseite des abzweigenden oder einmündenden Fahrwassers.</correct>
+    <incorrect>Backbordseite des durchgehenden Fahrwassers/Steuerbordseite des abzweigenden oder einmündenden Fahrwassers.</incorrect>
+    <incorrect>Steuerbordseite des durchgehenden Fahrwassers.</incorrect>
+    <incorrect>Backbordseite des durchgehenden Fahrwassers.</incorrect>
+  </question>
+  <question id='9785' reference='196'>
+    <text>Welche Bedeutung hat folgende Tonne?</text>
+    <correct>Backbordseite des durchgehenden Fahrwassers, Steuerbordseite des abzweigenden oder einmündenden Fahrwassers.</correct>
+    <incorrect>Steuerbordseite des durchgehenden Fahrwassers, Backbordseite des abzweigenden oder einmündenden Fahrwassers.</incorrect>
+    <incorrect>Steuerbordseite des durchgehenden Fahrwassers.</incorrect>
+    <incorrect>Backbordseite des durchgehenden Fahrwassers.</incorrect>
+  </question>
+  <question id='9786' reference='197'>
+    <text>Welche Bedeutung hat folgende Kennung: „Oc (2) R. Whis.“?</text>
+    <correct>Unterbrochen (2) rot, Heultonne.</correct>
+    <incorrect>Blitz (2) rot, Glockentonne.</incorrect>
+    <incorrect>Blink (2) rot, Glockentonne.</incorrect>
+    <incorrect>Leitfeuer rot, zwei Warnsektoren.</incorrect>
+  </question>
+  <question id='9787' reference='198'>
+    <text>Welche Kennung und Farbe haben die Feuer der Leuchttonnen an der Steuerbordseite des Fahrwassers?</text>
+    <correct>Grünes Blitzfeuer, Funkelfeuer oder unterbrochenes Feuer in Gruppen.</correct>
+    <incorrect>Grünes Blitzfeuer, Funkelfeuer oder Festfeuer.</incorrect>
+    <incorrect>Grünes Blitzfeuer, Funkelfeuer oder schnelles Funkelfeuer.</incorrect>
+    <incorrect>Grünes Blitzfeuer, Funkelfeuer oder Blinkfeuer.</incorrect>
+  </question>
+  <question id='9788' reference='199'>
+    <text>Welche Kennung und Farbe haben die Feuer der Leuchttonnen an der Backbordseite des Fahrwassers?</text>
+    <correct>Rotes Blitzfeuer, Funkelfeuer oder unterbrochenes Feuer in Gruppen.</correct>
+    <incorrect>Rotes Blitzfeuer, Funkelfeuer oder Festfeuer.</incorrect>
+    <incorrect>Rotes Blitzfeuer, Funkelfeuer oder schnelles Funkelfeuer.</incorrect>
+    <incorrect>Rotes Blitzfeuer, Funkelfeuer oder Blinkfeuer.</incorrect>
+  </question>
+  <question id='9789' reference='200'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant.</incorrect>
+  </question>
+  <question id='9790' reference='201'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant.</incorrect>
+  </question>
+  <question id='9791' reference='202'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant.</incorrect>
+  </question>
+  <question id='9792' reference='203'>
+    <text>Welche Bedeutung hat folgendes Schifffahrtszeichen?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant.</incorrect>
+  </question>
+  <question id='9793' reference='204'>
+    <text>Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, die nördlich zu passieren ist.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, die südlich zu passieren ist.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, die östlich zu passieren ist.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, die westlich zu passieren ist.</incorrect>
+  </question>
+  <question id='9794' reference='205'>
+    <text>Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, die östlich zu passieren ist.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, die nördlich zu passieren ist.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, die südlich zu passieren ist.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, die westlich zu passieren ist.</incorrect>
+  </question>
+  <question id='9795' reference='206'>
+    <text>Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung:</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant.</incorrect>
+  </question>
+  <question id='9796' reference='207'>
+    <text>Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung?</text>
+    <correct>Kennzeichnung einer allgemeinen Gefahrenstelle, Westquadrant. Sie ist westlich zu passieren.</correct>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Südquadrant. Sie ist südlich zu passieren.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Ostquadrant. Sie ist östlich zu passieren.</incorrect>
+    <incorrect>Kennzeichnung einer allgemeinen Gefahrenstelle, Nordquadrant. Sie ist nördlich zu passieren.</incorrect>
+  </question>
+  <question id='9797' reference='208'>
+    <text>Was kennzeichnet eines der folgenden Schifffahrtszeichen und welches Verhalten wird gefordert?</text>
+    <correct>Eine Einzelgefahrenstelle, die an allen Seiten passiert werden kann.</correct>
+    <incorrect>Den nördlichen Quadranten einer allgemeinen Gefahrenstelle, die nördlich passiert werden muss.</incorrect>
+    <incorrect>Den südlichen Quadranten einer allgemeinen Gefahrenstelle, die südlich passiert werden muss.</incorrect>
+    <incorrect>Den westlichen Quadranten einer allgemeinen Gefahrenstelle, die westlich passiert werden muss.</incorrect>
+  </question>
+  <question id='9798' reference='209'>
+    <text>Welche Bedeutung hat das Feuer einer Leuchttonne mit folgender Kennung: Fl. (2)?</text>
+    <correct>Eine Einzelgefahrenstelle, die an allen Seiten passiert werden kann.</correct>
+    <incorrect>Nördlicher Quadrant einer allgemeinen Gefahrenstelle, die nördlich passiert werden muss.</incorrect>
+    <incorrect>Südlicher Quadrant einer allgemeinen Gefahrenstelle, die südlich passiert werden muss.</incorrect>
+    <incorrect>Westlicher Quadrant einer allgemeinen Gefahrenstelle, die westlich passiert werden muss.</incorrect>
+  </question>
+  <question id='9799' reference='210'>
+    <text>Was versteht man unter einem Leitfeuer?</text>
+    <correct>Sektorenfeuer, das ein Fahrwasser bezeichnet.</correct>
+    <incorrect>Sektorenfeuer, das auf eine Kursänderung im Fahrwasser hinweist.</incorrect>
+    <incorrect>Ober- und Unterfeuer, die in Deckpeilung zu bringen sind.</incorrect>
+    <incorrect>Ober- und Unterfeuer mit unterschiedlichen Farbsektoren.</incorrect>
+  </question>
+  <question id='9800' reference='211'>
+    <text>Wie navigiert man mittels eines Leitfeuers?</text>
+    <correct>In Fahrtrichtung an der rechten Seite des weißen Leitsektors halten.</correct>
+    <incorrect>In Fahrtrichtung an der linken Seite des weißen Leitsektors halten.</incorrect>
+    <incorrect>In Fahrtrichtung in der Mitte des weißen Leitsektors halten.</incorrect>
+    <incorrect>In Fahrtrichtung Ober- und Unterfeuer in Deckung halten.</incorrect>
+  </question>
+  <question id='9801' reference='212'>
+    <text>Was versteht man unter einem Richtfeuer?</text>
+    <correct>Ober- und Unterfeuer, die in Deckpeilung zu bringen sind.</correct>
+    <incorrect>Sektorenfeuer, das ein Fahrwasser bezeichnet.</incorrect>
+    <incorrect>Sektorenfeuer, das auf eine Kursänderung im Fahrwasser hinweist.</incorrect>
+    <incorrect>Ober- und Unterfeuer mit unterschiedlichen Farbsektoren.</incorrect>
+  </question>
+  <question id='9802' reference='213'>
+    <text>Was versteht man unter einem Quermarkenfeuer?</text>
+    <correct>Sektorenfeuer, das auf eine Kursänderung im Fahrwasser hinweist.</correct>
+    <incorrect>Sektorenfeuer, das ein Fahrwasser bezeichnet.</incorrect>
+    <incorrect>Ober- und Unterfeuer, die in Deckung zu bringen sind.</incorrect>
+    <incorrect>Ober- und Unterfeuer mit unterschiedlichen Farbsektoren.</incorrect>
+  </question>
+  <question id='9803' reference='214'>
+    <text>Wie navigiert man mittels eines Quermarkenfeuers?</text>
+    <correct>Beim Übergang vom Ankündigungssektor in den Kursänderungssektor die Kursänderung vornehmen.</correct>
+    <incorrect>Beim Erreichen des Ankündigungssektors die Kursänderung vornehmen.</incorrect>
+    <incorrect>Beim Erreichen des Kursänderungssektors den Kurs beibehalten.</incorrect>
+    <incorrect>Beim Erreichen des Ankündigungssektors Ober- und Unterfeuer in Deckung halten.</incorrect>
+  </question>
+  <question id='9804' reference='215'>
+    <text>Was versteht man unter einem unterbrochenen Feuer?</text>
+    <correct>Die Lichterscheinung ist stets länger als die Verdunklung.</correct>
+    <incorrect>Die Lichterscheinung ist stets kürzer als die Verdunklung.</incorrect>
+    <incorrect>Die Lichterscheinung ist stets gleich lang wie die Verdunklung.</incorrect>
+    <incorrect>Die Lichterscheinung ist stets kürzer als 2 Sekunden.</incorrect>
+  </question>
+  <question id='9805' reference='216'>
+    <text>Wo findet man die Grenzen der Naturschutzgebiete auf See?</text>
+    <correct>In Seekarten und Sportschifffahrtskarten des Bundesamtes für Seeschifffahrt und Hydrographie.</correct>
+    <incorrect>Im Bundesnaturschutzgesetz.</incorrect>
+    <incorrect>In der Seeschifffahrtsstraßen-Ordnung.</incorrect>
+    <incorrect>In den Kollisionsverhütungsregeln.</incorrect>
+  </question>
+  <question id='9806' reference='217'>
+    <text>Wo findet man auszugsweise Hinweise zu Befahrensmöglichkeiten der Naturschutzgebiete in Küstengewässern?</text>
+    <correct>In Seekarten und Sportschifffahrtskarten des Bundesamtes für Seeschifffahrt und Hydrographie.</correct>
+    <incorrect>Im Bundesnaturschutzgesetz.</incorrect>
+    <incorrect>In der Seeschifffahrtsstraßen-Ordnung.</incorrect>
+    <incorrect>In den Kollisionsverhütungsregeln.</incorrect>
+  </question>
+  <question id='9807' reference='218'>
+    <text>Weshalb sollte das Anlaufen von Seehundbänken im Bereich der Watten vermieden werden?</text>
+    <correct>Die Tiere sollen nicht gestört oder vertrieben werden.</correct>
+    <incorrect>Im Bereich von Seehundbänken ist mit Untiefen zu rechnen.</incorrect>
+    <incorrect>Tiefenangaben zu Seehundbänken sind im Kartenwerk nicht verzeichnet.</incorrect>
+    <incorrect>Seehundbänke sind gesperrte Wasserflächen</incorrect>
+  </question>
+  <question id='9808' reference='219'>
+    <text>Welcher Abstand sollte gemäß den „10 Goldenen Regeln“ für das Verhalten von Wassersportlern mindestens zu Liegeplätzen von Seehunden und zu Vogelansammlungen eingehalten werden?</text>
+    <correct>300 m bis 500 m.</correct>
+    <incorrect>150 m bis 200 m.</incorrect>
+    <incorrect>100 m bis 300 m.</incorrect>
+    <incorrect>200 m bis 300 m.</incorrect>
+  </question>
+  <question id='9809' reference='220'>
+    <text>Was versteht man unter einem Blinkfeuer?</text>
+    <correct>Lichterscheinung kürzer als Verdunkelung, Blink mindestens 2 s lang.</correct>
+    <incorrect>Lichterscheinung kürzer als Verdunkelung, Blink weniger als 2 s lang.</incorrect>
+    <incorrect>Lichterscheinung länger als Verdunkelung, Blink mindestens 2 s lang.</incorrect>
+    <incorrect>Lichterscheinung länger als Verdunkelung, Blink weniger als 2 s lang.</incorrect>
+  </question>
+  <question id='9810' reference='221'>
+    <text>Was versteht man unter einem Blitzfeuer?</text>
+    <correct>Lichterscheinung kürzer als Verdunkelung, Blitz weniger als 2 s lang.</correct>
+    <incorrect>Lichterscheinung kürzer als Verdunkelung, Blitz länger als 2 s lang.</incorrect>
+    <incorrect>Lichterscheinung länger als Verdunkelung, Blitz mindestens 2 s lang.</incorrect>
+    <incorrect>Lichterscheinung länger als Verdunkelung, Blitz weniger als 2 s lang.</incorrect>
+  </question>
+  <question id='9811' reference='222'>
+    <text>Was versteht man unter einem Funkelfeuer?</text>
+    <correct>50 bis 60 aufeinanderfolgende Lichterscheinungen pro Minute.</correct>
+    <incorrect>100 bis 120 aufeinanderfolgende Lichterscheinungen pro Minute.</incorrect>
+    <incorrect>130 bis 150 aufeinanderfolgende Lichterscheinungen pro Minute.</incorrect>
+    <incorrect>30 bis 40 aufeinanderfolgende Lichterscheinungen pro Minute.</incorrect>
+  </question>
+  <question id='9812' reference='223'>
+    <text>Was versteht man unter einem Gleichtaktfeuer?</text>
+    <correct>Lichterscheinung und Verdunkelung von gleicher Länge.</correct>
+    <incorrect>Lichterscheinung kürzer als Verdunkelung.</incorrect>
+    <incorrect>Lichterscheinung länger als Verdunkelung.</incorrect>
+    <incorrect>Lichterscheinung zweifach länger als Verdunkelung.</incorrect>
+  </question>
+  <question id='9813' reference='224'>
+    <text>Was versteht man unter der Wiederkehr eines Leuchtfeuers?</text>
+    <correct>Zeitraum vom Einsetzen der Taktkennung bis zum Einsetzen der nächsten gleichen Taktkennung.</correct>
+    <incorrect>Zweitraum vom Ende der Taktkennung bis zum Einsetzen der nächsten gleichen Taktkennung.</incorrect>
+    <incorrect>Zeitraum vom Einsetzen der Taktkennung bis zum Ende der nächsten gleichen Taktkennung.</incorrect>
+    <incorrect>Zeitraum vom Einsetzen der Taktkennung bis zum Ende der Taktkennung.</incorrect>
+  </question>
+  <question id='9814' reference='225'>
+    <text>Wie hat man sich beim Befahren von Naturschutzgebieten und Nationalparken zu verhalten?</text>
+    <correct>Befahrensregelungen (örtliche Befahrensverbote, zeitliche Befahrensbeschränkungen, festgesetzte Höchstgeschwindigkeiten und dergleichen) beachten.</correct>
+    <incorrect>Befahrensregelungen beachten und sich bei der Nationalparkverwaltung anmelden.</incorrect>
+    <incorrect>Befahrensregelungen beachten sowie Wasserschutzpolizei und Wasser- und Schifffahrtsamt informieren.</incorrect>
+    <incorrect>Befahrensregelungen sowie Festlegungen der Ordnungsämter beachten.</incorrect>
+  </question>
+  <question id='9815' reference='226'>
+    <text>Welche Sondervorschriften enthalten die örtlichen Befahrensregelungen in den Naturschutzgebieten und Nationalparks?</text>
+    <correct>Befahrensverbote, zeitliche Befahrensregelungen, Geschwindigkeitsbeschränkungen, besondere Regelungen für das Wasserskilaufen, das Fahren mit Wassermotorrädern und das Segelsurfen.</correct>
+    <incorrect>Befahrensverbote, Schifffahrtssperrungen, Geschwindigkeitsbeschränkungen, besondere Regelungen für das Befahren von Windparks.</incorrect>
+    <incorrect>Befahrensverbote, zeitliche Befahrensbeschränkungen, Mindestgeschwindigkeiten, besondere Regelungen für das Befahren von Verkehrstrennungsgebieten.</incorrect>
+    <incorrect>Befahrensverbote, meteorologische Beschränkungen, besondere Regelungen für das Befahren der Tiefwasserzonen.</incorrect>
+  </question>
+  <question id='9816' reference='227'>
+    <text>Zu welchen Zeiten darf ein Sportboot in der Zone 1 der Nationalparks fahren?</text>
+    <correct>Von 3 Stunden vor bis 3 Stunden nach Hochwasser.</correct>
+    <incorrect>Nur zur Hochwasserzeit.</incorrect>
+    <incorrect>Von 3 Stunden vor bis 3 Stunden nach Niedrigwasser.</incorrect>
+    <incorrect>Nur bei Stauwasser.</incorrect>
+  </question>
+  <question id='9817' reference='228'>
+    <text>Welche Höchstgeschwindigkeit gilt in der Zone 1 der Nationalparks in der Nordsee?</text>
+    <correct>12 sm/h Fahrt durchs Wasser.</correct>
+    <incorrect>12 km/h Fahrt durchs Wasser.</incorrect>
+    <incorrect>16 sm/h Fahrt durchs Wasser.</incorrect>
+    <incorrect>16 km/h Fahrt durchs Wasser.</incorrect>
+  </question>
+  <question id='9818' reference='229'>
+    <text>Welche Höchstgeschwindigkeit dürfen Maschinenfahrzeuge in Nationalparks in der Nordsee nicht überschreiten, wenn sie in gekennzeichneten Fahrwassern außerhalb der Zone 1 fahren?</text>
+    <correct>16 sm/h.</correct>
+    <incorrect>14 sm/h.</incorrect>
+    <incorrect>18 sm/h.</incorrect>
+    <incorrect>12 sm/h.</incorrect>
+  </question>
+  <question id='9819' reference='230'>
+    <text>Welche Verpflichtung hat man als Bootsführer, um einen Beitrag zur Reinhaltung der Gewässer zu leisten?</text>
+    <correct>Sämtliche Abfälle einschließlich Öle und Betriebsstoffe an Bord in geeigneten Behältern sammeln und an Land vorschriftsmäßig entsorgen.</correct>
+    <incorrect>Abfälle und Öle nur auf offener See entsorgen.</incorrect>
+    <incorrect>Nur Bioabfälle und restentleerte Behälter auf See entsorgen.</incorrect>
+    <incorrect>Abwässer in Ufer- und Strandnähe sowie in Häfen einleiten.</incorrect>
+  </question>
+  <question id='9820' reference='231'>
+    <text>Welche amtlichen nautischen Veröffentlichungen geben Aufschluss über das Fahrtgebiet?</text>
+    <correct>Seekarten, Leuchtfeuerverzeichnis, Seehandbücher, Gezeitentafeln oder -kalender, Jachtfunkdienst, Nachrichten für Seefahrer (NfS), Bekanntmachungen für Seefahrer (BfS).</correct>
+    <incorrect>Seekarten, Broschüre „Sicherheit auf dem Wasser“, Seehandbücher, Gezeitentafeln oder -kalender, Jachtfunkdienst, Nachrichten für Seefahrer (NfS).</incorrect>
+    <incorrect>Seeschifffahrtsstraßen-Ordnung, Leuchtfeuerverzeichnis, Seehandbücher, Gezeitentafeln oder -kalender, Bekanntmachungen der Wasser- und Schifffahrtsdirektionen.</incorrect>
+    <incorrect>Schifffahrtspolizeiliche Anordnungen, Gezeitentafeln oder -kalender, Jachtfunkdienst, Nachrichten für Seefahrer (NfS), Bekanntmachungen für Seefahrer (BfS).</incorrect>
+  </question>
+  <question id='9821' reference='232'>
+    <text>Welche Angaben enthalten die Nachrichten für Seefahrer (NfS) und die Bekanntmachungen für Seefahrer (BfS)?</text>
+    <correct>Sie enthalten alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks, Untiefen sowie andere die Schifffahrt betreffende Maßnahmen und Ereignisse.</correct>
+    <incorrect>Sie enthalten alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks, Untiefen sowie andere Änderungen der Seeschifffahrtsstraßen-Ordnung.</incorrect>
+    <incorrect>Sie enthalten alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks sowie die aktuellen Wasserstände.</incorrect>
+    <incorrect>Sie enthalten alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks, Untiefen sowie andere die Schifffahrt betreffende meteorologische Hinweise.</incorrect>
+  </question>
+  <question id='9822' reference='233'>
+    <text>Wo erhält man Kenntnis über die Bekanntmachungen für Seefahrer (BfS)?</text>
+    <correct>An den Aushangstellen und im Internet.</correct>
+    <incorrect>In den See- und Hafenhandbüchern.</incorrect>
+    <incorrect>Bei den Verkehrszentralen.</incorrect>
+    <incorrect>In den Nachrichten für Seefahrer.</incorrect>
+  </question>
+  <question id='9823' reference='234'>
+    <text>Wo findet man Angaben über Küsten-, Häfen- und Naturverhältnisse?</text>
+    <correct>In den See- und Hafenhandbüchern.</correct>
+    <incorrect>In den Bekanntmachungen und Nachrichten für Seefahrer.</incorrect>
+    <incorrect>Im Nautischen Revierfunkdienst.</incorrect>
+    <incorrect>In der Seekarte INT 1.</incorrect>
+  </question>
+  <question id='9824' reference='235'>
+    <text>Wovon sollte man sich vor Gebrauch einer Seekarte überzeugen?</text>
+    <correct>Dass die Karte auf den neuesten Stand berichtigt ist.</correct>
+    <incorrect>Dass die Nummerierung mit dem Katalog übereinstimmt.</incorrect>
+    <incorrect>Dass die Seekarte auf mittleres Tidehochwasser bezogen ist.</incorrect>
+    <incorrect>Dass die obere Kante in Nordrichtung weist.</incorrect>
+  </question>
+  <question id='9825' reference='236'>
+    <text>In welchen Maßeinheiten werden in deutschen Seekarten die Tiefen angegeben?</text>
+    <correct>In Meter und Dezimeter.</correct>
+    <incorrect>In Meter und Zentimeter.</incorrect>
+    <incorrect>In Fuß und Inch.</incorrect>
+    <incorrect>In Dezimeter und Zentimeter.</incorrect>
+  </question>
+  <question id='9826' reference='237'>
+    <text>Wo findet man Bedeutungen und Erläuterungen zu Zeichen, Abkürzungen und Begriffen in deutschen Seekarten?</text>
+    <correct>In der INT 1/Karte 1.</correct>
+    <incorrect>In den Seehandbüchern.</incorrect>
+    <incorrect>In den Leuchtfeuerverzeichnissen.</incorrect>
+    <incorrect>In allen Seekarten unten links.</incorrect>
+  </question>
+  <question id='9827' reference='238'>
+    <text>Wo findet man die für die Navigation wichtigen Beschreibungen der Schifffahrtszeichen, Angaben über deren Befeuerung und Angaben über Signalstärken?</text>
+    <correct>Leuchtfeuerverzeichnis, Seehandbuch, Seekarten.</correct>
+    <incorrect>Leuchtfeuerverzeichnis, Seehandbuch, Handbuch für Brücke und Kartenhaus.</incorrect>
+    <incorrect>Leuchtfeuerverzeichnis, Seehandbuch, Kollisionsverhütungsregeln.</incorrect>
+    <incorrect>Leuchtfeuerverzeichnis, Seehandbuch, Gezeitenatlas.</incorrect>
+  </question>
+  <question id='9828' reference='239'>
+    <text>Wo entnimmt man in der Seekarte die Seemeilen?</text>
+    <correct>Am rechten oder linken Kartenrand in Höhe des Standortes.</correct>
+    <incorrect>Am oberen oder unteren Kartenrand in Höhe des Standortes.</incorrect>
+    <incorrect>An der in der Seekarte abgebildeten Kompassrose.</incorrect>
+    <incorrect>Aus der in der Seekarte abgebildeten Entfernungstabelle.</incorrect>
+  </question>
+  <question id='9829' reference='240'>
+    <text>Was versteht man unter einer Seemeile und wie lang ist eine Seemeile (in Metern)?</text>
+    <correct>Die Länge einer Bogenminute auf einem größten Kreis der Erdkugel, 1.852 m.</correct>
+    <incorrect>Die Länge einer Bogenminute auf einem Breitenparallel, 1.652 m.</incorrect>
+    <incorrect>Die Länge einer Bogenminute auf dem Nullmeridian, 18,52 km.</incorrect>
+    <incorrect>Sie entspricht der in einer Stunde zurückgelegten Distanz in Meter, 16,52 km.</incorrect>
+  </question>
+  <question id='9830' reference='241'>
+    <text>Was versteht man unter dem Geschwindigkeitsbegriff „Knoten“?</text>
+    <correct>Das sind die in einer Stunde zurückgelegten Seemeilen.</correct>
+    <incorrect>Das sind die in einer Stunde zurückgelegten Kilometer.</incorrect>
+    <incorrect>Das sind die an einem Tag zurückgelegten Seemeilen.</incorrect>
+    <incorrect>Das sind die von Mittag bis Mittag zurückgelegten Seemeilen.</incorrect>
+  </question>
+  <question id='9831' reference='242'>
+    <text>Woraus entnimmt man die Magnetkompassablenkung?</text>
+    <correct>Aus der für das betreffende Schiff aufgestellten Deviationstabelle.</correct>
+    <incorrect>Aus dem Nautischen Handbuch für Kompassfehlweisung.</incorrect>
+    <incorrect>Aus dem Betriebshandbuch des Kompassherstellers.</incorrect>
+    <incorrect>Aus der Kompassrose der aktuellen Seekarte.</incorrect>
+  </question>
+  <question id='9832' reference='243'>
+    <text>Was versteht man in der terrestrischen Navigation unter einer Peilung?</text>
+    <correct>Das Feststellen der Richtung eines bekannten feststehenden Objektes durch Winkelmessung.</correct>
+    <incorrect>Das Feststellen der Abweichung des Steuerkompasses vom Peilkompass.</incorrect>
+    <incorrect>Das Feststellen des Koppelortes durch Winkelmessung.</incorrect>
+    <incorrect>Das Feststellen der Entfernung zu einem bekannten feststehenden Objekt.</incorrect>
+  </question>
+  <question id='9833' reference='244'>
+    <text>Wie erhält man eine Standlinie?</text>
+    <correct>Durch die Peilung eines bekannten feststehenden Objektes und Eintragung der rechtweisenden Peilung in die Seekarte.</correct>
+    <incorrect>Durch Eintragung des rechtweisenden Kurses in die Seekarte.</incorrect>
+    <incorrect>Durch mehrmaliges Peilen eines anderen Fahrzeugs.</incorrect>
+    <incorrect>Durch Eintragung der Peilung in die Seekarte ohne Berücksichtigung der Fehlweisung.</incorrect>
+  </question>
+  <question id='9834' reference='245'>
+    <text>Was versteht man unter Stromversetzung?</text>
+    <correct>Die Versetzung des Schiffes über Grund in Richtung und Distanz.</correct>
+    <incorrect>Die Versetzung des Schiffes vom Magnetkompasskurs.</incorrect>
+    <incorrect>Die Versetzung des Schiffes durch das Wasser in Richtung und Distanz.</incorrect>
+    <incorrect>Die Richtung und Stärke der Meeresströmung.</incorrect>
+  </question>
+  <question id='9835' reference='246'>
+    <text>Was versteht man unter Windversetzung?</text>
+    <correct>Die Versetzung des Schiffes über Grund in Richtung und Distanz.</correct>
+    <incorrect>Die Versetzung des Schiffes vom Magnetkompasskurs.</incorrect>
+    <incorrect>Die Versetzung des Schiffes durch das Wasser in Richtung und Distanz.</incorrect>
+    <incorrect>Die Richtung und Stärke des Windes und der Windsee.</incorrect>
+  </question>
+  <question id='9836' reference='247'>
+    <text>Was versteht man unter einem Koppelort?</text>
+    <correct>Schiffsort, der unter Berücksichtigung der gesteuerten Kurse und zurückgelegten Distanzen und aller vorhersehbaren Einflüsse rechnerisch und zeichnerisch ermittelt wird.</correct>
+    <incorrect>Schiffsort, der ermittelt wird durch Peilung zweier feststehender und bekannter Objekte, die in einem möglichst rechten Winkel (90 Grad) zueinander stehen.</incorrect>
+    <incorrect>Schiffsort, der durch Eintragung der rechtweisenden Peilungen zweier feststehender und bekannter Objekte als Standlinien in die Seekarte ermittelt wird; ihr Schnittpunkt ist der Standort.</incorrect>
+    <incorrect>Schiffsort, der unter Berücksichtigung der gesteuerten Kurse und zurückgelegten Distanzen infolge mehrerer Peilungen ermittelt wird.</incorrect>
+  </question>
+  <question id='9837' reference='248'>
+    <text>Was ist bei der Aufstellung eines Magnetkompasses an Bord zu beachten?</text>
+    <correct>Der Steuerstrich muss parallel zur Kiellinie verlaufen. Der Kompass muss gut ablesbar sein und darf nicht in der Nähe von Eisenteilen aufgestellt werden.</correct>
+    <incorrect>Der Kompass muss parallel zur Kiellinie verlaufen. Der Kompass muss gut ablesbar sein und darf nicht in der Nähe von Eisenteilen aufgestellt werden.</incorrect>
+    <incorrect>Der Steuerstrich muss parallel zur Kiellinie verlaufen. Der Kompass muss gut ablesbare Zahlen aufweisen und darf nicht in der Nähe von Eisenteilen aufgestellt werden.</incorrect>
+    <incorrect>Der Kompass muss parallel zur Kiellinie verlaufen. Der Kompass muss gut ablesbare Zahlen aufweisen und darf nicht in der Nähe von Eisenteilen aufgestellt werden.</incorrect>
+  </question>
+  <question id='9838' reference='249'>
+    <text>Was versteht man unter Ebbe?</text>
+    <correct>Das Fallen des Wassers vom Hochwasser zum folgenden Niedrigwasser.</correct>
+    <incorrect>Den Zeitraum vom Hochwasser zum folgenden Niedrigwasser.</incorrect>
+    <incorrect>Der niedrigste Wasserstand einer Tide.</incorrect>
+    <incorrect>Die Differenz zwischen Hoch- und Niedrigwasser.</incorrect>
+  </question>
+  <question id='9839' reference='250'>
+    <text>Was versteht man unter Flut?</text>
+    <correct>Das Steigen des Wassers vom Niedrigwasser zum folgenden Hochwasser.</correct>
+    <incorrect>Den Zeitraum vom Niedrigwasser zum folgenden Hochwasser.</incorrect>
+    <incorrect>Der höchste Wasserstand einer Tide.</incorrect>
+    <incorrect>Die Differenz zwischen Hoch- und Niedrigwasser.</incorrect>
+  </question>
+  <question id='9840' reference='251'>
+    <text>Was versteht man unter einer Tide?</text>
+    <correct>Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser.</correct>
+    <incorrect>Der Zeitraum zwischen einem Hochwasser und dem nächstfolgenden Niedrigwasser.</incorrect>
+    <incorrect>Der Zeitraum zwischen einem Hochwasser und dem nächstfolgenden Hochwasser.</incorrect>
+    <incorrect>Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.</incorrect>
+  </question>
+  <question id='9841' reference='252'>
+    <text>Was versteht man unter einem Niedrigwasser?</text>
+    <correct>Eintritt des niedrigsten Wasserstands beim Übergang vom Fallen zum Steigen.</correct>
+    <incorrect>Fallen des Wassers nach Eintritt des höchsten Wasserstands.</incorrect>
+    <incorrect>Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.</incorrect>
+    <incorrect>Steigen des Wassers nach Eintritt des niedrigsten Wasserstands.</incorrect>
+  </question>
+  <question id='9842' reference='253'>
+    <text>Was versteht man unter einem Hochwasser?</text>
+    <correct>Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.</correct>
+    <incorrect>Steigen des Wassers nach Eintritt des niedrigsten Wasserstands.</incorrect>
+    <incorrect>Eintritt des niedrigsten Wasserstands beim Übergang vom Fallen zum Steigen.</incorrect>
+    <incorrect>Fallen des Wassers nach Eintritt des höchsten Wasserstands.</incorrect>
+  </question>
+  <question id='9843' reference='254'>
+    <text>Was versteht man unter „Tidenhub“?</text>
+    <correct>Unterschied zwischen den Höhen des Hoch- und des Niedrigwassers.</correct>
+    <incorrect>Unterschied zwischen den Höhen zweier aufeinander folgender Hochwasser.</incorrect>
+    <incorrect>Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.</incorrect>
+    <incorrect>Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser.</incorrect>
+  </question>
+  <question id='9844' reference='255'>
+    <text>Wo sind für einen bestimmten Ort die Angaben über Hoch- und Niedrigwasserzeiten und den Tidenhub zu finden?</text>
+    <correct>In den Gezeitentafeln oder dem Gezeitenkalender des Bundesamtes für Seeschifffahrt und Hydrographie.</correct>
+    <incorrect>In der Flutvorhersage des Bundesamtes für Seeschifffahrt und Hydrographie.</incorrect>
+    <incorrect>Im Gezeitenatlas des Bundesamtes für Seeschifffahrt und Hydrographie.</incorrect>
+    <incorrect>Im Mondphasenkalender der Bundesanstalt für Gewässerkunde.</incorrect>
+  </question>
+  <question id='9845' reference='256'>
+    <text>Wie lang sollte eine Schleppleine bei starkem Seegang sein?</text>
+    <correct>Mindestens zwei- oder dreifache Wellenlänge.</correct>
+    <incorrect>Mindestens zwei- oder dreifache Wellenhöhe.</incorrect>
+    <incorrect>Mindestens zwei- oder dreifache Schiffslänge.</incorrect>
+    <incorrect>Mindestens zwei- oder dreifache Wassertiefe.</incorrect>
+  </question>
+  <question id='9846' reference='257'>
+    <text>Was ist zu beachten, wenn ein Sportboot geschleppt werden soll?</text>
+    <correct>Die Schleppleine ist den Seegangsverhältnissen anzupassen. Die Schleppgeschwindigkeit darf nicht größer sein als die Geschwindigkeit die der Anhang frei fahrend bei Verdrängerfahrt erreichen kann. Ein ruckartiges Steifkommen der Schleppleine ist zu vermeiden.</correct>
+    <incorrect>Die Schleppleine ist den Seegangsverhältnissen anzupassen. Die Schleppgeschwindigkeit darf nicht größer sein als die Geschwindigkeit, die das schleppende Fahrzeug frei fahrend bei Verdrängerfahrt erreichen kann. Ein ruckartiges Steifkommen der Schleppleine ist zu vermeiden.</incorrect>
+    <incorrect>Die Schleppleine ist den Wetterverhältnissen anzupassen. Die Schleppgeschwindigkeit darf nicht größer sein als die Geschwindigkeit, die der Anhang frei fahrend bei Gleitfahrt erreichen kann. Ein ruckartiges Steifkommen der Schleppleine ist zu vermeiden.</incorrect>
+    <incorrect>Die Schleppleine ist den Wetterverhältnissen anzupassen. Die Schleppgeschwindigkeit darf nicht größer sein als die Geschwindigkeit, die das schleppende Fahrzeug frei fahrend bei Gleitfahrt erreichen kann. Ein ruckartiges Steifkommen der Schleppleine ist zu vermeiden.</incorrect>
+  </question>
+  <question id='9847' reference='258'>
+    <text>Womit kann ein steuerunfähiges Sportboot mit dem Bug in den Wind gehalten werden?</text>
+    <correct>Mit dem Treibanker oder anderen geeigneten schwimmfähigen Gegenständen.</correct>
+    <incorrect>Durch wiederholtes kurzes Ein- und Auskuppeln der Antriebsmaschine.</incorrect>
+    <incorrect>Mit achteraus ausgebrachtem Treibanker oder ähnlichen schwimmfähigen Gegenständen.</incorrect>
+    <incorrect>Mit vorn und achtern ausgebrachten Treibankern oder anderen geeigneten schwimmfähigen Gegenständen.</incorrect>
+  </question>
+  <question id='9848' reference='259'>
+    <text>Warum sollte bei starkem Seegang die Fahrt vermindert werden?</text>
+    <correct>Um Schäden durch Seeschlag zu vermeiden.</correct>
+    <incorrect>Um das Austauchen der Schraube zu vermeiden und Kraftstoff zu sparen.</incorrect>
+    <incorrect>Um die Schlinger- und Rollbewegung zu minimieren.</incorrect>
+    <incorrect>Um Schiffs- und Wellenlänge nicht in Resonanz zu bringen.</incorrect>
+  </question>
+  <question id='9849' reference='260'>
+    <text>Was bedeutet folgendes Zeichen?</text>
+    <correct>Wind aus Richtung Nordwest; Stärke: Bft. 3; wolkenlos.</correct>
+    <incorrect>Wind in Richtung Nordwest; Stärke Bft. 3; wolkenlos.</incorrect>
+    <incorrect>Strom aus Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.</incorrect>
+    <incorrect>Strom in Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.</incorrect>
+  </question>
+  <question id='9850' reference='261'>
+    <text>Welche Angaben liefert die Beaufort-Skala?</text>
+    <correct>Windstärken von 0 bis 12 und die Auswirkungen auf die See.</correct>
+    <incorrect>Windstärken von 0 bis 12 und die Auswirkungen auf die Küste.</incorrect>
+    <incorrect>Den Tidenhub an der Küste bei Vollmond und bei Neumond.</incorrect>
+    <incorrect>Die Wellenhöhe und die Windgeschwindigkeit bei Sturmstärke.</incorrect>
+  </question>
+  <question id='9851' reference='262'>
+    <text>Wie werden Orte gleichen Luftdrucks in der Wetterkarte dargestellt und in welcher Maßeinheit wird der Luftdruck angegeben?</text>
+    <correct>Durch Isobaren und in Hektopascal.</correct>
+    <incorrect>Durch Isobaren und in Millipascal.</incorrect>
+    <incorrect>Durch Isoklinen und in Hektopascal.</incorrect>
+    <incorrect>Durch Isoklinen und in Dezipascal.</incorrect>
+  </question>
+  <question id='9852' reference='263'>
+    <text>Womit muss bei rasch fallendem Luftdruck gerechnet werden?</text>
+    <correct>Mit Starkwind oder Sturm.</correct>
+    <incorrect>Mit Schwachwind oder Windstille.</incorrect>
+    <incorrect>Mit einer Wetterbesserung.</incorrect>
+    <incorrect>Mit einer Wetterverschlechterung.</incorrect>
+  </question>
+  <question id='9853' reference='265'>
+    <text>Was zeigt die folgende Abbildung?</text>
+    <correct>Abbildung eines Hochdruckgebietes auf der Nordhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa.</correct>
+    <incorrect>Abbildung eines Hochdruckgebietes auf der Südhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa.</incorrect>
+    <incorrect>Abbildung eines Hochdruckgebietes auf der Nordhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa, Zugrichtung Nordwest.</incorrect>
+    <incorrect>Abbildung eines Hochdruckgebietes auf der Südhalbkugel, Isobaren mit Angabe des Luftdrucks in hPa, Zugrichtung Südwest.</incorrect>
+  </question>
+  <question id='9854' reference='266'>
+    <text>Was zeigt die folgende Abbildung?</text>
+    <correct>Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Warm- und Kaltfront, Isobaren mit Angabe des Luftdrucks in hPa, warme und kalte Luftströmung.</correct>
+    <incorrect>Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Kalt- und Warmfront, Isobaren mit Angabe des Luftdrucks in hPa, kalte und warme Luftströmung.</incorrect>
+    <incorrect>Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Kaltfront vor der Warmfront, Angabe des Luftdrucks in hPa, Warmfront südlich, Kaltfront nördlich des Zentrums.</incorrect>
+    <incorrect>Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Warmfront vor der Kaltfront, Angabe des Luftdrucks in hPa, Darstellung des Kalt- und Warmluftstroms.</incorrect>
+  </question>
+  <question id='9855' reference='267'>
+    <text>Für welche Windstärken wird eine Starkwindwarnung herausgegeben?</text>
+    <correct>Windstärke 6 und 7 der Beaufortskala.</correct>
+    <incorrect>Windstärke 5 und 6 der Beaufortskala.</incorrect>
+    <incorrect>Windstärke 4 bis 5 der Beaufortskala.</incorrect>
+    <incorrect>Windstärke 7 bis 8 der Beaufortskala.</incorrect>
+  </question>
+  <question id='9856' reference='268'>
+    <text>Für welche Windstärken wird eine Sturmwarnung herausgegeben?</text>
+    <correct>Windstärke 8 und mehr der Beaufortskala.</correct>
+    <incorrect>Windstärke 6 und mehr der Beaufortskala.</incorrect>
+    <incorrect>Windstärke 9 und mehr der Beaufortskala.</incorrect>
+    <incorrect>Windstärke 7 und mehr der Beaufortskala.</incorrect>
+  </question>
+  <question id='9857' reference='269'>
+    <text>Was ist in amtlichen Wetterberichten unter „frischem Wind“ zu verstehen?</text>
+    <correct>Windstärke 5 der Beaufortskala.</correct>
+    <incorrect>Windstärke 4 der Beaufortskala.</incorrect>
+    <incorrect>Windstärke 6 der Beaufortskala.</incorrect>
+    <incorrect>Windstärke 7 der Beaufortskala.</incorrect>
+  </question>
+  <question id='9858' reference='270'>
+    <text>Was ist in amtlichen Wetterberichten unter „schwerem Sturm“, „orkanartigem Sturm“ und „Orkan“ zu verstehen?</text>
+    <correct>Windstärken 10, 11 und 12 der Beaufortskala.</correct>
+    <incorrect>Windstärken 9, 10 und 11 der Beaufortskala.</incorrect>
+    <incorrect>Windstärken 11, 12 und 13 der Beaufortskala.</incorrect>
+    <incorrect>Windstärken 8, 9 und 10 der Beaufortskala.</incorrect>
+  </question>
+  <question id='9859' reference='271'>
+    <text>Wie hat man seine Fahrweise im Fahrwasser bei verminderter Sicht aufgrund seemännischer Sorgfaltspflicht einzurichten, wenn das Fahrzeug nicht über die technische Ausrüstung, insbesondere zur Ortung anderer Fahrzeuge, verfügt?</text>
+    <correct>Das Fahrwasser verlassen und wenn möglich, Flachwassergebiet aufsuchen und ankern. Wenn dies nicht möglich ist, im Fahrwasser äußerst rechts halten.</correct>
+    <incorrect>Unverzüglich die Fahrt einstellen und ankern, wenn dies nicht möglich ist, vorsichtig weiterfahren und möglichst im Kielwasser eines vorausfahrenden Fahrzeugs halten.</incorrect>
+    <incorrect>Umsichtig, aber zügig weiterfahren, um den übrigen Verkehr nicht zu behindern. Beim Hören fremder Nebelsignale aufstoppen und abwarten, dabei fortlaufend die Wassertiefe loten.</incorrect>
+    <incorrect>Im Fahrwasser äußerst rechts halten und den nächstgelegenen Hafen oder Liegeplatz anlaufen. Im Zweifel andere Fahrzeuge nach Position und richtigem Kurs fragen.</incorrect>
+  </question>
+  <question id='9860' reference='272'>
+    <text>Wozu dient primär das Automatische Identifikationssystem (AIS)?</text>
+    <correct>Der Kollisionsverhütung.</correct>
+    <incorrect>Dem Empfang von Wetterdaten.</incorrect>
+    <incorrect>Der Positionsbestimmung.</incorrect>
+    <incorrect>Dem Senden nautischer Warnnachrichten.</incorrect>
+  </question>
+  <question id='9861' reference='273'>
+    <text>Welche Informationen können über das Automatische Identifikationssystem (AIS) ausgetauscht werden?</text>
+    <correct>Schiffsdaten (statisch und dynamisch), reisebezogene Daten.</correct>
+    <incorrect>Schiffsdaten (statisch und dynamisch), Wetterdaten.</incorrect>
+    <incorrect>Schiffsdaten (statisch), reisebezogene Daten.</incorrect>
+    <incorrect>Schiffsdaten (dynamisch), Wetterdaten.</incorrect>
+  </question>
+  <question id='9862' reference='274'>
+    <text>Welche Sicherheitsmaßnahmen sind an Bord aufgrund der seemännischen Sorgfaltspflicht neben den in den Kollisionsverhütungsregeln vorgeschriebenen Verhaltensmaßregeln bei verminderter Sicht zu treffen?</text>
+    <correct>Insbesondere alle Navigationsanlagen, z.B. Radar, AIS, Echolot, sorgfältig gebrauchen und in einem Revier mit Landradarberatung die Radarberatung über UKW-Sprechfunk mithören.</correct>
+    <incorrect>Insbesondere alle technischen Anlagen, z.B. Radar, AIS, Echolot, Selbststeueranlage einschalten und in einem Revier mit Landradarberatung die Radarberatung über UKW-Sprechfunk anfordern.</incorrect>
+    <incorrect>Insbesondere alle Navigationsanlagen, z.B. Radar, AIS, Echolot, sorgfältig gebrauchen und die Verkehrszentrale ständig über Kurs und Geschwindigkeit informieren.</incorrect>
+    <incorrect>Insbesondere alle technischen Anlagen, z.B. Radar, Echolot, AIS, Selbststeueranlage, einschalten und die Verkehrszentrale ständig über Kurs und Geschwindigkeit informieren.</incorrect>
+  </question>
+  <question id='9863' reference='275'>
+    <text>Welche Sicherheitsmaßnahmen sind auf See vor Eintritt von schwerem Wetter (Starkwind, Sturm) zu treffen?</text>
+    <correct>Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten bzw. anlegen; wenn erforderlich und möglich, Schutzhafen anlaufen.</correct>
+    <incorrect>Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste und andere rettungsmittel bereithalten bzw. anlegen, Seenotsignalmittel zum Einsatz vorbereiten.</incorrect>
+    <incorrect>Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten bzw. anlegen, Radar, Ruder und UKW besetzen.</incorrect>
+    <incorrect>Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten bzw. anlegen, Seenotsignalmittel zum Einsatz vorbereiten.</incorrect>
+  </question>
+  <question id='9864' reference='276'>
+    <text>Mit welchen Hilfsmitteln kann eine im Wasser treibende Person schnell und sicher an Bord genommen werden?</text>
+    <correct>Leinenverbindung, Rettungschlaufe, Bergenetz, Talje, Badeleiter, Großbaum.</correct>
+    <incorrect>Leinenverbindung, Badeleiter, Treibanker, Rettungsschlaufe, Bergenetz, Talje.</incorrect>
+    <incorrect>Leinenverbindung, Großbaum, Ankerkette, Talje, Badeleiter, Rettungsschlaufe.</incorrect>
+    <incorrect>Leinenverbindung, Badeleiter, Rettungsboje, Bergenetz, Großbaum, Talje.</incorrect>
+  </question>
+  <question id='9865' reference='277'>
+    <text>Was ist zu tun, wenn das Fahrzeug gekentert ist?</text>
+    <correct>Möglichst am Fahrzeug bleiben und die Besatzung zusammenhalten; unnötigen Kräfteverschleiß vermeiden und Aufmerksamkeit zur Hilfeleistung erregen.</correct>
+    <incorrect>Möglichst am Fahrzeug bleiben und Seenotsignale geben. Die Besatzung zusammenhalten und unnötigen Kräfteverschleiß vermeiden.</incorrect>
+    <incorrect>Möglichst am Fahrzeug bleiben und Unfallstelle kennzeichnen; unnötigen Kräfteverschleiß vermeiden und Aufmerksamkeit zur Hilfeleistung erregen.</incorrect>
+    <incorrect>Möglichst am Fahrzeug bleiben und die Besatzung zusammenhalten; Wertgegenstände und Seetagebuch bergen.</incorrect>
+  </question>
+  <question id='9866' reference='278'>
+    <text>Wie verhindert man das Überbordfallen von Personen bei starkem Seegang?</text>
+    <correct>Sicherheitsleinen bzw. -gurte spannen, Sicherheitsgurt anlegen und an den dafür vorgesehenen Stellen einpicken.</correct>
+    <incorrect>Sicherheitsleinen bzw. -gurte spannen, Besatzung an Deck sammeln. Rettungswesten anlegen.</incorrect>
+    <incorrect>Sicherheitsleinen bzw. -gurte aufschießen, Sicherheitsgurt anlegen und in die Reling einpicken.</incorrect>
+    <incorrect>Besatzung in der Plicht versammeln, Rettungswesten anlegen, Sicherheitsleinen bzw. -gurte spannen.</incorrect>
+  </question>
+  <question id='9867' reference='279'>
+    <text>Welche Notsignale können gegeben werden?</text>
+    <correct>Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgeräts, dreimaliges Geben (● ● ● – – – ● ● ●) per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal NC, EPIRB, DSC, Radartransponder.</correct>
+    <incorrect>Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben (● ● ● – – – ● ● ●) per Licht oder Ton, Seewasserfärber, seitliches Heben und Senken der Arme, Ball über oder unter Flaggensignal NC, EPIRB, DSC, Radartransponder.</incorrect>
+    <incorrect>Leuchtrakete mit orangem Leuchtstern oder orange brennende Handfackel, rotes Rauchsignal, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben (● ● ● – – – ● ● ●) per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal NC, EPIRB, DSC, Radartransponder.</incorrect>
+    <incorrect>Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben (– – – ● ● ● – – –) per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal MC, EPIRB, DSC, Radartransponder.</incorrect>
+  </question>
+  <question id='9868' reference='280'>
+    <text>Was bedeutet das Flaggensignal „NC“ auf einem Fahrzeug?</text>
+    <correct>Fahrzeug in Seenot.</correct>
+    <incorrect>Fahrzeug des öffentlichen Dienstes.</incorrect>
+    <incorrect>Fahrzeug mit gefährlichen Gütern.</incorrect>
+    <incorrect>Fahrzeug verlässt Liegeplatz.</incorrect>
+  </question>
+  <question id='9869' reference='281'>
+    <text>Was bedeutet anhaltendes Ertönen eines Nebelsignalgerätes von einem Fahrzeug?</text>
+    <correct>Fahrzeug in Seenot.</correct>
+    <incorrect>Fahrzeug mit gefährlichen Gütern.</incorrect>
+    <incorrect>Bleib-weg-Signal.</incorrect>
+    <incorrect>Achtungssignal.</incorrect>
+  </question>
+  <question id='9870' reference='282'>
+    <text>Was bedeutet das folgende durch Licht oder Schallsignal gegebene Morsesignal (● ● ● – – – ● ● ●)</text>
+    <correct>Seenotsignal.</correct>
+    <incorrect>Nebelsignal.</incorrect>
+    <incorrect>Bleib-weg-Signal.</incorrect>
+    <incorrect>Überholsignal</incorrect>
+  </question>
+  <question id='9871' reference='283'>
+    <text>Was bedeutet eine Leuchtrakete mit einem roten Stern?</text>
+    <correct>Seenotfall.</correct>
+    <incorrect>Aufforderung zum Aufstoppen.</incorrect>
+    <incorrect>Schießübung.</incorrect>
+    <incorrect>Aufforderung zur Kursänderung.</incorrect>
+  </question>
+  <question id='9872' reference='284'>
+    <text>Was bedeutet folgendes Flaggensignal?</text>
+    <correct>Fahrzeug in Seenot.</correct>
+    <incorrect>Fahrzeug des öffentlichen Dienstes.</incorrect>
+    <incorrect>Fahrzeug mit gefährlichen Gütern.</incorrect>
+    <incorrect>Fahrzeug verlässt Liegeplatz.</incorrect>
+  </question>
+  <question id='9873' reference='285'>
+    <text>Was bedeutet auf einem Schiff eines der folgenden Signale?</text>
+    <correct>Fahrzeug in Seenot.</correct>
+    <incorrect>Fahrzeug ist manövrierbehindert.</incorrect>
+    <incorrect>Fahrzeug mit gefährlichen Gütern.</incorrect>
+    <incorrect>Fahrzeug vor Anker mit mehr als 100 m Länge.</incorrect>
+  </question>
+</topic>
+</questionaire>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sportboot-See-Trainer</string>
+    <string name="infoMessage">Diese App enthält die Fragen für die Prüfung für den Sportbootführerschein See (ohne Kartenaufgaben) ab Mai 2012</string>
+    <string name="selectTopic">Bitte wählen sie ein Kapitel:</string>
+    <string name="continueButtonText">Weiter</string>
+    <string name="waitBeforeContinue">Bitte warten Sie etwas bevor Sie weiter lernen …</string>
+    <string name="nextQuestionAt">Die nächste Frage sehen Sie um:</string>
+    <string name="continueNow">Jetzt weiter machen …</string>
+    <string name="restart">Neu beginnen</string>
+    <string name="chapterFinished">Sie haben dieses Kapitel erfolgreich abgeschlossen …</string>
+    <string name="offeneFragen">Offene Fragen:</string>
+    <string name="nextLabel">Nächste: </string>
+    <string name="right">Richtig!</string>
+    <string name="done">fertig</string>
+    <string name="noAnswerSelected">Sie müssen zuerst eine Antwort auswählen!</string>
+    <string name="menuResetTopic">Kapitel neu beginnen</string>
+    <string name="menuResetTopicCondensed">Neu beginnen</string>
+    <string name="menuStatistics">Statistik</string>
+    <string name="chapter">Kapitel:</string>
+    <string name="totalProgress">Gesamtfortschritt:</string>
+    <string name="atLevel0">Ohne richtige Antwort:</string>
+    <string name="atLevel1">Ein mal richtig:</string>
+    <string name="atLevel2">Zwei mal richtig:</string>
+    <string name="atLevel3">Drei mal richtig:</string>
+    <string name="atLevel4">Vier mal richtig:</string>
+    <string name="atLevel5">Fünf mal richtig (fertig):</string>
+    <string name="warningReset">Hiermit beginnt die Abfrage dieses Kapitels von vorn.</string>
+    <string name="resetOkay">OK</string>
+    <string name="resetCancel">Abbrechen</string>
+</resources>
