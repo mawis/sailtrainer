@@ -1001,7 +1001,7 @@
   <question id='9732' reference='143'>
     <text>Was ist hinsichtlich des Querens eines Verkehrstrennungsgebietes zu beachten?</text>
     <correct>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies möglichst mit der Kielrichtung im rechten Winkel zur allgemeinen Verkehrsrichtung zu erfolgen. Die Kielrichtung des querenden Fahrzeugs muss auch dann einen rechten Winkel zur allgemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind und Strom versetzt wird.</correct>
-    <incorrect>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies möglichst mit einem rechtweisenden Kurs zur allgemeinen Verkehrsrichtung zu erfolgen. Der rechtweisende Kurs des querenden Fahrzeugs muss auch dann einen rechten Winkel zur algemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind oder Strom versetzt wird.</incorrect>
+    <incorrect>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies möglichst mit einem rechtweisenden Kurs zur allgemeinen Verkehrsrichtung zu erfolgen. Der rechtweisende Kurs des querenden Fahrzeugs muss auch dann einen rechten Winkel zur allgemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind oder Strom versetzt wird.</incorrect>
     <incorrect>Das Queren von Verkehrstrennungsgebieten ist für Segelfahrzeuge sowie für Maschinenfahrzeuge unter 20 m Länge verboten. Diese Fahrzeuge haben sich soweit wie möglich von den Enden der Verkehrstrennungsgebiete klar zu halten und müssen durch ihren Kurs zu erkennen geben, dass sie ein Verkehrstrennungsgebiet nicht queren.</incorrect>
     <incorrect>Das Queren ist möglichst zu vermeiden. Falls gequert werden muss, hat dies mit der Kielrichtung in einem möglichst spitzen Winkel zur allgemeinen Verkehrsrichtung zu erfolgen. Die Kielrichtung des querenden Fahrzeugs muss auch dann einen möglichst spitzen Winkel zur allgemeinen Verkehrsrichtung bilden, wenn das Fahrzeug durch Wind oder Strom versetzt wird.</incorrect>
   </question>
@@ -1111,7 +1111,7 @@
     <incorrect>Er ist verpflichtet, die Funkanlage während der Fahrt in Betrieb zu halten und alle sein Fahrzeug betreffenden Mitteilungen im Schiffslogbuch festzuhalten.</incorrect>
   </question>
   <question id='9748' reference='159'>
-    <text>Welches Licht muss ein Fahrzeug unter Segel von weniger als 12 m Länge oder ein Fahrzeug unter Rudder auf der Seeschifffahrtsstraße führen, wenn es die nach den Kollisionsverhütungsregeln (KVR) vorgeschriebenen Lichter nicht führen kann?</text>
+    <text>Welches Licht muss ein Fahrzeug unter Segel von weniger als 12 m Länge oder ein Fahrzeug unter Ruder auf der Seeschifffahrtsstraße führen, wenn es die nach den Kollisionsverhütungsregeln (KVR) vorgeschriebenen Lichter nicht führen kann?</text>
     <correct>Ein weißes Rundumlicht.</correct>
     <incorrect>Ein rotes Rundumlicht.</incorrect>
     <incorrect>Ein weißes Topplicht.</incorrect>
