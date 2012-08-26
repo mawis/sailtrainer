@@ -18,6 +18,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -46,6 +47,7 @@ public class QuestionAsker extends Activity {
 	private Date nextTime;
 	private Timer waitTimer;
 	private boolean showingStandardView;
+	private boolean replaceNNBSP = Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH;
 	
 	@Override
 	public void onDestroy() {
@@ -256,10 +258,10 @@ public class QuestionAsker extends Activity {
 				question.getLevel() == 1 ? getString(R.string.secondPass) : "");
 			
 			final TextView textView = (TextView) findViewById(R.id.answerTextViewFrage);
-			textView.setText(question.getQuestionText());
+			textView.setText(safeText(question.getQuestionText()));
 			
 			final TextView answerView = (TextView) findViewById(R.id.answerText);
-			answerView.setText(question.getAnswer());
+			answerView.setText(safeText(question.getAnswer()));
 			
 			final ProgressBar progressBar = (ProgressBar) findViewById(R.id.answerProgressBar);
 			progressBar.setMax(maxProgress);
@@ -313,7 +315,7 @@ public class QuestionAsker extends Activity {
 
 		final TextView textView = (TextView) findViewById(R.id.textViewFrage);
         
-		textView.setText(question.getQuestionText());
+		textView.setText(safeText(question.getQuestionText()));
 		
 		final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar1);
 		progressBar.setMax(maxProgress);
@@ -369,7 +371,7 @@ public class QuestionAsker extends Activity {
 		int imageResourceId = -1;
 		switch (currentQuestion) {
 		case 1025:
-			imageResourceId = R.drawable.sr19;
+			imageResourceId = R.drawable.nav84;
 			break;
 		case 1079:
 			imageResourceId = R.drawable.sr19;
@@ -454,5 +456,9 @@ public class QuestionAsker extends Activity {
 			waitTimer.cancel();
 			waitTimer = null;
 		}
+	}
+	
+	private String safeText(final String source) {
+		return replaceNNBSP ? source.replace('\u202f', ' ') : source;
 	}
 }
