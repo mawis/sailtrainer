@@ -361,7 +361,6 @@ public class QuestionAsker extends Activity {
 		}
 		
 		final ImageView image = new ImageView(this);
-		image.setBackgroundColor(Color.WHITE);
 		image.setImageResource(imageResourceId);
 		return image;
 	}
@@ -425,7 +424,6 @@ public class QuestionAsker extends Activity {
 		}
 		
 		final ImageView image = new ImageView(this);
-		image.setBackgroundColor(Color.WHITE);
 		image.setImageResource(imageResourceId);
 		return image;
 	}
