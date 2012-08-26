@@ -8,6 +8,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="6dp"
         android:text="@string/waitBeforeContinue"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -15,6 +16,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="6dp"
         android:text="@string/nextQuestionAt" />
 
     <TextView
@@ -22,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
         android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge" />
 

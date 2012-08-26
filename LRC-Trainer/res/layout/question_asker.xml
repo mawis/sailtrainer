@@ -3,20 +3,25 @@
 	android:layout_width="fill_parent" android:layout_height="fill_parent"
 	android:orientation="vertical">
 
-	<LinearLayout android:id="@+id/linearLayout1"
-		android:layout_width="fill_parent" android:layout_height="wrap_content"
-		android:orientation="vertical">
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
 
 		<ProgressBar
-			android:id="@+id/progressBar1"
-			style="?android:attr/progressBarStyleHorizontal"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content" />
+		    android:id="@+id/progressBar1"
+		    style="?android:attr/progressBarStyleHorizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="6dp" />
 
 		<TextView
 		    android:id="@+id/textViewFrage"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="6dp"
+		    android:layout_marginRight="6dp"
 		    android:layout_marginTop="10dp"
 		    android:text=""
 		    android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -25,6 +30,7 @@
 		    android:id="@+id/radioGroup1"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
+		    android:layout_margin="6dp"
 		    android:baselineAligned="true" >
 
 			<RadioButton
@@ -63,6 +69,7 @@
 		    android:layout_width="164dp"
 		    android:layout_height="wrap_content"
 		    android:layout_gravity="right"
+		    android:layout_marginRight="6dp"
 		    android:layout_marginTop="10dp"
 		    android:text="@string/continueButtonText" />
 
