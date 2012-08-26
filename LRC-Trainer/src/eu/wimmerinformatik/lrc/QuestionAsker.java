@@ -342,6 +342,14 @@ public class QuestionAsker extends Activity {
 		
 		final Question question = repository.getQuestion(currentQuestion);
 
+		final TextView levelText = (TextView) findViewById(R.id.levelText);
+		levelText.setText(question.getLevel() == 0 ? getString(R.string.firstPass) :
+				question.getLevel() == 1 ? getString(R.string.secondPass) :
+				question.getLevel() == 2 ? getString(R.string.thirdPass) :
+				question.getLevel() == 3 ? getString(R.string.fourthPass) :
+				question.getLevel() == 4 ? getString(R.string.fifthPass) :
+				String.format(getString(R.string.passText), question.getLevel()));
+
 		final TextView textView = (TextView) findViewById(R.id.textViewFrage);
         
 		textView.setText(safeText(question.getQuestionText()));
