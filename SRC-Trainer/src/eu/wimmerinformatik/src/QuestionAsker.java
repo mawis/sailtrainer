@@ -21,6 +21,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -40,6 +41,8 @@ import android.widget.Toast;
 public class QuestionAsker extends Activity {
 	private Repository repository;
 	private int currentQuestion;
+	private int maxProgress;
+	private int currentProgress;
 	private int topicId;
 	private int correctChoice;
 	private Random rand = new Random();
@@ -50,6 +53,7 @@ public class QuestionAsker extends Activity {
 	private Date nextTime;
 	private Timer waitTimer;
 	private boolean showingStandardView;
+	private final boolean replaceNNBSP = Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH;
 	
 	@Override
 	public void onDestroy() {
@@ -71,6 +75,8 @@ public class QuestionAsker extends Activity {
 		
 		outState.putBoolean(getClass().getName() + ".showingCorrectAnswer", showingCorrectAnswer);
 		outState.putInt(getClass().getName() + ".currentQuestion", currentQuestion);
+		outState.putInt(getClass().getName() + ".maxProgress", maxProgress);
+		outState.putInt(getClass().getName() + ".currentProgress", currentProgress);
 		outState.putLong(getClass().getName() + ".topic", topicId);
 		if (nextTime != null) {
 			outState.putLong(getClass().getName() + ".nextTime", nextTime.getTime());
@@ -102,6 +108,8 @@ public class QuestionAsker extends Activity {
         	final long nextTimeLong = savedInstanceState.getLong(getClass().getName()+".nextTime");
         	nextTime = nextTimeLong > 0L ? new Date(nextTimeLong) : null;
         	showingCorrectAnswer = savedInstanceState.getBoolean(getClass().getName()+".showingCorrectAnswer");
+			maxProgress = savedInstanceState.getInt(getClass().getName() + ".maxProgress");
+			currentProgress = savedInstanceState.getInt(getClass().getName() + ".currentProgress");
         	
         	final String orderString = savedInstanceState.getString(getClass().getName()+".order");
         	if (orderString != null) {
@@ -264,6 +272,8 @@ public class QuestionAsker extends Activity {
 		final int selectedQuestion = nextQuestion.getSelectedQuestion();
 		if (selectedQuestion != 0) {
 			currentQuestion = selectedQuestion;
+			maxProgress = nextQuestion.getMaxProgress();
+			currentProgress = nextQuestion.getCurrentProgress();
 			nextTime = null;
 			showQuestion();
 			return;
@@ -328,9 +338,17 @@ public class QuestionAsker extends Activity {
 		
 		final Question question = repository.getQuestion(currentQuestion);
 
+		final TextView levelText = (TextView) findViewById(R.id.levelText);
+		levelText.setText(question.getLevel() == 0 ? getString(R.string.firstPass) :
+				question.getLevel() == 1 ? getString(R.string.secondPass) :
+				question.getLevel() == 2 ? getString(R.string.thirdPass) :
+				question.getLevel() == 3 ? getString(R.string.fourthPass) :
+				question.getLevel() == 4 ? getString(R.string.fifthPass) :
+				String.format(getString(R.string.passText), question.getLevel()));
+
 		final TextView textView = (TextView) findViewById(R.id.textViewFrage);
         
-		textView.setText(question.getQuestionText());
+		textView.setText(safeText(question.getQuestionText()));
 		
 		final List<RadioButton> radioButtons = getRadioButtons();
 		
@@ -343,11 +361,12 @@ public class QuestionAsker extends Activity {
 		}
 		correctChoice = radioButtons.get(order.get(0)).getId();
 		for (int i = 0; i < 4; i++) {
-			radioButtons.get(order.get(i)).setText(question.getAnswers().get(i));
+			radioButtons.get(order.get(i)).setText(safeText(question.getAnswers().get(i)));
 		}
 		
 		final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar1);
-		progressBar.setProgress(question.getLevel());
+		progressBar.setMax(maxProgress);
+		progressBar.setProgress(currentProgress);
 	}
 	
 	private void showNextQuestionAt(final Date when) {
@@ -376,5 +395,9 @@ public class QuestionAsker extends Activity {
 			waitTimer.cancel();
 			waitTimer = null;
 		}
+	}
+
+	private String safeText(final String source) {
+		return replaceNNBSP ? source.replace('\u202f', '\u00a0') : source;
 	}
 }
