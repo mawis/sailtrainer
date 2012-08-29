@@ -131,6 +131,8 @@ public class Repository extends SQLiteOpenHelper {
 		
 		int questionCount = 0;
 		int openQuestions = 0;
+		int maxProgress = 0;
+		int currentProgress = 0;
 		long soonestNextTime = 0;
 		
 		final Cursor c = getDb().query("question", new String[]{"_id", "level", "next_time"}, "topic_id=?", new String[]{Integer.toString(topicId)}, null, null, null, null);
@@ -144,6 +146,8 @@ public class Repository extends SQLiteOpenHelper {
 				questionCount++;
 				if (level < NUMBER_LEVELS) {
 					openQuestions++;
+					maxProgress += NUMBER_LEVELS;
+					currentProgress += level;
 					
 					if (nextTime > now) {
 						if (soonestNextTime == 0 || soonestNextTime > nextTime) {
@@ -162,6 +166,8 @@ public class Repository extends SQLiteOpenHelper {
 		}
 		
 		result.setTotalQuestions(questionCount);
+		result.setMaxProgress(maxProgress);
+		result.setCurrentProgress(currentProgress);
 		result.setOpenQuestions(openQuestions);
 		result.setFinished(possibleQuestions.isEmpty() && soonestNextTime == 0);
 		if (!possibleQuestions.isEmpty()) {
