@@ -13,6 +13,12 @@
     <string name="nextLabel">Next: </string>
     <string name="right">Correct!</string>
 	<string name="done">done</string>
+	<string name="firstPass">First Pass</string>
+	<string name="secondPass">Second Pass</string>
+	<string name="thirdPass">Third Pass</string>
+	<string name="fourthPass">Fourth Pass</string>
+	<string name="fifthPass">Fifth Pass</string>
+	<string name="passText">Pass: %d</string>
     <string name="noAnswerSelected">You have to select a answer first.</string>
     <string name="menuResetTopic">Restart topic</string>
     <string name="menuResetTopicCondensed">Restart</string>
