@@ -101,8 +101,8 @@
   </question>
   <question id='8959' reference='15'>
     <text>Zwei Motorboote nähern sich auf kreuzenden Kursen. Es besteht die Gefahr eines Zusammenstoßes. Wer ist ausweichpflichtig?</text>
-    <correct>Dasjenige Fahrzeug muss ausweichen, welches das Andere an seiner Steuerbordseite hat.</correct>
-    <incorrect>Dasjenige Fahrzeug muss ausweichen, welches das Andere an seiner Backbordseite hat.</incorrect>
+    <correct>Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Steuerbordseite hat.</correct>
+    <incorrect>Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Backbordseite hat.</incorrect>
     <incorrect>Es muss das luvwärtige Fahrzeug dem leewärtigen Fahrzeug ausweichen.</incorrect>
     <incorrect>Es muss das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen.</incorrect>
   </question>
@@ -170,10 +170,10 @@
     <incorrect>Abgabe eines kurzen und eines langen Tons.</incorrect>
   </question>
   <question id='8969' reference='25'>
-	<text>Welche Bedeutung haben folgende Tafelzeichen?</text>
-	<correct>Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
-	<incorrect>Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
-	<incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.</incorrect>
+    <text>Welche Bedeutung haben folgende Tafelzeichen?</text>
+    <correct>Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.</correct>
+    <incorrect>Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
+    <incorrect>Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.</incorrect>
     <incorrect>Genehmigungsfreie Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.</incorrect>
   </question>
   <question id='8970' reference='26'>
@@ -445,7 +445,7 @@
   <question id='9008' reference='64'>
     <text>Was ist zu tun, wenn Flüssiggas in das Innere des Bootes gelangt?</text>
     <correct>Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keinen Funk und keine Mobiltelefone benutzen.</correct>
-    <incorrect>Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen udn keine Telefone benutzen.</incorrect>
+    <incorrect>Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keine Telefone benutzen.</incorrect>
     <incorrect>Gaszuführung absperren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und per Telefon Hilfe holen.</incorrect>
     <incorrect>Gasleitung entleeren und die Gasfreiheit mit dem Feuerzeug prüfen sowie über Funk oder Mobiltelefon Hilfe anfordern.</incorrect>
   </question>
@@ -479,7 +479,7 @@
   </question>
   <question id='9013' reference='69'>
     <text>Welche Maßnahme muss man ergreifen, um einen Brand mit dem Feuerlöscher wirksam zu bekämpfen?</text>
-    <correct>Luftzufuhr verhindern, Feuerlöscher erst am Brandhert einsetzen und das Feuer möglichst von unten bekämpfen.</correct>
+    <correct>Luftzufuhr verhindern, Feuerlöscher erst am Brandherd einsetzen und das Feuer möglichst von unten bekämpfen.</correct>
     <incorrect>Rauchabzug sicherstellen und Feuerlöscher rechtzeitig einsetzen, dabei den Löschstrahl möglichst in die lodernden Flammen halten.</incorrect>
     <incorrect>Luftzufuhr verhindern und den Feuerlöscher mit sparsamen Löschstrahlstößen einsetzen, dabei das Feuer möglichst von oben bekämpfen.</incorrect>
     <incorrect>Handhabungshinweise durchlesen und den Feuerlöscher sofort einsetzen, dabei das Feuer möglichst von unten bekämpfen.</incorrect>
@@ -1131,42 +1131,42 @@
     <incorrect>Achtung!</incorrect>
   </question>
   <question id='9107' reference='162'>
-    <text>Was bedeutet dieses Schallsignal? (–●)</text>
+    <text>Was bedeutet dieses Schallsignal? (– ●)</text>
     <correct>Wenden über Steuerbord.</correct>
     <incorrect>Kursänderung über Steuerbord.</incorrect>
     <incorrect>Kursänderung nach Backbord.</incorrect>
     <incorrect>Wenden über Backbord.</incorrect>
   </question>
   <question id='9108' reference='163'>
-    <text>Was bedeutet dieses Schallsignal? (–●●)</text>
+    <text>Was bedeutet dieses Schallsignal? (– ● ●)</text>
     <correct>Wenden über Backbord.</correct>
     <incorrect>Wenden über Steuerbord.</incorrect>
     <incorrect>Kursänderung nach Backbord.</incorrect>
     <incorrect>Kursänderung nach Steuerbord.</incorrect>
   </question>
   <question id='9109' reference='164'>
-    <text>Was bedeutet dieses Schallsignal? (––●)</text>
+    <text>Was bedeutet dieses Schallsignal? (– – ●)</text>
     <correct>Überholen an der Steuerbordseite des Vorausfahrenden.</correct>
     <incorrect>Überholen an der Backbordseite des Vorausfahrenden.</incorrect>
     <incorrect>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.</incorrect>
     <incorrect>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.</incorrect>
   </question>
   <question id='9110' reference='165'>
-    <text>Was bedeutet dieses Schallsignal? (––●●)</text>
+    <text>Was bedeutet dieses Schallsignal? (– – ● ●)</text>
     <correct>Überholen an der Backbordseite des Vorausfahrenden.</correct>
     <incorrect>Überholen an der Steuerbordseite des Vorausfahrenden.</incorrect>
     <incorrect>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.</incorrect>
     <incorrect>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.</incorrect>
   </question>
   <question id='9111' reference='166'>
-    <text>Was bedeutet dieses Schallsignal? (–––●)</text>
+    <text>Was bedeutet dieses Schallsignal? (– – – ●)</text>
     <correct>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.</correct>
     <incorrect>Überholen an der Backbordseite des Vorausfahrenden.</incorrect>
     <incorrect>Überholen an der Steuerbordseite des Vorausfahrenden.</incorrect>
     <incorrect>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.</incorrect>
   </question>
   <question id='9112' reference='167'>
-    <text>Was bedeutet dieses Schallsignal? (–––●●)</text>
+    <text>Was bedeutet dieses Schallsignal? (– – – ● ●)</text>
     <correct>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Backbord.</correct>
     <incorrect>Überholen an der Backbordseite des Vorausfahrenden.</incorrect>
     <incorrect>Hafen oder Nebenwasserstraße; Ein- oder Ausfahrt mit Kursänderung nach Steuerbord.</incorrect>
@@ -1281,7 +1281,7 @@
     <text>Zwei Kleinfahrzeuge unter Segel A und B liegen auf Kollisionskurs; A führt einen schwarzen Kegel. Wer ist ausweichpflichtig?</text>
     <correct>Fahrzeug A ist ausweichpflichtig.</correct>
     <incorrect>Fahrzeug B ist ausweichpflichtig.</incorrect>
-    <incorrect>Ausweichpflichtig ist das Fahrzeug, welches das Andere an seiner Backbordseite sieht.</incorrect>
+    <incorrect>Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Backbordseite sieht.</incorrect>
     <incorrect>Ausweichpflichtig ist das Fahrzeug, welches den Wind von Backbord hat.</incorrect>
   </question>
   <question id='9129' reference='184'>

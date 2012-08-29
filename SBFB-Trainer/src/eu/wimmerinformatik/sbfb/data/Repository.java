@@ -28,7 +28,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 3);
+		super(context, "topics", null, 4);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -361,6 +361,32 @@ public class Repository extends SQLiteOpenHelper {
 			final ContentValues updates = new ContentValues();
 			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu kšnnen?");
 			db.update("question", updates, "_id=?", new String[]{"4408"});
+		}
+		if (oldVersion <= 3) {
+			final ContentValues updates = new ContentValues();
+			updates.put("answer", "Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Steuerbordseite hat.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8959", "0"});
+			updates.clear();
+			updates.put("answer", "Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Backbordseite hat.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8959", "1"});
+			updates.clear();
+			updates.put("answer", "Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8969", "0"});
+			updates.clear();
+			updates.put("answer", "Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8969", "1"});
+			updates.clear();
+			updates.put("answer", "Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8969", "2"});
+			updates.clear();
+			updates.put("answer", "Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keine Telefone benutzen.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9008", "1"});
+			updates.clear();
+			updates.put("answer", "Luftzufuhr verhindern, Feuerlöscher erst am Brandherd einsetzen und das Feuer möglichst von unten bekämpfen.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9013", "0"});
+			updates.clear();
+			updates.put("answer", "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Backbordseite sieht.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9122", "3"});
 		}
 	}
 }
