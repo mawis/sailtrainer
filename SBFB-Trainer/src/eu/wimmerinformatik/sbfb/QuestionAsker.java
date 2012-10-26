@@ -626,6 +626,6 @@ public class QuestionAsker extends Activity {
 	}
 
 	private String safeText(final String source) {
-		return replaceNNBSP ? source.replace('\u202f', '\u00a0') : source;
+		return replaceNNBSP && source != null ? source.replace('\u202f', '\u00a0') : source;
 	}
 }

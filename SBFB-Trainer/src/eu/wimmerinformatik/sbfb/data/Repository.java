@@ -28,7 +28,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 4);
+		super(context, "topics", null, 5);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -387,6 +387,14 @@ public class Repository extends SQLiteOpenHelper {
 			updates.clear();
 			updates.put("answer", "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Backbordseite sieht.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9122", "3"});
+		}
+		if (oldVersion <= 4) {
+			final ContentValues updates = new ContentValues();
+			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9182", "0"});
+			updates.clear();
+			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9182", "3"});
 		}
 	}
 }
