@@ -3,7 +3,12 @@ package eu.wimmerinformatik.sks;
 import eu.wimmerinformatik.sks.data.Repository;
 import eu.wimmerinformatik.sks.data.TopicStats;
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -61,4 +66,37 @@ public class StatisticsActivity extends Activity {
         atLevel2.setProgress(stats.getQuestionsAtLevel()[2]);
 	}
 
+	/**
+	 * Populate the options menu.
+	 * 
+	 * @param menu the menu to populate
+	 * @return always true
+	 */
+	@Override
+	public boolean onCreateOptionsMenu(final Menu menu) {
+		final MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.statisticsmenu, menu);
+		return true;
+	}
+
+	/**
+	 * Handle option menu selections.
+	 * 
+	 * @param item the Item the user selected
+	 */
+	@Override
+	public boolean onOptionsItemSelected(final MenuItem item) {
+		// handle item selection
+		switch (item.getItemId()) {
+		case R.id.statHelp:
+			final StringBuilder uri = new StringBuilder();
+			uri.append("http://sportboot.mobi/trainer/segeln/sks/app/help?view=StatisticsActivity");
+			final Intent intent = new Intent(Intent.ACTION_VIEW);
+			intent.setData(Uri.parse(uri.toString()));
+			startActivity(intent);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+	}	
 }

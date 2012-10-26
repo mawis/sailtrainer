@@ -17,6 +17,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -129,6 +130,17 @@ public class QuestionAsker extends Activity {
 			final Intent intent = new Intent(this, StatisticsActivity.class);
 			intent.putExtra(StatisticsActivity.class.getName() + ".topic", topicId);
 			startActivity(intent);
+			return true;
+		case R.id.help:
+			final StringBuilder uri = new StringBuilder();
+			uri.append("http://sportboot.mobi/trainer/segeln/sks/app/help?question=");
+			uri.append(currentQuestion);
+			uri.append("&topic=");
+			uri.append(topicId);
+			uri.append("&view=QuestionAsker");
+			final Intent intend = new Intent(Intent.ACTION_VIEW);
+			intend.setData(Uri.parse(uri.toString()));
+			startActivity(intend);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -458,6 +470,6 @@ public class QuestionAsker extends Activity {
 	}
 	
 	private String safeText(final String source) {
-		return replaceNNBSP ? source.replace('\u202f', '\u00a0') : source;
+		return replaceNNBSP && source != null ? source.replace('\u202f', '\u00a0') : source;
 	}
 }

@@ -21,6 +21,10 @@
     <string name="menuResetTopic">Restart topic</string>
     <string name="menuResetTopicCondensed">Restart</string>
     <string name="menuStatistics">Statistics</string>
+	<string name="menuHelp">Help</string>
+	<string name="menuHelpCondensed">Help</string>
+	<string name="menuInfo">Info</string>
+	<string name="menuInfoCondensed">Exam information</string>
     <string name="chapter">Topic:</string>
     <string name="totalProgress">Total progress:</string>
     <string name="atLevel0">Without correct answer:</string>

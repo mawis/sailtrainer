@@ -27,7 +27,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 2;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 1);
+		super(context, "topics", null, 2);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -330,5 +330,13 @@ public class Repository extends SQLiteOpenHelper {
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		if (oldVersion <= 2) {
+			final ContentValues updates = new ContentValues();
+			updates.put("answer", "1. Die BfS werden von den jeweils zuständigen Behörden der Wasser- und Schifffahrtsverwaltung des Bundes bzw. der Länder veröffentlicht.\n2. Sie enthalten alle wichtigen Maßnahmen und Ereignisse auf den Seeschifffahrtsstraßen und der ausschließlichen Wirtschaftszone Deutschlands.");
+			db.update("question", updates, "_id=?", new String[]{"971"});
+			updates.clear();
+			updates.put("answer", "Halbgleiter sind Motorboote mit geringem Tiefgang, sehr hoher Formstabilität und schneller Fahrweise bei starker Motorisierung.");
+			db.update("question", updates, "_id=?", new String[]{"1440"});
+		}
 	}
 }

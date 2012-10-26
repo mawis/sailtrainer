@@ -134,7 +134,7 @@ Sie hängt ab
   <question id='971' reference='30'>
     <text>Wer veröffentlicht die Bekanntmachungen für Seefahrer (BfS) und was umfassen diese Veröffentlichungen?</text>
     <answer>1. Die BfS werden von den jeweils zuständigen Behörden der Wasser- und Schifffahrtsverwaltung des Bundes bzw. der Länder veröffentlicht.
-2. Sie enthalten alle wichtigen Maßnahmen und Ereignisse auf den Schifffahrtsstraßen und der ausschließlichen Wirtschaftszone Deutschlands.</answer>
+2. Sie enthalten alle wichtigen Maßnahmen und Ereignisse auf den Seeschifffahrtsstraßen und der ausschließlichen Wirtschaftszone Deutschlands.</answer>
   </question>
   <question id='972' reference='31'>
     <text>Wie werden die Bekanntmachungen für Seefahrer (BfS) der Sportschifffahrt zur Kenntnis gebracht?</text>
@@ -2527,7 +2527,7 @@ Diese Strecke kann bei 300 m langen Containerschiffen 1,5 bis 2,5 Schiffslängen
   </question>
   <question id='1440' reference='4'>
     <text>Was versteht man unter einem „Halbgleiter“ und welche Fahreigenschaften hat solch ein Motorboot?</text>
-    <answer>Die äußere Schutzschicht eines Bauteils aus glasfaserverstärktem Kunststoff.</answer>
+    <answer>Halbgleiter sind Motorboote mit geringem Tiefgang, sehr hoher Formstabilität und schneller Fahrweise bei starker Motorisierung.</answer>
   </question>
   <question id='1441' reference='5'>
     <text>Was versteht man im Bootsbau unter Gelcoat?</text>
