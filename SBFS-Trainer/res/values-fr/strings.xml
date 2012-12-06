@@ -23,6 +23,10 @@
     <string name="menuResetTopic">Recommencer le chapitre</string>
     <string name="menuResetTopicCondensed">Recommencer</string>
     <string name="menuStatistics">Statistique</string>
+    <string name="menuHelp">Aide</string>
+	<string name="menuHelpCondensed">Aide</string>
+	<string name="menuInfo">Info du examen</string>
+	<string name="menuInfoCondensed">Info</string>
     <string name="chapter">Chapitre:</string>
     <string name="totalProgress">Progrès total:</string>
     <string name="atLevel0">Sans réponse correcte:</string>
