@@ -1,7 +1,12 @@
 package eu.wimmerinformatik.sbfs;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import eu.wimmerinformatik.sbfs.R;
@@ -72,5 +77,39 @@ public class StatisticsActivity extends Activity {
         final ProgressBar atLevel5 = (ProgressBar) findViewById(R.id.atLevel5);
         atLevel5.setMax(stats.getQuestionCount());
         atLevel5.setProgress(stats.getQuestionsAtLevel()[5]);
+	}
+
+	/**
+	 * Populate the options menu.
+	 * 
+	 * @param menu the menu to populate
+	 * @return always true
+	 */
+	@Override
+	public boolean onCreateOptionsMenu(final Menu menu) {
+		final MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.statisticsmenu, menu);
+		return true;
+	}
+
+	/**
+	 * Handle option menu selections.
+	 * 
+	 * @param item the Item the user selected
+	 */
+	@Override
+	public boolean onOptionsItemSelected(final MenuItem item) {
+		// handle item selection
+		switch (item.getItemId()) {
+		case R.id.statHelp:
+			final StringBuilder uri = new StringBuilder();
+			uri.append("http://sportboot.mobi/trainer/segeln/sbfs/app/help?view=StatisticsActivity");
+			final Intent intent = new Intent(Intent.ACTION_VIEW);
+			intent.setData(Uri.parse(uri.toString()));
+			startActivity(intent);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
 	}
 }
