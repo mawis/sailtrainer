@@ -18,8 +18,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -47,8 +46,6 @@ public class QuestionAsker extends Activity {
 	private int maxProgress;
 	private int currentProgress;
 	private Random rand = new Random();
-	private Drawable defaultBackground;
-	private int correctMarkBackground;
 	private List<Integer> order;
 	private boolean showingCorrectAnswer;
 	private Date nextTime;
@@ -65,7 +62,6 @@ public class QuestionAsker extends Activity {
 		repository.close();
 		repository = null;
 		rand = null;
-		defaultBackground = null;
 		order = null;
 		nextTime = null;
 	}
@@ -160,6 +156,17 @@ public class QuestionAsker extends Activity {
 				intent.putExtra(StatisticsActivity.class.getName() + ".topic", topicId);
 				startActivity(intent);
 				return true;
+			case R.id.help:
+				final StringBuilder uri = new StringBuilder();
+				uri.append("http://sportboot.mobi/trainer/segeln/sbfb/app/help?question=");
+				uri.append(currentQuestion);
+				uri.append("&topic=");
+				uri.append(topicId);
+				uri.append("&view=QuestionAsker");
+				final Intent intent2 = new Intent(Intent.ACTION_VIEW);
+				intent2.setData(Uri.parse(uri.toString()));
+				startActivity(intent2);
+				return true;
             default:
 				return super.onOptionsItemSelected(item);
         }
@@ -237,13 +244,7 @@ public class QuestionAsker extends Activity {
 					radioGroup.setEnabled(false);
 					
 					final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
-					if (defaultBackground == null) {
-						defaultBackground = correctButton.getBackground();
-					}
-					if (correctMarkBackground == 0) {
-						correctMarkBackground = Color.rgb(0, 64, 0);
-					}
-					correctButton.setBackgroundColor(correctMarkBackground);
+					correctButton.setBackgroundResource(R.color.correctAnswer);
 					
 					return;
 				} else {
@@ -258,9 +259,9 @@ public class QuestionAsker extends Activity {
 			showStandardView();
 		}
 		
-		if (correctChoice != 0 && defaultBackground != null) {
+		if (correctChoice != 0) {
 			final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
-			correctButton.setBackgroundDrawable(defaultBackground);
+			correctButton.setBackgroundResource(0);
 		}
 		
 		order = null;

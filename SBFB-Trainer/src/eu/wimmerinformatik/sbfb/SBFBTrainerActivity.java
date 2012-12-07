@@ -8,7 +8,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -89,4 +93,45 @@ public class SBFBTrainerActivity extends Activity {
     	previousCursor.close();
     	topicList.setAdapter(null);
     }
+
+	/**
+	 * Populate options menu.
+	 *
+	 * @param menu the menu to populate
+	 * @return always true
+	 */
+	@Override
+	public boolean onCreateOptionsMenu(final Menu menu) {
+		final MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.mainmenu, menu);
+		return true;
+	}
+
+	/**
+	 * Handle option menu selections.
+	 *
+	 * @param item the Item the user selected
+	 */
+	@Override
+    public boolean onOptionsItemSelected(final MenuItem item) {
+		// handle item selection
+		switch (item.getItemId()) {
+		case R.id.mainHelp:
+			final StringBuilder uri = new StringBuilder();
+			uri.append("http://sportboot.mobi/trainer/segeln/sbfb/app/help?view=TrainerActivity");
+			final Intent intent = new Intent(Intent.ACTION_VIEW);
+			intent.setData(Uri.parse(uri.toString()));
+			startActivity(intent);
+			return true;
+		case R.id.mainInfo:
+			final StringBuilder uri2 = new StringBuilder();
+			uri2.append("http://sportboot.mobi/trainer/segeln/sbfb/app/info?view=TrainerActivity");
+			final Intent intent2 = new Intent(Intent.ACTION_VIEW);
+			intent2.setData(Uri.parse(uri2.toString()));
+			startActivity(intent2);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+	}
 }
