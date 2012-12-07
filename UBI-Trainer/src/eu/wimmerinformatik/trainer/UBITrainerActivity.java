@@ -8,7 +8,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -17,7 +21,7 @@ import android.widget.SimpleCursorAdapter.ViewBinder;
 import android.widget.TextView;
 
 public class UBITrainerActivity extends Activity {
-	private Repository repository;
+    private Repository repository;
 	
     /** Called when the activity is first created. */
     @Override
@@ -76,15 +80,57 @@ public class UBITrainerActivity extends Activity {
 		});
     }
 
-	@Override
-	public void onPause() {
-		super.onPause();
+    @Override
+    public void onPause() {
+	    super.onPause();
 
-		final ListView topicList = (ListView) findViewById(R.id.listView1);
-		final SimpleCursorAdapter adapter = (SimpleCursorAdapter) topicList.getAdapter();
-		final Cursor previousCursor = adapter.getCursor();
-		adapter.changeCursor(null);
-		previousCursor.close();
-		topicList.setAdapter(null);
+	    final ListView topicList = (ListView) findViewById(R.id.listView1);
+	    final SimpleCursorAdapter adapter = (SimpleCursorAdapter) topicList.getAdapter();
+	    final Cursor previousCursor = adapter.getCursor();
+	    adapter.changeCursor(null);
+	    previousCursor.close();
+	    topicList.setAdapter(null);
+    }
+
+
+    /**
+     * Populate options menu.
+     *
+     * @param menu the menu to populate
+     * @return always true
+     */
+    @Override
+    public boolean onCreateOptionsMenu(final Menu menu) {
+	    final MenuInflater inflater = getMenuInflater();
+	    inflater.inflate(R.menu.mainmenu, menu);
+	    return true;
+    }
+
+    /**
+     * Handle option menu selections.
+     *
+     * @param item the Item the user selected
+     */
+    @Override
+    public boolean onOptionsItemSelected(final MenuItem item) {
+	// handle item selection
+	switch (item.getItemId()) {
+	case R.id.mainHelp:
+	    final StringBuilder uri = new StringBuilder();
+	    uri.append("http://sportboot.mobi/trainer/funk/ubi/app/help?view=TrainerActivity");
+	    final Intent intent = new Intent(Intent.ACTION_VIEW);
+	    intent.setData(Uri.parse(uri.toString()));
+	    startActivity(intent);
+	    return true;
+	case R.id.mainInfo:
+	    final StringBuilder uri2 = new StringBuilder();
+	    uri2.append("http://sportboot.mobi/trainer/funk/ubi/app/info?view=TrainerActivity");
+	    final Intent intent2 = new Intent(Intent.ACTION_VIEW);
+	    intent2.setData(Uri.parse(uri2.toString()));
+	    startActivity(intent2);
+	    return true;
+	default:
+	    return super.onOptionsItemSelected(item);
 	}
+    }
 }

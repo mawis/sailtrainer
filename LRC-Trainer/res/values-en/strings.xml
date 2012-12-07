@@ -22,7 +22,11 @@
     <string name="noAnswerSelected">You have to select a answer first.</string>
     <string name="menuResetTopic">Restart topic</string>
     <string name="menuResetTopicCondensed">Restart</string>
-    <string name="menuStatistics">Statistics</string>
+	<string name="menuStatistics">Statistics</string>
+	<string name="menuHelp">Help</string>
+	<string name="menuHelpCondensed">Help</string>
+	<string name="menuInfo">Exam information</string>
+	<string name="menuInfoCondensed">Info</string>
     <string name="chapter">Topic:</string>
     <string name="totalProgress">Total progress:</string>
     <string name="atLevel0">Without correct answer:</string>

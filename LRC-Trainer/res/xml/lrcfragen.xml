@@ -4,160 +4,226 @@
   <question id='4393' reference='1'>
     <text>Welche Funkstelle wird im mobilen Seefunkdienst über Satelliten als „Mobile Earth Station“ (MES) bezeichnet?</text>
     <correct>Schiffs-Erdfunkstelle</correct>
-    <incorrect>Land-Erdfunkstelle</incorrect>
-    <incorrect>Küstenfunkstelle</incorrect>
-    <incorrect>Rettungsleitstelle</incorrect>
+	<incorrect>Land-Erdfunkstelle</incorrect>
+	<info>Die „Land-Erdfunkstelle“ wird auch als „Land Earth Station“ bezeichnet.</info>
+	<incorrect>Küstenfunkstelle</incorrect>
+	<info>Beim mobilen Seefunkdienst über Satelliten spricht man gar nicht von einer Küstenfunkstelle. Letztere gibt es nur für terrestrischen Seefunk wie UKW oder Kurzwelle. Im mobilen Seefunkdienst über Satelliten entspricht die Küstenfunkstelle am ehesten einer Land-Erdfunkstelle/Land Earth Station.</info>
+	<incorrect>Rettungsleitstelle</incorrect>
+	<info>Die Aufgabe einer Mobile Earth Station ist es Funkverbindungen die über den Satelliten kommen an andere Einrichtungen weiter zu vermitteln. Das kann eine Rettungsleitstelle sein, genauso aber auch beispielsweise ein normaler privater Telefonanschluss. Direkt mit der Rettungsleitstelle (RCC) hat eine MES jedenfalls nichts zu tun.</info>
   </question>
   <question id='4394' reference='2'>
     <text>Was ist eine „Schiffs-Erdfunkstelle“?</text>
     <correct>Mobile Erdfunkstelle des mobilen Seefunkdienstes über Satelliten an Bord eines Schiffes.</correct>
-    <incorrect>Mobile Empfangsanlage für Satellitenrundfunk an Bord eines Schiffes.</incorrect>
-    <incorrect>Mobile Funkstelle an Bord eines Schiffes ausschließlich für die Kommunikation mit Funkstellen an Land über Satelliten.</incorrect>
-    <incorrect>Mobile Funkstelle des COSPAS-SARSAT-Systems an Bord eines Schiffes.</incorrect>
+	<incorrect>Mobile Empfangsanlage für Satellitenrundfunk an Bord eines Schiffes.</incorrect>
+	<info>Satellitenrundfunk hat mit mobilem Seefunk/mobilem Seefunk über Satelliten nichts zu tun. Außerdem muss man für den Empfang von Satellitenrundfunk nichts senden, eine Empfangsanlage für was auch immer ist also keine Funkstelle.</info>
+	<incorrect>Mobile Funkstelle an Bord eines Schiffes ausschließlich für die Kommunikation mit Funkstellen an Land über Satelliten.</incorrect>
+	<info>Mit der Schiffs-Erdfunkstelle kann auch eine Kommunikationsverbindung über Satelliten zum Beispiel zu einer anderen Schiffs-Erdfunkstelle aufgebaut werden.</info>
+	<incorrect>Mobile Funkstelle des COSPAS-SARSAT-Systems an Bord eines Schiffes.</incorrect>
+	<info>Von einer Schiffs-Erdfunkstelle spricht man im Inmarsat-System, das für Telefonate und Datenverbindungen (z.B. Telex) zuständig ist. COSPAS-SARSAT ist ein System nur für die Alarmierung in Seenotfällen mit Hilfe einer EPIRB.</info>
   </question>
   <question id='4395' reference='3'>
     <text>Was ist eine „Land-Erdfunkstelle“ (LES)?</text>
     <correct>Ortsfeste Funkstelle des mobilen Seefunkdienstes über Satelliten.</correct>
-    <incorrect>Küstenfunkstelle für den öffentlichen Nachrichtenaustausch auf Grenzwelle.</incorrect>
-    <incorrect>Funkstelle des Revier- und Hafenfunkdienstes auf UKW.</incorrect>
-    <incorrect>Mobile Funkstelle des Navigationsfunkdienstes über Satelliten.</incorrect>
+	<incorrect>Küstenfunkstelle für den öffentlichen Nachrichtenaustausch auf Grenzwelle.</incorrect>
+	<info>Von einer Land-Erdfunkstelle spricht man im Zusammenhang mit Satelliten. Die Funkverbindungen zwischen Satellit und Land-Erdfunkstelle erfolgen auf Frequenzen oberhalb von 3 GHz. Die Grenzwelle umfasst dagegen die Frequenzen von 1605 kHz bis 3800 kHz und wird für terrestrische Funkverbindungen verwendet.</info>
+	<incorrect>Funkstelle des Revier- und Hafenfunkdienstes auf UKW.</incorrect>
+	<info>Eine Land-Erdfunkstele ist eine Einrichtung des mobilen Seefunkdienstes über Satelliten. Revier- und Hafenfunkdienste sowie überhaupt Seefunk über UKW hat mit Satelliten nichts zu tun sondern wird terrestrisch abgewickelt.</info>
+	<incorrect>Mobile Funkstelle des Navigationsfunkdienstes über Satelliten.</incorrect>
+	<info>Diese Antwort fällt schon flach weil eine mobile Funkstelle immer etwas anderes ist als eine Landfunkstelle.</info>
   </question>
   <question id='4396' reference='4'>
     <text>Was bedeutet „azimuth angle“?</text>
     <correct>Winkel zwischen Meridian und Satellit vom Schiff aus gesehen.</correct>
-    <incorrect>Winkel zwischen Kurs des Schiffes und Satellit.</incorrect>
-    <incorrect>Winkel aus Seitenpeilung des Satelliten vom Schiff aus.</incorrect>
-    <incorrect>Winkel zwischen Horizont und Satellit.</incorrect>
+	<incorrect>Winkel zwischen Kurs des Schiffes und Satellit.</incorrect>
+	<info>Ich glaube nicht, dass der Winkel zwischen Kurs und Satellit irgendeine Bezeichnung hat. Der Azimuth-Winkel ist eine der beiden Koordinaten, die angeben wo am Himmel ein Satellit an einer bestimmten Stelle auf der Erde gerade zu sehen ist. Er gibt nämlich an, in welche Himmelsrichtung man sehen muss um in Richtung Satellit zu blicken - und das ist unabhängig davon welcher Kurs irgendein Schiff gerade fährt.</info>
+	<incorrect>Winkel aus Seitenpeilung des Satelliten vom Schiff aus.</incorrect>
+	<info>Ich habe noch niemanden gesehen, der eine Seitenpeilung auf einen Satelliten ausgeführt hat. Der Azimuth-Winkel ist eine der beiden Koordinaten, die angeben wo am Himmel ein Satellit an einer bestimmten Stelle auf der Erde gerade zu sehen ist. Er gibt nämlich an, in welche Himmelsrichtung man sehen muss um in Richtung Satellit zu blicken.</info>
+	<incorrect>Winkel zwischen Horizont und Satellit.</incorrect>
+	<info>Das wäre der „elevation angle“ oder Elevationswinkel. Die andere der beiden Koordinaten, die beschreiben wo am Himmel an einer bestimmten Stelle auf der Erde ein Satellit gerade zu sehen ist.</info>
   </question>
   <question id='4397' reference='5'>
     <text>Was bedeutet „elevation angle“?</text>
     <correct>Winkel zwischen Horizont und Satellit vom Schiff aus gesehen.</correct>
-    <incorrect>Winkel zwischen Horizont und Satellit vom Satellit aus gesehen.</incorrect>
-    <incorrect>Winkel zwischen Antenne und Satellit vom Schiff aus gesehen.</incorrect>
+	<incorrect>Winkel zwischen Horizont und Satellit vom Satellit aus gesehen.</incorrect>
+	<info>Uns interessiert auf dem Schiff doch nur wo wir den Satelliten sehen und das messen wir auf den Schiff. So der Satellit uns (das Schiff) sieht ist uns herzlich egal.</info>
+	<incorrect>Winkel zwischen Antenne und Satellit vom Schiff aus gesehen.</incorrect>
+	<info>Mit dem „elevation angle“/Elevationswinkel wird angegeben wie hoch der Satellit über dem Horizont ist. Diese Position ist von unserer eigenen Antenne ganz unabhängig.</info>
     <incorrect>Winkel zwischen Antenne und Satellit vom Satellit aus gesehen.</incorrect>
+	<info>Mit dem „elevation angle“/Elevationswinkel wird angegeben wie hoch der Satellit über dem Horizont ist. Diese Position ist von unserer eigenen Antenne ganz unabhängig.</info>
   </question>
   <question id='4398' reference='6'>
     <text>Welche Erdteile gehören nach den Festlegungen der Internationalen Fernmeldeunion (International Telecommunication Union [ITU]) zur Region 1?</text>
     <correct>Europa und Afrika</correct>
-    <incorrect>Europa und Asien</incorrect>
-    <incorrect>Nord- und Südamerika</incorrect>
-    <incorrect>Australien und Ozeanien</incorrect>
+	<incorrect>Europa und Asien</incorrect>
+	<info>Europa gehört in der Tat zur Region 1. Asien gehört aber teilweise zur Region 3.</info>
+	<incorrect>Nord- und Südamerika</incorrect>
+	<info>Nord- und Südamerika gehören in die Region 2.</info>
+	<incorrect>Australien und Ozeanien</incorrect>
+	<info>Australien und Ozeanien gehören (zusammen mit einem Teil von Asien) in die Region 3.</info>
   </question>
   <question id='4399' reference='7'>
     <text>Wie wird das Seegebiet innerhalb der Überdeckung eines geostationären Satelliten des Inmarsat-Systems bezeichnet, der ununterbrochen für Alarmierungen zur Verfügung steht?</text>
     <correct>A3</correct>
-    <incorrect>A1</incorrect>
-    <incorrect>A2</incorrect>
-    <incorrect>A4</incorrect>
+	<incorrect>A1</incorrect>
+	<info>A1 ist der Bereich, der durch UKW-Küstenfunkstellen abgedeckt wird.</info>
+	<incorrect>A2</incorrect>
+	<info>A2 ist der Bereich, der durch GW-Küstenfunkstellen (nicht aber UKW-Küstenfunkstellen) abgedeckt wird.</info>
+	<incorrect>A4</incorrect>
+	<info>A4 ist der Bereich, an dem nur über Kurzwelle Alarmierungen an Küstenfunkstellen geschickt werden kann. Das ist der Bereich nahe der Pole, da die Inmarsat-Satelliten dort nicht empfangbar sind.</info>
   </question>
   <question id='4400' reference='8'>
     <text>Welchen geografischen Bereich umfasst das Seegebiet A4 im Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS)?</text>
     <correct>Gewässer nördlich von ca. 70 Grad Nord und südlich von ca. 70 Grad Süd.</correct>
-    <incorrect>Gewässer südlich von ca. 70 Grad Nord und nördlich von ca. 70 Grad Süd.</incorrect>
-    <incorrect>Gewässer westlich und östlich vom Nullmeridian bis 70° Länge.</incorrect>
-    <incorrect>Gewässer 10° nördlich und 10° südlich vom Äquator.</incorrect>
+	<incorrect>Gewässer südlich von ca. 70 Grad Nord und nördlich von ca. 70 Grad Süd.</incorrect>
+	<info>Südlich von 70 Grad Nord und nördlich von 70 Grad Süd ist eben gerade der Abdeckungsbereich von Inmarsat und damit das Gebiet wo eben gerade nicht A4 ist.</info>
+	<incorrect>Gewässer westlich und östlich vom Nullmeridian bis 70° Länge.</incorrect>
+	<info>Wenn dem so wäre, wären wir mitten im Seegebiet A4 zuhause und bräuchten auf jeder unserer Yachten auf Nord- und Ostsee oder auf dem Mittelmeer ein Kurzwellenfunkgerät.</info>
+	<incorrect>Gewässer 10° nördlich und 10° südlich vom Äquator.</incorrect>
+	<info>Die Inmarsat-Satelliten stehen über dem Äquator. Gewässer in der Nähe des Äquators sind deswegen super mit Inmarsat versorgt und deswegen falls sie nicht sogar Seegebiet A1 oder A2 sind auf jeden Fall mindestens Seegebiet A3.</info>
   </question>
   <question id='4401' reference='9'>
     <text>Welches Alarmierungssystem ist für das Seegebiet A4 nicht geeignet?</text>
     <correct>Inmarsat-System</correct>
-    <incorrect>COSPAS-SARSAT</incorrect>
-    <incorrect>Kurzwellen-DSC</incorrect>
-    <incorrect>Grenzwellen-DSC</incorrect>
+	<incorrect>COSPAS-SARSAT</incorrect>
+	<info>COSPAR-SARSAT hat eine weltweite Abdeckung ohne Einschränkungen. Es funktioniert überall.</info>
+	<incorrect>Kurzwellen-DSC</incorrect>
+	<info>Gerade Kurzwelle ist im Seegebiet A4 sehr wichtig, da hierrüber in diesem Seegebiet Alarmierungen an Landfunkstellen geschickt werden können.</info>
+	<incorrect>Grenzwellen-DSC</incorrect>
+	<info>Im Seegebiet A4 wird man über Grenzwelle zwar nicht unbedingt immer eine Küstenfunkstelle erreichen, soweit stimmt das. Aber trotzdem kann dieser Frequenzbereich beispielsweise genutzt werden um ein anderes Schiff anzufunken, das sich in der Nähe aber außerhalb der UKW-Reichweite befindet. Die Inmarsat-Satelliten sind im Seegebiet A4 aber tatsächlich überhaupt nicht zu nutzen.</info>
   </question>
   <question id='4402' reference='10'>
     <text>Wie heißt das Positionsmeldesystem für Such- und Rettungszwecke?</text>
     <correct>AMVER</correct>
-    <incorrect>SafetyNet</incorrect>
-    <incorrect>COSPAS-SARSAT</incorrect>
-    <incorrect>Radar</incorrect>
+	<incorrect>SafetyNet</incorrect>
+	<info>SafetyNet ist so etwas in der Art von NAVTEX über Satellit. Hierüber meldet man keine Positionen sondern empfängt Texthinweise.</info>
+	<incorrect>COSPAS-SARSAT</incorrect>
+	<info>Unter dem Positionsmeldesystem für Such- und Rettungszwecke (AMVER) versteht man ein System, das es bei der Planung eines Rettungseinsatzes ermöglicht Fahrzeuge in der Nähe des Schiffes ausfindig zu machen, das Hilfe benötigt. AMVER erfasst also Positionen von Schiffen, die nicht selbst in Not sind. COSPAR-SARSAT ist dagegen dafür zuständig die Notmeldung des Schiffes in Not zu übertragen.</info>
+	<incorrect>Radar</incorrect>
+	<info>Radar ist ein System mit dem man auch bei schlechter Sicht andere Objekte erkennen kann. Unter gewissen Umständen kann man dies auch nutzen um seine eigene Position zu bestimmen. Aber man kann darüber keine Positionen an irgendjemanden melden.</info>
   </question>
   <question id='4403' reference='11'>
     <text>Welchen Frequenzbereich benutzt AIS?</text>
     <correct>Ultrakurzwelle (UKW/VHF)</correct>
-    <incorrect>Grenzwelle (GW/MF)</incorrect>
+	<incorrect>Grenzwelle (GW/MF)</incorrect>
+	<info>Über Grenzwelle wird im Seefunk nur Sprechfunk, Telex und DSC betrieben.</info>
     <incorrect>Kurzwelle (KW/HF)</incorrect>
-    <incorrect>Langwelle (LW/LF)</incorrect>
+	<info>Über Grenzwelle wird im Seefunk nur Sprechfunk, Telex und DSC betrieben.</info>
+	<incorrect>Langwelle (LW/LF)</incorrect>
+	<info>Langwelle wird im Seefunk überhaupt nicht benutzt. Antennen für diesen Frequzenbereich wären für Schiffe viel zu groß.</info>
   </question>
   <question id='4404' reference='12'>
     <text>Welches ist die Frequenz für NAVTEX-Aussendungen im Kurzwellenbereich?</text>
     <correct>4209,5 kHz</correct>
-    <incorrect>8125 kHz</incorrect>
-    <incorrect>6312 kHz</incorrect>
-    <incorrect>12577 kHz</incorrect>
+	<incorrect>8125 kHz</incorrect>
+	<info>Einer von vielen möglichen Frequenzen im 8-MHz-Band für Sprechfunk. (Simplex, Channel 9) - Nichts was man in der Prüfung wissen muss.</info>
+	<incorrect>6312 kHz</incorrect>
+	<info>Das ist die DSC-Frequenz im 6-MHz-Band. - Nichts was man in der Prüfung wissen muss.</info>
+	<incorrect>12577 kHz</incorrect>
+	<info>Das ist die DSC-Frequenz im 12-MHz-Band. - Nichts was man in der Prüfung wissen muss.</info>
   </question>
   <question id='4405' reference='13'>
     <text>Womit kann im Seenotfall ein Alarm über Satelliten ausgelöst werden?</text>
     <correct>Schiffs-Erdfunkstelle (Ship Earth Station [SES]), Satelliten-Seenotfunkbake (EPIRB)</correct>
-    <incorrect>UKW-DSC-Anlage, Satelliten-Seenotfunkbake (EPIRB)</incorrect>
-    <incorrect>Schiffs-Erdfunkstelle (Ship Earth Station [SES]), Erweiterter Gruppenanruf (EGS)</incorrect>
-    <incorrect>Tragbares Funkgerät für Überlebensfahrzeuge, KW-Sender</incorrect>
+	<incorrect>UKW-DSC-Anlage, Satelliten-Seenotfunkbake (EPIRB)</incorrect>
+	<info>Über die EPIRB geht das zwar, aber die UKW-DSC-Anlage hat mit Satelliten nichts am Hut.</info>
+	<incorrect>Schiffs-Erdfunkstelle (Ship Earth Station [SES]), Erweiterter Gruppenanruf (EGS)</incorrect>
+	<info>Über die Schiffs-Erdfunkstelle kann man einen Alarm auslösen. Der erweiterte Gruppenruf ist aber etwas zur Signalisierung ankommender Verbindungen und Nachrichten.</info>
+	<incorrect>Tragbares Funkgerät für Überlebensfahrzeuge, KW-Sender</incorrect>
+	<info>Das „Tragbare Funkgerät für Überlebensfahrzeuge“ ist ein UKW-Sprechfunkgerät. Weder UKW- noch KW-Funkanlagen funktionieren über Satelliten.</info>
   </question>
   <question id='4406' reference='14'>
     <text>Welches Satelliten-System benutzt für die Seenotalarmierung auch polumlaufende Satelliten?</text>
     <correct>COSPAS-SARSAT</correct>
-    <incorrect>Inmarsat</incorrect>
-    <incorrect>GEOSAR</incorrect>
-    <incorrect>AMVER</incorrect>
+	<incorrect>Inmarsat</incorrect>
+	<info>Inmarsat hat seine Satelliten fest über dem Äquator stehen (geostationär).</info>
+	<incorrect>GEOSAR</incorrect>
+	<info>GEOSAR sind geostationäre Satelliten. Das heißt diese stehen an einer festen Position über dem Äquator.</info>
+	<incorrect>AMVER</incorrect>
+	<info>AMVER ist gar nicht für die Seenotalarmierung gemacht.</info>
   </question>
 </topic>
 <topic id='4407' name='Funkeinrichtungen und Seefunkstellen'>
   <question id='4408' reference='15'>
     <text>Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu können?</text>
     <correct>Allgemeines Funkbetriebszeugnis (Long Range Certificate [LRC])</correct>
-    <incorrect>Beschränkt Gültiges Funkbetriebszeugnis (Short Range Certificate [SRC])</incorrect>
-    <incorrect>Beschränkt Gültiges Betriebszeugnis für Funker (Restricted Operator's Certificate [ROC])</incorrect>
-    <incorrect>Amateurfunkzeugnis (Klasse A)</incorrect>
+	<incorrect>Beschränkt Gültiges Funkbetriebszeugnis (Short Range Certificate [SRC])</incorrect>
+	<info>Mit dem SRC dürfen nur UKW-Seefunkgeräte bedient werden. Mit diesen ist nur eine Teilnahme im Seegebiet A1 möglich.</info>
+	<incorrect>Beschränkt Gültiges Betriebszeugnis für Funker (Restricted Operator's Certificate [ROC])</incorrect>
+	<info>Das ROC ist einerseits ein Funkzeugnis für die Teilnahme auf Handesschiffen und andererseits wie das SRC auf die Teilnahme auf UKW beschränkt.</info>
+	<incorrect>Amateurfunkzeugnis (Klasse A)</incorrect>
+	<info>Das Amateurfunkzeugnis ist die Prüfungsbescheinigung der Amateurfunkprüfung. Aber auch mit einer „Zulassung zur Teilnahme am Amateurfunkdienst“ darf man nur am Amateurfunkdienst und am Amateurfunkdienst über Satelliten teilnehmen. Die Teilnahme an anderen Funkdiensten ist nicht erlaubt. Natürlich darf aber ein Amateurfunker (mit Zustimmung des Schiffsführers) eine Amateurfunkstelle an Bord eines Schiffes betreiben. Dies ist für viele Weltumsegler auch eine sehr interessante Möglichkeit mit der Heimat in Kontakt zu bleiben.</info>
   </question>
   <question id='4409' reference='16'>
     <text>Welche Funkdienste dürfen von dem Inhaber eines Allgemeinen Funkbetriebszeugnisses (LRC) ausgeübt werden?</text>
     <correct>Mobiler Seefunkdienst und mobiler Seefunkdienst über Satelliten</correct>
-    <incorrect>Mobiler Seefunkdienst und mobiler Flugfunkdienst</incorrect>
-    <incorrect>Mobiler Seefunkdienst und Amateurfunkdienst</incorrect>
-    <incorrect>Mobiler Seefunkdienst und Navigationsfunkdienst</incorrect>
+	<incorrect>Mobiler Seefunkdienst und mobiler Flugfunkdienst</incorrect>
+	<info>Für die Teilnahme am Flugfunkdienst benötigt man Sprechfunkzeugnisse für den Flugfunkdienst, z.B. AZF oder BZF. Wenn bei koordinierten Rettungseinsätzen Funkgespräche einer Seefunkstelle mit einem Flugzeug durchgeführt werden, so erfolgt dies nach dem Betriebsverfahren des Seefunkdienstes. Hier nimmt also die Funkstelle an Bord des Luftfahrzeugs am Seefunkdienst teil.</info>
+	<incorrect>Mobiler Seefunkdienst und Amateurfunkdienst</incorrect>
+	<info>Für die Teilnahme am Amateurfunkdienst ist eine Zulassung zur Teilnahme am Amateurfunkdienst („Amateurfunklizenz“) notwendig.</info>
+	<incorrect>Mobiler Seefunkdienst und Navigationsfunkdienst</incorrect>
+	<info>Der Navigationsfunkdienst ist ein Funkdienst in der Luftfahrt.</info>
   </question>
   <question id='4410' reference='17'>
     <text>Welche Funkanlagen dürfen von dem Inhaber eines LRC bedient werden?</text>
     <correct>Seefunkanlagen im UKW-, Grenz- und Kurzwellenbereich und über Satellit auf Sportfahrzeugen und Traditionsschiffen.</correct>
-    <incorrect>Funkanlagen im See- und Binnenfunk auf Sportfahrzeugen.</incorrect>
-    <incorrect>Funkanlagen im UKW-Bereich und über Satellit (z. B. Inmarsat oder COSPAS-SARSAT) auf Sportfahrzeugen.</incorrect>
-    <incorrect>Funkanlagen auf nicht funkausrüstungspflichtigen Fahrzeugen mit Ausnahme von UKW.</incorrect>
+	<incorrect>Funkanlagen im See- und Binnenfunk auf Sportfahrzeugen.</incorrect>
+	<info>Mit dem LRC darf nicht am Binnenfunk teilgenommen werden. Für die Teilnahme am Binnenfunk benötigt man eigene Funkzeugnisse, z.B. die „UBI“.</info>
+	<incorrect>Funkanlagen im UKW-Bereich und über Satellit (z. B. Inmarsat oder COSPAS-SARSAT) auf Sportfahrzeugen.</incorrect>
+	<info>So komplett falsch ist diese Antwort gar nicht. Aber man darf mit dem LRC natürlich nicht beliebige Funkanlagen im UKW-Bereich bedienen sondern nur Seefunkanlagen. (Das gleiche für Funkanlagen über Satellit.) Außerdem darf man mit dem LRC natürlich mehr bedienen als nur UKW-Seefunkanlagen und Funkanlagen des Seefunkdienstes über Satellit.</info>
+	<incorrect>Funkanlagen auf nicht funkausrüstungspflichtigen Fahrzeugen mit Ausnahme von UKW.</incorrect>
+	<info>Mit dem LRC darf man auch am Seefunkdienst auf UKW teilnehmen. Wer ein LRC hat braucht also kein zusätzliches SRC.</info>
   </question>
   <question id='4411' reference='18'>
     <text>Welches Funkzeugnis muss der Führer eines Sportfahrzeugs oder Traditionsschiffes, das mit einer Kurzwellen/Grenzwellen-DSC-Funkanlage ausgerüstet ist, mindestens besitzen?</text>
     <correct>Allgemeines Funkbetriebszeugnis (Long Range Certificate [LRC])</correct>
-    <incorrect>Beschränkt Gültiges Funkbetriebszeugnis (Short Range Certificate [SRC])</incorrect>
-    <incorrect>UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)</incorrect>
-    <incorrect>Beschränkt Gültiges Betriebszeugnis für Funker (Restricted Operator's Certificate [ROC])</incorrect>
+	<incorrect>Beschränkt Gültiges Funkbetriebszeugnis (Short Range Certificate [SRC])</incorrect>
+	<info>Mit dem SRC darf nur am Seefunkdienst auf UKW teilgenommen werden.</info>
+	<incorrect>UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)</incorrect>
+	<info>Mit der UBI darf nur am Binnenschifffahrtsfunk teilgenommen werden.</info>
+	<incorrect>Beschränkt Gültiges Betriebszeugnis für Funker (Restricted Operator's Certificate [ROC])</incorrect>
+	<info>Das ROC gilt auf Handelsschiffen und ist außerdem auch auf UKW-Funkanlagen beschränkt.</info>
   </question>
 </topic>
 <topic id='4412' name='Digitaler Selektivruf (DSC)'>
   <question id='4413' reference='19'>
     <text>Welche Grenzwellenfrequenz (GW/MF) wird national und international zum Routineanruf zwischen Schiffen per Digitalen Selektivruf (DSC) benutzt?</text>
     <correct>2177 kHz</correct>
-    <incorrect>2189,5 kHz</incorrect>
-    <incorrect>2187,5 kHz</incorrect>
-    <incorrect>2182 kHz</incorrect>
+	<incorrect>2189,5 kHz</incorrect>
+	<info>Diese Frequenz wird benutzt für DSC-Routineanrufe an eine Küstenfunkstelle. Andere Schiffsfunkstellen empfangen auf dieser Frequenz nicht und können deswegen über sie auch technisch nicht angerufen werden.</info>
+	<incorrect>2187,5 kHz</incorrect>
+	<info>Diese DSC-Frequenz ist reserviert für Notruf und Sicherheitszwecke. Routineanrufe dürfen auf ihr nicht gestartet werden.</info>
+	<incorrect>2182 kHz</incorrect>
+	<info>Dies ist Sprechfunknotfrequenz auf Grenzwelle. Auf ihr wird nicht mit DSC gesendet und es findet auf ihr auch kein Routineverkehr statt.</info>
   </question>
   <question id='4414' reference='20'>
     <text>Welche Grenzwellenfrequenz (GW/MF) benutzt eine Küstenfunkstelle zur Beantwortung eines Routineanrufs per Digitalem Selektivruf (DSC)?</text>
     <correct>2177,0 kHz</correct>
     <incorrect>2182,0 kHz</incorrect>
-    <incorrect>2614,0 kHz</incorrect>
-    <incorrect>2189,5 kHz</incorrect>
+	<info>Dies ist Sprechfunknotfrequenz auf Grenzwelle. Auf ihr wird nicht mit DSC gesendet und es findet auf ihr auch kein Routineverkehr statt.</info>
+	<incorrect>2614,0 kHz</incorrect>
+	<info>2614 kHz war die Hauptfrequenz von Norddeich Radio. Es ist eine Sprechfunkfrequenz.</info>
+	<incorrect>2189,5 kHz</incorrect>
+	<info>Auf 2189,5 kHz hat die Küstenfunkstelle den Routineanruf empfangen, den sie dann aber auf einer anderen Frequenz (2177,0 kHz) beantwortet.</info>
   </question>
   <question id='4415' reference='21'>
     <text>Welche Grenzwellenfrequenz (GW/MF) wird für einen Routineanruf (international) an eine fremde Küstenfunkstelle per Digitalem Selektivruf (DSC) benutzt?</text>
     <correct>2189,5 kHz</correct>
-    <incorrect>2177,0 kHz</incorrect>
-    <incorrect>2182,0 kHz</incorrect>
+	<incorrect>2177,0 kHz</incorrect>
+	<info>Auf dieser Frequenz erhält man die Antwort von der Küstenfunkstelle. Ebenso kann man auf dieser Frequenz Routineanrufe von anderen Schiffen empfangen.</info>
+	<incorrect>2182,0 kHz</incorrect>
+	<info>Dies ist die Sprechfunknotfrequenz auf Grenzwelle. Auf ihr wird nicht mit DSC gesendet und es findet auf ihr auch kein Routineverkehr statt.</info>
     <incorrect>2187,5 kHz</incorrect>
+	<info>Diese DSC-Frequenz ist reserviert für Notruf und Sicherheitszwecke. Routineanrufe dürfen auf ihr nicht gestartet werden.</info>
   </question>
   <question id='4416' reference='22'>
     <text>Welche Frequenzbereiche werden für die Alarmierung mittels Digitalen Selektivrufs (DSC) im Kurzwellen-bereich (KW/HF) benutzt?</text>
     <correct>Frequenzbereiche 4, 6, 8, 12 und 16 MHz</correct>
-    <incorrect>Frequenzbereiche 1, 2, 8, 12 und 16 MHz</incorrect>
-    <incorrect>Frequenzbereiche 3, 4, 20 und 30 MHz</incorrect>
-    <incorrect>Frequenzbereiche 4, 6, 8, 40 und 60 MHz</incorrect>
+	<incorrect>Frequenzbereiche 1, 2, 8, 12 und 16 MHz</incorrect>
+    <info>Kurzwelle beginnt erst bei 3 MHz. 1 und 2 MHz sind also alleine deswegen schonmal nicht im Kurzwellenbereich sondern sind Mittelwelle/Grenzwelle. Auf Grenzwelle findet DSC-Betrieb nur auf den Frequenzen 2177,0 kHz, 2187,5 kHz und 2189,5 kHz statt.</info>
+	<incorrect>Frequenzbereiche 3, 4, 20 und 30 MHz</incorrect>
+	<info>Es gibt weder ein 20-MHz- noch ein 30-MHz-Band im Seefunk. Außerdem werden die Bänder oberhalb des 16-MHz-Bandes im Seefunk nicht für die Alarmierung mit DSC benutzt. Bei den 3 MHz handelt es sich um Grenzwellenfrequenzen. Auf Grenzwelle benutzt der Seefunk DSC nur auf den Frequenzen 2177,0 kHz, 2187,5 kHz und 2189,5 kHz.</info>
+	<incorrect>Frequenzbereiche 4, 6, 8, 40 und 60 MHz</incorrect>
+	<info>Bei 40 und 60 MHz handelt es sich nicht um Kurzwellenfrequenzen sondern um den UKW-Bereich. In beiden Frequenzbereichen wird überhaupt kein Seefunk betrieben. (Bei 40 MHz befinden sich verschiedene Funkdienste, z.B. Betriebsfunk; der bereich um 60 MHz wird für militärische Funkanwendungen genutzt.</info>
   </question>
   <question id='4417' reference='23'>
     <text>Welche Frequenz und welches Verfahren benutzt eine Seefunkstelle zur Bestätigung eines auf 2187,5 kHz empfangenen Notalarms?</text>
