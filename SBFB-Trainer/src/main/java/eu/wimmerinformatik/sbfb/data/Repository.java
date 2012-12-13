@@ -359,7 +359,7 @@ public class Repository extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		if (oldVersion <= 2) {
 			final ContentValues updates = new ContentValues();
-			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu kšnnen?");
+			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu kÃ¶nnen?");
 			db.update("question", updates, "_id=?", new String[]{"4408"});
 		}
 		if (oldVersion <= 3) {
@@ -370,19 +370,19 @@ public class Repository extends SQLiteOpenHelper {
 			updates.put("answer", "Dasjenige Fahrzeug muss ausweichen, welches das andere an seiner Backbordseite hat.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8959", "1"});
 			updates.clear();
-			updates.put("answer", "Wasserflächen, auf denen mit Wasserski oder Wassermotorrädern gefahren werden darf.");
+			updates.put("answer", "WasserflÃ¤chen, auf denen mit Wasserski oder WassermotorrÃ¤dern gefahren werden darf.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8969", "0"});
 			updates.clear();
-			updates.put("answer", "Genehmigungspflichtige Übungsstrecke für das Fahren mit Wasserski oder Wassermotorrädern.");
+			updates.put("answer", "Genehmigungspflichtige Ãœbungsstrecke fÃ¼r das Fahren mit Wasserski oder WassermotorrÃ¤dern.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8969", "1"});
 			updates.clear();
-			updates.put("answer", "Fahren mit Wasserski oder Wassermotorrädern erlaubt. Wasserskiläufer und Wassermotorräder haben Vorfahrt.");
+			updates.put("answer", "Fahren mit Wasserski oder WassermotorrÃ¤dern erlaubt. WasserskilÃ¤ufer und WassermotorrÃ¤der haben Vorfahrt.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"8969", "2"});
 			updates.clear();
-			updates.put("answer", "Gasleitung entleeren und für Lüftung sorgen. Außerdem keine elektrischen Schalter betätigen und keine Telefone benutzen.");
+			updates.put("answer", "Gasleitung entleeren und fÃ¼r LÃ¼ftung sorgen. AuÃŸerdem keine elektrischen Schalter betÃ¤tigen und keine Telefone benutzen.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9008", "1"});
 			updates.clear();
-			updates.put("answer", "Luftzufuhr verhindern, Feuerlöscher erst am Brandherd einsetzen und das Feuer möglichst von unten bekämpfen.");
+			updates.put("answer", "Luftzufuhr verhindern, FeuerlÃ¶scher erst am Brandherd einsetzen und das Feuer mÃ¶glichst von unten bekÃ¤mpfen.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9013", "0"});
 			updates.clear();
 			updates.put("answer", "Ausweichpflichtig ist das Fahrzeug, welches das andere an seiner Backbordseite sieht.");
@@ -390,10 +390,10 @@ public class Repository extends SQLiteOpenHelper {
 		}
 		if (oldVersion <= 4) {
 			final ContentValues updates = new ContentValues();
-			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.");
+			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie mÃ¶glich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und FahrtbeschrÃ¤nkungen beachten.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9182", "0"});
 			updates.clear();
-			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.");
+			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie mÃ¶glich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und FahrtbeschrÃ¤nkungen sind nicht zu beachten.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9182", "3"});
 		}
 	}
