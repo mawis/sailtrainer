@@ -359,7 +359,7 @@ public class Repository extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		if (oldVersion <= 1) {
 			final ContentValues updates = new ContentValues();
-			updates.put("question", "Welche Publikationen des Bundesamtes fŸr Seeschifffahrt und Hydrographie (BSH) enthalten speziell fŸr die Sportschifffahrt Informationen zum Seefunk?");
+			updates.put("question", "Welche Publikationen des Bundesamtes fÂŸr Seeschifffahrt und Hydrographie (BSH) enthalten speziell fÂŸr die Sportschifffahrt Informationen zum Seefunk?");
 			db.update("question", updates, "_id=?", new String[]{"4177"});
 
 			updates.clear();
