@@ -523,9 +523,9 @@
   </question>
   <question id='9664' reference='75'>
     <text>Welche Sportboote sind von der Fahrerlaubnispflicht auf den Seeschifffahrtsstraßen ausgenommen?</text>
-    <correct>Sportboote ohne Antriebsmaschine oder solche mit einer größten nicht überschreitbaren Nutzleistung von 3,68 Kilowatt (5 PS) oder weniger an der Propellerwelle.</correct>
+    <correct>Sportboote ohne Antriebsmaschine oder solche mit einer größten nicht überschreitbaren Nutzleistung von 11,03 Kilowatt (15 PS) oder weniger.</correct>
     <incorrect>Sportboote unter Segel mit einer Rumpflänge unter 15 m und solche deren Antriebsmaschine nicht benutzt wird.</incorrect>
-    <incorrect>Sportboote mit Antriebsmaschine mit einer größeren Nutzleistung als 3,68 Kilowatt (5 PS) an der Propellerwelle.</incorrect>
+    <incorrect>Sportboote mit Antriebsmaschine mit einer größeren Nutzleistung als 11,03 Kilowatt (15 PS).</incorrect>
     <incorrect>Sportboote, die entweder vor Anker liegen oder an Land festgemacht sind oder auf Grund sitzen.</incorrect>
   </question>
   <question id='9665' reference='76'>

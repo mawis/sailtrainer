@@ -28,7 +28,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 3);
+		super(context, "topics", null, 4);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -359,8 +359,16 @@ public class Repository extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		if (oldVersion <= 2) {
 			final ContentValues updates = new ContentValues();
-			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu knnen?");
+			updates.put("question", "Welches Funkzeugnis ist mindestens erforderlich, um mit einer Seefunkstelle auf einem Sportfahrzeug am Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) im Seegebiet A3 teilnehmen zu können?");
 			db.update("question", updates, "_id=?", new String[]{"4408"});
+		}
+		if (oldVersion <= 3) {
+			final ContentValues updates = new ContentValues();
+			updates.put("answer", "Sportboote ohne Antriebsmaschine oder solche mit einer größten nicht überschreitbaren Nutzleistung von 11,03 Kilowatt (15 PS) oder weniger.");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9664", "0"});
+			updates.clear();
+			updates.put("answer", "Sportboote mit Antriebsmaschine mit einer größeren Nutzleistung als 11,03 Kilowatt (15 PS).");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9664", "2"});
 		}
 	}
 }
