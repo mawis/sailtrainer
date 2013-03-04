@@ -509,10 +509,10 @@
 <topic id='9017' name='Spezifische Fragen Binnen'>
   <question id='9018' reference='73'>
     <text>Für welche Sportboote ist der Sportbootführerschein-Binnen vorgeschrieben?</text>
-    <correct>Für Sportboote von mehr als 3,68 kW (5 PS) Motorleistung und weniger als 15 m Länge.</correct>
-    <incorrect>Für Sportboote von weniger als 3.68 kW (5 PS) Motorleistung und mehr als 15 m Länge.</incorrect>
-    <incorrect>Für Sportboote von mehr als 3,68 kW (5 PS) Motorleistung und mehr als 15 m Länge.</incorrect>
-    <incorrect>Für Sportboote von weniger als 3,68 kW (5 PS) Motorleistung und weniger als 15 m Länge.</incorrect>
+    <correct>Für Sportboote mit mehr als 11,03 kW (15 PS) Nutzleistung, auf dem Rhein von mehr als 3,68 kW (5 PS) Nutzleistung, und weniger als 15 m Länge.</correct>
+    <incorrect>Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.</incorrect>
+    <incorrect>Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.</incorrect>
+    <incorrect>Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und weniger als 15 m Länge.</incorrect>
   </question>
   <question id='9019' reference='74'>
     <text>Auf welchen Gewässern gilt der Sportbootführerschein-Binnen?</text>
@@ -543,14 +543,14 @@
     <incorrect>Bei mittelbar drohender Gefahr für sich oder andere.</incorrect>
   </question>
   <question id='9023' reference='78'>
-    <text>Welche Anforderung neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf allen Wasserstraßen erfüllen, wenn die größte Nutzleistung der Antriebsmaschine 3,68 kW oder weniger beträgt?</text>
+    <text>Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf Binnenschifffahrtsstraßen, mit Ausnahme des Rheins, erfüllen, wenn die größte Nutzleistung der Antriebsmaschine 11,03 kW oder weniger beträgt?</text>
     <correct>Mindestalter 16 Jahre.</correct>
     <incorrect>Nachweis der Zuverlässigkeit.</incorrect>
     <incorrect>Mindestalter 14 Jahre.</incorrect>
     <incorrect>Besitz eines Sportbootführerscheins-Binnen oder eines gleichgestellten Befähigungszeugnisses.</incorrect>
   </question>
   <question id='9024' reference='79'>
-    <text>Welche Anforderung neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf allen Wasserstraßen erfüllen, wenn die Nutzleistung der Antriebsmaschine mehr als 3,68 kW beträgt?</text>
+    <text>Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf dem Rhein erfüllen, wenn die Nutzleistung der Antriebsmaschine mehr als 3,68 kW beträgt?</text>
     <correct>Besitz eines Sportbootführerscheins-Binnen oder eines gleichgestellten Befähigungszeugnisses.</correct>
     <incorrect>Nachweis der Zuverlässigkeit.</incorrect>
     <incorrect>Mindestens 14 Jahre.</incorrect>
@@ -1041,15 +1041,15 @@
   </question>
   <question id='9094' reference='149'>
     <text>Was bedeuten diese Lichter?</text>
-    <correct>Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.</correct>
-    <incorrect>Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.</incorrect>
-    <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vobeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.</incorrect>
+    <correct>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.</correct>
+    <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.</incorrect>
+    <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.</incorrect>
     <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt.</incorrect>
   </question>
   <question id='9095' reference='150'>
     <text>Was bedeuten diese Sichtzeichen?</text>
-    <correct>Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.</correct>
-    <incorrect>Festgefahrenes oder gesunkenes Fahrzeug. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.</incorrect>
+    <correct>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.</correct>
+    <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.</incorrect>
     <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.</incorrect>
     <incorrect>Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der roten Seite gestattet; grüne Seite gesperrt.</incorrect>
   </question>
@@ -1099,8 +1099,8 @@
     <text>Was bedeutet dieses Tafelzeichen?</text>
     <correct>Fahrverbot für Fahrzeuge mit Maschinenantrieb.</correct>
     <incorrect>Fahrverbot für Kleinfahrzeuge mit Maschinenantrieb.</incorrect>
-    <incorrect>Fahrverbot für Fahrzeuge mit laufender Antriebsmaschine.</incorrect>
-    <incorrect>Fahrverbot für Kleinfahrzeuge mit laufender Antriebsmaschine.</incorrect>
+    <incorrect>Fahrverbot für Fahrzeuge ohne Antriebsmaschine.</incorrect>
+    <incorrect>Fahrverbot für Kleinfahrzeuge ohne laufende Antriebsmaschine.</incorrect>
   </question>
   <question id='9103' reference='158'>
     <text>Wie ist eine geschützte Badezone gekennzeichnet?</text>
@@ -1250,7 +1250,7 @@
     <incorrect>Fahrzeuge die geschoben werden.</incorrect>
   </question>
   <question id='9124' reference='179'>
-    <text>Wie muss sich ein kreuzendes Kleinfahrzeug unter Segel am Wind in der Nähe eines Ufers gegenüber anderen verhalten?</text>
+    <text>Wie muss sich ein kreuzendes Kleinfahrzeug unter Segel am Wind in der Nähe eines Ufers gegenüber einem anderen Kleinfahrzeug verhalten?</text>
     <correct>Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer anhält, nicht zum Ausweichen zwingen.</correct>
     <incorrect>Es darf ein anderes Kleinfahrzeug, das sein steuerbordseitiges Ufer verlässt, nicht zum Ausweichen zwingen.</incorrect>
     <incorrect>Es darf ein anderes Kleinfahrzeug, das sein backbordseitiges Ufer verlässt, zum Ausweichen zwingen.</incorrect>
@@ -1285,7 +1285,7 @@
     <incorrect>Ausweichpflichtig ist das Fahrzeug, welches den Wind von Backbord hat.</incorrect>
   </question>
   <question id='9129' reference='184'>
-    <text>Ein Fahrzeug unter Segel kreuzt eine Binnenschifffahrtsstraße. In der Fahrwassermitte kommt ihm ein Fahrzeug mit Maschinenantrieb zu Berg entgegen. Wer ist ausweichpflichtig?</text>
+    <text>Ein Fahrzeug unter Segel kreuzt eine Binnenschifffahrtsstraße. In der Fahrwassermitte kommt ihm ein Kleinfahrzeug mit Maschinenantrieb zu Berg entgegen. Wer ist ausweichpflichtig?</text>
     <correct>Fahrzeug mit Maschinenantrieb.</correct>
     <incorrect>Fahrzeug in der Talfahrt.</incorrect>
     <incorrect>Fahrzeug unter Segel.</incorrect>
@@ -1482,7 +1482,7 @@
   </question>
   <question id='9157' reference='212'>
     <text>Welche Notsignale kann ein Segelsurfer auf Binnenschifffahrtsstraßen geben?</text>
-    <correct>Kreisförmiges Schwenken der Arme oder eines Gegenstandes, lange Töne mit einer Pfeife oder langsames Heben und Senken der seitlich ausgestreckten Arme.</correct>
+    <correct>Kreisförmiges Schwenken der Arme oder eines Gegenstandes.</correct>
     <incorrect>Kreisförmiges Schwenken einer grünen Flagge, die mit anderen Zeichen nicht verwechselt werden kann.</incorrect>
     <incorrect>Wiederholt lange Gruppen von Glockenschlägen.</incorrect>
     <incorrect>Kreisförmiges Schwenken der Arme ist zu vermeiden, das Surfsegel ist möglichst senkrecht zu stellen.</incorrect>
@@ -1657,10 +1657,10 @@
   </question>
   <question id='9182' reference='237'>
     <text>Wie hat sich ein Schiffsführer bei Hochwasser zu verhalten?</text>
-	<correct>Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.</correct>
-	<incorrect>Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung rechts fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.</incorrect>
-	<incorrect>Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.</incorrect>
-	<incorrect>Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.</incorrect>
+    <correct>Er muss die Geschwindigkeit anpassen und soweit möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.</correct>
+    <incorrect>Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung rechts fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.</incorrect>
+    <incorrect>Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.</incorrect>
+    <incorrect>Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.</incorrect>
   </question>
   <question id='9183' reference='238'>
     <text>Wie hat sich ein Schiffsführer bei Erreichen der Hochwassermarke II zu verhalten?</text>

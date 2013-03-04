@@ -28,7 +28,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 5);
+		super(context, "topics", null, 6);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -395,6 +395,57 @@ public class Repository extends SQLiteOpenHelper {
 			updates.clear();
 			updates.put("answer", "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9182", "3"});
+		}
+		if (oldVersion <= 5) {
+		    final ContentValues updates = new ContentValues();
+		    updates.put("answer", "Für Sportboote mit mehr als 11,03 kW (15 PS) Nutzleistung, auf dem Rhein von mehr als 3,68 kW (5 PS) Nutzleistung, und weniger als 15 m Länge.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9018", "0"});
+		    updates.clear();
+		    updates.put("answer", "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9018", "1"});
+		    updates.clear();
+		    updates.put("answer", "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9018", "2"});
+		    updates.clear();
+		    updates.put("answer", "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und weniger als 15 m Länge.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9018", "3"});
+		    updates.clear();
+		    updates.put("question", "Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf Binnenschifffahrtsstraßen, mit Ausnahme des Rheins, erfüllen, wenn die größte Nutzleistung der Antriebsmaschine 11,03 kW oder weniger beträgt?");
+		    db.update("question", updates, "_id=?", new String[]{"9023"});
+		    updates.clear();
+		    updates.put("question", "Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf dem Rhein erfüllen, wenn die Nutzleistung der Antriebsmaschine mehr als 3,68 kW beträgt?");
+		    db.update("question", updates, "_id=?", new String[]{"9024"});
+		    updates.clear();
+		    updates.put("answer", "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9094", "0"});
+		    updates.clear();
+		    updates.put("answer", "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9094", "1"});
+		    updates.clear();
+		    updates.put("answer", "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet. Vorbeifahrt an der roten Seite mit unverminderter Geschwindigkeit möglich.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9094", "2"});
+		    updates.clear();
+		    updates.put("answer", "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9095", "0"});
+		    updates.clear();
+		    updates.put("answer", "Schwimmendes Gerät bei der Arbeit. Vorbeifahrt an der grünen Seite gestattet; rote Seite gesperrt. Sog und Wellenschlag vermeiden.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9095", "1"});
+		    updates.clear();
+		    updates.put("answer", "Fahrverbot für Fahrzeuge ohne Antriebsmaschine.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9102", "2"});
+		    updates.clear();
+		    updates.put("answer", "Fahrverbot für Kleinfahrzeuge ohne laufende Antriebsmaschine.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9102", "3"});
+		    updates.clear();
+		    updates.put("question", "Wie muss sich ein kreuzendes Kleinfahrzeug unter Segel am Wind in der Nähe eines Ufers gegenüber einem anderen Kleinfahrzeug verhalten?");
+		    db.update("question", updates, "_id=?", new String[]{"9124"});
+		    updates.clear();
+		    updates.put("question", "Ein Fahrzeug unter Segel kreuzt eine Binnenschifffahrtsstraße. In der Fahrwassermitte kommt ihm ein Kleinfahrzeug mit Maschinenantrieb zu Berg entgegen. Wer ist ausweichpflichtig?");
+		    db.update("question", updates, "_id=?", new String[]{"9129"});
+		    updates.clear();
+		    updates.put("answer", "Kreisförmiges Schwenken der Arme oder eines Gegenstandes.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9157", "0"});
+		    updates.clear();
 		}
 	}
 }

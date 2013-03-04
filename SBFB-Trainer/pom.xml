@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mobi.sportboot</groupId>
     <artifactId>sbfbtrainer</artifactId>
-    <version>1.5</version>
+    <version>1.5.1</version>
     <packaging>apk</packaging>
     <name>SBFB-Trainer</name>
 
@@ -81,6 +81,10 @@
 			    <includes>
 				<include>${project.build.directory}/${project.artifactId}-${project.version}.apk</include>
 			    </includes>
+			    <arguments>
+                                <argument>-sigalg</argument><argument>MD5withRSA</argument>
+                                <argument>-digestalg</argument><argument>SHA1</argument>
+                            </arguments>
 			    <keystore>${androidsign.keystore}</keystore>
 			    <alias>${androidsign.alias}</alias>
 			    <storepass>${androidsign.storepass}</storepass>
