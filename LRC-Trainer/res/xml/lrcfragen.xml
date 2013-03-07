@@ -655,64 +655,91 @@
       <text>Welches ist die erste Ziffer einer Inmarsat-C-Rufnummer?</text>
       <correct>4</correct>
       <incorrect>3</incorrect>
+      <info>Mit dieser Ziffer beginnen Inmarsat-B- und Inmarsat-B-HSD-Rufnummern.</info>
       <incorrect>2</incorrect>
+      <info>Mir sind keine Inmarsat-Rufnummern bewusst, die mit einer 2 beginnen.</info>
       <incorrect>1</incorrect>
+      <info>Mit dieser Ziffer begannen Inmarsat-A-Rufnummern.</info>
     </question>
     <question id="4463" reference="66">
       <text>Welchem Inmarsat-Dienst ist die Identifikationsnummer (ID) 421135910 zugeordnet?</text>
       <correct>Inmarsat C</correct>
       <incorrect>Inmarsat Mini-M</incorrect>
+      <info>Inmarsat-Mini-M-IDs beginnen mit 76.</info>
       <incorrect>Inmarsat F</incorrect>
+      <info>Inmarsat F und Inmarsat Fleet sind die alte und neue Bezeichnung für das gleiche. Kommt also als Lösung gar nicht in Frage weil sonst zwei Antworten richtig wären.</info>
       <incorrect>Inmarsat Fleet</incorrect>
+      <info>Inmarsat F und Inmarsat Fleet sind die alte und neue Bezeichnung für das gleiche. Kommt also als Lösung gar nicht in Frage weil sonst zwei Antworten richtig wären.</info>
     </question>
     <question id="4464" reference="67">
       <text>Welche Dienste bietet Inmarsat C?</text>
       <correct>Telex, Datenübertragung und Telefax Richtung See-Land</correct>
       <incorrect>Telefonie, Datenübertragung und SMS</incorrect>
+      <info>Inmarsat C kann keine Telefonie.</info>
       <incorrect>Telefonie, Datenübertragung und ISDN</incorrect>
+      <info>Inmarsat C kann keine Telefonie.</info>
       <incorrect>Telex, Telefax Richtung See-Land und Telefonie</incorrect>
+      <info>Inmarsat C kann keine Telefonie.</info>
     </question>
     <question id="4465" reference="68">
       <text>Mit welcher Aussendung kann die Funktionsfähigkeit der eigenen Inmarsat-C-Anlage überprüft werden?</text>
       <correct>Nachricht von der eigenen an die eigene Anlage</correct>
       <incorrect>Nachricht an ein LUT</incorrect>
+      <info>Ein LUT hat mit Inmarsat nichts am Hut sondern ist die Erdfunkstelle im COSPAS/SARSAT-System.</info>
       <incorrect>Nachricht an ein MRCC</incorrect>
+      <info>Das MRCC ist das Maritime Rescue Coordination Center, also quasi eine Rettungsleitstelle für die See.</info>
       <incorrect>Nachricht an ein anderes Schiff</incorrect>
+      <info>Zum Überprüfen gehört, dass man testet, dass Nachrichten gesendet und empfangen werden können. In diesem Fall sendet man nur eine Nachricht.</info>
     </question>
     <question id="4466" reference="69">
       <text>Was ist beim Ausschalten einer Inmarsat-C-Anlage zu beachten?</text>
       <correct>Vorheriges Ausloggen</correct>
       <incorrect>Vom Bordnetz trennen</incorrect>
+      <info>Ein Trennen vom Bordnetz ist nicht notwendig.</info>
       <incorrect>Zuerst auf „stand by“ schalten, dann vom Bordnetz trennen</incorrect>
+      <info>Ein Trennen vom Bordnetz ist nicht notwendig.</info>
       <incorrect>Der CES mitteilen, ab wann das Schiff nicht zu erreichen ist</incorrect>
+      <info>Niemandem muss etwas mitgeteilt werden. Man kann sich selbst aus Inmarsat ausloggen.</info>
     </question>
     <question id="4467" reference="70">
       <text>Welches Verfahren wird für den Anruf von Land an eine bestimmte Schiffs-Erdfunkstelle benutzt?</text>
       <correct>Erweiterter Gruppenanruf (EGC)</correct>
       <incorrect>Digitaler Selektivruf (DSC)</incorrect>
+      <info>DSC ist ein Verfahren bei den terrestrischen Seefunkdiensten.</info>
       <incorrect>Tonruf (SSFC)</incorrect>
+      <info>Keine Ahnung was SSFC sein soll. Mit Tonruf bezeichnet man das Auslösen von Steuerfunktionen über einen Ton. So etwas gibt es z.B. im Amateurfunk. Im Seefunk wüsste ich nicht, dass es dies gibt.</info>
       <incorrect>Mehrfrequenzwahlverfahren (DTMF)</incorrect>
+      <info>DTMF ist das Wählverfahren, das bei analogen Telefonanschlüssen zuhause genutzt wird.</info>
     </question>
     <question id="4468" reference="71">
       <text>Welcher Dienst verwendet den Erweiterten Gruppenanruf (EGC)?</text>
       <correct>Informationsdienst über Satelliten</correct>
       <incorrect>Informationsdienst über NAVTEX</incorrect>
+      <info>Bei Navtex erfolgt durch die Sender keine Steuerung an wen die Nachricht geht. Vielmehr wählt der Empfänger selbst anhand der Navarea aus, ob er eine Meldung empfangen möchte.</info>
       <incorrect>Informationsdienst über UKW-Sprechfunk</incorrect>
+      <info>Im UKW-Sprechfunk wird über DSC signalisiert. Eine Aussendung um UKW-Sprechfunk hört jeder, der den entsprechenden Kanal eingestellt hat.</info>
       <incorrect>Informationsdienst über Grenzwelle</incorrect>
+      <info>Auf Grenzwelle wird Sprechfunk gemacht. Es gibt die Signalisierung über DSC, prinzipiell hört aber jeder die Aussendung, der den entsprechenden Kanal eingestellt hat.</info>
     </question>
     <question id="4469" reference="72">
       <text>Welche Meldungen werden im mobilen Seefunkdienst über „Enhanced Group Call (EGC)“ ausgesendet?</text>
       <correct>Sicherheitsmeldungen für die Schifffahrt (MSI) oder Informationen an bestimmte Empfänger</correct>
       <incorrect>Nachrichten für Seefahrer oder Sammelanrufe</incorrect>
+      <info>Nachrichten für Seefahrer sind eine schriftliche Veröffentlichung des BSH.</info>
       <incorrect>Regelmäßige Wetterberichte oder nautische Warnnachrichten für bestimmte Seegebiete</incorrect>
+      <info>Das soll wohl das umschreiben was Navtex aussendet - und Navtex arbeitet nicht mit EGC.</info>
       <incorrect>Küstenwetterberichte oder Dringlichkeitsmeldungen</incorrect>
+      <info>Dringlichkeitsmeldungen werden per Sprechfunk ausgesendet.</info>
     </question>
     <question id="4470" reference="73">
       <text>Was ist für den Empfang eines Enhanced Group Call (EGC) erforderlich?</text>
       <correct>Satelliten-Empfänger</correct>
       <incorrect>NAVTEX-Empfänger</incorrect>
+      <info>Nein, EGC ist Teil von Inmarsat. Navtex ist ein terrestrischer Dienst.</info>
       <incorrect>UKW-Empfänger</incorrect>
+      <info>Nein, EGC ist Teil von Inmarsat. UKW ist ein terrestrischer Dienst.</info>
       <incorrect>DSC-Wachempfänger</incorrect>
+      <info>DSC ist ein Sinalisierungsverfahren für Grenz-, Kurz- und Ultrakurzwelle. EGC ist aber ein Teil von Inmarsat.</info>
     </question>
     <question id="4471" reference="74">
       <text>An wen wird ein über Inmarsat ausgelöster Notalarm umgehend geleitet?</text>
