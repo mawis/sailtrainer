@@ -453,43 +453,61 @@
       <text>Welches ist die internationale Not- und Sicherheitsfrequenz für den Sprechfunkverkehr im Grenzwellenbereich (GW/MF)?</text>
       <correct>2182,0 kHz</correct>
       <incorrect>2187,5 kHz</incorrect>
+      <info>Diese Frequenz für Not- und Sicherheitszwecke wird nicht im Sprechfunkverkehr sondern per DSC benutzt.</info>
       <incorrect>2614,0 kHz</incorrect>
+      <info>2614 kHz war die Hauptfrequenz von Norddeich Radio.</info>
       <incorrect>3161,0 kHz</incorrect>
+      <info>Die Frequenz 3161,0 kHz wird für (normale) Sprechfunkverbindungen von See nach Land benutzt.</info>
     </question>
     <question id="4442" reference="46">
       <text>Welche Frequenz im Grenzwellenbereich (GW/MF) soll im Weltweiten Seenot- und Sicherheitsfunksystem (GMDSS) nach Ankündigung per DSC für die Aussendung einer Dringlichkeitsmeldung „An alle Funkstellen“ grundsätzlich benutzt werden?</text>
       <correct>2182,0 kHz</correct>
       <incorrect>2187,5 kHz</incorrect>
+      <info>Auf dieser Frequenz wird die Ankündigung per DSC verschickt, nicht aber der anschließende Sprechfunkverkehr abgewickelt.</info>
       <incorrect>2614,0 kHz</incorrect>
+      <info>2614 kHz war die Hauptfrequenz von Norddeich Radio.</info>
       <incorrect>3161,0 kHz</incorrect>
+      <info>Die Frequenz 3161,0 kHz wird für (normale) Sprechfunkverbindungen von See nach Land benutzt.</info>
     </question>
     <question id="4443" reference="47">
       <text>Wie ist zu verfahren, wenn während eines Notverkehrs auf 2182 kHz die Ankündigung und Aussendung einer Dringlichkeitsmeldung „An alle Funkstellen“ von einer Seefunkstelle vorgenommen werden soll?</text>
       <correct>Zuerst Ankündigung per Digitalen Selektivruf (DSC) auf 2187,5 kHz, dann Aussendung auf einer Schiff-Schiff-Frequenz.</correct>
       <incorrect>Zuerst die Funkstelle, die den Funkverkehr leitet, auf 2182 kHz um Erlaubnis fragen, dann Aussendung auf einer Schiff-Schiff-Frequenz.</incorrect>
+      <info>Es wird der Funkverkehr auf einer anderen Frequenz abgewickelt. Der Funkverkehr auf 2182 kHz wird dadurch nicht gestört. Man würde höchstens durch das Nachfragen stören.</info>
       <incorrect>Zuerst Ankündigung auf 2182 kHz, dann Aussendung auf einer Schiff-Schiff-Frequenz.</incorrect>
+      <info>Es ist vollkommen ausreichend die Ankündigung digital per DSC und damit auf 2187,5 kHz vorzunehmen. Es erfolgt keine Ankündigung auf 2182 kHz (Sprechfunk).</info>
       <incorrect>Zuerst Ankündigung per Digitalen Selektivruf (DSC), dann Aussendung auf 2182 kHz.</incorrect>
+      <info>Während der Abwicklung von Notverkehr wird auf der 2182 kHz (und anderen dafür benutzten Frequenzen) kein Funkverkehr mit niedrigerer Priorität durchgeführt.</info>
     </question>
     <question id="4444" reference="48">
       <text>Wie ist zu verfahren, wenn eine wichtige Meldung im Grenzwellen-Bereich (GW/MF) auszusenden ist, welche die Sicherheit der Seeschifffahrt betrifft?</text>
       <correct>Zuerst Ankündigung per Digitalem Selektivruf (DSC) auf 2187,5 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf einer GW-Schiff-Schiff-Arbeitsfrequenz.</correct>
       <incorrect>Zuerst Ankündigung auf 2182 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf einer KW-Schiff-Schiff-Arbeitsfrequenz.</incorrect>
+      <info>Die Frequenz 2182 kHz ist dem Notverkehr und der Aussendung von Dringlichkeitsmeldungen ("MAYDAY" und "PAN PAN") vorbehalten. Sicherheitsmeldungen ("SECURITY") werden auf ihr weder angekündigt noch verbreitet.</info>
       <incorrect>Zuerst Ankündigung auf 2182 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf 2182 kHz.</incorrect>
+      <info>Die Frequenz 2182 kHz ist dem Notverkehr und der Aussendung von Dringlichkeitsmeldungen ("MAYDAY" und "PAN PAN") vorbehalten. Sicherheitsmeldungen ("SECURITY") werden auf ihr weder angekündigt noch verbreitet.</info>
       <incorrect>Zuerst Ankündigung per Digitalem Selektivruf (DSC) auf 2187,5 kHz, dann Aussendung der Sicherheitsmeldung per Sprechfunk auf 2187,5 kHz.</incorrect>
+      <info>Auf der Frequenz 2187,5 kHz wird kein Sprechfunk betrieben. Sie ist reserviert für digitale Übertragungen per DSC.</info>
     </question>
     <question id="4445" reference="49">
       <text>Auf welcher Frequenz wird im Kurzwellenbereich (KW/HF) der Notverkehr im Sprechfunkverfahren abgewickelt?</text>
       <correct>Notfrequenz für Sprechfunk des Kurzwellenbandes, in dem die Notalarmierung ausgesendet worden ist.</correct>
       <incorrect>Notfrequenz für Sprechfunk nach Maßgabe des Inmarsat-Handbuchs.</incorrect>
+      <info>Das Inmarsat-Handbuch kümmert sich nur um den mobilen Seefunkdienst über Satelliten. Über das Kurzwellenband enthält es keine Informationen.</info>
       <incorrect>Notfrequenz für Sprechfunk des Kurzwellenbandes 6 MHz.</incorrect>
+      <info>Es gibt in jedem Kurzwellenband eine Notfrequenz für den Sprechfunk. Auch im Notverkehr muss auf Kurzwelle immer ein an Tageszeit und Entfernung angepasstes Frequenzband gewählt werden. Eine Festlegung auf genau ein Frequenzband ist deswegen nicht möglich.</info>
       <incorrect>Notfrequenz für Sprechfunk des Kurzwellenbandes 8 MHz.</incorrect>
+      <info>Es gibt in jedem Kurzwellenband eine Notfrequenz für den Sprechfunk. Auch im Notverkehr muss auf Kurzwelle immer ein an Tageszeit und Entfernung angepasstes Frequenzband gewählt werden. Eine Festlegung auf genau ein Frequenzband ist deswegen nicht möglich.</info>
     </question>
     <question id="4446" reference="50">
       <text>Welche Sendeart wird bei Aussendungen des Sprech-Seefunkdienstes grundsätzlich im Grenz- und Kurzwellenbereich verwendet?</text>
       <correct>Einseitenband mit unterdrücktem Träger, SSB, J3E</correct>
       <incorrect>Analoge Frequenzmodulation, FM, F3E</incorrect>
+      <info>Diese Modulation wird auf UKW benutzt.</info>
       <incorrect>Einseitenband mit reduziertem Träger, (R3E)</incorrect>
+      <info>Diese Modulation findet im Seefunk keine Verwendung. (Ich kenne auch sonst keinen Funkdienst, der das (noch?) benutzen würde.)</info>
       <incorrect>Zweiseitenbandmodulation, AM, A3E</incorrect>
+      <info>Diese Modulation findet vor allem im Rundfunk auf Lang-, Mittel- und Kurzwelle verwendung.</info>
     </question>
   </topic>
   <topic id="4447" name="Inmarsat">
@@ -497,99 +515,141 @@
       <text>Welche Veröffentlichung enthält Angaben über die Abdeckungsbereiche der Inmarsat-Satelliten?</text>
       <correct>Inmarsat-Handbuch</correct>
       <incorrect>Nachrichten für Seefahrer (NfS)</incorrect>
+      <info>Die NfS sind eine Veröffentlichung des BSH, es enthält aktuelle Informationen (z.B. Kartenberichtigungen) und ist kein Nachschlagewerk an sich.</info>
       <incorrect>Mitteilungen für Seefunkstellen (MfS)</incorrect>
+      <info>Die MfS werden aktuell gar nicht mehr heraus gegeben. Die letzte Ausgabe ist von 2001. Sie enthält keine (detaillierten) Angaben zum mobilen Seefunkdienst über Satelliten.</info>
       <incorrect>Jachtfunkdienst</incorrect>
+      <info>Die Veröffentlichtung „Yachtfunkdienst” des BSH gibt es nicht mehr. Sie enthielt Informationen zur Nord- und Ostsee, noch früher auch für das Mittelmeer. Für Yachten auf diesen Gewässern hat der mobile Seefunkdienst über Satelliten keine besondere Bedeutung. Es ging vor allem um die Ultrakurzwelle und Rundfunkdienste.</info>
     </question>
     <question id="4449" reference="52">
       <text>Welche Veröffentlichung enthält Angaben über Land-Erdfunkstellen (LES)?</text>
       <correct>Inmarsat-Handbuch</correct>
       <incorrect>Jachtfunkdienst</incorrect>
+      <info>Die Veröffentlichtung „Yachtfunkdienst” des BSH gibt es nicht mehr. Sie enthielt Informationen zur Nord- und Ostsee, noch früher auch für das Mittelmeer. Für Yachten auf diesen Gewässern hat der mobile Seefunkdienst über Satelliten keine besondere Bedeutung. Es ging vor allem um die Ultrakurzwelle und Rundfunkdienste.</info>
       <incorrect>Nachrichten für Seefahrer</incorrect>
+      <info>Die NfS sind eine Veröffentlichung des BSH, es enthält aktuelle Informationen (z.B. Kartenberichtigungen) und ist kein Nachschlagewerk an sich.</info>
       <incorrect>Mitteilungen für Seefunkstellen und Schiffsfunkstellen</incorrect>
+      <info>Die MfS werden aktuell gar nicht mehr heraus gegeben. Die letzte Ausgabe ist von 2001. Sie enthält keine (detaillierten) Angaben zum mobilen Seefunkdienst über Satelliten.</info>
     </question>
     <question id="4450" reference="53">
       <text>Welche Aufgaben hat das Operation Control Centre (OCC)?</text>
       <correct>Freischaltung der Schiffs-Erdfunkstelle (MES)</correct>
       <incorrect>Automatische Vergabe der Arbeitskanäle an Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</incorrect>
+      <info>Das macht die Network Co-ordination Station (NCS).</info>
       <incorrect>Abwicklung des Grenzwellen-Verkehrs per DSC</incorrect>
+      <info>Das OCC ist eine Komponente des mobilen Seefunkdienstes über Satelliten. Mit terrestrischen Funkdiensten hat es nichts zu tun.</info>
       <incorrect>Abwicklung des Seefunkdienstes über Satellitennetze (SES)</incorrect>
+      <info>Einen Funkdienst mit diesem Namen gibt es gar nicht.</info>
     </question>
     <question id="4451" reference="54">
       <text>Welche Aufgabe hat die Network Co-ordination Station (NCS)?</text>
       <correct>Automatische Vergabe der Arbeitskanäle an Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</correct>
       <incorrect>Freischaltung der Land-Erdfunkstellen (LES) und Schiffs-Erdfunkstellen (MES)</incorrect>
+      <info>Erdfunkstellen werden vom Operation Control Centre (OCC) freigeschaltet.</info>
       <incorrect>Abwicklung des Grenzwellen-Verkehrs per DSC</incorrect>
+      <info>Die NCS ist eine Komponente des mobilen Seefunkdienstes über Satelliten. Mit terrestrischen Funkdiensten hat es nichts zu tun.</info>
       <incorrect>Abwicklung des Seefunkdienstes über Satellitennetze (SES)</incorrect>
+      <info>Einen Funkdienst mit diesem Namen gibt es gar nicht.</info>
     </question>
     <question id="4452" reference="55">
       <text>Wie sind die Satelliten des Inmarsat-Systems positioniert?</text>
       <correct>Geostationär</correct>
       <incorrect>Polumlaufend</incorrect>
+      <info>Polumlaufend sind im GMDSS nur die LEOSAR-Satelliten des COSPAS-SARSAT Systems.</info>
       <incorrect>Polumlaufend und geostationär</incorrect>
+      <info>Polumlaufend (LEOSAR) und geostationär (GEOSAR) sind die Satelliten von COSPAS-SARSAT. Die Inmarsat-Satelliten stehen über dem Äquator.</info>
       <incorrect>Exzentrisch</incorrect>
+      <info>Exzentrische Umlaufbahnen finden vor allem in der Forschung z.B. für Weltraumteleskope Anwendung. Außerdem kann man auf solchen Bahnen mit relativ wenigen Satelliten eine der beiden Polregionen versorgen. In Russland findet das bei den Molnija-Kommunikationssatelliten Anwendung. Im mobilen Seefunkdienst über Satelliten werden solche Umlaufbahnen jedoch nicht genutzt.</info>
     </question>
     <question id="4453" reference="56">
       <text>Über welchem Breitengrad befinden sich die Satelliten des Inmarsat-Systems?</text>
       <correct>0 Grad</correct>
       <incorrect>90 Grad N</incorrect>
+      <info>Die einzig möglichen Satellitenbahnen, die immer über dem gleichen Breitengrad bleiben sind über dem 0. Breitengrad. Das liegt daran, dass der Mittelpunkt der Erde sich immer auf einem Brennpunkt der Satellitenbahn befinden muss. Bei einem anderen Breitengrad würde sich der Erdmittelpunkt aber immer unter oder über der Bahnebene und damit nicht in deren Brennpunkt befinden.</info>
       <incorrect>70 Grad S</incorrect>
+      <info>Die einzig möglichen Satellitenbahnen, die immer über dem gleichen Breitengrad bleiben sind über dem 0. Breitengrad. Das liegt daran, dass der Mittelpunkt der Erde sich immer auf einem Brennpunkt der Satellitenbahn befinden muss. Bei einem anderen Breitengrad würde sich der Erdmittelpunkt aber immer unter oder über der Bahnebene und damit nicht in deren Brennpunkt befinden.</info>
       <incorrect>45 Grad S</incorrect>
+      <info>Die einzig möglichen Satellitenbahnen, die immer über dem gleichen Breitengrad bleiben sind über dem 0. Breitengrad. Das liegt daran, dass der Mittelpunkt der Erde sich immer auf einem Brennpunkt der Satellitenbahn befinden muss. Bei einem anderen Breitengrad würde sich der Erdmittelpunkt aber immer unter oder über der Bahnebene und damit nicht in deren Brennpunkt befinden.</info>
     </question>
     <question id="4454" reference="57">
       <text>Welches Seegebiet deckt der Satellit mit der Bezeichnung AOR-E im Inmarsat-System hauptsächlich ab?</text>
       <correct>Atlantik</correct>
       <incorrect>Polarmeere</incorrect>
+      <info>Für die Abdeckung der Polarmeere ist keiner der Inmarsat-Satelliten geeignet. Die Polarmeere befinden sich im Seegebiet A4.</info>
       <incorrect>Pazifischer Ozean</incorrect>
+      <info>Das wäre der Satellit POR.</info>
       <incorrect>Indischer Ozean</incorrect>
+      <info>Das wäre der Satellit IOR.</info>
     </question>
     <question id="4455" reference="58">
       <text>Welches Seegebiet deckt der Satellit mit der Bezeichnung IOR im Inmarsat-System hauptsächlich ab?</text>
       <correct>Indischer Ozean</correct>
       <incorrect>Westlicher Atlantik</incorrect>
+      <info>Das wäre der Satellit AOR-W.</info>
       <incorrect>Östlicher Atlantik</incorrect>
+      <info>Das wäre der Satellit AOR-E.</info>
       <incorrect>Pazifischer Ozean</incorrect>
+      <info>Das wäre der Satellit POR.</info>
     </question>
     <question id="4456" reference="59">
       <text>Welcher Satellit deckt das Seegebiet des Pazifischen Ozeans im Inmarsat-System hauptsächlich ab?</text>
       <correct>POR</correct>
       <incorrect>AOR-E</incorrect>
+      <info>Dieser Satellit deckt vor allem den östlichen Atlantik ab.</info>
       <incorrect>AOR-W</incorrect>
+      <info>Dieser Satellit deckt vor allem den westlichen Atlantik ab.</info>
       <incorrect>IOR</incorrect>
+      <info>Dieser Satellit deckt vor allem den indischen Ozean ab.</info>
     </question>
     <question id="4457" reference="60">
       <text>Eine Yacht steht vor Hawaii. Der Schiffsführer möchte eine Verbindung nach Europa über Inmarsat herstellen. Welcher Satellit sollte vorzugsweise benutzt werden?</text>
       <correct>Pacific Ocean Region (POR)</correct>
       <incorrect>Indian Ocean Region (IOR)</incorrect>
+      <info>Gewählt wird immer der Satellit, der zum Standort der Schiffsfunkstelle gehört. Hawaii liegt im Pazifik.</info>
       <incorrect>Atlantic Ocean Region - East (AOR-E)</incorrect>
+      <info>Gewählt wird immer der Satellit, der zum Standort der Schiffsfunkstelle gehört. Hawaii liegt im Pazifik.</info>
       <incorrect>Atlantic Ocean Region - West (AOR-W)</incorrect>
+      <info>Gewählt wird immer der Satellit, der zum Standort der Schiffsfunkstelle gehört. Hawaii liegt im Pazifik.</info>
     </question>
     <question id="4458" reference="61">
       <text>Eine Yacht ist vor den Malediven unterwegs. Der Schiffsführer möchte eine Verbindung nach Europa über Inmarsat herstellen. Welcher Satellit sollte vorzugsweise benutzt werden?</text>
       <correct>Indian Ocean Region (IOR)</correct>
       <incorrect>Atlantic Ocean Region - East (AOR-E)</incorrect>
+      <info>Gewählt wird immer der Satellit, der zum Standort der Schiffsfunkstelle gehört. Die Malediven liegen im Indik.</info>
       <incorrect>Atlantic Ocean Region - West (AOR-W)</incorrect>
+      <info>Gewählt wird immer der Satellit, der zum Standort der Schiffsfunkstelle gehört. Die Malediven liegen im Indik.</info>
       <incorrect>Pacific Ocean Region (POR)</incorrect>
+      <info>Gewählt wird immer der Satellit, der zum Standort der Schiffsfunkstelle gehört. Die Malediven liegen im Indik.</info>
     </question>
     <question id="4459" reference="62">
       <text>Wie wird das Seegebiet außerhalb der Abdeckung durch Inmarsat-Satelliten bezeichnet?</text>
       <correct>Seegebiet A4</correct>
       <incorrect>Seegebiet A1</incorrect>
+      <info>A1 ist das Seegebiet im Bereich der Abdeckung der UKW-Küstenfunkstellen.</info>
       <incorrect>Seegebiet A2</incorrect>
+      <info>A2 ist das Seegebiet im Bereich der Abdeckung der GW-Küstenfunkstellen.</info>
       <incorrect>Seegebiet A3</incorrect>
+      <info>A3 ist gerade das Gebiet, das von Inmarsat (nicht aber von UKW- und GW-Küstenfunkstellen) abgedeckt wird.</info>
     </question>
     <question id="4460" reference="63">
       <text>Wie wird das Seegebiet bezeichnet, das innerhalb der Sprechfunkreichweite der Grenzwellen-Küstenfunkstelle liegt, die ununterbrochen für DSC-Alarmierungen zur Verfügung steht?</text>
       <correct>Seegebiet A2</correct>
       <incorrect>Seegebiet A1</incorrect>
+      <info>A1 ist das Seegebiet im Bereich der Abdeckung der UKW-Küstenfunkstellen.</info>
       <incorrect>Seegebiet A3</incorrect>
+      <info>A3 ist das Seegebiet im Bereich der Abdeckung von Inmarsat, aber außerhalb der Reichweite von UKW- und GW-Küstenfunkstellen.</info>
       <incorrect>Seegebiet A4</incorrect>
+      <info>A4 ist das Seegebiet außerhalb der Abdeckung von Inmarsat sowei UKW- und GW-Küstenfunkstellen.</info>
     </question>
     <question id="4461" reference="64">
       <text>Zur Herstellung welcher Verbindungen werden im Inmarsat-System dreistellige Satelliten-Kennnummern benötigt?</text>
       <correct>Schiff-Schiff und Land-Schiff</correct>
       <incorrect>Schiff-Schiff und Schiff-Land</incorrect>
+      <info>Die dreistellitge Satelliten-Kennnummer wird immer dann benötigt, wenn das Ziel eine Schiffsfunkstelle ist. Über sie wird ausgewählt welcher Satellit für die Zustellung des Gesprächs an den Empfänger zuständig ist.</info>
       <incorrect>Land-Schiff und Schiff-Land</incorrect>
+      <info>Die dreistellitge Satelliten-Kennnummer wird immer dann benötigt, wenn das Ziel eine Schiffsfunkstelle ist. Über sie wird ausgewählt welcher Satellit für die Zustellung des Gesprächs an den Empfänger zuständig ist.</info>
       <incorrect>Schiff-Land</incorrect>
+      <info>Die dreistellitge Satelliten-Kennnummer wird immer dann benötigt, wenn das Ziel eine Schiffsfunkstelle ist. Über sie wird ausgewählt welcher Satellit für die Zustellung des Gesprächs an den Empfänger zuständig ist.</info>
     </question>
     <question id="4462" reference="65">
       <text>Welches ist die erste Ziffer einer Inmarsat-C-Rufnummer?</text>
