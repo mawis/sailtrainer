@@ -1,4 +1,5 @@
 package eu.wimmerinformatik.sbfb.data;
+/* vim: set sw=4 tabstop=4 fileencoding=UTF-8: */
 
 import java.io.IOException;
 import java.util.Date;
@@ -28,7 +29,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 6);
+		super(context, "topics", null, 7);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -445,6 +446,12 @@ public class Repository extends SQLiteOpenHelper {
 		    updates.clear();
 		    updates.put("answer", "Kreisförmiges Schwenken der Arme oder eines Gegenstandes.");
 		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9157", "0"});
+		    updates.clear();
+		}
+		if (oldVersion <= 6) {
+		    final ContentValues updates = new ContentValues();
+		    updates.put("answer", "Kleinfahrzeuge mit Maschinenantrieb und geschleppte Fahrzeuge.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9123", "2"});
 		    updates.clear();
 		}
 	}
