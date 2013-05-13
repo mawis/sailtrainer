@@ -745,22 +745,31 @@
       <text>An wen wird ein über Inmarsat ausgelöster Notalarm umgehend geleitet?</text>
       <correct>Rettungsleitstelle (RCC) oder Seenotleitstelle (MRCC)</correct>
       <incorrect>Küsten-Erdfunkstelle (CES) oder On-Scene Co-ordinator (OSC)</incorrect>
+      <info>Die CES kümmert sich um die technische Abwicklung von Inmarsat-Verbindungen, aber nicht speziell um Notalarme. Den OSC gibt es zum Zeitpunkt in dem der Notalarm ausgelöst wird normalerweise noch nicht. Es ist der Verantwortliche vor Ort bei einer Rettung.</info>
       <incorrect>International Maritime Organization (IMO) oder Seenotleitstelle (MRCC)</incorrect>
+      <info>Die IMO hat keine operativen Aufgaben sondern berät und regelt wenn es darum geht, dass internationale Abkommen geschlossen und weiterentwickelt werden.</info>
       <incorrect>Rettungsleitstelle (RCC) oder Küsten-Erdfunkstelle (CES)</incorrect>
+      <info>Die CES kümmert sich um die technische Abwicklung von Inmarsat-Verbindungen, aber nicht speziell um Notalarme.</info>
     </question>
     <question id="4472" reference="75">
       <text>Welcher Dienst sendet Nachrichten für die Sicherheit der Seeschifffahrt (MSI) auf Satellitenfrequenzen aus?</text>
       <correct>SafetyNet</correct>
       <incorrect>GALILEO</incorrect>
+      <info>GALILEO ist das europäische Satellitennavigationssystem ähnlich GPS.</info>
       <incorrect>COSPAS-SARSAT</incorrect>
+      <info>COSPAS-SARSAT empfängt Notalarme von EPIRPs, macht aber selbst keine besonderen Aussendungen.</info>
       <incorrect>NAVTEX</incorrect>
+      <info>NAVTEX überträgt zwar auch MSI, allerdings auf Kurzwelle und nicht auf Satellitenfrequenzen.</info>
     </question>
     <question id="4473" reference="76">
       <text>Welche Informationen werden über das Internationale Sicherheitsnetz (SafetyNet) verbreitet?</text>
       <correct>Informationen für die Sicherheit der Seeschifffahrt (Maritime Safety Information [MSI]).</correct>
       <incorrect>AMVER-Meldungen des weltweiten Positionsmeldesystems für Such- und Rettungszwecke</incorrect>
+      <info>AMVER ist das Automated Mutual-Assistance Vessel Rescue System. AMVER findet in der Nähe befindliche Schiffe bei Seenotfällen und informiert diese direkt.</info>
       <incorrect>Notmeldungen von COSPAS-SARSAT-Satelliten-Seenotfunkbaken (EPIRB)</incorrect>
+      <info>Aus einer Notmeldung kann evtl. eine Meldung in den MSI werden. Dies geschieht aber nicht automatisch. Auch werden andere Meldungen über SafetyNet übertragen.</info>
       <incorrect>NAVTEX-Warnnachrichten und -Sicherheitsmeldungen</incorrect>
+      <info>NAVTEX ist ein eigenes System des terrestrischen Seefunkdienstes. SafetyNet ist ein Satellitendienst.</info>
     </question>
   </topic>
 </questionaire>
