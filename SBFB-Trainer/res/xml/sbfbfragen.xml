@@ -907,7 +907,7 @@
     <incorrect>Fahrzeug der Überwachungsbehörden im Einsatz.</incorrect>
   </question>
   <question id='9075' reference='130'>
-    <text>Was bedeuten auf einem Fahrzeug drei blaube Lichter übereinander?</text>
+    <text>Was bedeuten auf einem Fahrzeug drei blaue Lichter übereinander?</text>
     <correct>Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.</correct>
     <incorrect>Fahrzeug hat gesundheitsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.</incorrect>
     <incorrect>Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.</incorrect>
@@ -1246,7 +1246,7 @@
     <text>Welche Fahrzeuge in Fahrt führen nachts nur ein weißes Rundumlicht?</text>
     <correct>Längsseits gekuppelte Kleinfahrzeuge.</correct>
     <incorrect>Kleinfahrzeuge mit Maschinenantrieb unter 15 m Länge.</incorrect>
-    <incorrect>Kleinfahrzeuge ohne Maschinenantrieb und geschleppte Fahrzeuge.</incorrect>
+    <incorrect>Kleinfahrzeuge mit Maschinenantrieb und geschleppte Fahrzeuge.</incorrect>
     <incorrect>Fahrzeuge die geschoben werden.</incorrect>
   </question>
   <question id='9124' reference='179'>

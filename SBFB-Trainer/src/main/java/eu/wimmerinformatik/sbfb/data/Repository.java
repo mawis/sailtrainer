@@ -453,6 +453,9 @@ public class Repository extends SQLiteOpenHelper {
 		    updates.put("answer", "Kleinfahrzeuge mit Maschinenantrieb und geschleppte Fahrzeuge.");
 		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9123", "2"});
 		    updates.clear();
+		    updates.put("question", "Was bedeuten auf einem Fahrzeug drei blaue Lichter übereinander?");
+		    db.update("question", updates, "_id=?", new String[]{"9075"});
+		    updates.clear();
 		}
 	}
 }
