@@ -23,47 +23,6 @@
     <build>
 	<plugins>
 	    <plugin>
-		<groupId>com.jayway.maven.plugins.android.generation2</groupId>
-		<artifactId>android-maven-plugin</artifactId>
-		<version>4.0.0-rc.2</version>
-		<configuration>
-		    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
-		    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
-		    <resourceDirectory>${project.basedir}/res</resourceDirectory>
-		    <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
-		    <sdk>
-			<platform>21</platform>
-		    </sdk>
-		    <undeployBeforeDeploy>true</undeployBeforeDeploy>
-		    <sign><debug>false</debug></sign>
-		    <zipalign>
-			<verbose>true</verbose>
-			<inputApk>${project.build.directory}/${project.artifactId}-${project.version}.apk</inputApk>
-			<outputApk>${project.build.directory}/${project.artifactId}-${project.version}-signed-aligned.apk</outputApk>
-		    </zipalign>
-		</configuration>
-		<executions>
-		    <execution>
-			<id>alignApk</id>
-			<phase>package</phase>
-			<goals>
-			    <goal>zipalign</goal>
-			</goals>
-		    </execution>
-		</executions>
-		<extensions>true</extensions>
-	    </plugin>
-
-	    <plugin>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<version>2.3.2</version>
-		<configuration>
-		    <source>1.6</source>
-		    <target>1.6</target>
-		</configuration>
-	    </plugin>
-
-	    <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-jarsigner-plugin</artifactId>
 		<executions>
@@ -94,12 +53,55 @@
 		    </execution>
 		</executions>
 	    </plugin>
+
+	    <plugin>
+		<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+		<artifactId>android-maven-plugin</artifactId>
+		<version>4.0.0-rc.2</version>
+		<configuration>
+		    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
+		    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
+		    <resourceDirectory>${project.basedir}/res</resourceDirectory>
+		    <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
+		    <sdk>
+			<platform>21</platform>
+		    </sdk>
+		    <undeployBeforeDeploy>true</undeployBeforeDeploy>
+		    <sign><debug>false</debug></sign>
+		    <zipalign>
+			<skip>false</skip>
+			<verbose>true</verbose>
+			<inputApk>${project.build.directory}/${project.artifactId}-${project.version}.apk</inputApk>
+			<outputApk>${project.build.directory}/${project.artifactId}-${project.version}-signed-aligned.apk</outputApk>
+		    </zipalign>
+		</configuration>
+		<executions>
+		    <execution>
+			<id>alignApk</id>
+			<phase>package</phase>
+			<goals>
+			    <goal>zipalign</goal>
+			</goals>
+		    </execution>
+		</executions>
+		<extensions>true</extensions>
+	    </plugin>
+
+	    <plugin>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>2.3.2</version>
+		<configuration>
+		    <source>1.6</source>
+		    <target>1.6</target>
+		</configuration>
+	    </plugin>
 	</plugins>
     </build>
 
     <profiles>
 	<profile>
 	    <id>release</id>
+	    <!-- Anyway we need: mvn clean install -Dandroid.release=true -->
 	    <activation>
 		<property>
 		    <name>performRelease</name>
