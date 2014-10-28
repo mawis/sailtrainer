@@ -29,7 +29,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 7);
+		super(context, "topics", null, 8);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -455,6 +455,39 @@ public class Repository extends SQLiteOpenHelper {
 		    updates.clear();
 		    updates.put("question", "Was bedeuten auf einem Fahrzeug drei blaue Lichter übereinander?");
 		    db.update("question", updates, "_id=?", new String[]{"9075"});
+		    updates.clear();
+		}
+		if (oldVersion <= 7) {
+			final ContentValues updates = new ContentValues();
+			updates.put("answer", "Einfahrt verboten, Schließen der Schleuse wird vorbereitet.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9062", "1"});
+		    updates.clear();
+			updates.put("answer", "Ausfahrt verboten, Schließen der Schleuse wird vorbereitet.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9062", "3"});
+		    updates.clear();
+			updates.put("answer", "Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9072", "0"});
+		    updates.clear();
+			updates.put("answer", "B ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9131", "3"});
+		    updates.clear();
+			updates.put("answer", "Die der Wettsegelbestimmungen.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9136", "1"});
+		    updates.clear();
+			updates.put("answer", "Ein Fehlerstromschutzschalter.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9154", "0"});
+		    updates.clear();
+			updates.put("answer", "Das Achterliek killt, das Unterliek wird übermäßig gereckt.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9233", "0"});
+		    updates.clear();
+			updates.put("answer", "Das Vorliek killt, das Unterliek wird übermäßig gereckt.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9233", "1"});
+		    updates.clear();
+			updates.put("answer", "Das Unterliek killt, das Achterliek wird übermäßig gereckt.");
+		    db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"9233", "2"});
+		    updates.clear();
+		    updates.put("question", "Welche Funktion haben gelbe Tonnen mit einem Radarreflektor vor Brückenpfeilern?");
+		    db.update("question", updates, "_id=?", new String[]{"9187"});
 		    updates.clear();
 		}
 	}

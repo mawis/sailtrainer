@@ -818,9 +818,9 @@
   <question id='9062' reference='117'>
     <text>Welche Bedeutung haben vor einer Schleuse ein rotes oder ein rotes und ein grünes Licht?</text>
     <correct>Einfahrt verboten, Öffnen der Schleuse wird vorbereitet.</correct>
-    <incorrect>Einfahrt verboten, schließen der Schleuse wird vorbereitet.</incorrect>
+    <incorrect>Einfahrt verboten, Schließen der Schleuse wird vorbereitet.</incorrect>
     <incorrect>Ausfahrt verboten, Öffnen der Schleuse wird vorbereitet.</incorrect>
-    <incorrect>Ausfahrt verboten, schließen der Schleuse wird vorbereitet.</incorrect>
+    <incorrect>Ausfahrt verboten, Schließen der Schleuse wird vorbereitet.</incorrect>
   </question>
   <question id='9063' reference='118'>
     <text>In welcher Reihenfolge fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?</text>
@@ -887,7 +887,7 @@
   </question>
   <question id='9072' reference='127'>
     <text>Was bedeutet dieses Sichtzeichen?</text>
-    <correct>Fahrzeug hat brennabre Stoffe geladen, Abstand beim Stillliegen 10 m.</correct>
+    <correct>Fahrzeug hat brennbare Stoffe geladen, Abstand beim Stillliegen 10 m.</correct>
     <incorrect>Fahrzeug hat gesundheutsschädliche Stoffe geladen, Abstand beim Stillliegen 50 m.</incorrect>
     <incorrect>Fahrzeug hat explosive Stoffe geladen, Abstand beim Stillliegen 100 m.</incorrect>
     <incorrect>Fahrzeug der Überwachungsbehörden im Einsatz.</incorrect>
@@ -1303,7 +1303,7 @@
     <correct>B ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen.</correct>
     <incorrect>A ist ausweichpflichtig. Das luvseitige Boot muss dem leeseitigen ausweichen.</incorrect>
     <incorrect>A ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen.</incorrect>
-    <incorrect>B ist ausweichpflichtig. Das leeseitige Boot muss dem lvuseitigen ausweichen.</incorrect>
+    <incorrect>B ist ausweichpflichtig. Das leeseitige Boot muss dem luvseitigen ausweichen.</incorrect>
   </question>
   <question id='9132' reference='187'>
     <text>Ein Kleinfahrzeug A segelt nachts auf Vorwindkurs stromab, Großsegel an Steuerbord. Backbord querab kommt ein grünes Seitenlicht eines Bootes B immer näher, das kein Topplicht führt. Wer ist ausweichpflichtig?</text>
@@ -1336,7 +1336,7 @@
   <question id='9136' reference='191'>
     <text>Ein Segelboot gerät in das Feld einer Segelregatta, ohne selbst Teilnehmer zu sein. Welche Ausweichregeln sind zu beachten?</text>
     <correct>Die der Binnenschifffahrtsstraßen-Ordnung.</correct>
-    <incorrect>Die der Wettwegelbestimmungen.</incorrect>
+    <incorrect>Die der Wettsegelbestimmungen.</incorrect>
     <incorrect>Gegenüber Regattateilnehmern, die der Wettfahrtregeln, gegenüber anderen Fahrzeugen die der Binnenschifffahrtsstraßenordnung.</incorrect>
     <incorrect>Fahrzeuge, die an einer Regatta teilnehmen, müssen unbeteiligten Fahrzeugen ausweichen.</incorrect>
   </question>
@@ -1461,7 +1461,7 @@
   </question>
   <question id='9154' reference='209'>
     <text>Welche technische Einrichtung gegen einen Stromschlag muss in der Landstromversorgung unbedingt installiert sein?</text>
-    <correct>Ein Fehlerstromschutzschlater.</correct>
+    <correct>Ein Fehlerstromschutzschalter.</correct>
     <incorrect>Ein geringer Ladungsstrom ist ungefährlich.</incorrect>
     <incorrect>Ein Überspannungsschutz.</incorrect>
     <incorrect>Ein Schutzkleinspannungsschalter.</incorrect>
@@ -1691,7 +1691,7 @@
     <incorrect>Sie befindet sich auf der rechten Fahrrinnenseite und muss an der Backbordseite des Schiffes passiert werden.</incorrect>
   </question>
   <question id='9187' reference='242'>
-    <text>Welche Funktion haben gelbe Tonnen mit einem Radarreflektor vor Brückenpfeiler?</text>
+    <text>Welche Funktion haben gelbe Tonnen mit einem Radarreflektor vor Brückenpfeilern?</text>
     <correct>Kenntlichmachung der Brückenpfeiler auf dem Radarschirm.</correct>
     <incorrect>Kenntlichmachung der Höhe der Brückenpfeiler.</incorrect>
     <incorrect>Kenntlichmachung einer gesperrten Brückendurchfahrt.</incorrect>
@@ -2009,9 +2009,9 @@
   </question>
   <question id='9233' reference='287'>
     <text>Wie wirkt sich ein Holepunkt, der zu weit achtern liegt, auf Stand und Beanspruchung des Vorsegels aus?</text>
-    <correct>Das Achterleik killt, das Unterleik wird übermäßig gereckt.</correct>
-    <incorrect>Das Vorliek killt, das Unterleik wird übermäßig gereckt.</incorrect>
-    <incorrect>Das Unterliek killt, das Achterleik wird übermäßig gereckt.</incorrect>
+    <correct>Das Achterliek killt, das Unterliek wird übermäßig gereckt.</correct>
+    <incorrect>Das Vorliek killt, das Unterliek wird übermäßig gereckt.</incorrect>
+    <incorrect>Das Unterliek killt, das Achterliek wird übermäßig gereckt.</incorrect>
     <incorrect>Das Achterliek killt, das Vorliek wird übermäßig gereckt.</incorrect>
   </question>
   <question id='9234' reference='288'>
