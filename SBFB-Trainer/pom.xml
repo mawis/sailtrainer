@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mobi.sportboot</groupId>
     <artifactId>sbfbtrainer</artifactId>
-    <version>1.5.1</version>
+    <version>1.5.3</version>
     <packaging>apk</packaging>
     <name>SBFB-Trainer</name>
 
     <properties>
-	<platform.version>4.1.1.4</platform.version>
+	<platform.version>5.0</platform.version>
     </properties>
 
     <dependencies>
@@ -25,14 +25,14 @@
 	    <plugin>
 		<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 		<artifactId>android-maven-plugin</artifactId>
-		<version>3.1.1</version>
+		<version>4.0.0-rc.2</version>
 		<configuration>
 		    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
 		    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
 		    <resourceDirectory>${project.basedir}/res</resourceDirectory>
 		    <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
 		    <sdk>
-			<platform>17</platform>
+			<platform>21</platform>
 		    </sdk>
 		    <undeployBeforeDeploy>true</undeployBeforeDeploy>
 		    <sign><debug>false</debug></sign>
