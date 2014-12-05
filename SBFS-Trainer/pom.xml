@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mobi.sportboot</groupId>
     <artifactId>sbfstrainer</artifactId>
-    <version>1.5.1</version>
+    <version>1.5.3.1</version>
     <packaging>apk</packaging>
     <name>SBFS-Trainer</name>
 
     <properties>
-	<platform.version>4.1.1.4</platform.version>
+	<platform.version>5.0</platform.version>
     </properties>
 
     <dependencies>
@@ -22,47 +22,6 @@
 
     <build>
 	<plugins>
-	    <plugin>
-		<groupId>com.jayway.maven.plugins.android.generation2</groupId>
-		<artifactId>android-maven-plugin</artifactId>
-		<version>3.1.1</version>
-		<configuration>
-		    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
-		    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
-		    <resourceDirectory>${project.basedir}/res</resourceDirectory>
-		    <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
-		    <sdk>
-			<platform>17</platform>
-		    </sdk>
-		    <undeployBeforeDeploy>true</undeployBeforeDeploy>
-		    <sign><debug>false</debug></sign>
-		    <zipalign>
-			<verbose>true</verbose>
-			<inputApk>${project.build.directory}/${project.artifactId}-${project.version}.apk</inputApk>
-			<outputApk>${project.build.directory}/${project.artifactId}-${project.version}-signed-aligned.apk</outputApk>
-		    </zipalign>
-		</configuration>
-		<executions>
-		    <execution>
-			<id>alignApk</id>
-			<phase>package</phase>
-			<goals>
-			    <goal>zipalign</goal>
-			</goals>
-		    </execution>
-		</executions>
-		<extensions>true</extensions>
-	    </plugin>
-
-	    <plugin>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<version>2.3.2</version>
-		<configuration>
-		    <source>1.6</source>
-		    <target>1.6</target>
-		</configuration>
-	    </plugin>
-
 	    <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-jarsigner-plugin</artifactId>
@@ -94,12 +53,55 @@
 		    </execution>
 		</executions>
 	    </plugin>
+
+	    <plugin>
+		<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+		<artifactId>android-maven-plugin</artifactId>
+		<version>4.0.0-rc.2</version>
+		<configuration>
+		    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
+		    <assetsDirectory>${project.basedir}/assets</assetsDirectory>
+		    <resourceDirectory>${project.basedir}/res</resourceDirectory>
+		    <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
+		    <sdk>
+			<platform>21</platform>
+		    </sdk>
+		    <undeployBeforeDeploy>true</undeployBeforeDeploy>
+		    <sign><debug>false</debug></sign>
+		    <zipalign>
+			<verbose>true</verbose>
+			<inputApk>${project.build.directory}/${project.artifactId}-${project.version}.apk</inputApk>
+			<outputApk>${project.build.directory}/${project.artifactId}-${project.version}-signed-aligned.apk</outputApk>
+		    </zipalign>
+		</configuration>
+		<executions>
+		    <execution>
+			<id>alignApk</id>
+			<phase>package</phase>
+			<goals>
+			    <goal>zipalign</goal>
+			</goals>
+		    </execution>
+		</executions>
+		<extensions>true</extensions>
+	    </plugin>
+
+	    <plugin>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>2.3.2</version>
+		<configuration>
+		    <source>1.6</source>
+		    <target>1.6</target>
+		</configuration>
+	    </plugin>
+
 	</plugins>
     </build>
 
     <profiles>
 	<profile>
 	    <id>release</id>
+	    <!-- Anyway we need: mvn clean install -Dandroid.release=true -->
 	    <activation>
 		<property>
 		    <name>performRelease</name>

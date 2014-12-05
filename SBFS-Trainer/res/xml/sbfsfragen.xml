@@ -1567,7 +1567,7 @@
   <question id='9813' reference='224'>
     <text>Was versteht man unter der Wiederkehr eines Leuchtfeuers?</text>
     <correct>Zeitraum vom Einsetzen der Taktkennung bis zum Einsetzen der nächsten gleichen Taktkennung.</correct>
-    <incorrect>Zweitraum vom Ende der Taktkennung bis zum Einsetzen der nächsten gleichen Taktkennung.</incorrect>
+    <incorrect>Zeitraum vom Ende der Taktkennung bis zum Einsetzen der nächsten gleichen Taktkennung.</incorrect>
     <incorrect>Zeitraum vom Einsetzen der Taktkennung bis zum Ende der nächsten gleichen Taktkennung.</incorrect>
     <incorrect>Zeitraum vom Einsetzen der Taktkennung bis zum Ende der Taktkennung.</incorrect>
   </question>

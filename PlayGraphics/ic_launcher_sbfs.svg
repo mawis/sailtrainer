@@ -15,25 +15,25 @@
    height="96"
    id="svg2985"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="ic_launcher_sbfs.svg"
-   inkscape:export-filename="/Users/matthias/ic_launcher_sbfs.png"
-   inkscape:export-xdpi="480"
-   inkscape:export-ydpi="480">
+   inkscape:export-filename="/home/matthias/source/sailtrainer/SBFS-Trainer/res/drawable-xhdpi/ic_launcher_sbfs.png"
+   inkscape:export-xdpi="100.33"
+   inkscape:export-ydpi="100.33">
   <defs
      id="defs2987">
     <linearGradient
        id="linearGradient3861">
       <stop
-         style="stop-color:#3cbe94;stop-opacity:1;"
+         style="stop-color:#3cbeb0;stop-opacity:1;"
          offset="0"
          id="stop3863" />
       <stop
          id="stop3871"
          offset="0.84768212"
-         style="stop-color:#24c475;stop-opacity:1;" />
+         style="stop-color:#24c4b5;stop-opacity:1;" />
       <stop
-         style="stop-color:#1fffb9;stop-opacity:1;"
+         style="stop-color:#1fffe0;stop-opacity:1;"
          offset="1"
          id="stop3865" />
     </linearGradient>
@@ -89,16 +89,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.47"
-     inkscape:cx="84.761036"
-     inkscape:cy="50.235877"
+     inkscape:cx="-5.1718498"
+     inkscape:cy="32.338785"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="752"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata2990">
@@ -117,30 +117,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      transform="translate(0,32)">
-    <rect
-       style="fill:url(#linearGradient3867);fill-opacity:1.0;stroke:none"
-       id="rect3883"
-       width="95.0783"
-       height="95.0783"
-       x="0.67114097"
-       y="0.6979866"
-       ry="8.7248325"
-       transform="translate(0,-32)" />
     <path
-       style="fill:#f3f3f3;fill-opacity:1;stroke:#000000;stroke-width:0.20000000000000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="M 47.87472,-25.485459 47.651007,38.720358 C 38.255034,42.922495 17.673379,44.877509 8.2774047,43.194631 19.114986,30.522806 39.402315,4.382618 47.87472,-25.485459 z"
+       style="fill:#45a049;fill-opacity:1;stroke:none"
+       d="m 52.572707,-28.393737 c -0.11055,23.1744675 0.3308,44.184383 -0.975745,72.049548 C 39.370033,43.626126 18.268074,43.761743 9.395973,43.705937 19.993542,27.669698 35.284536,2.6881246 52.572707,-28.393737 z"
        id="path3788"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       style="fill:#f3f3f3;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.20000000000000001;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 41.387025,42.076063 c 12.674475,2.702113 24.53267,-0.717872 36.017897,-6.935123 1.955777,-18.631733 -3.4267,-37.7526823 -28.18792,-58.165548 6.666474,26.5239857 0.19602,46.21677 -7.829977,65.100671 z"
+       style="fill:#66bb6a;fill-opacity:1;stroke:none"
+       d="m 44.74273,43.437273 c 13.9993,2.916354 27.096997,-0.774789 39.782741,-7.484985 2.160208,-20.108976 -3.784883,-40.7459591 -31.13432,-62.77729 7.363301,28.6269802 0.21651,49.881136 -8.648421,70.262275 z"
        id="path3786"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#224234;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:36px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#142d15;fill-opacity:1;stroke:none;font-family:Sans"
        x="2.6845646"
        y="61.315434"
        id="text3790"
