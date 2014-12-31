@@ -1,0 +1,15 @@
+# Maven
+/LRC-Trainer/target/**
+/SBFB-Trainer/target/**
+/SBFS-Trainer/target/**
+/SKS-Trainer/target/**
+/SRC-Trainer/target/**
+/UBI-Trainer/target/**
+
+# Vim
+*~
+.*.swp
+
+# different backup extensions
+*.bak
+*.orig
