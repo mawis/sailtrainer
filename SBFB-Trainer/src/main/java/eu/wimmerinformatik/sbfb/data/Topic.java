@@ -17,27 +17,83 @@
 
 package eu.wimmerinformatik.sbfb.data;
 
+/**
+ * POJO that contains a grouping of questsions.
+ *
+ * We should the different topics we have questions for on the start screen of
+ * the app.
+ *
+ * @author Matthias Wimmer
+ */
 public class Topic {
+	/**
+	 * ID of the topic.
+	 */
 	private int id;
+
+	/**
+	 * Ordering when showing the topics.
+	 *
+	 * Show {@link Topic} with smaller index before others with bigger index.
+	 */
 	private int index;
+
+	/**
+	 * How to name the topic.
+	 */
 	private String name;
+
+	/**
+	 * Getter for the ID of the Topic.
+	 *
+	 * @return the ID of the topic
+	 */
 	public int getId() {
 		return id;
 	}
-	public void setId(int id) {
+
+	/**
+	 * Setter for the ID of the Topic.
+	 *
+	 * @param id the ID to set
+	 */
+	public void setId(final int id) {
 		this.id = id;
 	}
+
+	/**
+	 * Getter for the ordering index.
+	 *
+	 * @return the index
+	 */
 	public int getIndex() {
 		return index;
 	}
-	public void setIndex(int index) {
+
+	/**
+	 * Setter for the ordering index.
+	 *
+	 * @param index the index value (smaller index before bigger one)
+	 */
+	public void setIndex(final int index) {
 		this.index = index;
 	}
+
+	/**
+	 * Get the name of the topic.
+	 *
+	 * @return name of the topic
+	 */
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
+
+	/**
+	 * Set the name of the topic.
+	 *
+	 * @param name the name of the topic
+	 */
+	public void setName(final String name) {
 		this.name = name;
 	}
-
 }
