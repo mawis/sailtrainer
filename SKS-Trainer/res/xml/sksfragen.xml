@@ -244,7 +244,7 @@ Sie hängt ab
   <question id='995' reference='54'>
     <text>Welche Möglichkeiten der terrestrischen Ortsbestimmung muss man kennen?</text>
     <answer>1. Kreuzpeilung
-2. Peilug und Abstand (Feuer in der Kimm, Radarabstand),
+2. Peilung und Abstand (Feuer in der Kimm, Radarabstand),
 3. Peilung und Lotung.</answer>
   </question>
   <question id='996' reference='55'>
@@ -630,7 +630,7 @@ Es muss damit gerechnet werden, dass Zielort, Tiefgang, Fahrtstatus u.a. falsch 
 2. Manövrierunfähige Fahrzeuge: zwei schwarze Bälle senkrecht übereinander.</answer>
   </question>
   <question id='1076' reference='16'>
-    <text>Wie müssen Sie Ihr Fahrzeug unter Segel bei Tage und bei Nacht kennzeichnen, wenn Sie gleichzeitig mit Maschinenkraft fahren?</text>
+    <texsp>Wie müssen Sie Ihr Fahrzeug unter Segel bei Tage und bei Nacht kennzeichnen, wenn Sie gleichzeitig mit Maschinenkraft fahren?</texsp>
     <answer>1. Bei Nacht Lichterführung eines Maschinenfahrzeugs entsprechender Größe,
 2. bei Tage einen Kegel - Spitze unten - im Vorschiff gut sichtbar.</answer>
   </question>
