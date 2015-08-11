@@ -259,6 +259,7 @@ public class QuestionAsker extends Activity {
 					
 					final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
 					correctButton.setBackgroundResource(R.color.correctAnswer);
+					correctButton.setTextAppearance(QuestionAsker.this, R.style.correctAnswerStyle);
 					
 					return;
 				} else {
@@ -276,7 +277,8 @@ public class QuestionAsker extends Activity {
 		if (correctChoice != 0) {
 			final RadioButton correctButton = (RadioButton) findViewById(correctChoice);
 			correctButton.setBackgroundResource(0);
-		}
+			correctButton.setTextAppearance(this, android.R.style.TextAppearance);
+	}
 		
 		order = null;
 		

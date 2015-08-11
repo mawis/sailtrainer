@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>mobi.sportboot</groupId>
     <artifactId>sbfstrainer</artifactId>
-    <version>1.5.3.1</version>
+    <version>1.5.3.2</version>
     <packaging>apk</packaging>
     <name>SBFS-Trainer</name>
 
