@@ -37,6 +37,8 @@ import android.widget.SimpleCursorAdapter;
 import eu.wimmerinformatik.src.R;
 
 public class Repository extends SQLiteOpenHelper {
+	private final static int DATABASE_VERSION = 4;
+
 	private final Context context;
 	private int answerIdSeq;
 	private SQLiteDatabase database;
@@ -45,7 +47,7 @@ public class Repository extends SQLiteOpenHelper {
 	private static final int NUMBER_LEVELS = 5;
 
 	public Repository(final Context context) {
-		super(context, "topics", null, 3);
+		super(context, "topics", null, DATABASE_VERSION);
 		done = context.getString(R.string.done);
 		this.context = context;
 	}
@@ -376,7 +378,7 @@ public class Repository extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		if (oldVersion <= 1) {
 			final ContentValues updates = new ContentValues();
-			updates.put("question", "Welche Publikationen des Bundesamtes fr Seeschifffahrt und Hydrographie (BSH) enthalten speziell fr die Sportschifffahrt Informationen zum Seefunk?");
+			updates.put("question", "Welche Publikationen des Bundesamtes für Seeschifffahrt und Hydrographie (BSH) enthalten speziell für die Sportschifffahrt Informationen zum Seefunk?");
 			db.update("question", updates, "_id=?", new String[]{"4177"});
 
 			updates.clear();
@@ -390,6 +392,11 @@ public class Repository extends SQLiteOpenHelper {
 			updates.clear();
 			updates.put("answer", "COSPAS-SARSAT, Inmarsat");
 			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"4186", "0"});
+		}
+		if (oldVersion <= 3) {
+			final ContentValues updates = new ContentValues();
+			updates.put("answer", "Gegensprechen auf zwei Frequenzen");
+			db.update("answer", updates, "question_id=? AND order_index=?", new String[]{"4248", "1"});
 		}
 	}
 
