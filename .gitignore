@@ -1,6 +1,5 @@
 # Maven
 /LRC-Trainer/target/**
-/SBFB-Trainer/target/**
 /SBFS-Trainer/target/**
 /SKS-Trainer/target/**
 /SRC-Trainer/target/**
@@ -13,3 +12,9 @@
 # different backup extensions
 *.bak
 *.orig
+
+
+private.properties
+release.keystore
+/SBFB-Trainer/build/**
+/SBFB-Trainer/.gradle/**
