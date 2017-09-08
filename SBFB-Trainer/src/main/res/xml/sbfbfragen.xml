@@ -107,7 +107,7 @@
     <incorrect>Es muss das leewärtige Fahrzeug dem luvwärtigen Fahrzeug ausweichen.</incorrect>
   </question>
   <question id='8960' reference='16'>
-    <text>Welche Bedeutung hat folgendes Schallsignal: (●–●–●–●–●–)</text>
+    <text>Welche Bedeutung hat folgendes Schallsignal: (● – ● – ● – ● – ● –)</text>
     <correct>Bleib-weg-Signal, Gefahrenbereich sofort verlassen.</correct>
     <incorrect>Allgemeines Gefahr- und Warnsignal.</incorrect>
     <incorrect>Ankerlieger über 100 m Länge.</incorrect>
@@ -332,8 +332,8 @@
   </question>
   <question id='8992' reference='48'>
     <text>Welche Anlegeseite ist mit rechtsdrehendem Propeller empfehlenswert und warum?</text>
-    <correct>Die Backbordseite - der Radeffekt zieht das Fahrzeug an die Pier.</correct>
-    <incorrect>Die Steuerbordseite - der Radeffekt zieht das Fahrzeug an die Pier.</incorrect>
+    <correct>Die Backbordseite – der Radeffekt zieht das Fahrzeug an die Pier.</correct>
+    <incorrect>Die Steuerbordseite – der Radeffekt zieht das Fahrzeug an die Pier.</incorrect>
     <incorrect>Die Steuerbord- oder Backbordseite je nach Ruderlage.</incorrect>
     <incorrect>Es gibt keine empfehlenswerte Anlegeseite.</incorrect>
   </question>
@@ -508,21 +508,21 @@
 </topic>
 <topic id='9017' name='Spezifische Fragen Binnen'>
   <question id='9018' reference='73'>
-    <text>Für welche Sportboote ist der Sportbootführerschein-Binnen vorgeschrieben?</text>
-    <correct>Für Sportboote mit mehr als 11,03 kW (15 PS) Nutzleistung, auf dem Rhein von mehr als 3,68 kW (5 PS) Nutzleistung, und weniger als 15 m Länge.</correct>
+    <text>Für welche Sportboote ist der Sportbootführerschein mit dem Geltungsbereich Binnenschiffahrtsstraßen vorgeschrieben?</text>
+    <correct>Für Sportboote mit mehr als 11,03 kW (15 PS) Nutzleistung und weniger als 20 m Länge, auf dem Rhein von mehr als 3,68 kW (5 PS) Nutzleistung und weniger als 15 m Länge.</correct>
     <incorrect>Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.</incorrect>
-    <incorrect>Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.</incorrect>
+    <incorrect>Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung und mehr als 20 m Länge, auf dem Rhein von mehr als 3,68 kW (5 PS) Nutzleistung und mehr als 15 m Länge.</incorrect>
     <incorrect>Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und weniger als 15 m Länge.</incorrect>
   </question>
   <question id='9019' reference='74'>
-    <text>Auf welchen Gewässern gilt der Sportbootführerschein-Binnen?</text>
-    <correct>Auf den Binnenschifffahrtsstraßen.</correct>
+    <text>Auf welchen Gewässern gilt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen?</text>
+    <correct>Auf den Bundeswasserstraßen im Binnenbereich.</correct>
     <incorrect>Auf allen Landesgewässern.</incorrect>
-    <incorrect>Auf den Binnenschifffahrtsstraßen und allen Landesgewässern.</incorrect>
-    <incorrect>Auf allen Wasserstraßen im Binnenbereich.</incorrect>
+    <incorrect>Auf den Bundeswasserstraßen und allen Landesgewässern.</incorrect>
+    <incorrect>Auf allen Seewasserstraßen.</incorrect>
   </question>
   <question id='9020' reference='75'>
-    <text>Aus welchen Gründen muss der Sportbootführerschein-Binnen entzogen werden?</text>
+    <text>Aus welchen Gründen muss der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen entzogen werden?</text>
     <correct>Bei fehlender Tauglichkeit oder fehlender Zuverlässigkeit.</correct>
     <incorrect>Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch.</incorrect>
     <incorrect>Bei zweifelhafter Zuverlässigkeit aus Altersgründen.</incorrect>
@@ -547,21 +547,21 @@
     <correct>Mindestalter 16 Jahre.</correct>
     <incorrect>Nachweis der Zuverlässigkeit.</incorrect>
     <incorrect>Mindestalter 14 Jahre.</incorrect>
-    <incorrect>Besitz eines Sportbootführerscheins-Binnen oder eines gleichgestellten Befähigungszeugnisses.</incorrect>
+    <incorrect>Besitz eines Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine oder eines gleichgestellten Befähigungszeugnisses.</incorrect>
   </question>
   <question id='9024' reference='79'>
     <text>Welche Anforderungen neben der körperlichen und geistigen Tauglichkeit und fachlichen Eignung muss der Führer eines Sportbootes auf dem Rhein erfüllen, wenn die Nutzleistung der Antriebsmaschine mehr als 3,68 kW beträgt?</text>
-    <correct>Besitz eines Sportbootführerscheins-Binnen oder eines gleichgestellten Befähigungszeugnisses.</correct>
+    <correct>Besitz eines Sportbootführerscheins mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine oder eines gleichgestellten Befähigungszeugnisses.</correct>
     <incorrect>Nachweis der Zuverlässigkeit.</incorrect>
     <incorrect>Mindestens 14 Jahre.</incorrect>
     <incorrect>Mindestalter 16 Jahre.</incorrect>
   </question>
   <question id='9025' reference='80'>
-    <text>Welche Anforderungen muss der Rudergänger eines Sportbootes mit Antriebsmaschine grundsätzlich auf den Binnenschifffahrtsstraßen erfüllen?</text>
-    <correct>Er muss mindestens 16 Jahre alt und körperlich, geistig und fachlich geeignet sein.</correct>
-    <incorrect>Er muss mindestens 18 jahre alt und körperlich, geistig und fachlich geeignet sein.</incorrect>
-    <incorrect>Er muss mindestens 16 Jahre alt und Inhaber des Sportbootführerschein-Binnen sein.</incorrect>
-    <incorrect>Er muss mindestens 14 Jahre alt und körperlich, geistig und fachlich geeignet sein.</incorrect>
+    <text>Welche Anforderungen werden an die Person gestellt, mit der der Schiffsführer das Ruder eines Sportbootes mit Antriebsmaschine auf Binnenschifffahrtsstraßen besetzen will?</text>
+    <correct>Sie muss mindestens 16 Jahre alt und körperlich, geistig und fachlich geeignet sein.</correct>
+    <incorrect>Sie muss mindestens 18 jahre alt und körperlich, geistig und fachlich geeignet sein.</incorrect>
+    <incorrect>Sie muss mindestens 16 Jahre alt und Inhaber des Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen für Sportboote mit Antriebsmaschine sein.</incorrect>
+    <incorrect>Sie muss mindestens 14 Jahre alt und körperlich, geistig und fachlich geeignet sein.</incorrect>
   </question>
   <question id='9026' reference='81'>
     <text>Wo erhält man Auskünfte über Verkehrsbeschränkungen und aktuelle Informationen über Binnenschifffahrtsstraßen?</text>
@@ -578,8 +578,8 @@
     <incorrect>Alle Informationen und Weisungen zu empfangen und zu geben und nach allen Seiten genügend freie Sicht zu haben.</incorrect>
   </question>
   <question id='9028' reference='83'>
-    <text>Bis zu welcher Schiffslänge berechtigt der Sportbootführerschein-Binnen zum Führen eines Sportbootes auf Binnenschifffahrtsstraßen?</text>
-    <correct>Bis zu einer Länge von weniger als 15 m (ohne Ruder und Bugsprit).</correct>
+    <text>Bis zu welcher Schiffslänge berechtigt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen mit Ausnahme des Rheins zum Führen eines Sportbootes auf Binnenschifffahrtsstraßen?</text>
+    <correct>Bis zu einer Länge von weniger als 20 m (ohne Ruder und Bugsprit).</correct>
     <incorrect>Bis zu einer Länge von weniger als 25 m (mit Ruder und Bugsprit).</incorrect>
     <incorrect>Bis zu einer Länge von weniger als 25 m (ohne Ruder und Bugsprit).</incorrect>
     <incorrect>Bis zu einer Länge von weniger als 15 m (mit Ruder und Bugsprit).</incorrect>
@@ -1600,7 +1600,7 @@
     <incorrect>Der Sportbootführerschein See.</incorrect>
   </question>
   <question id='9174' reference='229'>
-    <text>Welcher Befähigungsnachweis berechtigt zum Führen eines Sportbootes mit einer Länge von 15 m bis 25 m auf den Binnenschifffahrtsstraßen?</text>
+    <text>Welcher Befähigungsnachweis berechtigt zum Führen eines Sportbootes mit einer Länge von 20 m bis 25 m auf den Binnenschifffahrtsstraßen?</text>
     <correct>Das Sportschifferzeugnis oder das Sportpatent.</correct>
     <incorrect>Der Sportbootführerschein Binnen.</incorrect>
     <incorrect>Der Sportbootführerschein See.</incorrect>
