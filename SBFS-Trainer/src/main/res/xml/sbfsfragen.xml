@@ -2,11 +2,11 @@
 <questionaire xmlns='http://sportboot.mobi/'>
 <topic id='9588' name='Basisfragen'>
   <question id='9589' reference='1'>
-    <text>Was ist zu tun, wenn vor Antritt der Fahrt nicht feststeht, wer Fahrzeugführer ist?</text>
-    <correct>Der verantwortliche Fahrzeugführer muss bestimmt werden.</correct>
-    <incorrect>Der verantwortliche Fahrzeugführer muss gewählt werden.</incorrect>
-    <incorrect>Ein Inhaber des Sportbootführerscheins muss die Fahrzeugführung übernehmen.</incorrect>
-    <incorrect>Ein Inhaber des Sportbootführerscheins muss die Verantwortung übernehmen.</incorrect>
+    <text>Was ist zu tun, wenn vor Antritt der Fahrt nicht feststeht, wer Schiffsführer ist?</text>
+    <correct>Der verantwortliche Schiffsführer muss bestimmt werden.</correct>
+    <incorrect>Der verantwortliche Schiffsführer muss gewählt werden.</incorrect>
+    <incorrect>Ein Inhaber eines Sportbootführerscheins muss die Fahrzeugführung übernehmen.</incorrect>
+    <incorrect>Ein Inhaber eines Sportbootführerscheins muss die Verantwortung übernehmen.</incorrect>
   </question>
   <question id='9590' reference='2'>
     <text>In welchen Fällen darf weder ein Sportboot geführt noch dessen Kurs oder Geschwindigkeit selbständig bestimmt werden?</text>
@@ -594,7 +594,7 @@
   <question id='9674' reference='85'>
     <text>Welche Vorschriften regeln die Ausrüstung, Anordnung und Anbringung der Positionslaternen, Sichtzeichen und Schallsignalanlagen auf Fahrzeugen?</text>
     <correct>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Schifffahrtsordnung Emsmündung (EmsSchO).</correct>
-    <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Sportbootführerscheinverordnung-See.</incorrect>
+    <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Sportbootführerscheinverordnung.</incorrect>
     <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Schiffssicherheitsverordnung.</incorrect>
     <incorrect>Die Kollisionsverhütungsregeln (KVR), die Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und die Verordnung zur Sicherung der Seefahrt.</incorrect>
   </question>
@@ -1070,8 +1070,8 @@
   <question id='9742' reference='153'>
     <text>Welche örtlichen Sondervorschriften zusätzlich zur Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und zur Schifffahrtsordnung Emsmündung (EmsSchO) gibt es und was ist darin geregelt?</text>
     <correct>Die Bekanntmachungen der Wasser- und Schifffahrtsdirektionen (WSD) Nord und Nordwest zur Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und zur Schifffahrtsordnung Emsmündung (EmsSchO), die besondere örtliche Regelungen enthalten und Hinweise für die einzelnen Seeschifffahrtsstraßen geben.</correct>
-    <incorrect>Die Nachrichten für Seefahrer (NfS), herausgegeben vom Bundesamt für Seeschifffahrt und Hydrographie, sowie die Bekanntmachungen für Seefahrer (BfS) der örtlich zuständigen Wasser- und Schifffahrtsämter, die auf alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks und Untiefen sowie auf die Schifffahrt betreffende Maßnahmen und Ereignisse hinweisen.</incorrect>
-    <incorrect>Die nautische Veröffentlichung „Sicherheit auf dem Wasser“, herausgegeben durch das Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS), mit wichtigen Regeln und Tipps für Wassersportler.</incorrect>
+    <incorrect>Die Nachrichten für Seefahrer (NfS), herausgegeben vom Bundesamt für Seeschifffahrt und Hydrographie, sowie die Bekanntmachungen für Seefahrer (BfS) der örtlich zuständigen Wasserstraßen- und Schifffahrtsämter, die auf alle Veränderungen hinsichtlich Betonnung, Befeuerung, Wracks und Untiefen sowie auf die Schifffahrt betreffende Maßnahmen und Ereignisse hinweisen.</incorrect>
+    <incorrect>Die nautische Veröffentlichung „Sicherheit auf dem Wasser“, herausgegeben durch das Bundesministerium für Verkehr und digitale Infrastruktur (BMVI), mit wichtigen Regeln und Tipps für Wassersportler.</incorrect>
     <incorrect>Das Seesicherheitsuntersuchungsgesetz sowie die Verordnung über die Sicherung der Seefahrt, die jweils wichtige Vorschriften über das Verhalten nach einem Zusammenstoß auf den jeweiligen Seeschifffahrtsstraßen enthalten.</incorrect>
   </question>
   <question id='9743' reference='154'>
@@ -1218,7 +1218,7 @@
     <text>Wo findet man Regeln für das Durchfahren des Nord-Ostsee-Kanals (NOK)?</text>
     <correct>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in den Bekanntmachungen der WSD Nord.</correct>
     <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in den Kollisionsverhütungsregeln.</incorrect>
-    <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in der Sportbootführerscheinverordnung-See.</incorrect>
+    <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie in der Sportbootführerscheinverordnung.</incorrect>
     <incorrect>Ergänzende Vorschriften für den NOK in der Seeschifffahrtsstraßen-Ordnung sowie im Seeaufgabengesetz.</incorrect>
   </question>
   <question id='9764' reference='175'>
@@ -1575,7 +1575,7 @@
     <text>Wie hat man sich beim Befahren von Naturschutzgebieten und Nationalparken zu verhalten?</text>
     <correct>Befahrensregelungen (örtliche Befahrensverbote, zeitliche Befahrensbeschränkungen, festgesetzte Höchstgeschwindigkeiten und dergleichen) beachten.</correct>
     <incorrect>Befahrensregelungen beachten und sich bei der Nationalparkverwaltung anmelden.</incorrect>
-    <incorrect>Befahrensregelungen beachten sowie Wasserschutzpolizei und Wasser- und Schifffahrtsamt informieren.</incorrect>
+    <incorrect>Befahrensregelungen beachten sowie Wasserschutzpolizei und Wasserstraßen- und Schifffahrtsamt informieren.</incorrect>
     <incorrect>Befahrensregelungen sowie Festlegungen der Ordnungsämter beachten.</incorrect>
   </question>
   <question id='9815' reference='226'>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Entraîneur SBFS</string>
-    <string name="infoMessage">Ce app en contient les questions du examen Sportbootführerschein See (sans exercices du plan) à partir de mai 2012.</string>
+    <string name="infoMessage">Ce app en contient les questions du examen Sportbootführerschein See (sans exercices du plan) à partir de juin 2017.</string>
     <string name="selectTopic">Choisissez un chapitre svp.:</string>
     <string name="continueButtonText">Continuer</string>
     <string name="waitBeforeContinue">Attendez avant que vous continuez de étudier …</string>
