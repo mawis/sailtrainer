@@ -1,6 +1,5 @@
 # Maven
 /LRC-Trainer/target/**
-/SBFS-Trainer/target/**
 /SKS-Trainer/target/**
 /SRC-Trainer/target/**
 /UBI-Trainer/target/**
@@ -18,3 +17,5 @@ private.properties
 release.keystore
 /SBFB-Trainer/build/**
 /SBFB-Trainer/.gradle/**
+/SBFS-Trainer/build/**
+/SBFS-Trainer/.gradle/**
