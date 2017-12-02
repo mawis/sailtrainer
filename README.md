@@ -24,6 +24,14 @@ I have published the code on GitHub because some people asked me if they can
 play with it. (Yes, you can.)
 
 
+Note on the SBFS trainer
+------------------------
+
+The trainer for SBFS has been moved to its on repository:
+
+https://github.com/mawis/sbfs-trainer
+
+
 Build how-to
 ------------
 
