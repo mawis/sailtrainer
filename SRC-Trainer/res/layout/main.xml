@@ -21,7 +21,8 @@
 		android:layout_marginRight="6dp"
         android:layout_marginTop="10dp"
         android:text="@string/selectTopic"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+	android:textColor="#FFFFFF" />
 
     <ListView
         android:id="@+id/listView1"
