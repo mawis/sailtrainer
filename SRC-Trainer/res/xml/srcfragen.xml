@@ -6,7 +6,7 @@
     <correct>zwischen Küstenfunkstellen und Seefunkstellen bzw. zwischen Seefunkstellen untereinander.</correct>
     <incorrect>zwischen tragbaren Funkstellen an Bord eines Seefahrzeuges.</incorrect>
     <incorrect>ausschließlich zwischen Seefunkstellen.</incorrect>
-    <incorrect>zwischen Funkstellen, für die keine Frequenzzuteilungsurkunde notwendig ist.</incorrect>
+    <incorrect>zwischen Funkstellen, für die keine Zuteilung (Ship Station Licence) notwendig ist.</incorrect>
   </question>
   <question id='4173' reference='2'>
     <text>Welche Funktion hat das „GMDSS“ (Global Maritime Distress and Safety System)?</text>
@@ -38,7 +38,7 @@
   </question>
   <question id='4177' reference='6'>
     <text>Welche Publikationen des Bundesamtes für Seeschifffahrt und Hydrographie (BSH) enthalten speziell für die Sportschifffahrt Informationen zum Seefunk?</text>
-    <correct>Jachtfunkdienst „Nord- und Ostsee“</correct>
+    <correct>Funkdienst für die Klein- und Sportschifffahrt</correct>
     <incorrect>Nautisches Jahrbuch</incorrect>
     <incorrect>Nachrichten für Seefahrer</incorrect>
     <incorrect>Mitteilungen für Seefunkstellen und Schiffsfunkstellen</incorrect>
@@ -62,7 +62,7 @@
     <correct>Vertrag mit einer Abrechnungsgesellschaft.</correct>
     <incorrect>Besitz eines Seefunkzeugnisses.</incorrect>
     <incorrect>Zulassung des Funkgeräts.</incorrect>
-    <incorrect>Besitz einer Frequenzzuteilungsurkunde.</incorrect>
+    <incorrect>Zuteilung (Ship Station Licence).</incorrect>
   </question>
   <question id='4181' reference='10'>
     <text>Wodurch erfährt eine Seefunkstelle von einer Küstenfunkstelle, dass dort Nachrichten für sie vorliegen?</text>
@@ -194,20 +194,20 @@
   </question>
   <question id='4200' reference='28'>
     <text>Welche rechtlichen Voraussetzungen sind für den Betrieb einer Seefunkstelle auf einem Sportfahrzeug und einem Traditionsschiff zu erfüllen?</text>
-    <correct>Frequenzzuteilung, für den Seefunkdienst zugelassene oder in Verkehr gebrachte Funkgeräte, ausreichendes Seefunkzeugnis des Fahrzeugführers.</correct>
-    <incorrect>Frequenzzuteilung, ausreichendes Seefunkzeugnis und Sportbootführerschein des Fahrzeugführers.</incorrect>
-    <incorrect>Frequenzzuteilung, ausreichendes Seefunkzeugnis einer Person an Bord.</incorrect>
-    <incorrect>Frequenzzuteilung, für den Seefunkdienst zugelassene oder in Verkehr gebrachte Funkgeräte, Sportbootführerschein.</incorrect>
+    <correct>Zuteilung (Ship Station Licence), für den Seefunkdienst zugelassene oder in Verkehr gebrachte Funkgeräte, ausreichendes Seefunkzeugnis des Fahrzeugführers.</correct>
+    <incorrect>Zuteilung (Ship Station Licence), ausreichendes Seefunkzeugnis und Sportbootführerschein des Fahrzeugführers.</incorrect>
+    <incorrect>Zuteilung (Ship Station Licence), ausreichendes Seefunkzeugnis einer Person an Bord.</incorrect>
+    <incorrect>Zuteilung (Ship Station Licence), für den Seefunkdienst zugelassene oder in Verkehr gebrachte Funkgeräte, Sportbootführerschein.</incorrect>
   </question>
   <question id='4201' reference='29'>
     <text>Welche Urkunde und welcher Befähigungsnachweis müssen bei der Überprüfung einer Seefunkstelle auf einem Sportfahrzeug dem Prüfbeamten auf Verlangen vorgelegt werden?</text>
-    <correct>Frequenzzuteilungsurkunde und Seefunkzeugnis des Fahrzeugführers.</correct>
-    <incorrect>Frequenzzuteilungsurkunde und Sportbootführerschein des Fahrzeugführers.</incorrect>
+    <correct>Zuteilung (Ship Station Licence) und Seefunkzeugnis des Fahrzeugführers.</correct>
+    <incorrect>Zuteilung (Ship Station Licence) und Sportbootführerschein des Fahrzeugführers.</incorrect>
     <incorrect>Seefunkzeugnis eines Besatzungsmitgliedes und Internationaler Bootsschein (IBS)</incorrect>
     <incorrect>Seefunkzeugnis des Fahrzeugführers und Eigentumsnachweis.</incorrect>
   </question>
   <question id='4202' reference='30'>
-    <text>Die Urkunde über die Frequenzzuteilung zum Betreiben einer Seefunkstelle wird in Deutschland ausgestellt durch …</text>
+    <text>Die Urkunde über die Zuteilung (Ship Station Licence) zum Betreiben einer Seefunkstelle wird in Deutschland ausgestellt durch …</text>
     <correct>die Bundesnetzagentur (BNetzA), Außenstelle Hamburg.</correct>
     <incorrect>die Bundesnetzagentur (BNetzA), Außenstelle Mülheim an der Ruhr.</incorrect>
     <incorrect>das Bundesamt für Seeschifffahrt und Hydrographie (BSH), Rostock.</incorrect>
@@ -215,14 +215,14 @@
   </question>
   <question id='4203' reference='31'>
     <text>Welche Urkunde für die Seefunkstelle muss auf einem Sportfahrzeug mitgeführt werden?</text>
-    <correct>Frequenzzuteilungsurkunde (im Original).</correct>
-    <incorrect>Frequenzzuteilungsurkunde (in Kopie).</incorrect>
+    <correct>Zuteilungsurkunde (Ship Station Licence) (im Original).</correct>
+    <incorrect>Zuteilungsurkunde (Ship Station Licence) (in Kopie).</incorrect>
     <incorrect>Gerätezulassungsurkunde (im Original).</incorrect>
     <incorrect>Gerätezulassungsurkunde (in Kopie).</incorrect>
   </question>
   <question id='4204' reference='32'>
     <text>Was und zu welchem Zweck muss ein Schiffseigner bei Änderung des Schiffsnamens in Bezug auf eine Seefunkstelle veranlassen?</text>
-    <correct>Namensänderung der Bundesnetzagentur schriftlich mitteilen zwecks Änderung seiner Frequenzzuteilungsurkunde.</correct>
+    <correct>Namensänderung der Bundesnetzagentur schriftlich mitteilen zwecks Änderung seiner Zuteilungsurkunde (Ship Station Licence).</correct>
     <incorrect>Namensänderung dem Bundesamt für Seeschifffahrt und Hydrographie schriftlich mitteilen zwecks Änderung der Gerätezulassungsurkunde.</incorrect>
     <incorrect>Namensänderung dem Wasser- und Schifffahrtsamt, Hamburg schriftlich mitteilen zwecks Änderung des Kennzeichenausweises.</incorrect>
     <incorrect>Namensänderung der Zentralen Verwaltungsstelle schriftlich mitteilen zwecks Änderung des Kennzeichenausweises.</incorrect>
@@ -239,11 +239,11 @@
     <correct>Das Funkgerät muss für den Seefunkdienst zugelassen oder in Verkehr gebracht worden sein.</correct>
     <incorrect>Das Funkgerät muss funktionsfähig und TÜV-geprüft sein.</incorrect>
     <incorrect>Das Funkgerät muss eine NAVTEX-Schnittstelle aufweisen oder Wetterberichte empfangen können.</incorrect>
-    <incorrect>Das Funkgerät muss von der See-BG für Sportboote zugelassen sein.</incorrect>
+    <incorrect>Das Funkgerät muss von der Dienststelle Schiffssicherheit der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation (BG Verkehr) für Sportboote zugelassen sein.</incorrect>
   </question>
   <question id='4207' reference='35'>
     <text>Wer stellt in Deutschland Funksicherheitszeugnisse für Sportboote aus, die gewerbsmäßig genutzt werden?</text>
-    <correct>See-Berufsgenossenschaft (See-BG)</correct>
+    <correct>Dienststelle Schiffssicherheit der Berufsgenossenschaft Verkehrswirtschaft Post-Logistik Telekommunikation (BG Verkehr)</correct>
     <incorrect>Bundesamt für Seeschifffahrt und Hydrographie (BSH)</incorrect>
     <incorrect>Wasser- und Schifffahrtsverwaltung (WSV)</incorrect>
     <incorrect>Bundesnetzagentur (BNetzA)</incorrect>
@@ -441,7 +441,7 @@
   </question>
   <question id='4236' reference='63'>
     <text>Welche Urkunde enthält die eigene Seefunkstellen-Rufnummer (MMSI)?</text>
-    <correct>Frequenzzuteilungsurkunde</correct>
+    <correct>Zuteilungsurkunde (Ship Station Licence)</correct>
     <incorrect>Gerätezulassungsurkunde</incorrect>
     <incorrect>Internationaler Bootsschein</incorrect>
     <incorrect>Schiffszertifikat</incorrect>
@@ -698,7 +698,7 @@
   <question id='4274' reference='99'>
     <text>Wie ist zu verfahren, wenn eine an alle Funkstellen ausgesendete Dringlichkeitsmeldung erledigt ist?</text>
     <correct>Dringlichkeitsmeldung muss durch eine Meldung an alle Funkstellen aufgehoben werden.</correct>
-    <incorrect>Dringlichkeitsmeldung muss bei dem Fall „Mann über Bord“ durch eine Meldung an alle Funkstellen aufgehoben werden.</incorrect>
+    <incorrect>Dringlichkeitsmeldung muss bei dem Fall „Mensch über Bord“ durch eine Meldung an alle Funkstellen aufgehoben werden.</incorrect>
     <incorrect>Dringlichkeitsmeldung muss durch eine Meldung an die nächste Küstenfunkstelle aufgehoben werden.</incorrect>
     <incorrect>Dringlichkeitsmeldung muss durch die Meldung SILENCE FINI aufgehoben werden.</incorrect>
   </question>
@@ -1023,14 +1023,14 @@
   </question>
   <question id='4322' reference='145'>
     <text>Wann wird im Seefunkdienst die Aufforderung SILENCE MAYDAY ausgesendet?</text>
-    <correct>Wenn die Funkstelle in Not oder die Funkstelle, die den Notverkehr leitet, störende Funkstellen zur Einhaltung der Funkstille auffordert.</correct>
+    <correct>Wenn die Funkstelle, die den Notverkehr leitet, störende Funkstellen zur Einhaltung der Funkstille auffordert.</correct>
     <incorrect>Wenn die Situation des Schiffes in Not besonders kritisch ist.</incorrect>
     <incorrect>Wenn die Funkstelle in Not oder die Funkstelle, die den Notverkehr leitet, die Beendigung des Notverkehrs ankündigen will.</incorrect>
     <incorrect>Wenn eine Funkstelle sich besondere Aufmerksamkeit für die Verbreitung einer Dringlichkeits- oder Sicherheitsmeldung erbittet.</incorrect>
   </question>
   <question id='4323' reference='146'>
     <text>Wer fordert in einem Seenotfall eine störende Funkstelle mit den Wörtern SILENCE MAYDAY zur Einhaltung der Funkstille auf?</text>
-    <correct>Die Funkstelle in Not oder die Funkstelle, die den Notverkehr leitet.</correct>
+    <correct>Die Funkstelle, die den Notverkehr leitet.</correct>
     <incorrect>Die Funkstelle in Not oder eine Hilfe leistende Luftfunkstelle.</incorrect>
     <incorrect>Die Funkstelle, die die störende Funkstelle als erste empfangen hat.</incorrect>
     <incorrect>Die Funkstelle, die der storenden Funkstelle nächstgelegen ist.</incorrect>
@@ -1059,7 +1059,7 @@
   <question id='4327' reference='150'>
     <text>Welche Veröffentlichung enthält die international entwickelten Redewendungen für Notfälle?</text>
     <correct>Handbuch für Suche und Rettung</correct>
-    <incorrect>Jachtfunkdienst</incorrect>
+    <incorrect>Handbuch „Funkdienst für die Klein- und Sportschifffahrt“</incorrect>
     <incorrect>Nachrichten für Seefahrer</incorrect>
     <incorrect>Mitteilungen für Seefunkstellen und Schiffsfunkstellen</incorrect>
   </question>
@@ -1078,7 +1078,7 @@
     <incorrect>des Binnenschifffahrtsfunks</incorrect>
   </question>
   <question id='4330' reference='153'>
-    <text>Auf welchen UKW-Kanälen dürfen zu Sicherheitszwecken Seefunkstellen mit SAR-Hubschraubern Funkverkehr abwickeln?</text>
+    <text>Auf welchen UKW-Kanälen dürfen zu Sicherheitszwecken Seefunkstellen mit SAR-Hubschraubern Funkverkehr vorzugsweise abwickeln?</text>
     <correct>Kanal 16, Kanal 06</correct>
     <incorrect>Kanal 16, Kanal 10</incorrect>
     <incorrect>Kanal 06, Kanal 10</incorrect>

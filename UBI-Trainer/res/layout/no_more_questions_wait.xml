@@ -10,7 +10,8 @@
 		android:layout_height="wrap_content"
 		android:layout_margin="6dp"
         android:text="@string/waitBeforeContinue"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+	android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textView2"
