@@ -27,11 +27,14 @@ play with it. (Yes, you can.)
 Note on the some trainer variations
 -----------------------------------
 
-The trainer for SBFS has been moved to its on repository: 
+The trainer for SBFS has been moved to its own repository: 
 https://gitlab.com/mawim/sbfs-trainer
 
-The trainer for SRC has been moved to its on repository: 
+The trainer for SRC has been moved to its own repository: 
 https://gitlab.com/sailtrainer/src-trainer
+
+The trainer for UBI has been moved to its own repository:
+https://gitlab.com/sailtrainer/ubi-trainer
 
 
 Build how-to
