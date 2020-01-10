@@ -24,12 +24,14 @@ I have published the code on GitHub because some people asked me if they can
 play with it. (Yes, you can.)
 
 
-Note on the SBFS trainer
-------------------------
+Note on the some trainer variations
+-----------------------------------
 
-The trainer for SBFS has been moved to its on repository:
+The trainer for SBFS has been moved to its on repository: 
+https://gitlab.com/mawim/sbfs-trainer
 
-https://github.com/mawis/sbfs-trainer
+The trainer for SRC has been moved to its on repository: 
+https://gitlab.com/sailtrainer/src-trainer
 
 
 Build how-to
