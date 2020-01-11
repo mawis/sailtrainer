@@ -30,6 +30,9 @@ Note on the some trainer variations
 The trainer for SBFS has been moved to its own repository:
 https://gitlab.com/mawim/sbfs-trainer
 
+The trainer for SBFB has been moved to its own repository:
+https://gitlab.com/sailtrainer/sbfb-trainer
+
 The trainer for SRC has been moved to its own repository:
 https://gitlab.com/sailtrainer/src-trainer
 
