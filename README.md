@@ -20,93 +20,21 @@ https://play.google.com/store/apps/details?id=eu.wimmerinformatik.src
 https://play.google.com/store/apps/details?id=eu.wimmerinformatik.trainer
 https://play.google.com/store/apps/details?id=eu.wimmerinformatik.lrc
 
-I have published the code on GitHub because some people asked me if they can
-play with it. (Yes, you can.)
 
+Source code repositories
+------------------------
 
-Note on the some trainer variations
------------------------------------
+All of the source code was in this originally in this repository. When building
+continuous integration and deployment for all of the trainers, I moved them to
+individual repositories, so that commits trigger the correct pipelines.
 
-The trainer for SBFS has been moved to its own repository:
-https://gitlab.com/mawim/sbfs-trainer
+The code can be found on:
 
-The trainer for SBFB has been moved to its own repository:
-https://gitlab.com/sailtrainer/sbfb-trainer
+* https://gitlab.com/mawim/sbfs-trainer
+* https://gitlab.com/sailtrainer/sbfb-trainer
+* https://gitlab.com/sailtrainer/sks-trainer
+* https://gitlab.com/sailtrainer/src-trainer
+* https://gitlab.com/sailtrainer/lrc-trainer
+* https://gitlab.com/sailtrainer/ubi-trainer
 
-The trainer for SRC has been moved to its own repository:
-https://gitlab.com/sailtrainer/src-trainer
-
-The trainer for LRC has been moved to its own repository:
-https://gitlab.com/sailtrainer/lrc-trainer
-
-The trainer for UBI has been moved to its own repository:
-https://gitlab.com/sailtrainer/ubi-trainer
-
-
-Build how-to
-------------
-
-These apps are build using Maven. To build them you need the following tools
-installed:
-
-- Maven
-- Java JDK
-- Android SDK
-
-Before being able to compile you also will have to generate a key that is used
-for signing the Android apps. A self-signed key is absolutely suficient for
-signing on Android. The key is mainly used by the device to check if you are
-allowed to distribute updates for an application.
-
-How to generate your key is described on
-http://developer.android.com/tools/publishing/app-signing.html#signing-manually
-
-(You only have to follow step one of this description. Signing of the
-application will be done automatically by Maven.)
-
-After you created your own key, you have to tell Maven where to find it and
-what you used as the password for it. This is done by adding entries to the
-Maven configuration typically found in ~/.m2/settings.xml (on Unix systems).
-This file should contain something like this:
-
-<?xml version='1.0'?>
-<settings
-    xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
-                        http://maven.apache.org/xsd/settings-1.0.0.xsd">
-
-    <profiles>
-	<profile>
-	    <activation>
-		<activeByDefault>true</activeByDefault>
-	    </activation>
-	    <properties>
-		<androidsign.keystore>${user.home}/your.keystore</androidsign.keystore>
-		<androidsign.alias>android-release-key</androidsign.alias>               
-		<androidsign.keypass>password of your key</androidsign.keypass>                
-		<androidsign.storepass>password of your keystore</androidsign.storepass>
-	    </properties>
-	</profile>
-    </profiles>
-</settings>
-
-After all these preparations are done you can change to the folder of the
-application you want to compile (e.g. "cd SBFB-Trainer"). You start the
-compilation with the following command:
-
-mvn clean install -Dandroid.release=true
-
-Afterwards you have the compiled app in the target sub-folder as
-sbfbtrainer-1.5.3-signed-aligned.apk.
-
-This APK is called aligned, but it isn't. Therefore it is a good idea to align
-it before installing it on your device. This can be done using the zipalign
-command:
-
-zipalign -v 4 sbfbtrainer-1.5.3-signed-aligned.apk sbfbtrainer.apk
-
-This results in the file sbfbtrainer.apk which now can be distributed.
-
-
-Matthias Wimmer, 2014-12-31
+Matthias Wimmer, 2020-01-11
