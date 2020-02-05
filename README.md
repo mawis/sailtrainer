@@ -30,7 +30,7 @@ individual repositories, so that commits trigger the correct pipelines.
 
 The code can be found on:
 
-* https://gitlab.com/mawim/sbfs-trainer
+* https://gitlab.com/sailtrainer/sbfs-trainer
 * https://gitlab.com/sailtrainer/sbfb-trainer
 * https://gitlab.com/sailtrainer/sks-trainer
 * https://gitlab.com/sailtrainer/src-trainer
